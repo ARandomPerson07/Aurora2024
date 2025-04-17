@@ -2,16 +2,19 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="source.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/wild-beyond-the-witchlight/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/wild-beyond-the-witchlight/source.xml" />
 		</update>
 	</info>
 	<element name="The Wild Beyond The Witchlight" type="Source" source="Core" id="ID_WOTC_SOURCE_WILD_BEYOND_THE_WITCHLIGHT">
 		<description>
 			<h5 style="margin-top:-1em">SOMETHING WICKED THIS WAY COMES</h5>
-			<p><strong>A wickedly whimsical adventure for the world’s greatest roleplaying game.</strong></p>
+			<p>
+				<strong>A wickedly whimsical adventure for the world’s greatest roleplaying game.</strong>
+			</p>
 			<p>Once every eight years, the fantastic Witchlight Carnival touches down on your world, bringing joy to one settlement after the next. Its owners, Mister Witch and Mister Light, know how to put on a good show. But there’s more to this magical extravaganza than meets the eye!</p>
 			<p>The carnival is a gateway to a fantastic Feywild domain unlike anything found on the Material Plane. Time has not been kind to this realm, however, and dark days lie ahead unless someone can thwart the dastardly schemes of the Hourglass Coven.</p>
-			<p><i>The Wild Beyond the Witchlight</i> takes adventurers from the Witchlight Carnival to Prismeer, a Feywild domain of delight, and is designed for characters of levels 1–8. This book comes with a poster map that shows the carnival on one side and Prismeer on the other.</p>
+			<p>
+				<i>The Wild Beyond the Witchlight</i> takes adventurers from the Witchlight Carnival to Prismeer, a Feywild domain of delight, and is designed for characters of levels 1–8. This book comes with a poster map that shows the carnival on one side and Prismeer on the other.</p>
 			<ul>
 				<li>Explore the Plane of Faerie in the first official D&amp;D adventure set primarily in the Feywild.</li>
 				<li>The adventure begins on a campaign world of the DM’s choice. The Witchlight Carnival, which serves as the means by which the characters enter the Feywild, can be dropped easily into any campaign setting.</li>
@@ -24,7 +27,7 @@
 		<setters>
 			<set name="abbreviation">WBW</set>
 			<set name="url">https://dnd.wizards.com/products/wild-beyond-witchlight</set>
-			<set name="image">https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/wild-beyond-the-witchlight/WBW.png</set>
+			<set name="image">https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/wild-beyond-the-witchlight/WBW.png</set>
 			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
 			<set name="official">true</set>
 			<set name="supplement">true</set>

@@ -3,7 +3,7 @@
 	<info>
 		<name>Feylost Background</name>
 		<update version="0.0.1">
-			<file name="background-feylost.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/wild-beyond-the-witchlight/background-feylost.xml" />
+			<file name="background-feylost.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/wild-beyond-the-witchlight/background-feylost.xml" />
 		</update>
 	</info>
 
@@ -13,42 +13,100 @@
 			<p>You grew up in the Feywild after disappearing from your home plane as a child. Perhaps you were spirited away by kindly Fey who thought you were destined for great things. Perhaps you stumbled through a fey crossing by chance during a twilight stroll in the woods. Perhaps you were kidnapped by evil Fey but escaped from their clutches. Whatever the manner of your disappearance, you gradually fell under the Feywild’s spell and learned a little about the nature of the mercurial tricksters that dwell there.</p>
 			<p class="indent">When you finally returned to your home plane, you did not come back unchanged. You are haunted by the fact that the Feywild—a mirror world hidden behind a mere twist of perception—is only a hair’s breadth away. Although your memories of the Feywild grow fainter with each passing day, your heart swells with a mixture of fear and joy at the prospect of one day venturing back to the Plane of Faerie—your home away from home.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Deception, Survival</li>
-				<li><strong>Tool Proficiencies:</strong> One type of musical instrument</li>
-				<li><strong>Languages:</strong> One choice of Elvish, Gnomish, Goblin, or Sylvan</li>
-				<li><strong>Equipment:</strong> A musical instrument (one of your choice), a set of traveler's clothes, three trinkets (each determined by rolling on the Feywild Trinkets table), and a pouch containing 8 gp.</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Deception, Survival</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> One type of musical instrument</li>
+				<li>
+					<strong>Languages:</strong> One choice of Elvish, Gnomish, Goblin, or Sylvan</li>
+				<li>
+					<strong>Equipment:</strong> A musical instrument (one of your choice), a set of traveler's clothes, three trinkets (each determined by rolling on the Feywild Trinkets table), and a pouch containing 8 gp.</li>
 			</ul>
 			<h5>FEY MARK</h5>
 			<p>You were transformed in some small way by your stay in the Feywild and gained a fey mark, determined by rolling on the Fey Mark table.</p>
 			<h5>Fey Mark</h5>
 			<table>
 				<thead>
-					<tr><td class="col-10" style="text-align:center">d8</td><td>Fey Mark</td></tr>
+					<tr>
+						<td class="col-10" style="text-align:center">d8</td>
+						<td>Fey Mark</td>
+					</tr>
 				</thead>
-				<tr><td style="text-align:center">1</td><td>Your eyes swirl with iridescent colors.</td></tr>
-				<tr><td style="text-align:center">2</td><td>You have a sweet scent, like that of nectar or honey.</td></tr>
-				<tr><td style="text-align:center">3</td><td>You have long whiskers like those of a cat.</td></tr>
-				<tr><td style="text-align:center">4</td><td>Your ears are covered with soft tufts of fur.</td></tr>
-				<tr><td style="text-align:center">5</td><td>Your skin sparkles in moonlight.</td></tr>
-				<tr><td style="text-align:center">6</td><td>Flowers either bloom or wilt (your choice) in your presence.</td></tr>
-				<tr><td style="text-align:center">7</td><td>Your hair is made of vines or brambles and grows back to normal length within 1 hour of being cut.</td></tr>
-				<tr><td style="text-align:center">8</td><td>You have a tail like that of a dog or another animal.</td></tr>
+				<tr>
+					<td style="text-align:center">1</td>
+					<td>Your eyes swirl with iridescent colors.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">2</td>
+					<td>You have a sweet scent, like that of nectar or honey.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">3</td>
+					<td>You have long whiskers like those of a cat.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">4</td>
+					<td>Your ears are covered with soft tufts of fur.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">5</td>
+					<td>Your skin sparkles in moonlight.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">6</td>
+					<td>Flowers either bloom or wilt (your choice) in your presence.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">7</td>
+					<td>Your hair is made of vines or brambles and grows back to normal length within 1 hour of being cut.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">8</td>
+					<td>You have a tail like that of a dog or another animal.</td>
+				</tr>
 			</table>
 			<h5>FEYWILD VISITOR</h5>
 			<p>Whenever you're sound asleep or in a deep trance during a long rest, a spirit of the Feywild might pay you a visit, if the DM wishes it. Determine the spirit's form by rolling on the Feywild Visitor table. No harm ever comes to you as a result of such visits, which can last for minutes or hours, and you remember each visit when you wake up. Conversations that occur with a visitor can contain any number of things, from messages and insights to nonsense and red herrings, at the DM's discretion. Such conversations are always conducted in a language you can understand, even if the Feywild visitor can't speak that language normally.</p>
 			<h5>Feywild Visitor</h5>
 			<table>
 				<thead>
-					<tr><td class="col-10" style="text-align:center">d8</td><td>Visitor</td></tr>
+					<tr>
+						<td class="col-10" style="text-align:center">d8</td>
+						<td>Visitor</td>
+					</tr>
 				</thead>
-				<tr><td style="text-align:center">1</td><td>Awakened creature (a Beast or an ordinary plant that has had the awaken spell cast on it).</td></tr>
-				<tr><td style="text-align:center">2</td><td>Centaur.</td></tr>
-				<tr><td style="text-align:center">3</td><td>Dryad.</td></tr>
-				<tr><td style="text-align:center">4</td><td>Faerie dragon.</td></tr>
-				<tr><td style="text-align:center">5</td><td>Pixie.</td></tr>
-				<tr><td style="text-align:center">6</td><td>Satyr.</td></tr>
-				<tr><td style="text-align:center">7</td><td>Sprite.</td></tr>
-				<tr><td style="text-align:center">8</td><td>Unicorn.</td></tr>
+				<tr>
+					<td style="text-align:center">1</td>
+					<td>Awakened creature (a Beast or an ordinary plant that has had the awaken spell cast on it).</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">2</td>
+					<td>Centaur.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">3</td>
+					<td>Dryad.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">4</td>
+					<td>Faerie dragon.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">5</td>
+					<td>Pixie.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">6</td>
+					<td>Satyr.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">7</td>
+					<td>Sprite.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">8</td>
+					<td>Unicorn.</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_WBW_BACKGROUND_FEATURE_FEYWILD_CONNECTION" />
 		</description>

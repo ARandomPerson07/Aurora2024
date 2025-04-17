@@ -3,7 +3,7 @@
 	<info>
 		<name>Duergar from Monsters of the Multiverse</name>
 		<update version="0.0.1">
-			<file name="race-duergar.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-duergar.xml" />
+			<file name="race-duergar.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-duergar.xml" />
 		</update>
 	</info>
 
@@ -13,14 +13,35 @@
 			<p class="indent">Like other dwarves, duergar typically have a life span of 350 years.</p>
 			<h4>DUERGAR TRAITS</h4>
 			<p>As a duergar, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Duergar Magic.</em></strong> Starting at 3rd level, you can cast the <i>enlarge/reduce</i> spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the <i>invisibility</i> spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Duergar Magic.</em>
+				</strong> Starting at 3rd level, you can cast the <i>enlarge/reduce</i> spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the <i>invisibility</i> spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-			<p class="indent"><strong><em>Dwarven Resilience.</em></strong> You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.</p>
-			<p class="indent"><strong><em>Psionic Fortitude.</em></strong> You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself.</p>
+			<p class="indent">
+				<strong>
+					<em>Dwarven Resilience.</em>
+				</strong> You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Psionic Fortitude.</em>
+				</strong> You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -32,9 +53,9 @@
 			<grant type="Grants" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_DWARF" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Duergar)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Duergar)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Duergar)" supports="Standard||Exotic" />
-			
+
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_DUERGAR_DUERGAR_MAGIC" level="3" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_DUERGAR_DWARVEN_RESILIENCE" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_DUERGAR_PSIONIC_FORTITUDE" />

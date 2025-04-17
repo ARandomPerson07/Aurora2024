@@ -5,27 +5,28 @@
         <description>Makers of magic-infused objects, artificers are defined by their inventive nature.</description>
         <author url="http://dnd.wizards.com/articles/unearthed-arcana/artificer">Wizards of the Coast</author>
         <update version="0.1.6">
-            <file name="20170109.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2017/20170109.xml" />
+            <file name="20170109.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2017/20170109.xml" />
         </update>
     </info>
 
-	<element name="Unearthed Arcana: Artificer" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170109">
-		<description>
-			<p>Makers of magic-infused objects, artificers are defined by their inventive nature.</p>
-		</description>
-		<setters>
-			<set name="abbreviation">UA20170109</set>
-			<set name="url">http://dnd.wizards.com/articles/unearthed-arcana/artificer</set>
-			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
-			<set name="official">true</set>
-			<set name="playtest">true</set>
-			<set name="release">20170109</set>
-		</setters>
-	</element>
+    <element name="Unearthed Arcana: Artificer" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170109">
+        <description>
+            <p>Makers of magic-infused objects, artificers are defined by their inventive nature.</p>
+        </description>
+        <setters>
+            <set name="abbreviation">UA20170109</set>
+            <set name="url">http://dnd.wizards.com/articles/unearthed-arcana/artificer</set>
+            <set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+            <set name="official">true</set>
+            <set name="playtest">true</set>
+            <set name="release">20170109</set>
+        </setters>
+    </element>
 
     <element name="Artificer" type="Class" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_CLASS_ARTIFICER">
         <description>
-            <p>A gnome sits hunched over a workbench, carefully using needle and thread to wave runes into a leather satchel. The bag shudders as she completes her work, and a sudden, loud pop echoes through the room as a portal to an extra-dimensional space springs to being in the bag's interior. She beams with pride at her newly crafted <em>bag of holding.</em></p>
+            <p>A gnome sits hunched over a workbench, carefully using needle and thread to wave runes into a leather satchel. The bag shudders as she completes her work, and a sudden, loud pop echoes through the room as a portal to an extra-dimensional space springs to being in the bag's interior. She beams with pride at her newly crafted <em>bag of holding.</em>
+            </p>
             <p class="indent">A troll growls in hunger as it looms over a dwarf, who slides a long, metal tube from a holster at his belt. With a thunderous roar, a gout of flame erupts from the tube, and the troll's growls turn into shrieks of panic as it turns to flee.</p>
             <p class="indent">An elf scrambles up the castle's wall, Baron von Hendriks' men close behind her. As she clambers over the battlements, she reaches into her satchel, pulls out three vials, mixes their contents into a small leather bag, and flings it at her pursuers. The bag bursts at their feet, trapping them in a thick, black glue as she makes her escape.</p>
             <p class="indent">Makers of magic-infused objects, artificers are defined by their inventive nature. Like wizards, they see magic as a complex system waiting to be decoded and controlled through a combination of thorough study and investigation. Artificers, though, focus on creating marvelous new magical objects. Spells are often too ephemeral and temporary for their tastes. Instead, they seek to craft durable, useful items.</p>
@@ -119,7 +120,7 @@
             <grant type="Class Feature" id="ID_WOTC_UA_CLASS_FEATURE_ARTIFICER_SOUL_OF_ARTIFICE" level="20" />
         </rules>
         <multiclass id="ID_WOTC_UA_MULTICLASS_ARTIFICER">
-			  <!-- no multiclass info provided in UA, using recommendations from mike mearls (wotcstaff) -->
+            <!-- no multiclass info provided in UA, using recommendations from mike mearls (wotcstaff) -->
             <prerequisite>Intelligence 13</prerequisite>
             <requirements>[int:13], !(ID_WOTC_UA20190228_CLASS_ARTIFICER||ID_WOTC_UA20190228_MULTICLASS_ARTIFICER||ID_WOTC_ERLW_CLASS_ARTIFICER||ID_WOTC_ERLW_MULTICLASS_ARTIFICER||ID_WOTC_TCOE_CLASS_ARTIFICER||ID_WOTC_TCOE_MULTICLASS_ARTIFICER)</requirements>
             <setters>
@@ -129,7 +130,7 @@
                 <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
                 <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
                 <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-				<select type="Proficiency" name="Tool Proficiency (Artificer)" supports="Tool" number="2" />
+                <select type="Proficiency" name="Tool Proficiency (Artificer)" supports="Tool" number="2" />
             </rules>
         </multiclass>
         <spellcasting name="Artificer" ability="Intelligence" allowReplace="true">
@@ -170,12 +171,28 @@
             <p>At 2nd level, you gain the use of a magic item that you have crafted. Choose the item from the list of 2nd-level items below.</p>
             <p class="indent">Crafting an item is a difficult task. When you gain a magic item from this feature, it reflects long hours of study, tinkering, and experimentation that allowed you to finally complete the item. You are assumed to work on this item in your leisure time and to finish it when you level up.</p>
             <p class="indent">You complete another item of your choice when you reach certain levels in this class: 5th, 10th, 15th, and 20th level. The item you choose must be on the list for your current artificer level or a lower level.</p>
-            <p class="indent">These magic items are detailed in the <em>Dungeon Master's Guide.</em></p>
-            <p><strong>2nd Level: </strong><em>bag of holding, cap of water breathing, driftglobe, goggles of night, sending stones</em></p>
-            <p><strong>5th Level: </strong><em>alchemy jug, helm of comprehending languages, lantern of revealing, ring ofswimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</em></p>
-            <p><strong>10th Level: </strong><em>bag of beans, chime of opening, decanter of endless water, eyes of minute seeing, folding boat, Heward's handy haversack</em></p>
-            <p><strong>15th Level: </strong><em>boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing</em></p>
-            <p><strong>20th Level: </strong><em>eyes of the eagle, gem of brightness, gloves of missile snaring, gloves of swimming and climbing, ring of jumping, ring of mind shielding, wings of flying</em></p>
+            <p class="indent">These magic items are detailed in the <em>Dungeon Master's Guide.</em>
+            </p>
+            <p>
+                <strong>2nd Level: </strong>
+                <em>bag of holding, cap of water breathing, driftglobe, goggles of night, sending stones</em>
+            </p>
+            <p>
+                <strong>5th Level: </strong>
+                <em>alchemy jug, helm of comprehending languages, lantern of revealing, ring ofswimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</em>
+            </p>
+            <p>
+                <strong>10th Level: </strong>
+                <em>bag of beans, chime of opening, decanter of endless water, eyes of minute seeing, folding boat, Heward's handy haversack</em>
+            </p>
+            <p>
+                <strong>15th Level: </strong>
+                <em>boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing</em>
+            </p>
+            <p>
+                <strong>20th Level: </strong>
+                <em>eyes of the eagle, gem of brightness, gloves of missile snaring, gloves of swimming and climbing, ring of jumping, ring of mind shielding, wings of flying</em>
+            </p>
         </description>
         <sheet display="false" />
     </element>
@@ -191,17 +208,44 @@
             <h5>Spellcasting Ability</h5>
             <p>Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.</p>
             <br />
-            <p class="indent"><strong>Spell save DC</strong> = 8 + your proficiency bonus + your intelligence modifier</p>
-            <p class="indent"><strong>Spell attack modifier</strong> = your proficiency bonus + your intelligence modifier</p>
+            <p class="indent">
+                <strong>Spell save DC</strong> = 8 + your proficiency bonus + your intelligence modifier</p>
+            <p class="indent">
+                <strong>Spell attack modifier</strong> = your proficiency bonus + your intelligence modifier</p>
             <h5>Spellcasting Focus</h5>
             <p>You can use an arcane focus as a spellcasting focus for your artificer spells. See chapter 5, "Equipment," in the <em>Player's Handbook</em> for various arcane focus options.</p>
             <h5>Artificer Spell List</h5>
             <table>
-                <thead><tr><td>Spell Level</td><td>Spells</td></tr></thead>
-                <tr><td>1st</td><td><em>alarm, cure wounds, disguise self, expeditious retreat, false life, jump, longstrider, sanctuary, shield of faith</em></td></tr>
-                <tr><td>2nd</td><td><em>aid, alter self, arcane lock, blur, continual flame, darkvision, enhance ability, enlarge/reduce, invisibility, lesser restoration, levitate, magic weapon, protection from poison, rope trick, see invisibility, spider climb</em></td></tr>
-                <tr><td>3rd</td><td><em>blink, fly, gaseous form, glyph of warding, haste, protection from energy, revivify, water breathing, water walk</em></td></tr>
-                <tr><td>4th</td><td><em>arcane eye, death ward, fabricate, freedom of movement, Leomund's secret chest, Mordenkainen's faithful hound, Mordenkainen's private sanctum, Otiluke's resilient sphere, stone shape, stoneskin</em></td></tr>
+                <thead>
+                    <tr>
+                        <td>Spell Level</td>
+                        <td>Spells</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>1st</td>
+                    <td>
+                        <em>alarm, cure wounds, disguise self, expeditious retreat, false life, jump, longstrider, sanctuary, shield of faith</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2nd</td>
+                    <td>
+                        <em>aid, alter self, arcane lock, blur, continual flame, darkvision, enhance ability, enlarge/reduce, invisibility, lesser restoration, levitate, magic weapon, protection from poison, rope trick, see invisibility, spider climb</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3rd</td>
+                    <td>
+                        <em>blink, fly, gaseous form, glyph of warding, haste, protection from energy, revivify, water breathing, water walk</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4th</td>
+                    <td>
+                        <em>arcane eye, death ward, fabricate, freedom of movement, Leomund's secret chest, Mordenkainen's faithful hound, Mordenkainen's private sanctum, Otiluke's resilient sphere, stone shape, stoneskin</em>
+                    </td>
+                </tr>
             </table>
         </description>
         <sheet display="false">
@@ -382,7 +426,7 @@
     <!-- Alchemical Formulas -->
     <element name="Alchemical Fire" type="Spell" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_SPELL_ALCHEMICAL_FIRE">
         <supports>Alchemical Formula</supports>
-		<requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
+        <requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
         <description>
             <p>As an action, you can reach into your Alchemist's Satchel, pull out a vial of volatile liquid, and hurl the vial at a creature, object, or surface within 30 feet of you (the vial and its contents disappear if you don't hurl the vial by the end of the current turn). On impact, the vial detonates in a 5-foot radius. Any creature in that area must succeed on a Dexterity saving throw or take 1d6 fire damage.</p>
             <p class="indent">This formula's damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 10th level (4d6), 13th level (5d6), 16th level (6d6), and 19th level (7d6).</p>
@@ -404,7 +448,7 @@
     </element>
     <element name="Alchemical Acid" type="Spell" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_SPELL_ALCHEMICAL_ACID">
         <supports>Alchemical Formula</supports>
-		<requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
+        <requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
         <description>
             <p>As an action, you can reach into your Alchemist's Satchel, pull out a vial of acid, and hurl the vial at a creature or object within 30 feet of you (the vial and its contents disappear if you don't hurl the vial by the end of the current turn). The vial shatters on impact. A creature must succeed on a Dexterity saving throw or take 1d6 acid damage. An object automatically takes that damage, and the damage is maximized.</p>
             <p class="indent">This formula's damage increases by 1d6 when you reach certain levels in this class: 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).</p>
@@ -426,7 +470,7 @@
     </element>
     <element name="Healing Draught" type="Spell" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_SPELL_HEALING_DRAUGHT">
         <supports>Alchemical Formula</supports>
-		<requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
+        <requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
         <description>
             <p>As an action, you can reach into your Alchemist's Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can't do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can't use this formula.</p>
             <p class="indent">This formula's healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</p>
@@ -448,7 +492,7 @@
     </element>
     <element name="Smoke Stick" type="Spell" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_SPELL_SMOKE_STICK">
         <supports>Alchemical Formula</supports>
-		<requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
+        <requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
         <description>
             <p>As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute.</p>
         </description>
@@ -469,7 +513,7 @@
     </element>
     <element name="Swift Step Draught" type="Spell" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_SPELL_SWIFT_STEP_DRAUGHT">
         <supports>Alchemical Formula</supports>
-		<requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
+        <requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
         <description>
             <p>As a bonus action, you can reach into your Alchemist's Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature's speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can't do so again for 1 minute.</p>
         </description>
@@ -490,7 +534,7 @@
     </element>
     <element name="Tanglefoot Bag" type="Spell" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_SPELL_TANGLEFOOT_BAG">
         <supports>Alchemical Formula</supports>
-		<requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
+        <requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
         <description>
             <p>As an action, you can reach into your Alchemist's Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don't hurl the bag by the end of the current turn). The bag bursts on impact and covers the ground in a 5-foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can't do so again for 1 minute.</p>
         </description>
@@ -511,7 +555,7 @@
     </element>
     <element name="Thunderstone" type="Spell" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_SPELL_THUNDERSTONE">
         <supports>Alchemical Formula</supports>
-		<requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
+        <requirements>ID_WOTC_UA_CLASS_ARTIFICER||ID_WOTC_UA_MULTICLASS_ARTIFICER</requirements>
         <description>
             <p>As an action, you can reach into your Alchemist's Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don't hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</p>
         </description>
@@ -661,35 +705,35 @@
         </sheet>
     </element>
     <!-- Thunder Cannon -->
-	<element name="Thunder Cannon" type="Weapon" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_WEAPON_THUNDER_CANNON">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
-		<description>
+    <element name="Thunder Cannon" type="Weapon" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_WEAPON_THUNDER_CANNON">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
             <p>Thunder Cannon is a two-handed ranged weapon that deals 2d6 piercing damage. Its normal range is 150 feet, and its maximum range is 500 feet. Once fired, it must be reloaded as a bonus action.</p>
             <p class="indent">If you lose your Thunder Cannon, you can create a new one over the course of three days of work (eight hours each day) by expending 100 gp worth of metal and other raw materials.</p>
-		</description>
-		<setters>
-			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">100</set>
-			<set name="weight" lb="10">10 lb.</set>
-			<set name="slot">twohand</set>
-			<set name="range">150/500</set>
-			<set name="damage" type="piercing">2d6</set>
-			<set name="proficiency">ID_WOTC_UA_PROFICIENCY_WEAPON_THUNDER_CANNON</set>
-		</setters>
-	</element>
-	<element name="Weapon Proficiency (Thunder Cannon)" type="Proficiency" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_PROFICIENCY_WEAPON_THUNDER_CANNON">
-		<supports>Weapon, Ranged, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
-	</element>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">100</set>
+            <set name="weight" lb="10">10 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="range">150/500</set>
+            <set name="damage" type="piercing">2d6</set>
+            <set name="proficiency">ID_WOTC_UA_PROFICIENCY_WEAPON_THUNDER_CANNON</set>
+        </setters>
+    </element>
+    <element name="Weapon Proficiency (Thunder Cannon)" type="Proficiency" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_PROFICIENCY_WEAPON_THUNDER_CANNON">
+        <supports>Weapon, Ranged, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+    </element>
     <!-- Arcane Magazine -->
-	<element name="Arcane Magazine" type="Item" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_ITEM_ARCANE_MAGAZINE">
-		<description>
-			<p>Arcane Magazine includes the powders, lead shot, and other materials needed to keep Thunder Cannon functioning.</p>
+    <element name="Arcane Magazine" type="Item" source="Unearthed Arcana: Artificer" id="ID_WOTC_UA_ITEM_ARCANE_MAGAZINE">
+        <description>
+            <p>Arcane Magazine includes the powders, lead shot, and other materials needed to keep Thunder Cannon functioning.</p>
             <p class="indent">You can use the Arcane Magazine to produce ammunition for your gun. At the end of each long rest, you can magically produce 40 rounds of ammunition with this magazine. After each short rest, you can produce 10 rounds.</p>
-		</description>
-		<setters>
-			<set name="category">Adventuring Gear</set>
-			<set name="cost" currency="gp">25</set>
-			<set name="weight" lb="2">2 lb.</set>
-		</setters>
-	</element>
+        </description>
+        <setters>
+            <set name="category">Adventuring Gear</set>
+            <set name="cost" currency="gp">25</set>
+            <set name="weight" lb="2">2 lb.</set>
+        </setters>
+    </element>
 </elements>

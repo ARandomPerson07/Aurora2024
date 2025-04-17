@@ -5,7 +5,7 @@
 		<description>The Monster Slayer from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
 		<update version="0.0.4">
-			<file name="ranger-monsterslayer.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/ranger-monsterslayer.xml" />
+			<file name="ranger-monsterslayer.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/ranger-monsterslayer.xml" />
 		</update>
 	</info>
 
@@ -37,13 +37,41 @@
 			<h5>MONSTER SLAYER SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Ranger Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Ranger Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>protectionfrom evil and good</em></td></tr>
-				<tr><td>5rd</td><td><em>zone of truth</em></td></tr>
-				<tr><td>9th</td><td><em>magic circle</em></td></tr>
-				<tr><td>13th</td><td><em>banishment</em></td></tr>
-				<tr><td>17th</td><td><em>hold monster</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>protectionfrom evil and good</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5rd</td>
+					<td>
+						<em>zone of truth</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>magic circle</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>banishment</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>hold monster</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />

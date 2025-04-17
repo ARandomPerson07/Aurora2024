@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="properties-weapons.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/misc/properties-weapons.xml" />
+			<file name="properties-weapons.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/misc/properties-weapons.xml" />
 		</update>
 	</info>
 	<!-- weapon properties -->
@@ -62,10 +62,14 @@
 	<element name="Improvised" type="Weapon Property" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_WEAPON_PROPERTY_IMPROVISED">
 		<description>
 			<p>An improvised weapon is an object wielded as a makeshift weapon, such as broken glass, a table leg, or a frying pan. A Simple or Martial weapon also counts as an improvised weapon if it's wielded in a way contrary to its design; if you use a Ranged weapon to make a melee attack or throw a Melee weapon that lacks the Thrown property, the weapon counts as an improvised weapon. An improvised weapon follows the rules below.</p>
-			<p class="indent"><i>Proficiency.</i> Don't add your Proficiency Bonus to attack rolls with an improvised weapon.</p>
-			<p class="indent"><i>Damage.</i> On a hit, the weapon deals ld4 damage of a type the DM thinks is appropriate for the object.</p>
-			<p class="indent"><i>Range.</i> If you throw the weapon, it has a normal range of 20 feet and a long range of 60 feet.</p>
-			<p class="indent"><i>Weapon Equivalents.</i> If an improvised weapon resembles a Simple or Martial weapon, the DM may say it functions as that weapon and uses that weapon's rules. For example, the DM could treat a table leg as a Club.</p>
+			<p class="indent">
+				<i>Proficiency.</i> Don't add your Proficiency Bonus to attack rolls with an improvised weapon.</p>
+			<p class="indent">
+				<i>Damage.</i> On a hit, the weapon deals ld4 damage of a type the DM thinks is appropriate for the object.</p>
+			<p class="indent">
+				<i>Range.</i> If you throw the weapon, it has a normal range of 20 feet and a long range of 60 feet.</p>
+			<p class="indent">
+				<i>Weapon Equivalents.</i> If an improvised weapon resembles a Simple or Martial weapon, the DM may say it functions as that weapon and uses that weapon's rules. For example, the DM could treat a table leg as a Club.</p>
 		</description>
 	</element>
 

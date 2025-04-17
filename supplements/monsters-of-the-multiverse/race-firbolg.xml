@@ -3,7 +3,7 @@
 	<info>
 		<name>Firbolg from Monsters of the Multiverse</name>
 		<update version="0.0.1">
-			<file name="race-firbolg.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-firbolg.xml" />
+			<file name="race-firbolg.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-firbolg.xml" />
 		</update>
 	</info>
 
@@ -14,14 +14,35 @@
 			<p class="indent">Firbolgs can live up to 500 years.</p>
 			<h4>Firbolg Traits</h4>
 			<p>As a firbolg, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Firbolg Magic.</em></strong> You can cast the detect magic and disguise self spells with this trait. When you use this version of disguise self, you can seem up to 3 feet shorter or taller. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Firbolg Magic.</em>
+				</strong> You can cast the detect magic and disguise self spells with this trait. When you use this version of disguise self, you can seem up to 3 feet shorter or taller. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-			<p class="indent"><strong><em>Hidden Step.</em></strong> As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
-			<p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
-			<p class="indent"><strong><em>Speech of Beast and Leaf.</em></strong> You have the ability to communicate in a limited manner with Beasts, Plants, and vegetation. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>
+			<p class="indent">
+				<strong>
+					<em>Hidden Step.</em>
+				</strong> As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Powerful Build.</em>
+				</strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+			<p class="indent">
+				<strong>
+					<em>Speech of Beast and Leaf.</em>
+				</strong> You have the ability to communicate in a limited manner with Beasts, Plants, and vegetation. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -30,9 +51,9 @@
 			<stat name="innate speed" value="30" bonus="base" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Firbolg)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Firbolg)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Firbolg)" supports="Standard||Exotic" />
-			
+
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRBOLG_FIRBOLG_MAGIC" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRBOLG_HIDDEN_STEP" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_FIRBOLG_POWERFUL_BUILD" />

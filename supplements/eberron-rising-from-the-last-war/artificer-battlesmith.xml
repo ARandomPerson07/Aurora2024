@@ -3,7 +3,7 @@
 	<info>
 		<name>Battle Smith Artificer Archetype</name>
 		<update version="0.0.1">
-			<file name="artificer-battlesmith.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/artificer-battlesmith.xml" />
+			<file name="artificer-battlesmith.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/artificer-battlesmith.xml" />
 		</update>
 	</info>
 
@@ -48,16 +48,46 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ERLW_ARTIFICER_BATTLE_SMITH_SPELLS</requirements>
 		<description>
 			<p>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.</p>
-			<p><strong>BATTLE SMITH SPELLS</strong></p>
+			<p>
+				<strong>BATTLE SMITH SPELLS</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Artificer Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Artificer Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>heroism, shield</em></td></tr>
-				<tr><td>5th</td><td><em>branding smite, warding bond</em></td></tr>
-				<tr><td>9th</td><td><em>aura of vitality, conjure barrage</em></td></tr>
-				<tr><td>13th</td><td><em>aura of purity, fire shield</em></td></tr>
-				<tr><td>17th</td><td><em>banishing smite, mass cure wounds</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>heroism, shield</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>branding smite, warding bond</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>aura of vitality, conjure barrage</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>aura of purity, fire shield</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>banishing smite, mass cure wounds</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -174,7 +204,8 @@
 		<supports>Steel Defender</supports>
 		<description>
 			<p>Your tinkering has borne you a faithful companion, a steel defender. It is friendly to you and your companions, and it obeys your commands.</p>
-			<p><b>Proficiency Bonus (PB)</b> equals your bonus</p>
+			<p>
+				<b>Proficiency Bonus (PB)</b> equals your bonus</p>
 		</description>
 		<setters>
 			<set name="size">Medium</set>
@@ -254,39 +285,80 @@
 
 	<element name="Steel Defender" type="Information" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_INFORMATION_STEEL_DEFENDER">
 		<description>
-			<p style="margin-bottom:-5px"><em>Medium construct</em></p>
+			<p style="margin-bottom:-5px">
+				<em>Medium construct</em>
+			</p>
 			<h4 style="margin-top:5px" />
 			<ul class="unstyled">
-				<li><strong>Armor Class</strong> 15 (natural armor)</li>
-				<li><strong>Hit Points</strong> 2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [d8s] equal to your artificer level)</li>
-				<li><strong>Speed</strong> 40 ft.</li>
+				<li>
+					<strong>Armor Class</strong> 15 (natural armor)</li>
+				<li>
+					<strong>Hit Points</strong> 2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [d8s] equal to your artificer level)</li>
+				<li>
+					<strong>Speed</strong> 40 ft.</li>
 			</ul>
 			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
-				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
-				<tr><td>14 (+2)</td><td>12 (+1)</td><td>14 (+2)</td><td>4 (-3)</td><td>10 (+0)</td><td>6 (-2)</td></tr>
+				<thead>
+					<tr>
+						<td>STR</td>
+						<td>DEX</td>
+						<td>CON</td>
+						<td>INT</td>
+						<td>WIS</td>
+						<td>CHA</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>14 (+2)</td>
+					<td>12 (+1)</td>
+					<td>14 (+2)</td>
+					<td>4 (-3)</td>
+					<td>10 (+0)</td>
+					<td>6 (-2)</td>
+				</tr>
 			</table>
 			<ul class="unstyled">
-				<li><strong>Saving Throws</strong> Dex +1 plus PB, Con +2 plus PB</li>
-				<li><strong>Skills</strong> Athletics +2 plus PB, Perception +0 plus PB x 2</li>
-				<li><strong>Damage Immunities</strong> poison</li>
-				<li><strong>Condition Immunities</strong> charmed, exhaustion, poisoned</li>
-				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 10 + (PB x 2)</li>
-				<li><strong>Languages</strong> understands the languages you speak</li>
-				<li style="margin-bottom:-1em"><strong>Challenge</strong> —</li>
-				<li style="text-align:right; margin-top:-1em"><strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
+				<li>
+					<strong>Saving Throws</strong> Dex +1 plus PB, Con +2 plus PB</li>
+				<li>
+					<strong>Skills</strong> Athletics +2 plus PB, Perception +0 plus PB x 2</li>
+				<li>
+					<strong>Damage Immunities</strong> poison</li>
+				<li>
+					<strong>Condition Immunities</strong> charmed, exhaustion, poisoned</li>
+				<li>
+					<strong>Senses</strong> darkvision 60 ft., passive Perception 10 + (PB x 2)</li>
+				<li>
+					<strong>Languages</strong> understands the languages you speak</li>
+				<li style="margin-bottom:-1em">
+					<strong>Challenge</strong> —
+				</li>
+				<li style="text-align:right; margin-top:-1em">
+					<strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
 			</ul>
 			<h4 style="margin-top:5px; margin-bottom:10px" />
 			<ul class="unstyled">
-				<li><strong><em>Vigilant.</em></strong> The defender can't be surprised.</li>
+				<li>
+					<strong>
+						<em>Vigilant.</em>
+					</strong> The defender can't be surprised.</li>
 			</ul>
 			<h4 style="margin-top:10px">Actions</h4>
 			<ul class="unstyled">
-				<li><em><strong>Force-Empowered Rend.</strong> Melee Weapon Attack:</em> your spell attack modifier to h it, reach 5 ft., one target you can see. <em>Hit:</em> 1d8 + PB force damage.</li>
-				<li><em><strong>Repair (3/Day).</strong></em> The magical mechanisms inside the defender restore 2d8 + PB hit points to itself or to one construct or object within 5 feet of it.</li>
+				<li>
+					<em>
+						<strong>Force-Empowered Rend.</strong> Melee Weapon Attack:</em> your spell attack modifier to h it, reach 5 ft., one target you can see. <em>Hit:</em> 1d8 + PB force damage.</li>
+				<li>
+					<em>
+						<strong>Repair (3/Day).</strong>
+					</em> The magical mechanisms inside the defender restore 2d8 + PB hit points to itself or to one construct or object within 5 feet of it.</li>
 			</ul>
 			<h4 style="margin-top:10px">Reactions</h4>
 			<ul class="unstyled">
-				<li><strong><em>Deflect Attack.</em></strong> The defender imposes disadvantage on the attack roll of one creature it can see that is with in 5 feet of it, provided the attack roll is against a creature other than the defender.</li>
+				<li>
+					<strong>
+						<em>Deflect Attack.</em>
+					</strong> The defender imposes disadvantage on the attack roll of one creature it can see that is with in 5 feet of it, provided the attack roll is against a creature other than the defender.</li>
 			</ul>
 		</description>
 	</element>

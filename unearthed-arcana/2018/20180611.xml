@@ -5,7 +5,7 @@
 		<description>In the age of myth, giants bestowed magical blessings upon smaller folk whom they especially favored. Now sorcerers can playtest descendants of those folk, using the Giant Soul subclass.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/giant-soul-sorcerer">Wizards of the Coast</author>
 		<update version="0.0.7">
-			<file name="20180611.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2018/20180611.xml" />
+			<file name="20180611.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2018/20180611.xml" />
 		</update>
 	</info>
 
@@ -44,7 +44,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_RAGE_OF_FALLEN_OSTORIA" level="14" />
 			<grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_BLESSING_OF_THE_ALL_FATHER" level="18" />
 		</rules>
-	</element>	
+	</element>
 
 	<element name="Jotun Resilience" type="Archetype Feature" source="Unearthed Arcana: Giant Soul Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_JOTUN_RESILIENCE">
 		<description>
@@ -54,20 +54,48 @@
 		<rules>
 			<stat name="hp" value="level" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Mark of the Ordning" type="Archetype Feature" source="Unearthed Arcana: Giant Soul Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING">
 		<description>
 			<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don’t count against your number of sorcerer spells known.</p>
 			<table>
 				<thead>
-					<tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr>
+					<tr>
+						<td>Giant Type</td>
+						<td>Spells at 1st Level</td>
+						<td>Spells at 3rd Level</td>
+					</tr>
 				</thead>
-				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
-				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
-				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
-				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
-				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
+				<tr>
+					<td>Cloud Giant</td>
+					<td>fog cloud, minor illusion</td>
+					<td>invisibility</td>
+				</tr>
+				<tr>
+					<td>Fire Giant</td>
+					<td>burning hands, fire bolt</td>
+					<td>flaming sphere</td>
+				</tr>
+				<tr>
+					<td>Frost Giant</td>
+					<td>armor of Agathys, ray of frost</td>
+					<td>hold person</td>
+				</tr>
+				<tr>
+					<td>Hill Giant</td>
+					<td>heroism, shillelagh</td>
+					<td>enlarge/reduce</td>
+				</tr>
+				<tr>
+					<td>Stone Giant</td>
+					<td>entangle, resistance</td>
+					<td>spike growth</td>
+				</tr>
+				<tr>
+					<td>Storm Giant</td>
+					<td>shocking grasp, thunderwave</td>
+					<td>gust of wind</td>
+				</tr>
 			</table>
 		</description>
 		<sheet />
@@ -78,12 +106,30 @@
 	<element name="Soul of Lost Ostoria" type="Archetype Feature" source="Unearthed Arcana: Giant Soul Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA">
 		<description>
 			<p>Starting at 6th level, you gain a benefit whenever you cast one of the spells granted by your Mark of the Ordning Feature.</p>
-			<p class="indent"><b><i>Cloud Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you can magically teleport as a bonus action. You teleport to an unoccupied space you can see that is no farther away than a number of feet equal to 10 + your Constitution modifier.</p>
-			<p class="indent"><b><i>Fire Giant.</i></b> You gain a bonus to the damage rolls of your Mark of the Ordning spells. The bonus equals your Constitution modifier (minimum of +1).</p>
-			<p class="indent"><b><i>Frost Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is armor of Agathys, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1 ).</p>
-			<p class="indent"><b><i>Hill Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you can target up to two creatures within 5 feet of you that you can see. Each target must succeed on a Strength saving throw against your spell save DC or be pushed a number of feet away from you equal to 5 + your Constitution modifier (minimum of +1). A target can choose to fail this save.</p>
-			<p class="indent"><b><i>Stone Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you gain a bonus to AC equal to your Constitution modifier (minimum of +1) until the end of your next turn.</p>
-			<p class="indent"><b><i>Storm Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, up to three creatures of your choice that you can see within 30 feet of you take lightning damage equal to your Constitution modifier (minimum of 1).</p>
+			<p class="indent">
+				<b>
+					<i>Cloud Giant.</i>
+				</b> Immediately after you cast any of your Mark of the Ordning spells, you can magically teleport as a bonus action. You teleport to an unoccupied space you can see that is no farther away than a number of feet equal to 10 + your Constitution modifier.</p>
+			<p class="indent">
+				<b>
+					<i>Fire Giant.</i>
+				</b> You gain a bonus to the damage rolls of your Mark of the Ordning spells. The bonus equals your Constitution modifier (minimum of +1).</p>
+			<p class="indent">
+				<b>
+					<i>Frost Giant.</i>
+				</b> Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is armor of Agathys, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1 ).</p>
+			<p class="indent">
+				<b>
+					<i>Hill Giant.</i>
+				</b> Immediately after you cast any of your Mark of the Ordning spells, you can target up to two creatures within 5 feet of you that you can see. Each target must succeed on a Strength saving throw against your spell save DC or be pushed a number of feet away from you equal to 5 + your Constitution modifier (minimum of +1). A target can choose to fail this save.</p>
+			<p class="indent">
+				<b>
+					<i>Stone Giant.</i>
+				</b> Immediately after you cast any of your Mark of the Ordning spells, you gain a bonus to AC equal to your Constitution modifier (minimum of +1) until the end of your next turn.</p>
+			<p class="indent">
+				<b>
+					<i>Storm Giant.</i>
+				</b> Immediately after you cast any of your Mark of the Ordning spells, up to three creatures of your choice that you can see within 30 feet of you take lightning damage equal to your Constitution modifier (minimum of 1).</p>
 		</description>
 		<sheet display="false">
 			<description>You gain a benefit whenever you cast one of the spells granted by your Mark of the Ordning Feature.</description>
@@ -92,7 +138,7 @@
 			<!-- Constitution modifier (minimum of +1) for use in child features -->
 			<stat name="soul of lost ostoria:constitution" value="1" bonus="base" />
 			<stat name="soul of lost ostoria:constitution" value="constitution:modifier" bonus="base" />
-						
+
 			<grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_CLOUD_GIANT" requirements="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_CLOUD_GIANT" />
 			<grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_FIRE_GIANT" requirements="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_FIRE_GIANT" />
 			<grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_FROST_GIANT" requirements="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_MARK_OF_THE_ORDNING_FROST_GIANT" />
@@ -126,7 +172,7 @@
 			<stat name="rage of fallen ostoria:damage bonus" value="1" bonus="base" />
 			<stat name="rage of fallen ostoria:damage bonus" value="constitution:modifier" bonus="base" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Blessing of the All Father" type="Archetype Feature" source="Unearthed Arcana: Giant Soul Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_BLESSING_OF_THE_ALL_FATHER">
 		<description>
 			<p>At 18th level, your Constitution score increases by 2, up to a maximum of 22.</p>
@@ -148,14 +194,42 @@
 			<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don’t count against your number of sorcerer spells known.</p>
 			<table>
 				<thead>
-					<tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr>
+					<tr>
+						<td>Giant Type</td>
+						<td>Spells at 1st Level</td>
+						<td>Spells at 3rd Level</td>
+					</tr>
 				</thead>
-				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
-				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
-				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
-				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
-				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
+				<tr>
+					<td>Cloud Giant</td>
+					<td>fog cloud, minor illusion</td>
+					<td>invisibility</td>
+				</tr>
+				<tr>
+					<td>Fire Giant</td>
+					<td>burning hands, fire bolt</td>
+					<td>flaming sphere</td>
+				</tr>
+				<tr>
+					<td>Frost Giant</td>
+					<td>armor of Agathys, ray of frost</td>
+					<td>hold person</td>
+				</tr>
+				<tr>
+					<td>Hill Giant</td>
+					<td>heroism, shillelagh</td>
+					<td>enlarge/reduce</td>
+				</tr>
+				<tr>
+					<td>Stone Giant</td>
+					<td>entangle, resistance</td>
+					<td>spike growth</td>
+				</tr>
+				<tr>
+					<td>Storm Giant</td>
+					<td>shocking grasp, thunderwave</td>
+					<td>gust of wind</td>
+				</tr>
 			</table>
 		</description>
 		<sheet />
@@ -171,14 +245,42 @@
 			<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don’t count against your number of sorcerer spells known.</p>
 			<table>
 				<thead>
-					<tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr>
+					<tr>
+						<td>Giant Type</td>
+						<td>Spells at 1st Level</td>
+						<td>Spells at 3rd Level</td>
+					</tr>
 				</thead>
-				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
-				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
-				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
-				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
-				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
+				<tr>
+					<td>Cloud Giant</td>
+					<td>fog cloud, minor illusion</td>
+					<td>invisibility</td>
+				</tr>
+				<tr>
+					<td>Fire Giant</td>
+					<td>burning hands, fire bolt</td>
+					<td>flaming sphere</td>
+				</tr>
+				<tr>
+					<td>Frost Giant</td>
+					<td>armor of Agathys, ray of frost</td>
+					<td>hold person</td>
+				</tr>
+				<tr>
+					<td>Hill Giant</td>
+					<td>heroism, shillelagh</td>
+					<td>enlarge/reduce</td>
+				</tr>
+				<tr>
+					<td>Stone Giant</td>
+					<td>entangle, resistance</td>
+					<td>spike growth</td>
+				</tr>
+				<tr>
+					<td>Storm Giant</td>
+					<td>shocking grasp, thunderwave</td>
+					<td>gust of wind</td>
+				</tr>
 			</table>
 		</description>
 		<sheet />
@@ -194,14 +296,42 @@
 			<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don’t count against your number of sorcerer spells known.</p>
 			<table>
 				<thead>
-					<tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr>
+					<tr>
+						<td>Giant Type</td>
+						<td>Spells at 1st Level</td>
+						<td>Spells at 3rd Level</td>
+					</tr>
 				</thead>
-				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
-				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
-				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
-				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
-				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
+				<tr>
+					<td>Cloud Giant</td>
+					<td>fog cloud, minor illusion</td>
+					<td>invisibility</td>
+				</tr>
+				<tr>
+					<td>Fire Giant</td>
+					<td>burning hands, fire bolt</td>
+					<td>flaming sphere</td>
+				</tr>
+				<tr>
+					<td>Frost Giant</td>
+					<td>armor of Agathys, ray of frost</td>
+					<td>hold person</td>
+				</tr>
+				<tr>
+					<td>Hill Giant</td>
+					<td>heroism, shillelagh</td>
+					<td>enlarge/reduce</td>
+				</tr>
+				<tr>
+					<td>Stone Giant</td>
+					<td>entangle, resistance</td>
+					<td>spike growth</td>
+				</tr>
+				<tr>
+					<td>Storm Giant</td>
+					<td>shocking grasp, thunderwave</td>
+					<td>gust of wind</td>
+				</tr>
 			</table>
 		</description>
 		<sheet />
@@ -217,14 +347,42 @@
 			<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don’t count against your number of sorcerer spells known.</p>
 			<table>
 				<thead>
-					<tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr>
+					<tr>
+						<td>Giant Type</td>
+						<td>Spells at 1st Level</td>
+						<td>Spells at 3rd Level</td>
+					</tr>
 				</thead>
-				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
-				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
-				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
-				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
-				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
+				<tr>
+					<td>Cloud Giant</td>
+					<td>fog cloud, minor illusion</td>
+					<td>invisibility</td>
+				</tr>
+				<tr>
+					<td>Fire Giant</td>
+					<td>burning hands, fire bolt</td>
+					<td>flaming sphere</td>
+				</tr>
+				<tr>
+					<td>Frost Giant</td>
+					<td>armor of Agathys, ray of frost</td>
+					<td>hold person</td>
+				</tr>
+				<tr>
+					<td>Hill Giant</td>
+					<td>heroism, shillelagh</td>
+					<td>enlarge/reduce</td>
+				</tr>
+				<tr>
+					<td>Stone Giant</td>
+					<td>entangle, resistance</td>
+					<td>spike growth</td>
+				</tr>
+				<tr>
+					<td>Storm Giant</td>
+					<td>shocking grasp, thunderwave</td>
+					<td>gust of wind</td>
+				</tr>
 			</table>
 		</description>
 		<sheet />
@@ -240,14 +398,42 @@
 			<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don’t count against your number of sorcerer spells known.</p>
 			<table>
 				<thead>
-					<tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr>
+					<tr>
+						<td>Giant Type</td>
+						<td>Spells at 1st Level</td>
+						<td>Spells at 3rd Level</td>
+					</tr>
 				</thead>
-				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
-				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
-				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
-				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
-				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
+				<tr>
+					<td>Cloud Giant</td>
+					<td>fog cloud, minor illusion</td>
+					<td>invisibility</td>
+				</tr>
+				<tr>
+					<td>Fire Giant</td>
+					<td>burning hands, fire bolt</td>
+					<td>flaming sphere</td>
+				</tr>
+				<tr>
+					<td>Frost Giant</td>
+					<td>armor of Agathys, ray of frost</td>
+					<td>hold person</td>
+				</tr>
+				<tr>
+					<td>Hill Giant</td>
+					<td>heroism, shillelagh</td>
+					<td>enlarge/reduce</td>
+				</tr>
+				<tr>
+					<td>Stone Giant</td>
+					<td>entangle, resistance</td>
+					<td>spike growth</td>
+				</tr>
+				<tr>
+					<td>Storm Giant</td>
+					<td>shocking grasp, thunderwave</td>
+					<td>gust of wind</td>
+				</tr>
 			</table>
 		</description>
 		<sheet />
@@ -263,14 +449,42 @@
 			<p>At 1st level, you discover innate magical abilities within yourself that are based on your giant heritage. Select one of the giant types from the Mark of the Ordning table. At 1st and 3rd level, you learn the spells associated with your choice, as shown in the table. These spells count as sorcerer spells for you, but they don’t count against your number of sorcerer spells known.</p>
 			<table>
 				<thead>
-					<tr><td>Giant Type</td><td>Spells at 1st Level</td><td>Spells at 3rd Level</td></tr>
+					<tr>
+						<td>Giant Type</td>
+						<td>Spells at 1st Level</td>
+						<td>Spells at 3rd Level</td>
+					</tr>
 				</thead>
-				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
-				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
-				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
-				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
-				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
+				<tr>
+					<td>Cloud Giant</td>
+					<td>fog cloud, minor illusion</td>
+					<td>invisibility</td>
+				</tr>
+				<tr>
+					<td>Fire Giant</td>
+					<td>burning hands, fire bolt</td>
+					<td>flaming sphere</td>
+				</tr>
+				<tr>
+					<td>Frost Giant</td>
+					<td>armor of Agathys, ray of frost</td>
+					<td>hold person</td>
+				</tr>
+				<tr>
+					<td>Hill Giant</td>
+					<td>heroism, shillelagh</td>
+					<td>enlarge/reduce</td>
+				</tr>
+				<tr>
+					<td>Stone Giant</td>
+					<td>entangle, resistance</td>
+					<td>spike growth</td>
+				</tr>
+				<tr>
+					<td>Storm Giant</td>
+					<td>shocking grasp, thunderwave</td>
+					<td>gust of wind</td>
+				</tr>
 			</table>
 		</description>
 		<sheet />

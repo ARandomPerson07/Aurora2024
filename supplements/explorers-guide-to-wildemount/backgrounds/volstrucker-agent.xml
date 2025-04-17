@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="volstrucker-agent.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/explorers-guide-to-wildemount/backgrounds/volstrucker-agent.xml" />
+			<file name="volstrucker-agent.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/explorers-guide-to-wildemount/backgrounds/volstrucker-agent.xml" />
 		</update>
 	</info>
 	<element name="Volstrucker Agent" type="Background" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_BACKGROUND_VOLSTRUCKER_AGENT">
@@ -10,24 +10,49 @@
 			<p>The Volstrucker are a clandestine organization of arcane assassins and enforcers in the service of the Cerberus Assembly. Their operatives bear no official title, but are referred to in hushed tones as “scourgers” by residents of large Dwendalian cities such as Zadash and Rexxentrum.</p>
 			<p class="indent">You are a Volstrucker agent. Your duty is to silence dissidents who would undermine the will of King Dwendal—and more importantly, the will of the Assembly.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Deception, Stealth</li>
-				<li><strong>Tool Proficiencies:</strong> Poisoner’s kit</li>
-				<li><strong>Languages:</strong> One of your choice</li>
-				<li><strong>Equipment:</strong> A set of common clothes, a black cloak with a hood, a poisoner’s kit, and a pouch containing 10 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Deception, Stealth</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> Poisoner’s kit</li>
+				<li>
+					<strong>Languages:</strong> One of your choice</li>
+				<li>
+					<strong>Equipment:</strong> A set of common clothes, a black cloak with a hood, a poisoner’s kit, and a pouch containing 10 gp</li>
 			</ul>
 			<h5>TRAGEDY</h5>
 			<p>Happy people aren’t selected to join the Volstrucker. The Cerberus Assembly preys upon talented individuals who have been broken by tragedy—in some cases, tragedy that the Volstrucker has arranged for. A slightly broken mind is more easily reshaped and reeducated. Choose the tragedy that set you on this path, or roll on the Tragedies table.</p>
 			<h5 class="caption">Tragedies</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Tragedy</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Tragedy</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Familicide. Through deceit or manipulation, the Volstrucker convinced you to slaughter your own family.</td></tr>
-				<tr><td>2</td><td>Amnesia. You were forced to study magic so potent that it strained your mind beyond mortal limits, stealing away the memories of your past.</td></tr>
-				<tr><td>3</td><td>Capture. You were captured and tortured by agents of the Kryn Dynasty, and barely escaped.</td></tr>
-				<tr><td>4</td><td>Starvation. A terrible blight afflicted your rural village, and many of your friends and family members starved to death. You survived, but only barely.</td></tr>
-				<tr><td>5</td><td>Disfigurement. One of your arcane experiments went wrong and scarred or dismembered you so gravely that others now shun you. Only the Volstrucker showed you kindness after that day.</td></tr>
-				<tr><td>6</td><td>Vicissitude. You were once the scion of a wealthy family who lost their entire fortune in the blink of an eye.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Familicide. Through deceit or manipulation, the Volstrucker convinced you to slaughter your own family.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Amnesia. You were forced to study magic so potent that it strained your mind beyond mortal limits, stealing away the memories of your past.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Capture. You were captured and tortured by agents of the Kryn Dynasty, and barely escaped.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Starvation. A terrible blight afflicted your rural village, and many of your friends and family members starved to death. You survived, but only barely.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Disfigurement. One of your arcane experiments went wrong and scarred or dismembered you so gravely that others now shun you. Only the Volstrucker showed you kindness after that day.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Vicissitude. You were once the scion of a wealthy family who lost their entire fortune in the blink of an eye.</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_EGTW_BACKGROUND_FEATURE_SHADOW_NETWORK" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
@@ -72,7 +97,7 @@
 				<item id="4">Fear is a powerful motivator. I will do whatever it takes to prevent those who know what I am from seeing me fail, and from those I care about from knowing what I am.</item>
 			</select>
 		</rules>
-	</element>	
+	</element>
 	<element name="Feature: Shadow Network" type="Background Feature" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_BACKGROUND_FEATURE_SHADOW_NETWORK">
 		<supports>Background Feature</supports>
 		<description>

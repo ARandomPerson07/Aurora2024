@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/princes-apocalypse">Wizards of the Coast</author>
 		<update version="0.0.8">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/princes-of-the-apocalypse/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/princes-of-the-apocalypse/items.xml" />
 		</update>
 	</info>
 
@@ -62,10 +62,22 @@
 			<p class="indent">A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates 1d100 hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as identify and divination can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.</p>
 			<p class="indent">A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a devastation orb of air and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes 1d6 rounds later, unless it is returned to the container.</p>
 			<p class="indent">Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use.</p>
-			<p class="indent"><strong><em>Air Orb.</em></strong> When this orb detonates, it creates a powerful windstorm that lasts for 1 hour. Whenever a creature ends its turn exposed to the wind, the creature must succeed on a DC 18 Constitution saving throw or take 1d4 bludgeoning damage, as the wind and debris batter it. The wind is strong enough to uproot weak trees and destroy light structures after at least 10 minutes of exposure. Otherwise, the rules for strong wind apply, as detailed in chapter 5 of the Dungeon Master's Guide.</p>
-			<p class="indent"><strong><em>Earth Orb.</em></strong> When this orb detonates, it subjects the area to the effects of the earthquake spell for 1 minute (spell save DC 18). For the purpose of the spell's effects, the spell is cast on the turn that the orb explodes.</p>
-			<p class="indent"><strong><em>Fire Orb.</em></strong> When this orb detonates, it creates a dry heat wave that lasts for 24 hours. Within the area of effect, the rules for extreme heat apply, as detailed in chapter 5 of the Dungeon Master's Guide. At the end of each hour, there is a ten percent chance that the heat wave starts a wildfire in a random location within the area of effect. The wildfire covers a 10-foot-square area initially but expands to fill another 10-foot square each round until the fire is extinguished or burns itself out. A creature that comes within 10 feet of a wildfire for the first time on a turn or starts its turn there takes 3d6 fire damage.</p>
-			<p class="indent"><strong><em>Water Orb.</em></strong> When this orb detonates, it creates a torrential rainstorm that lasts for 24 hours. Within the area of effect, the rules for heavy precipitation apply, as detailed in chapter 5 of the Dungeon Master's Guide. If there is a substantial body of water in the area, it floods after 2d10 hours of heavy rain, rising 10 feet above its banks and inundating the surrounding area. The flood advances at a rate of 100 feet per round, moving away from the body of water where it began until it reaches the edge of the area of effect: at that point, the water flows downhill (and possibly recedes back to its origin). Light structures collapse and wash away. Any Large or smaller creature caught in the flood's path is swept away. The flooding destroys crops and might trigger mudslides, depending on the terrain.</p>
+			<p class="indent">
+				<strong>
+					<em>Air Orb.</em>
+				</strong> When this orb detonates, it creates a powerful windstorm that lasts for 1 hour. Whenever a creature ends its turn exposed to the wind, the creature must succeed on a DC 18 Constitution saving throw or take 1d4 bludgeoning damage, as the wind and debris batter it. The wind is strong enough to uproot weak trees and destroy light structures after at least 10 minutes of exposure. Otherwise, the rules for strong wind apply, as detailed in chapter 5 of the Dungeon Master's Guide.</p>
+			<p class="indent">
+				<strong>
+					<em>Earth Orb.</em>
+				</strong> When this orb detonates, it subjects the area to the effects of the earthquake spell for 1 minute (spell save DC 18). For the purpose of the spell's effects, the spell is cast on the turn that the orb explodes.</p>
+			<p class="indent">
+				<strong>
+					<em>Fire Orb.</em>
+				</strong> When this orb detonates, it creates a dry heat wave that lasts for 24 hours. Within the area of effect, the rules for extreme heat apply, as detailed in chapter 5 of the Dungeon Master's Guide. At the end of each hour, there is a ten percent chance that the heat wave starts a wildfire in a random location within the area of effect. The wildfire covers a 10-foot-square area initially but expands to fill another 10-foot square each round until the fire is extinguished or burns itself out. A creature that comes within 10 feet of a wildfire for the first time on a turn or starts its turn there takes 3d6 fire damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Water Orb.</em>
+				</strong> When this orb detonates, it creates a torrential rainstorm that lasts for 24 hours. Within the area of effect, the rules for heavy precipitation apply, as detailed in chapter 5 of the Dungeon Master's Guide. If there is a substantial body of water in the area, it floods after 2d10 hours of heavy rain, rising 10 feet above its banks and inundating the surrounding area. The flood advances at a rate of 100 feet per round, moving away from the body of water where it began until it reaches the edge of the area of effect: at that point, the water flows downhill (and possibly recedes back to its origin). Light structures collapse and wash away. Any Large or smaller creature caught in the flood's path is swept away. The flooding destroys crops and might trigger mudslides, depending on the terrain.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -165,15 +177,23 @@
 				<li>You can't be surprised by orcs while you're not incapacitated. You are also aware when orcs are within 120 feet of you and aren't behind total cover, although you don't know their location.</li>
 				<li>You and any of your friends within 30 feet of you can't be frightened while you're not incapacitated.</li>
 			</ul>
-			<p class="indent"><strong><em>Sentience.</em></strong> <em>Orcsplitter</em> is a sentient, lawful good weapon with an Intelligence of 6, a Wisdom of 15, and a Charisma of 10. It can see and hear out to 120 feet and has darkvision. It communicates by transmitting emotions to its wielder, although on rare occasions it uses a limited form of telepathy to bring to the wielder's mind a couplet or stanza of ancient Dwarvish verse.</p>
-			<p class="indent"><strong><em>Personality.</em></strong> <em>Orcsplitter</em> is grim, taciturn, and inflexible. It knows little more than the desire to face orcs in battle and serve a courageous, just wielder. It disdains cowards and any form of duplicity, deception, or disloyalty. The weapon's purpose is to defend dwarves and to serve as a symbol of dwarven resolve. It hates the traditional foes of dwarves—giants, goblins, and, most of all, orcs—and silently urges its possessor to meet such creatures in battle.</p>
+			<p class="indent">
+				<strong>
+					<em>Sentience.</em>
+				</strong>
+				<em>Orcsplitter</em> is a sentient, lawful good weapon with an Intelligence of 6, a Wisdom of 15, and a Charisma of 10. It can see and hear out to 120 feet and has darkvision. It communicates by transmitting emotions to its wielder, although on rare occasions it uses a limited form of telepathy to bring to the wielder's mind a couplet or stanza of ancient Dwarvish verse.</p>
+			<p class="indent">
+				<strong>
+					<em>Personality.</em>
+				</strong>
+				<em>Orcsplitter</em> is grim, taciturn, and inflexible. It knows little more than the desire to face orcs in battle and serve a courageous, just wielder. It disdains cowards and any form of duplicity, deception, or disloyalty. The weapon's purpose is to defend dwarves and to serve as a symbol of dwarven resolve. It hates the traditional foes of dwarves—giants, goblins, and, most of all, orcs—and silently urges its possessor to meet such creatures in battle.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="greataxe">Weapon</set>
 			<set name="rarity">Legendary</set>
-			<set name="attunement" addition="by a good-aligned dwarf, fighter, or paladin">true</set>			
+			<set name="attunement" addition="by a good-aligned dwarf, fighter, or paladin">true</set>
 			<set name="weapon">Greataxe</set>
 			<set name="enhancement">2</set>
 		</setters>
@@ -182,14 +202,23 @@
 		<description>
 			<p>A steel trident decorated with bronze barnacles along the upper part of its haft, Drown has a sea-green jewel just below the tines and a silver shell at the end of its haft. It floats on the surface if dropped onto water, and it floats in place if it is released underwater. The trident is always cool to the touch, and it is immune to any damage due to exposure to water. Drown contains a spark of Olhydra, the Princess of Evil Water.</p>
 			<p class="indent">You gain a +1 bonus to attack and damage rolls you make with this magic weapon. When you hit with it, the targets takes an extra 1d8 cold damage.</p>
-			<p class="indent"><strong><em>Water Mastery.</em></strong> You gain the following benefits while you hold Drown:</p>
+			<p class="indent">
+				<strong>
+					<em>Water Mastery.</em>
+				</strong> You gain the following benefits while you hold Drown:</p>
 			<ul>
 				<li>You can speak Aquan fluently.</li>
 				<li>You have resistance to cold damage.</li>
 				<li>You can cast dominate monster (save DC 17) on a water elemental. Once you have done so, Drown can't be used this way again until the next dawn.</li>
 			</ul>
-			<p class="indent"><strong><em>Tears of Endless Anguish.</em></strong> While inside a water node, you can perform a ritual called the Tears of Endless Anguish, using Drown to create a devastation orb of water (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Drown can't be used to perform the ritual again until the next dawn.</p>
-			<p class="indent"><strong><em>Flaw.</em></strong> Drown makes its wielder covetous. While attuned to the weapon, you gain the following flaw: "I demand and deserve the largest share of the spoils, and I refuse to part with anything that's mine." In addition, if you are attuned to Drown for 24 consecutive hours, barnacles form on your skin. The barnacles can be removed with a greater restoration spell or similar magic, but not while you are attuned to the weapon.</p>
+			<p class="indent">
+				<strong>
+					<em>Tears of Endless Anguish.</em>
+				</strong> While inside a water node, you can perform a ritual called the Tears of Endless Anguish, using Drown to create a devastation orb of water (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Drown can't be used to perform the ritual again until the next dawn.</p>
+			<p class="indent">
+				<strong>
+					<em>Flaw.</em>
+				</strong> Drown makes its wielder covetous. While attuned to the weapon, you gain the following flaw: "I demand and deserve the largest share of the spoils, and I refuse to part with anything that's mine." In addition, if you are attuned to Drown for 24 consecutive hours, barnacles form on your skin. The barnacles can be removed with a greater restoration spell or similar magic, but not while you are attuned to the weapon.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -208,7 +237,10 @@
 		<description>
 			<p>A war pick forged from a single piece of iron, Ironfang has a fang-like head inscribed with ancient runes. The pick is heavy in the hand, but when the wielder swings the pick in anger, the weapon seems almost weightless. This weapon is immune to any form of rust, acid, or corrosion—nothing seems to mark it. Ironfang contains a spark of Ogremoch, the Prince of Evil Earth.</p>
 			<p class="indent">You gain a +2 bonus to attack and damage rolls you make with this magic weapon. When you hit with it, the target takes an extra 1d8 thunder damage.</p>
-			<p class="indent"><strong><em>Earth Mastery.</em></strong> You gain the following benefits while you hold Ironfang:</p>
+			<p class="indent">
+				<strong>
+					<em>Earth Mastery.</em>
+				</strong> You gain the following benefits while you hold Ironfang:</p>
 			<ul>
 				<li>You can speak Terran fluently.</li>
 				<li>You have resistance to acid damage.</li>
@@ -217,9 +249,18 @@
 				<li>You can cast dominate monster (save DC 17) on an earth elemental. Once you have done so, Ironfang can't be used this way again until the next dawn.</li>
 				<li></li>
 			</ul>
-			<p class="indent"><strong><em>Shatter.</em></strong> Ironfang has 3 charges. You can use your action to expend 1 charge and cast the 2nd-level version of shatter (DC 17). Ironfang regains ld3 expended charges daily at dawn.</p>
-			<p class="indent"><strong><em>The Rumbling.</em></strong> While inside an earth node, you can perform a ritual called the Rumbling, using Ironfang to create a devastation orb of earth (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Ironfang can't be used to perform the ritual again until the next dawn.</p>
-			<p class="indent"><strong><em>Flaw.</em></strong> Ironfang heightens its wielder's destructive nature. While attuned to the weapon, you gain the following flaw: "I like to break things and cause ruin."</p>
+			<p class="indent">
+				<strong>
+					<em>Shatter.</em>
+				</strong> Ironfang has 3 charges. You can use your action to expend 1 charge and cast the 2nd-level version of shatter (DC 17). Ironfang regains ld3 expended charges daily at dawn.</p>
+			<p class="indent">
+				<strong>
+					<em>The Rumbling.</em>
+				</strong> While inside an earth node, you can perform a ritual called the Rumbling, using Ironfang to create a devastation orb of earth (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Ironfang can't be used to perform the ritual again until the next dawn.</p>
+			<p class="indent">
+				<strong>
+					<em>Flaw.</em>
+				</strong> Ironfang heightens its wielder's destructive nature. While attuned to the weapon, you gain the following flaw: "I like to break things and cause ruin."</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -241,14 +282,23 @@
 		<description>
 			<p>A flint dagger, Tinderstrike is uncommonly sharp, and sparks cascade off its edge whenever it strikes something solid. Its handle is always warm to the touch, and the blade smolders for 1d4 minutes after it is used to deal damage. It contains a spark of Imix, Prince of Evil Fire.</p>
 			<p class="indent">You gain a +2 bonus to attack and damage rolls you make with this magic weapon. When you hit with it, the target takes an extra 2d6 fire damage.</p>
-			<p class="indent"><strong><em>Fire Mastery.</em></strong> You gain the following benefits while you hold Tinderstrike:</p>
+			<p class="indent">
+				<strong>
+					<em>Fire Mastery.</em>
+				</strong> You gain the following benefits while you hold Tinderstrike:</p>
 			<ul>
 				<li>You can speak Ignan fluently.</li>
 				<li>You have resistance to fire damage.</li>
 				<li>You can cast dominate monster (save DC 17) on a fire elemental. Once you have done so, Tinderstrike can't be used this way again until the next dawn.</li>
 			</ul>
-			<p class="indent"><strong><em>Dance of the All-Consuming Fire.</em></strong> While inside a fire node, you can perform a ritual called the Dance of the All-Consuming Fire, using Tinderstrike to create a devastation orb of Are (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Tinderstrike can't be used to perform the ritual again until the next dawn.</p>
-			<p class="indent"><strong><em>Flaw.</em></strong> Tinderstrike makes its wielder impatient and rash. While attuned to the weapon, you gain the following flaw: "I act without thinking and take risks without weighing the consequences."</p>
+			<p class="indent">
+				<strong>
+					<em>Dance of the All-Consuming Fire.</em>
+				</strong> While inside a fire node, you can perform a ritual called the Dance of the All-Consuming Fire, using Tinderstrike to create a devastation orb of Are (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Tinderstrike can't be used to perform the ritual again until the next dawn.</p>
+			<p class="indent">
+				<strong>
+					<em>Flaw.</em>
+				</strong> Tinderstrike makes its wielder impatient and rash. While attuned to the weapon, you gain the following flaw: "I act without thinking and take risks without weighing the consequences."</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -267,14 +317,23 @@
 		<description>
 			<p>A silver spear, Windvane has dark sapphires on the filigreed surface of its polished head. Held by its shining haft, the weapon feels insubstantial, as if clutching a cool, gently flowing breeze. The spear contains a spark of Yan-C-Bin, the Prince of Evil Air.</p>
 			<p class="indent">You have a +2 bonus to attack rolls and damage rolls you make with this magic weapon, which has the finesse weapon property. When you hit with it, the target takes an extra 1d6 lightning damage.</p>
-			<p class="indent"><strong><em>Air Mastery.</em></strong> You gain the following benefits while you hold Windvane:</p>
+			<p class="indent">
+				<strong>
+					<em>Air Mastery.</em>
+				</strong> You gain the following benefits while you hold Windvane:</p>
 			<ul>
 				<li>You can speak Auran fluently.</li>
 				<li>You have resistance to lightning damage.</li>
 				<li>You can cast dominate monster (save DC 17) on an air elemental. Once you have done so, Windvane can't be used this way again until the next dawn.</li>
 			</ul>
-			<p class="indent"><strong><em>Song of the Four Winds.</em></strong> While inside an air node, you can perform a ritual called the Song of the Four Winds, using Windvane to create a devastation orb of air (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Windvane can't be used to perform the ritual again until the next dawn.</p>
-			<p class="indent"><strong><em>Flaw.</em></strong> Windvane makes its wielder mercurial and unreliable. While attuned to the weapon, you gain the following flaw: "I break my vows and plans. Duty and honor mean nothing to me."</p>
+			<p class="indent">
+				<strong>
+					<em>Song of the Four Winds.</em>
+				</strong> While inside an air node, you can perform a ritual called the Song of the Four Winds, using Windvane to create a devastation orb of air (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Windvane can't be used to perform the ritual again until the next dawn.</p>
+			<p class="indent">
+				<strong>
+					<em>Flaw.</em>
+				</strong> Windvane makes its wielder mercurial and unreliable. While attuned to the weapon, you gain the following flaw: "I break my vows and plans. Duty and honor mean nothing to me."</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>

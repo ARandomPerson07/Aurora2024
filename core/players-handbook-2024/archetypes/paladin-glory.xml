@@ -5,7 +5,7 @@
 		<description>The Oath of Glory subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="paladin-glory.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/paladin-glory.xml" />
+			<file name="paladin-glory.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/paladin-glory.xml" />
 		</update>
 	</info>
 	<element name="Oath of Glory" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_PALADIN_OATH_OF_GLORY">
@@ -52,13 +52,41 @@
 			<h5 class="caption">Oath of Glory Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Paladin Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Paladin Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Guiding Bolt, Heroism</em></td></tr>
-				<tr><td>5th</td><td><em>Enhance Ability, Magic Weapon</em></td></tr>
-				<tr><td>9th</td><td><em>Haste, Protection from Energy</em></td></tr>
-				<tr><td>13th</td><td><em>Compulsion, Freedom of Movement</em></td></tr>
-				<tr><td>17th</td><td><em>Legend Lore, Yolande's Regal Presence</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Guiding Bolt, Heroism</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Enhance Ability, Magic Weapon</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Haste, Protection from Energy</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>Compulsion, Freedom of Movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>Legend Lore, Yolande's Regal Presence</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -117,9 +145,18 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOG_LIVING_LEGEND</requirements>
 		<description>
 			<p>You can empower yourself with the legends —whether true or exaggerated— of your great deeds. As a bonus action, you gain the  benefits below for 10 minutes. Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p>
-			<p class="indent"><b><i>Charismatic.</i></b> You are blessed with an otherworldly presence and have Advantage on all Charisma checks.</p>
-			<p class="indent"><b><i>Saving Throw Reroll.</i></b> If you fail a saving throw, you can take a Reaction to reroll it. You must use this new roll.</p>
-			<p class="indent"><b><i>Unerring Strike.</i></b> Once on each of your turns when you make an attack roll with a weapon and miss, you can cause that attack to hit instead.</p>
+			<p class="indent">
+				<b>
+					<i>Charismatic.</i>
+				</b> You are blessed with an otherworldly presence and have Advantage on all Charisma checks.</p>
+			<p class="indent">
+				<b>
+					<i>Saving Throw Reroll.</i>
+				</b> If you fail a saving throw, you can take a Reaction to reroll it. You must use this new roll.</p>
+			<p class="indent">
+				<b>
+					<i>Unerring Strike.</i>
+				</b> Once on each of your turns when you make an attack roll with a weapon and miss, you can cause that attack to hit instead.</p>
 		</description>
 		<sheet alt="Living Legend" action="Bonus Action" usage="1/Long Rest">
 			<description>You gain the following benefits for 10 minutes: &#13;
@@ -157,7 +194,7 @@
 		<sheet usage="1/Turn">
 			<description>When you make a weapon attack and miss, you can cause that attack to hit instead.</description>
 		</sheet>
-	</element>	
+	</element>
 
 	<!--Feature Replacement Grants-->
 	<element name="Inspiring Smite Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOG_INSPIRING_SMITE" />

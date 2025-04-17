@@ -2,9 +2,9 @@
 <elements>
 	<info>
 		<update version="0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/rime-of-the-frostmaiden/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/rime-of-the-frostmaiden/items.xml" />
 		</update>
-	</info>	
+	</info>
 	<element name="Snowshoes" type="Item" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_ITEM_SNOWSHOES">
 		<description>
 			<p>Snowshoes reduce the likelihood of their wearer getting stuck in the deep snow.</p>
@@ -20,15 +20,42 @@
 		<description>
 			<p>The Incantations of Iriolarthas is a weighty spellbook. Its black leather covers have dead, toothy worms glued to them, sheathed in glossy varnish. Set into this morbid display on the front cover is a gold rune that resembles a stylized eye with a pupil shaped like a candle flame—the sigil of Iriolarthas, a Netherese lich.</p>
 			<p class="indent">The book contains sixty pages of brittle yellow vellum. Written on these pages are the following wizard spells:</p>
-			<p class="indent"><strong><em>1st level: </em></strong> alarm, detect magic, identify, magic missile, shield, Tasha's hideous laughter, thunderwave</p>
-			<p class="indent"><strong><em>2nd level: </em></strong> arcane lock, continual flame, invisibility, knock, levitate, Melf's acid arrow, mirror image</p>
-			<p class="indent"><strong><em>3rd level: </em></strong> animate dead, bestow curse, clairvoyance, counterspell, dispel magic, fireball, glyph of warding</p>
-			<p class="indent"><strong><em>4th level: </em></strong> arcane eye, banishment, blight, dimension door, Evard's black tentacles, phantasmal killer</p>
-			<p class="indent"><strong><em>5th level: </em></strong> Bigby's hand, cloudkill, dominate person, planar binding, scrying, telekinesis</p>
-			<p class="indent"><strong><em>6th level: </em></strong> create undead, disintegrate, globe of invulnerability, move earth, Otto's irresistible dance</p>
-			<p class="indent"><strong><em>7th level: </em></strong> create magen, finger of death, prismatic spray, teleport</p>
-			<p class="indent"><strong><em>8th level: </em></strong> demiplane, dominate monster, mind blank, power word stun</p>
-			<p class="indent"><strong><em>9th level: </em></strong> blade of disaster, power word kill</p>
+			<p class="indent">
+				<strong>
+					<em>1st level: </em>
+				</strong> alarm, detect magic, identify, magic missile, shield, Tasha's hideous laughter, thunderwave</p>
+			<p class="indent">
+				<strong>
+					<em>2nd level: </em>
+				</strong> arcane lock, continual flame, invisibility, knock, levitate, Melf's acid arrow, mirror image</p>
+			<p class="indent">
+				<strong>
+					<em>3rd level: </em>
+				</strong> animate dead, bestow curse, clairvoyance, counterspell, dispel magic, fireball, glyph of warding</p>
+			<p class="indent">
+				<strong>
+					<em>4th level: </em>
+				</strong> arcane eye, banishment, blight, dimension door, Evard's black tentacles, phantasmal killer</p>
+			<p class="indent">
+				<strong>
+					<em>5th level: </em>
+				</strong> Bigby's hand, cloudkill, dominate person, planar binding, scrying, telekinesis</p>
+			<p class="indent">
+				<strong>
+					<em>6th level: </em>
+				</strong> create undead, disintegrate, globe of invulnerability, move earth, Otto's irresistible dance</p>
+			<p class="indent">
+				<strong>
+					<em>7th level: </em>
+				</strong> create magen, finger of death, prismatic spray, teleport</p>
+			<p class="indent">
+				<strong>
+					<em>8th level: </em>
+				</strong> demiplane, dominate monster, mind blank, power word stun</p>
+			<p class="indent">
+				<strong>
+					<em>9th level: </em>
+				</strong> blade of disaster, power word kill</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
@@ -59,7 +86,7 @@
 			<set name="slot">misc</set>
 		</setters>
 	</element>
-	<element name="Dogsled" type="Item" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_ITEM_DOGSLED">	
+	<element name="Dogsled" type="Item" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_ITEM_DOGSLED">
 		<description>
 			<p>An empty sled costs 20 gp, weighs 300 pounds, and has room at the back for one driver.</p>
 		</description>
@@ -74,7 +101,10 @@
 		<description>
 			<p>A sled dog (use the wolf stat block in appendix A of the Monster Manual) costs 50 gp and can pull 360 pounds.</p>
 			<p class="indent">Sled dogs must take a short rest after pulling a sled for 1 hour; otherwise, they gain one level of exhaustion.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> 40 ft.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> 40 ft.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
@@ -82,12 +112,18 @@
 			<set name="weight" lb="0" excludeEncumbrance="true">—</set>
 			<set name="type">Mount</set>
 		</setters>
-	</element> 
+	</element>
 	<element name="Axe Beak" type="Item" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_ITEM_AXE_BEAK">
 		<description>
 			<p>An axe beak's splayed toes allow it to run across snow, and it can carry as much weight as a mule. A domesticated axe beak can be purchased in Ten-Towns for 50 gp.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> 40 ft.</p>
-			<p class="indent"><strong><em>Carrying Capacity.</em></strong>420 lb.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> 40 ft.</p>
+			<p class="indent">
+				<strong>
+					<em>Carrying Capacity.</em>
+				</strong>420 lb.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
@@ -130,12 +166,32 @@
 			<h5 class="caption">Hook of Fisher's Delight</h5>
 			<table>
 				<thead>
-					<tr><td>d20</td><td>Fish Color</td><td>Result</td></tr>
+					<tr>
+						<td>d20</td>
+						<td>Fish Color</td>
+						<td>Result</td>
+					</tr>
 				</thead>
-				<tr><td>1-10</td><td>Green with copper bands</td><td>This tasty fish provides a day's worth of nourishment to one creature that eats it. The fish loses this property and rots if it's not eaten within 24 hours of being caught.</td></tr>
-				<tr><td>11-14</td><td>Yellow with black stripes</td><td>Once removed from the hook, this awful-tasting fish can be thrown up to 120 feet, targeting a creature the thrower can see. The target must succeed on a DC 15 Strength saving throw or be knocked prone. The fish then disappears.</td></tr>
-				<tr><td>15-18</td><td>Blue with white bands</td><td>When released from the hook, this fish squirms free, sprouts wings, follows you around, and sings a beautiful tune in Aquan. It disappears after 2d4 hours or when reduced to 0 hit points. The fish uses the quipper stat block, except that it can breathe air and has a flying speed of 30 feet.</td></tr>
-				<tr><td>19-20</td><td>Gold with silver stripes</td><td>This tasty fish provides a day's worth of nourishment to one creature that eats it and grants 2d10 temporary hit points to that creature. The fish loses these properties and rots if it's not eaten within 24 hours of being caught.</td></tr>
+				<tr>
+					<td>1-10</td>
+					<td>Green with copper bands</td>
+					<td>This tasty fish provides a day's worth of nourishment to one creature that eats it. The fish loses this property and rots if it's not eaten within 24 hours of being caught.</td>
+				</tr>
+				<tr>
+					<td>11-14</td>
+					<td>Yellow with black stripes</td>
+					<td>Once removed from the hook, this awful-tasting fish can be thrown up to 120 feet, targeting a creature the thrower can see. The target must succeed on a DC 15 Strength saving throw or be knocked prone. The fish then disappears.</td>
+				</tr>
+				<tr>
+					<td>15-18</td>
+					<td>Blue with white bands</td>
+					<td>When released from the hook, this fish squirms free, sprouts wings, follows you around, and sings a beautiful tune in Aquan. It disappears after 2d4 hours or when reduced to 0 hit points. The fish uses the quipper stat block, except that it can breathe air and has a flying speed of 30 feet.</td>
+				</tr>
+				<tr>
+					<td>19-20</td>
+					<td>Gold with silver stripes</td>
+					<td>This tasty fish provides a day's worth of nourishment to one creature that eats it and grants 2d10 temporary hit points to that creature. The fish loses these properties and rots if it's not eaten within 24 hours of being caught.</td>
+				</tr>
 			</table>
 		</description>
 		<setters>
@@ -153,18 +209,51 @@
 			<h5 class="caption">Lantern of Tracking</h5>
 			<table>
 				<thead>
-					<tr><td>d10</td><td>Creature Type</td></tr>
+					<tr>
+						<td>d10</td>
+						<td>Creature Type</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Aberrations</td></tr>
-				<tr><td>2</td><td>Celestials</td></tr>
-				<tr><td>3</td><td>Constructs</td></tr>
-				<tr><td>4</td><td>Dragons</td></tr>
-				<tr><td>5</td><td>Elementals</td></tr>
-				<tr><td>6</td><td>Fey</td></tr>
-				<tr><td>7</td><td>Fiends</td></tr>
-				<tr><td>8</td><td>Giants</td></tr>
-				<tr><td>9</td><td>Monstrosities</td></tr>
-				<tr><td>10</td><td>Undead</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Aberrations</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Celestials</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Constructs</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Dragons</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Elementals</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Fey</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Fiends</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Giants</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Monstrosities</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Undead</td>
+				</tr>
 			</table>
 		</description>
 		<setters>
@@ -217,12 +306,32 @@
 			<h5 class="caption">Psi Crystal Properties</h5>
 			<table>
 				<thead>
-					<tr><td>Intelligence Score</td><td>Range of Telepathy</td><td>Light Intensity</td></tr>
+					<tr>
+						<td>Intelligence Score</td>
+						<td>Range of Telepathy</td>
+						<td>Light Intensity</td>
+					</tr>
 				</thead>
-				<tr><td>3-7</td><td>15 feet</td><td>Dim light out to a range of 5 feet</td></tr>
-				<tr><td>8-11</td><td>30 feet</td><td>Bright light in a 5-foot radius and dim light for an additional 5 feet</td></tr>
-				<tr><td>12-15</td><td>60 feet</td><td>Bright light in a 10-foot radius and dim light for an additional 10 feet</td></tr>
-				<tr><td>16 or higher</td><td>120 feet</td><td>Bright light in a 15-foot radius and dim light for an additional 15 feet</td></tr>
+				<tr>
+					<td>3-7</td>
+					<td>15 feet</td>
+					<td>Dim light out to a range of 5 feet</td>
+				</tr>
+				<tr>
+					<td>8-11</td>
+					<td>30 feet</td>
+					<td>Bright light in a 5-foot radius and dim light for an additional 5 feet</td>
+				</tr>
+				<tr>
+					<td>12-15</td>
+					<td>60 feet</td>
+					<td>Bright light in a 10-foot radius and dim light for an additional 10 feet</td>
+				</tr>
+				<tr>
+					<td>16 or higher</td>
+					<td>120 feet</td>
+					<td>Bright light in a 15-foot radius and dim light for an additional 15 feet</td>
+				</tr>
 			</table>
 		</description>
 		<setters>
@@ -321,7 +430,10 @@
 				<li>As an action, you can cause one magic item you are holding within 30 feet of the Ythryn mythallar to immediately regain all its expended charges or uses. A magic item recharged in this manner can't be recharged by the Ythryn mythallar again until after the item regains expended charges or uses on its own.</li>
 				<li>You can use the Ythryn mythallar to cast the control weather spell without requiring any components and without the need for you to be outdoors. This casting of the spell has a 50-mile radius. For the duration of the spell's casting time, you must be within 30 feet of the Ythryn mythallar or the spell fails.</li>
 			</ul>
-			<p class="indent"><strong><em>Touching the Mythallar.</em></strong> Any creature that touches the globe of the mythallar must make a DC 22 Constitution saving throw, taking 180 (20d10 + 70) radiant damage on a failed save, or half as much damage on a successful one. Undead have disadvantage on this saving throw. Any object that touches the globe, other than an artifact or the mythallar's cradle, is disintegrated instantly (no save).</p>
+			<p class="indent">
+				<strong>
+					<em>Touching the Mythallar.</em>
+				</strong> Any creature that touches the globe of the mythallar must make a DC 22 Constitution saving throw, taking 180 (20d10 + 70) radiant damage on a failed save, or half as much damage on a successful one. Undead have disadvantage on this saving throw. Any object that touches the globe, other than an artifact or the mythallar's cradle, is disintegrated instantly (no save).</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>

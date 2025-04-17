@@ -5,18 +5,22 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
 		<update version="0.0.7">
-			<file name="boros-legionnaire.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/guildmasters-guide-to-ravnica/backgrounds/boros-legionnaire.xml" />
+			<file name="boros-legionnaire.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/guildmasters-guide-to-ravnica/backgrounds/boros-legionnaire.xml" />
 		</update>
 	</info>
-    
+
 	<element name="Boros Legionnaire" type="Background" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_BOROS_LEGIONNAIRE">
 		<description>
 			<p>As a member of the Boros Legion, your life is devoted to the service of angels and consecrated to the work of establishing justice and peace on the streets of Ravnica. You might be a true believer, inspired by the example of the angels, moved by the plight of the downtrodden, and devoted to the cause of justice. Or you could be a cynic in the ranks, perhaps because you reluctantly followed in the footsteps of a Boros parent, succumbed to the persuasion of a charismatic recruiter’s lofty promises, or were drawn in by the prospect of a life of action.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Athletics, Intimidation</li>
-				<li><strong>Tool Proficiencies:</strong> One type of gaming set</li>
-				<li><strong>Languages:</strong> Choose one of Celestial, Draconic, Goblin, or Minotaur</li>
-				<li><strong>Equipment:</strong> A Boros insignia, a feather from an angel’s wing, a tattered piece of a Boros banner (a souvenir from a famous battle), a set of common clothes, and a belt pouch containing 2 gp (Boros-minted 1-zino coins)</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Athletics, Intimidation</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> One type of gaming set</li>
+				<li>
+					<strong>Languages:</strong> Choose one of Celestial, Draconic, Goblin, or Minotaur</li>
+				<li>
+					<strong>Equipment:</strong> A Boros insignia, a feather from an angel’s wing, a tattered piece of a Boros banner (a souvenir from a famous battle), a set of common clothes, and a belt pouch containing 2 gp (Boros-minted 1-zino coins)</li>
 			</ul>
 			<div element="ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_LEGION_STATION" />
 			<div element="ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_BOROS_GUILD_SPELLS" />
@@ -82,19 +86,54 @@
 	<element name="Boros Guild Spells" type="Background Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_BOROS_GUILD_SPELLS">
 		<supports>2nd Background Feature</supports>
 		<description>
-			<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+			<p>
+				<em>Prerequisite: Spellcasting or Pact Magic class feature</em>
+			</p>
 			<p>For you, the spells on the Boros Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p>
 			<h5>Boros Guild Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>Cantrip</td><td><em>fire bolt, sacred flame</em></td></tr>
-				<tr><td>1st</td><td><em>guiding bolt, heroism</em></td></tr>
-				<tr><td>2nd</td><td><em>aid, scorching ray</em></td></tr>
-				<tr><td>3rd</td><td><em>beacon of hope, blinding smite</em></td></tr>
-				<tr><td>4th</td><td><em>death ward, wall of fire</em></td></tr>
-				<tr><td>5th</td><td><em>flame strike</em></td></tr>
+				<tr>
+					<td>Cantrip</td>
+					<td>
+						<em>fire bolt, sacred flame</em>
+					</td>
+				</tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>guiding bolt, heroism</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>aid, scorching ray</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>beacon of hope, blinding smite</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>death ward, wall of fire</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>flame strike</em>
+					</td>
+				</tr>
 			</table>
 			<p class="indent">Your magic often features dramatic bursts of flame or radiance. When you cast beneficial spells on your allies, they appear momentarily surrounded with halos of bright fire.</p>
 		</description>

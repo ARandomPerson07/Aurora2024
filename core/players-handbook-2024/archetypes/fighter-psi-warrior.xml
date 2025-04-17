@@ -5,7 +5,7 @@
 		<description>The Psi Warrior subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="fighter-psi-warrior.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/fighter-psi-warrior.xml" />
+			<file name="fighter-psi-warrior.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/fighter-psi-warrior.xml" />
 		</update>
 	</info>
 
@@ -39,20 +39,57 @@
 			<h5 class="caption">Psi Warrior Energy Dice</h5>
 			<table>
 				<thead>
-					<tr><td class="center">Fighter Level</td><td class="center">Die Size</td><td class="center">Number</td></tr>
+					<tr>
+						<td class="center">Fighter Level</td>
+						<td class="center">Die Size</td>
+						<td class="center">Number</td>
+					</tr>
 				</thead>
-				<tr><td class="center">3</td><td class="center">d6</td><td class="center">4</td></tr>
-				<tr><td class="center">5</td><td class="center">d8</td><td class="center">6</td></tr>
-				<tr><td class="center">9</td><td class="center">d8</td><td class="center">8</td></tr>
-				<tr><td class="center">11</td><td class="center">d10</td><td class="center">8</td></tr>
-				<tr><td class="center">13</td><td class="center">d10</td><td class="center">10</td></tr>
-				<tr><td class="center">17</td><td class="center">d12</td><td class="center">12</td></tr>
+				<tr>
+					<td class="center">3</td>
+					<td class="center">d6</td>
+					<td class="center">4</td>
+				</tr>
+				<tr>
+					<td class="center">5</td>
+					<td class="center">d8</td>
+					<td class="center">6</td>
+				</tr>
+				<tr>
+					<td class="center">9</td>
+					<td class="center">d8</td>
+					<td class="center">8</td>
+				</tr>
+				<tr>
+					<td class="center">11</td>
+					<td class="center">d10</td>
+					<td class="center">8</td>
+				</tr>
+				<tr>
+					<td class="center">13</td>
+					<td class="center">d10</td>
+					<td class="center">10</td>
+				</tr>
+				<tr>
+					<td class="center">17</td>
+					<td class="center">d12</td>
+					<td class="center">12</td>
+				</tr>
 			</table>
 			<p>Any features in this subclass that use a Psionic Energy Die use only the dice from this subclass. Some of your powers expend the Psionic Energy Die, as specified in a power's description, and you can't use a power if it requires you to use a die when all your Psionic Energy Dice are expended.</p>
 			<p class="indent">You regain one of your expended Psionic Energy Dice when you finish a Short Rest, and you regain all of them when you finish a Long Rest.</p>
-			<p><em><strong>Protective Field.</strong></em> When you or another creature you can see within 30 feet of you takes damage, you can take a Reaction to expend one Psionic Energy Die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force.</p>
-			<p><em><strong>Psionic Strike.</strong></em> You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon, you can expend one Psionic Energy Die, rolling it and dealing Force damage to the target equal to the number rolled plus your Intelligence modifier.</p>
-			<p><em><strong>Telekinetic Movement.</strong></em> You can move an object or a creature with your mind. As a Magic action, choose one target you can see within 30 feet of yourself; the target must be a loose object that is Large or smaller or one willing creature other than you. You transport the target up to 30 feet to an unoccupied space you can see. Alternatively, if the target is a Tiny object, you can transport it to or from your hand.</p>
+			<p>
+				<em>
+					<strong>Protective Field.</strong>
+				</em> When you or another creature you can see within 30 feet of you takes damage, you can take a Reaction to expend one Psionic Energy Die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force.</p>
+			<p>
+				<em>
+					<strong>Psionic Strike.</strong>
+				</em> You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon, you can expend one Psionic Energy Die, rolling it and dealing Force damage to the target equal to the number rolled plus your Intelligence modifier.</p>
+			<p>
+				<em>
+					<strong>Telekinetic Movement.</strong>
+				</em> You can move an object or a creature with your mind. As a Magic action, choose one target you can see within 30 feet of yourself; the target must be a loose object that is Large or smaller or one willing creature other than you. You transport the target up to 30 feet to an unoccupied space you can see. Alternatively, if the target is a Tiny object, you can transport it to or from your hand.</p>
 			<p class="indent">Once you take this action, you can't do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.</p>
 		</description>
 		<sheet usage="{{psionic power:dice:amount}}d{{psionic power:dice:size}}/Long Rest">
@@ -118,8 +155,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_PSI_WARRIOR_TELEKINETIC_ADEPT</requirements>
 		<description>
 			<p>You have mastered new ways to use your telekinetic abilities, detailed below.</p>
-			<p><em><strong>Psi-Powered Leap.</strong></em> As a Bonus Action, you gain a Fly Speed equal to twice your Speed until the end of the current turn. Once you take this Bonus Action, you can't do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.</p>
-			<p><em><strong>Telekinetic Thrust.</strong></em> When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw (DC 8 plus your Intelligence modifier and Proficiency Bonus). On a failed save, you can give the target the Prone condition or transport it up to 10 feet horizontally.</p>
+			<p>
+				<em>
+					<strong>Psi-Powered Leap.</strong>
+				</em> As a Bonus Action, you gain a Fly Speed equal to twice your Speed until the end of the current turn. Once you take this Bonus Action, you can't do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.</p>
+			<p>
+				<em>
+					<strong>Telekinetic Thrust.</strong>
+				</em> When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw (DC 8 plus your Intelligence modifier and Proficiency Bonus). On a failed save, you can give the target the Prone condition or transport it up to 10 feet horizontally.</p>
 		</description>
 		<sheet alt="Telekinetic Adept">
 			<description>You have mastered new ways to use your telekinetic abilities.</description>
@@ -192,7 +235,7 @@
 			<p>You always have the <em>Telekinesis</em> spell prepared. With this feature, you can cast it without a spell slot or components, and your spellcasting ability for it is Intelligence. On each of your turns while you maintain Concentration on it, including the turn when you cast it, you can make one attack with a weapon as a Bonus Action.</p>
 			<p class="indent">Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.</p>
 		</description>
-		<sheet alt="Telekinetic Master" usage="1/Long Rest" >
+		<sheet alt="Telekinetic Master" usage="1/Long Rest">
 			<description>You can cast the Telekinesis spell, using Intelligence as your spellcasting ability for it. On each of your turns while you maintain Concentration on it (including the turn when you cast it), you can make one attack with a weapon as a Bonus Action. &#13;
 			You can expend a Psionic Energy Die (no action required) to restore your use of this feature.</description>
 		</sheet>

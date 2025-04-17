@@ -5,7 +5,7 @@
 		<description>The Oath of Redemption from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
 		<update version="0.1.3">
-			<file name="paladin-redemption.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/paladin-redemption.xml" />
+			<file name="paladin-redemption.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/paladin-redemption.xml" />
 		</update>
 	</info>
 
@@ -16,10 +16,22 @@
 			<p class="indent">While redeemers are idealists, they are no fools. Redeemers know that undead, demons, devils, and other supernatural threats can be inherently evil. Against such fees, paladins who swear this oath bring the full wrath of their weapons and spells to bear. Yet the redeemers still pray that, one day, even creatures of wickedness will invite their own redemption.</p>
 			<h5>TENETS OF REDEMPTION</h5>
 			<p>The tenets of the Oath of Redemption hold a paladin to a high standard of peace and justice.</p>
-			<p class="indent"><b><i>Peace. </i></b>Violence is a weapon of last resort. Diplomacy and understanding are the paths to long-lasting peace.</p>
-			<p class="indent"><b><i>Innocence. </i></b>All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil. By setting the proper example, and working to heal the wounds of a deeply flawed world, you can set anyone on a righteous path.</p>
-			<p class="indent"><b><i>Patience. </i></b>Change takes time. Those who have walked the path of the wicked must be given reminders to keep them honest and true. Once you have planted the seed of righteousness in a creature, you must work day after day to allow that seed to survive and flourish.</p>
-			<p class="indent"><b><i>Wisdom. </i></b>Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just.</p>
+			<p class="indent">
+				<b>
+					<i>Peace. </i>
+				</b>Violence is a weapon of last resort. Diplomacy and understanding are the paths to long-lasting peace.</p>
+			<p class="indent">
+				<b>
+					<i>Innocence. </i>
+				</b>All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil. By setting the proper example, and working to heal the wounds of a deeply flawed world, you can set anyone on a righteous path.</p>
+			<p class="indent">
+				<b>
+					<i>Patience. </i>
+				</b>Change takes time. Those who have walked the path of the wicked must be given reminders to keep them honest and true. Once you have planted the seed of righteousness in a creature, you must work day after day to allow that seed to survive and flourish.</p>
+			<p class="indent">
+				<b>
+					<i>Wisdom. </i>
+				</b>Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just.</p>
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_OATH_SPELLS" />
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_CHANNEL_DIVINITY" />
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_AURA_OF_THE_GUARDIAN" />
@@ -37,21 +49,49 @@
 			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_EMISSARY_OF_REDEMPTION" level="20" />
 		</rules>
 	</element>
-	
+
 	<element name="Oath Spells" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_OATH_SPELLS">
 		<description>
 			<p>You gain oath spells at the paladin levels listed in the Oath of Redemption Spells table. See the Sacred Oath class feature for how oath spells work.</p>
 			<h5>Oath of Redemption Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Paladin Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Paladin Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>sanctuary, sleep</em></td></tr>
-				<tr><td>5th</td><td><em>calm emotions, hold person</em></td></tr>
-				<tr><td>9th</td><td><em>counterspell, hypnotic pattern</em></td></tr>
-				<tr><td>13th</td><td><em>Otiluke’s resilient sphere, stoneskin</em></td></tr>
-				<tr><td>17th</td><td><em>hold monster, wall of force</em></td></tr>
-			</table>     
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>sanctuary, sleep</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>calm emotions, hold person</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>counterspell, hypnotic pattern</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>Otiluke’s resilient sphere, stoneskin</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>hold monster, wall of force</em>
+					</td>
+				</tr>
+			</table>
 		</description>
 		<sheet display="false">
 			<description>You gain oath spells at the paladin levels listed in the Oath of Redemption Spells table.</description>
@@ -73,9 +113,15 @@
 	<element name="Channel Divinity" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_CHANNEL_DIVINITY">
 		<compendium display="false" />
 		<description>
-		<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
-			<p class="indent"><b><i>Emissary of Peace. </i></b>You can use your Channel Divinity to augment your presence with divine power. As a bonus action, you grant yourself a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes.</p>
-			<p class="indent"><b><i>Rebuke the Violent. </i></b>You can use your Channel Divinity to rebuke those who use violence. Immediately after an attacker within 30 feet of you deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage.</p>
+			<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+			<p class="indent">
+				<b>
+					<i>Emissary of Peace. </i>
+				</b>You can use your Channel Divinity to augment your presence with divine power. As a bonus action, you grant yourself a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes.</p>
+			<p class="indent">
+				<b>
+					<i>Rebuke the Violent. </i>
+				</b>You can use your Channel Divinity to rebuke those who use violence. Immediately after an attacker within 30 feet of you deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

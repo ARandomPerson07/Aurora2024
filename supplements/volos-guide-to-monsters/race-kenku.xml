@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
 		<update version="0.1.3">
-			<file name="race-kenku.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/volos-guide-to-monsters/race-kenku.xml" />
+			<file name="race-kenku.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/volos-guide-to-monsters/race-kenku.xml" />
 		</update>
 	</info>
 
@@ -43,72 +43,72 @@
 			<p>Your kenku character has the following racial traits.</p>
 			<p>
 				<span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Wisdom score increases by 1.<br/>
-				<span class="feature">Age.</span>Kenku have shorter lifespans than humans. They reach maturity at about 12 years old and can live to 60.<br/>
-				<!-- (removed in Errata v3.0) -->
-				<!-- <span class="feature">Alignment.</span>Kenku are chaotic creatures, rarely making enduring commitments, and they care mostly for preserving their own hides. They are generally chaotic neutral in outlook.<br/> -->
-				<span class="feature">Size.</span>Kenku are around 5 feet tall and weigh between 90 and 120 pounds. Your size is Medium.<br/>
-				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
-				<span class="feature">Expert Forgery.</span>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.<br/>
-				<span class="feature">Kenku Training.</span>You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.<br/>
-				<span class="feature">Mimicry.</span>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.<br/>
-				<span class="feature">Languages.</span>You can read and write Common and Auran, but you can speak only by using your Mimicry trait.<br/>
-			</p>
-		</description>
-		<sheet display="false"/>
-		<setters>
-			<set name="names" type="sound">Smasher, Clanger, Slicer, Basher, Rat Scratch, Whistler, Mouser, Growler, Sail Snap, Hammerer, Cutter</set>
-			<set name="names-format">{{sound}}</set>
-			<set name="height" modifier="1d4">5'0"</set>
-			<set name="weight" modifier="2d10">90 lb.</set>
-		</setters>
-		<rules>
-			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Kenku)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Kenku)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="innate speed" value="30" bonus="base" />
-			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Language" id="ID_MM_LANGUAGE_AURAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language||Kenku Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_EXPERT_FORGERY" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_KENKU_TRAINING" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY" />
-		</rules>
-	</element>
+			<span class="feature">Age.</span>Kenku have shorter lifespans than humans. They reach maturity at about 12 years old and can live to 60.<br/>
+		<!-- (removed in Errata v3.0) -->
+		<!-- <span class="feature">Alignment.</span>Kenku are chaotic creatures, rarely making enduring commitments, and they care mostly for preserving their own hides. They are generally chaotic neutral in outlook.<br/> -->
+		<span class="feature">Size.</span>Kenku are around 5 feet tall and weigh between 90 and 120 pounds. Your size is Medium.<br/>
+	<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+<span class="feature">Expert Forgery.</span>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.<br/>
+<span class="feature">Kenku Training.</span>You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.<br/>
+<span class="feature">Mimicry.</span>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.<br/>
+<span class="feature">Languages.</span>You can read and write Common and Auran, but you can speak only by using your Mimicry trait.<br/>
+</p>
+</description>
+<sheet display="false"/>
+<setters>
+<set name="names" type="sound">Smasher, Clanger, Slicer, Basher, Rat Scratch, Whistler, Mouser, Growler, Sail Snap, Hammerer, Cutter</set>
+<set name="names-format">{{sound}}</set>
+<set name="height" modifier="1d4">5'0"</set>
+<set name="weight" modifier="2d10">90 lb.</set>
+</setters>
+<rules>
+<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Kenku)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Kenku)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<stat name="innate speed" value="30" bonus="base" />
+<grant type="Size" id="ID_SIZE_MEDIUM" />
+<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+<grant type="Language" id="ID_MM_LANGUAGE_AURAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+<select type="Language" name="Customized Language" supports="Custom Race Language||Kenku Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_EXPERT_FORGERY" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_KENKU_TRAINING" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY" />
+</rules>
+</element>
 
-	<append id="ID_MM_LANGUAGE_AURAN">
-		<supports>Kenku Language</supports>
-	</append>
+<append id="ID_MM_LANGUAGE_AURAN">
+<supports>Kenku Language</supports>
+</append>
 
-	<element name="Expert Forgery" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_EXPERT_FORGERY">
-		<description>
-			<p>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</p>
-		</description>
-		<sheet>
-			<description>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</description>
-		</sheet>
-	</element>
+<element name="Expert Forgery" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_EXPERT_FORGERY">
+<description>
+<p>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</p>
+</description>
+<sheet>
+<description>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</description>
+</sheet>
+</element>
 
-	<element name="Kenku Training" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_KENKU_TRAINING">
-		<description>
-			<p>You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.</p>
-		</description>
-		<sheet display="false">
-			<description>You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.</description>
-		</sheet>
-		<rules>
-			<select type="Proficiency" name="Kenku Training" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Customized Skill Proficiency, Kenku Training"  number="2" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-		</rules>
-	</element>
+<element name="Kenku Training" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_KENKU_TRAINING">
+<description>
+<p>You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.</p>
+</description>
+<sheet display="false">
+<description>You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.</description>
+</sheet>
+<rules>
+<select type="Proficiency" name="Kenku Training" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+<select type="Proficiency" name="Customized Skill Proficiency, Kenku Training" number="2" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+</rules>
+</element>
 
-	<element name="Mimicry" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY">
-		<description>
-			<p>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</p>
-		</description>
-		<sheet>
-			<description>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Insight check opposed by your Deception check.</description>
-		</sheet>
-	</element>
+<element name="Mimicry" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY">
+<description>
+<p>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</p>
+</description>
+<sheet>
+<description>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Insight check opposed by your Deception check.</description>
+</sheet>
+</element>
 </elements>

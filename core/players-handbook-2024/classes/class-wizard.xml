@@ -6,7 +6,7 @@
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-wizard.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/classes/class-wizard.xml" />
+			<file name="class-wizard.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/classes/class-wizard.xml" />
 		</update>
 	</info>
 
@@ -19,15 +19,40 @@
 
 			<table>
 				<thead>
-					<tr><td>Core Wizard Traits</td></tr>
+					<tr>
+						<td>Core Wizard Traits</td>
+					</tr>
 				</thead>
-				<tr><td>Primary Ability</td><td class="left">Intelligence </td> </tr>
-				<tr><td>Hit Point Die</td><td class="left">D6 per Wizard level</td></tr>
-				<tr><td>Saving Throw Proficiencies</td><td class="left">Intelligence and Wisdom</td></tr>
-				<tr><td>Skill Proficiencies</td><td class="left"><i>Choose 2:</i> Arcana, History, Insight, Investigation, Medicine, Nature, Religion</td></tr>
-				<tr><td>Weapon Proficiencies</td><td class="left">Simple weapons</td></tr>
-				<tr><td>Armor Training</td><td class="left">None</td></tr>
-				<tr><td>Starting Equipment</td><td class="left"><i> Choose A or B:</i> (A) 2 Daggers, Arcane Focus (Quarterstaff), Robe, Spellbook, Scholar's Pack, and 5 GP; or (B) 55 GP</td></tr>
+				<tr>
+					<td>Primary Ability</td>
+					<td class="left">Intelligence </td>
+				</tr>
+				<tr>
+					<td>Hit Point Die</td>
+					<td class="left">D6 per Wizard level</td>
+				</tr>
+				<tr>
+					<td>Saving Throw Proficiencies</td>
+					<td class="left">Intelligence and Wisdom</td>
+				</tr>
+				<tr>
+					<td>Skill Proficiencies</td>
+					<td class="left">
+						<i>Choose 2:</i> Arcana, History, Insight, Investigation, Medicine, Nature, Religion</td>
+				</tr>
+				<tr>
+					<td>Weapon Proficiencies</td>
+					<td class="left">Simple weapons</td>
+				</tr>
+				<tr>
+					<td>Armor Training</td>
+					<td class="left">None</td>
+				</tr>
+				<tr>
+					<td>Starting Equipment</td>
+					<td class="left">
+						<i> Choose A or B:</i> (A) 2 Daggers, Arcane Focus (Quarterstaff), Robe, Spellbook, Scholar's Pack, and 5 GP; or (B) 55 GP</td>
+				</tr>
 			</table>
 			<h3>BECOMING A WIZARD ...</h3>
 			<h4>As A Level 1 Character</h4>
@@ -43,28 +68,322 @@
 			<h5 class="caption">WIZARD FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>Prepared Spells</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="left">Features</td>
+						<td class="col-10">Cantrips Known</td>
+						<td>Prepared Spells</td>
+						<td>1st</td>
+						<td>2nd</td>
+						<td>3rd</td>
+						<td>4th</td>
+						<td>5th</td>
+						<td>6th</td>
+						<td>7th</td>
+						<td>8th</td>
+						<td>9th</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Spellcasting, Ritual Adept, Arcane Recovery</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td class="left">Scholar</td><td>3</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td class="left">Wizard Subclass</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td class="left">Memorize Spell</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td class="left">Subclass feature</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td class="left">—</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td class="left">—</td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td class="left">Subclass feature</td><td>5</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td class="left">—</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>5</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td class="left">—</td><td>5</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>14th</td><td class="left">Subclass feature</td><td>5</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>15th</td><td class="left">—</td><td>5</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>5</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>17th</td><td class="left">—</td><td>5</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>18th</td><td class="left">Spell Mastery</td><td>5</td><td>23</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>19th</td><td class="left">Epic Boon</td><td>5</td><td>24</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>20th</td><td class="left">Signature Spell</td><td>5</td><td>25</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td class="left">Spellcasting, Ritual Adept, Arcane Recovery</td>
+					<td>3</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td class="left">Scholar</td>
+					<td>3</td>
+					<td>5</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td class="left">Wizard Subclass</td>
+					<td>3</td>
+					<td>6</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td class="left">Memorize Spell</td>
+					<td>4</td>
+					<td>9</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td class="left">Subclass feature</td>
+					<td>4</td>
+					<td>10</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td class="left">—</td>
+					<td>4</td>
+					<td>11</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>12</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td class="left">—</td>
+					<td>4</td>
+					<td>14</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td class="left">Subclass feature</td>
+					<td>5</td>
+					<td>15</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td class="left">—</td>
+					<td>5</td>
+					<td>16</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>5</td>
+					<td>16</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td class="left">—</td>
+					<td>5</td>
+					<td>17</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td class="left">Subclass feature</td>
+					<td>5</td>
+					<td>18</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td class="left">—</td>
+					<td>5</td>
+					<td>19</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>5</td>
+					<td>21</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td class="left">—</td>
+					<td>5</td>
+					<td>22</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td class="left">Spell Mastery</td>
+					<td>5</td>
+					<td>23</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td class="left">Epic Boon</td>
+					<td>5</td>
+					<td>24</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td class="left">Signature Spell</td>
+					<td>5</td>
+					<td>25</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" />
@@ -118,11 +437,11 @@
 		<description>
 			<p>As a student of arcane magic, you have learned to cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class's description.</p>
 			<h5>CANTRIPS</h5>
-			<p>You know three Wizard cantrips of your choice. <i>Light</i>, <i>Mage Hand</i>, and <i>Ray of Frost</i> are recommended. Whenever you finish a long rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p>
+			<p>You know three Wizard cantrips of your choice. <i>Light</i>,				<i>Mage Hand</i>, and <i>Ray of Frost</i> are recommended. Whenever you finish a long rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p>
 			<p class="indent">When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.</p>
 			<h5>SPELLBOOK</h5>
 			<p>Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a tiny object that weights 3 pounds, contains 100 pages and can be read only by you or someone casting <i>Identify</i>. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.</p>
-			<p class="indent">The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. <i>Detect Magic</i>, <i>Feather Fall</i>, <i>Mage Armor</i>, <i>Magic Missile</i>, <i>Sleep</i>, and <i>Thunderwave</i> are recommended. </p>
+			<p class="indent">The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. <i>Detect Magic</i>,				<i>Feather Fall</i>,				<i>Mage Armor</i>,				<i>Magic Missile</i>,				<i>Sleep</i>, and <i>Thunderwave</i> are recommended. </p>
 			<p class="indent">Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly. </p>
 			<h5>SPELL SLOTS</h5>
 			<p>The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a long rest.</p>
@@ -135,8 +454,10 @@
 			<h5>SPELLCASTING ABILITY</h5>
 			<p>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</p>
 			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+				<p>
+					<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p>
+					<strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
 			</center>
 			<h5>SPELLCASTING FOCUS</h5>
 			<p>You can use an arcane focus or your spellbook as a Spellcasting Focus for your wizard spells.</p>
@@ -144,7 +465,7 @@
 			<p>Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook. If it's a Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.</p>
 			<h5>COPYING THE BOOK</h5>
 			<p>You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook, but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p>
-			<p class="indent">If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p> 
+			<p class="indent">If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p>
 		</description>
 		<sheet display="false">
 			<description>You can prepare {{wizard:spellcasting:prepare}} spells from the your spellbook. You use an arcane focus to cast spells. and can also cast wizard spells as a ritual.</description>

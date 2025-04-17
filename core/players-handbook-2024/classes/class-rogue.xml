@@ -6,7 +6,7 @@
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.8">
-			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/classes/class-rogue.xml" />
+			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/classes/class-rogue.xml" />
 		</update>
 	</info>
 
@@ -15,19 +15,47 @@
 			<p>Rogues rely on cunning, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem. A few even learn magical tricks to supplement their other abilities. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.</p>
 			<p class="indent">In combat, Rogues prioritize subtle strikes over brute strength. They would rather make one precise strike than wear an opponent down with a barrage of blows.</p>
 			<p class="indent">Some Rogues began their careers as criminals, while others used their cunning to fight crime. Whatever a Rogue’s relation to the law, no common criminal or officer of the law can match the subtle brilliance of the greatest Rogues.</p>
-			
+
 			<table>
 				<thead>
-					<tr><td>Core Rogue Traits</td></tr>
+					<tr>
+						<td>Core Rogue Traits</td>
+					</tr>
 				</thead>
-				<tr><td>Primary Ability</td><td class="left">Dexterity </td> </tr>
-				<tr><td>Hit Point Die</td><td class="left">D8 per Rogue level</td></tr>
-				<tr><td>Saving Throw Proficiencies</td><td class="left">Dexterity and Intelligence</td></tr>
-				<tr><td>Skill Proficiencies</td><td class="left"><i>Choose 4:</i> Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, Stealth</td></tr>
-				<tr><td>Tool Proficiencies</td><td class="left">Thieves’ Tools</td></tr>
-				<tr><td>Weapon Proficiencies</td><td class="left">Simple weapons and Martial weapons that have the Finesse or Light property</td></tr>
-				<tr><td>Armor Training</td><td class="left">Light armor</td></tr>
-				<tr><td>Starting Equipment</td><td class="left"><i> Choose A or B:</i> (A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves’ Tools, Burglar’s Pack, and 8 GP; or (B) 100 GP</td></tr>
+				<tr>
+					<td>Primary Ability</td>
+					<td class="left">Dexterity </td>
+				</tr>
+				<tr>
+					<td>Hit Point Die</td>
+					<td class="left">D8 per Rogue level</td>
+				</tr>
+				<tr>
+					<td>Saving Throw Proficiencies</td>
+					<td class="left">Dexterity and Intelligence</td>
+				</tr>
+				<tr>
+					<td>Skill Proficiencies</td>
+					<td class="left">
+						<i>Choose 4:</i> Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, Stealth</td>
+				</tr>
+				<tr>
+					<td>Tool Proficiencies</td>
+					<td class="left">Thieves’ Tools</td>
+				</tr>
+				<tr>
+					<td>Weapon Proficiencies</td>
+					<td class="left">Simple weapons and Martial weapons that have the Finesse or Light property</td>
+				</tr>
+				<tr>
+					<td>Armor Training</td>
+					<td class="left">Light armor</td>
+				</tr>
+				<tr>
+					<td>Starting Equipment</td>
+					<td class="left">
+						<i> Choose A or B:</i> (A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves’ Tools, Burglar’s Pack, and 8 GP; or (B) 100 GP</td>
+				</tr>
 			</table>
 			<h3>BECOMING A ROGUE ...</h3>
 			<h4>As A Level 1 Character</h4>
@@ -44,28 +72,112 @@
 			<h5 class="caption">ROGUE FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="col-10">Sneak Attack</td><td class="col-60 left">Features</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="col-10">Sneak Attack</td>
+						<td class="col-60 left">Features</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td>1d6</td><td class="left">Expertise, Sneak Attack, Thieves’ Cant, Weapon Mastery</td></tr>
-				<tr><td> 2nd</td><td>1d6</td><td class="left">Cunning Action</td></tr>
-				<tr><td> 3rd</td><td>2d6</td><td class="left">Roguish Subclass, Steady Aim</td></tr>
-				<tr><td> 4th</td><td>2d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 5th</td><td>3d6</td><td class="left">Cunning Strike, Uncanny Dodge</td></tr>
-				<tr><td> 6th</td><td>3d6</td><td class="left">Expertise</td></tr>
-				<tr><td> 7th</td><td>4d6</td><td class="left">Evasion, Reliable Talent</td></tr>
-				<tr><td> 8th</td><td>4d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 9th</td><td>5d6</td><td class="left">Subclass Feature</td></tr>
-				<tr><td>10th</td><td>5d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>11th</td><td>6d6</td><td class="left">Improved Cunning Strike</td></tr>
-				<tr><td>12th</td><td>6d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>7d6</td><td class="left">Subclass Feature</td></tr>
-				<tr><td>14th</td><td>7d6</td><td class="left">Devious Strikes</td></tr>
-				<tr><td>15th</td><td>8d6</td><td class="left">Slippery Mind</td></tr>
-				<tr><td>16th</td><td>8d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>9d6</td><td class="left">Subclass Feature</td></tr>
-				<tr><td>18th</td><td>9d6</td><td class="left">Elusive</td></tr>
-				<tr><td>19th</td><td>10d6</td><td class="left">Epic Boon</td></tr>
-				<tr><td>20th</td><td>10d6</td><td class="left">Stroke of Luck</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td>1d6</td>
+					<td class="left">Expertise, Sneak Attack, Thieves’ Cant, Weapon Mastery</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td>1d6</td>
+					<td class="left">Cunning Action</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td>2d6</td>
+					<td class="left">Roguish Subclass, Steady Aim</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td>2d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td>3d6</td>
+					<td class="left">Cunning Strike, Uncanny Dodge</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td>3d6</td>
+					<td class="left">Expertise</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td>4d6</td>
+					<td class="left">Evasion, Reliable Talent</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td>4d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td>5d6</td>
+					<td class="left">Subclass Feature</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td>5d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td>6d6</td>
+					<td class="left">Improved Cunning Strike</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td>6d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>7d6</td>
+					<td class="left">Subclass Feature</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td>7d6</td>
+					<td class="left">Devious Strikes</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td>8d6</td>
+					<td class="left">Slippery Mind</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td>8d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>9d6</td>
+					<td class="left">Subclass Feature</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td>9d6</td>
+					<td class="left">Elusive</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td>10d6</td>
+					<td class="left">Epic Boon</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td>10d6</td>
+					<td class="left">Stroke of Luck</td>
+				</tr>
 			</table>
 			<h3>ROGUE CLASS FEATURES</h3>
 			<p>As a Rogue, you gain the following class features when you reach the specified Rogue levels. These features are listed in the Rogue Features table.</p>
@@ -264,9 +376,18 @@
 		<description>
 			<p>You’ve developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack’s damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack’s damage before rolling.</p>
 			<p class="indent">If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.</p>
-			<p class="indent"><em><strong>Poison (Cost: 1d6).</strong></em> You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success. To use this effect, you must have a Poisoner’s Kit on your person.</p>
-			<p class="indent"><em><strong>Trip (Cost: 1d6).</strong></em> If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.</p>
-			<p class="indent"><em><strong>Withdraw (Cost: 1d6).</strong></em> Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</p>
+			<p class="indent">
+				<em>
+					<strong>Poison (Cost: 1d6).</strong>
+				</em> You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success. To use this effect, you must have a Poisoner’s Kit on your person.</p>
+			<p class="indent">
+				<em>
+					<strong>Trip (Cost: 1d6).</strong>
+				</em> If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.</p>
+			<p class="indent">
+				<em>
+					<strong>Withdraw (Cost: 1d6).</strong>
+				</em> Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</p>
 		</description>
 		<sheet alt="Cunning Strike">
 			<description>When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects by forgoing the indicated Sneak Attack dice: &#13;
@@ -325,9 +446,18 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_DEVIOUS_STRIKES</requirements>
 		<description>
 			<p>You’ve practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.</p>
-			<p class="indent"><em><strong>Daze (Cost: 2d6).</strong></em> The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p>
-			<p class="indent"><em><strong>Knock Out (Cost: 6d6).</strong></em> The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>
-			<p class="indent"><em><strong>Obscure (Cost: 3d6).</strong></em> The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.</p>
+			<p class="indent">
+				<em>
+					<strong>Daze (Cost: 2d6).</strong>
+				</em> The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p>
+			<p class="indent">
+				<em>
+					<strong>Knock Out (Cost: 6d6).</strong>
+				</em> The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>
+			<p class="indent">
+				<em>
+					<strong>Obscure (Cost: 3d6).</strong>
+				</em> The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.</p>
 		</description>
 		<sheet alt="Devious Strikes">
 			<description>You gain the following Cunning Strike options: &#13;
@@ -369,7 +499,7 @@
 		</sheet>
 		<rules>
 			<select type="Feat" name="Epic Boon (Rogue 19)" level="19" />
-			
+
 		</rules>
 	</element>
 

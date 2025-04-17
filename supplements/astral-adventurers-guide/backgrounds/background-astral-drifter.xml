@@ -5,21 +5,24 @@
 		<description></description>
 		<author url="https://dnd.wizards.com/products/spelljammer">Astral Adventurer's Guide</author>
 		<update version="0.0.2">
-			<file name="background-astral-drifter.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/astral-adventurers-guide/backgrounds/background-astral-drifter.xml" />
+			<file name="background-astral-drifter.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/astral-adventurers-guide/backgrounds/background-astral-drifter.xml" />
 		</update>
 	</info>
 
 	<element name="Astral Drifter" type="Background" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_BACKGROUND_ASTRAL_DRIFTER">
 		<description>
-			<p>For longer than you can remember, you have traversed the Astral Sea. There, you experienced first hand the wonders of the Silver Void: you stopped aging and no longer felt hunger or thirst. Driven by wanderlust, you drifted from one part of the Astral Sea to another, like a mote of dust on the wind. You have lost count of the decades that have passed since you arrived here.</p>			
-			<p class="indent">In your travels, you have camped on the petrified hulks of dead gods and narrowly escaped the psychic winds that sweep across the Astral Sea while also avoiding prolonged contact with the plane’s most dangerous denizens.</p>			
+			<p>For longer than you can remember, you have traversed the Astral Sea. There, you experienced first hand the wonders of the Silver Void: you stopped aging and no longer felt hunger or thirst. Driven by wanderlust, you drifted from one part of the Astral Sea to another, like a mote of dust on the wind. You have lost count of the decades that have passed since you arrived here.</p>
+			<p class="indent">In your travels, you have camped on the petrified hulks of dead gods and narrowly escaped the psychic winds that sweep across the Astral Sea while also avoiding prolonged contact with the plane’s most dangerous denizens.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Insight, Religion</li>
-				<li><strong>Languages:</strong> Two of your choice (Celestial or Gith recommended)</li>
-				<li><strong>Equipment:</strong> A set of traveler’s clothes, a diary, an ink pen, a bottle of ink, and a pouch containing 10 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Insight, Religion</li>
+				<li>
+					<strong>Languages:</strong> Two of your choice (Celestial or Gith recommended)</li>
+				<li>
+					<strong>Equipment:</strong> A set of traveler’s clothes, a diary, an ink pen, a bottle of ink, and a pouch containing 10 gp</li>
 			</ul>
 			<h3>Longevity</h3>
-			<p>You are 20d6 years older than you look, because you have spent that much time in the Astral Sea without aging.</p>			
+			<p>You are 20d6 years older than you look, because you have spent that much time in the Astral Sea without aging.</p>
 			<div element="ID_WOTC_AAG_BACKGROUND_FEATURE_ASTRAL_DRIFTER_DIVINE_CONTACT" />
 			<div class="reference">
 				<div element="ID_PHB_FEAT_MAGICINITIATE" />
@@ -46,19 +49,52 @@
 			<h5>Longevity</h5>
 			<table>
 				<thead>
-					<tr><td>d10</td><td>Wandering Deity</td></tr>
+					<tr>
+						<td>d10</td>
+						<td>Wandering Deity</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Corellon, god of art and magic (chaotic good)</td></tr>
-				<tr><td>2</td><td>Tymora, god of good fortune (chaotic good)</td></tr>
-				<tr><td>3</td><td>Fharlanghn, god of horizons and travel (neutral good)</td></tr>
-				<tr><td>4</td><td>Istus, god of fate and destiny (neutral)</td></tr>
-				<tr><td>5</td><td>Nuada, god of war and warriors (neutral)</td></tr>
-				<tr><td>6</td><td>Zivilyn, god of wisdom (neutral)</td></tr>
-				<tr><td>7</td><td>Arawn, god of life and death (neutral evil)</td></tr>
-				<tr><td>8</td><td>Hecate, god of magic and moons (chaotic evil)</td></tr>
-				<tr><td>9</td><td>Celestian, god of stars and wanderers (neutral)</td></tr>
-				<tr><td>10</td><td>Ptah, god of knowledge and secrets (lawful neutral)</td></tr>
-			</table>			
+				<tr>
+					<td>1</td>
+					<td>Corellon, god of art and magic (chaotic good)</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Tymora, god of good fortune (chaotic good)</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Fharlanghn, god of horizons and travel (neutral good)</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Istus, god of fate and destiny (neutral)</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Nuada, god of war and warriors (neutral)</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Zivilyn, god of wisdom (neutral)</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Arawn, god of life and death (neutral evil)</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Hecate, god of magic and moons (chaotic evil)</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Celestian, god of stars and wanderers (neutral)</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Ptah, god of knowledge and secrets (lawful neutral)</td>
+				</tr>
+			</table>
 			<div class="reference">
 				<div element="ID_PHB_FEAT_MAGICINITIATE" />
 			</div>

@@ -5,7 +5,7 @@
 		<description>Naga Race from Plane Shift: Amonkhet</description>
 		<author url="https://media.wizards.com/2017/downloads/magic/plane-shift_amonkhet.pdf">Wizard of the Coast</author>
 		<update version="0.0.4">
-			<file name="race-naga.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/planeshift/amonkhet/race-naga.xml" />
+			<file name="race-naga.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/planeshift/amonkhet/race-naga.xml" />
 		</update>
 	</info>
 
@@ -16,16 +16,46 @@
 			<p class="indent">In the same way, the naga believe that Kefnet and Rhonas exist in interdependence, and that their trials are best conceived as two halves of a whole. But in practice, as much as they strive for balance and harmony, most naga identify more strongly with one god than the other. </p>
 			<h4>NAGA TRAITS</h4>
 			<p>All nagas share the following traits.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Constitution score increases by 2, and your Intelligence score increases by 1.</p>
-			<p class="indent"><b><i>Age. </i></b> Like humans, naga reach adulthood in their late teens. They show no signs of aging beyond that point except for growing larger, so in theory, a naga could live well over a century. </p>
-			<p class="indent"><b><i>Alignment. </i></b>Most naga are either neutral or neutral evil in alignment.</p>
-			<p class="indent"><b><i>Size. </i></b>Naga stand about 5 feet tall when upright, but the total length of their bodies, head to tail, ranges from 10 to as much as 20 feet. Your size is Medium.</p>
-			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p>
-			<p class="indent"><b><i>Natural Weapons. </i></b>Your fanged maw and constricting serpentine body are natural weapons, which you can use to make unarmed strikes. If you hit with your bite, you deal piercing damage equal to 1d4 + your Strength modifier, and your target must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target takes 1d4 poison damage. If you hit with your constrict attack, you deal bludgeoning damage equal to 1d6 + your Strength modifier, and the target is grappled (escape DC 8 + your proficiency bonus + your Strength modifier). Until this grapple ends, the target is restrained, and you can’t constrict another target.</p>
-			<p class="indent"><b><i>Speed Burst. </i></b>By lowering your body to the ground and propelling yourself with your arms, you can move more quickly for a time. As a bonus action on your turn, if you have both hands free, you can increase your walking speed by 5 feet until the end of your turn.</p>
-			<p class="indent"><b><i>Poison Immunity. </i></b>You are immune to poison damage and can’t be poisoned.</p>
-			<p class="indent"><b><i>Poison Affinity. </i></b>You gain proficiency with the poisoner’s kit.</p>
-			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Naga.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Constitution score increases by 2, and your Intelligence score increases by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Age. </i>
+				</b> Like humans, naga reach adulthood in their late teens. They show no signs of aging beyond that point except for growing larger, so in theory, a naga could live well over a century. </p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b>Most naga are either neutral or neutral evil in alignment.</p>
+			<p class="indent">
+				<b>
+					<i>Size. </i>
+				</b>Naga stand about 5 feet tall when upright, but the total length of their bodies, head to tail, ranges from 10 to as much as 20 feet. Your size is Medium.</p>
+			<p class="indent">
+				<b>
+					<i>Speed. </i>
+				</b>Your base walking speed is 30 feet.</p>
+			<p class="indent">
+				<b>
+					<i>Natural Weapons. </i>
+				</b>Your fanged maw and constricting serpentine body are natural weapons, which you can use to make unarmed strikes. If you hit with your bite, you deal piercing damage equal to 1d4 + your Strength modifier, and your target must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target takes 1d4 poison damage. If you hit with your constrict attack, you deal bludgeoning damage equal to 1d6 + your Strength modifier, and the target is grappled (escape DC 8 + your proficiency bonus + your Strength modifier). Until this grapple ends, the target is restrained, and you can’t constrict another target.</p>
+			<p class="indent">
+				<b>
+					<i>Speed Burst. </i>
+				</b>By lowering your body to the ground and propelling yourself with your arms, you can move more quickly for a time. As a bonus action on your turn, if you have both hands free, you can increase your walking speed by 5 feet until the end of your turn.</p>
+			<p class="indent">
+				<b>
+					<i>Poison Immunity. </i>
+				</b>You are immune to poison damage and can’t be poisoned.</p>
+			<p class="indent">
+				<b>
+					<i>Poison Affinity. </i>
+				</b>You gain proficiency with the poisoner’s kit.</p>
+			<p class="indent">
+				<b>
+					<i>Languages. </i>
+				</b>You can speak, read, and write Common and Naga.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

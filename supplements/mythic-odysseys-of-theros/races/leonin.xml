@@ -3,7 +3,7 @@
 	<info>
 		<name>Leonin</name>
 		<update version="0.0.2">
-			<file name="leonin.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/mythic-odysseys-of-theros/races/leonin.xml" />
+			<file name="leonin.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/mythic-odysseys-of-theros/races/leonin.xml" />
 		</update>
 	</info>
 	<element name="Leonin" type="Race" source="Mythic Odysseys of Theros" id="ID_WOTC_MOOT_RACE_LEONIN">
@@ -21,34 +21,88 @@
 			<h5 class="caption">Leonin and the Gods</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Attitude</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Attitude</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>I’m amused by the antics of the gods and their earnest, but ultimately deluded, mortal champions, and I feel smugly superior in my detachment.</td></tr>
-				<tr><td>2</td><td>The meddling of the gods in mortal affairs makes me angry and bitter. I wish they would just leave us all alone!</td></tr>
-				<tr><td>3</td><td>I view the gods as worthy adversaries—incredibly clever and well-prepared to play a long game but ultimately doomed to lose their games.</td></tr>
-				<tr><td>4</td><td>I’m certain every bad thing that happens can ultimately be blamed on the gods, but I roll my eyes at each new twist of fate and try to get on with my life.</td></tr>
-				<tr><td>5</td><td>I wish that I could be as naive as humans and other mortals who actually think the gods are looking out for them. I miss that kind of innocence.</td></tr>
-				<tr><td>6</td><td>I don’t talk about it among other leonin, but I actually revere the gods and try to please them by my actions.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>I’m amused by the antics of the gods and their earnest, but ultimately deluded, mortal champions, and I feel smugly superior in my detachment.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>The meddling of the gods in mortal affairs makes me angry and bitter. I wish they would just leave us all alone!</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>I view the gods as worthy adversaries—incredibly clever and well-prepared to play a long game but ultimately doomed to lose their games.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>I’m certain every bad thing that happens can ultimately be blamed on the gods, but I roll my eyes at each new twist of fate and try to get on with my life.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>I wish that I could be as naive as humans and other mortals who actually think the gods are looking out for them. I miss that kind of innocence.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>I don’t talk about it among other leonin, but I actually revere the gods and try to please them by my actions.</td>
+				</tr>
 			</table>
 			<h4>LEONIN NAMES</h4>
 			<p>Along with their personal names, leonin identify themselves by their pride. A member of the Flintclaw pride with the personal name of Ziore, for example, would likely style herself as Ziore of the Flintclaw.</p>
 			<ul class="unstyled">
-				<li><strong>Female Names:</strong> Aletha, Atagone, Demne, Doxia, Ecate, Eriz, Gragonde, Iadma, Koila, Oramne, Seza, Ziore</li>
-				<li><strong>Male Names:</strong> Apto, Athoz, Baragon, Bryguz, Eremoz, Gorioz, Grexes, Oriz, Pyxathor, Teoz, Xemnon, Xior</li>
-				<li><strong>Pride Names:</strong> Embereye, Flintclaw, Goldenfield, Ironmane, Starfeller, Sunguides</li>
+				<li>
+					<strong>Female Names:</strong> Aletha, Atagone, Demne, Doxia, Ecate, Eriz, Gragonde, Iadma, Koila, Oramne, Seza, Ziore</li>
+				<li>
+					<strong>Male Names:</strong> Apto, Athoz, Baragon, Bryguz, Eremoz, Gorioz, Grexes, Oriz, Pyxathor, Teoz, Xemnon, Xior</li>
+				<li>
+					<strong>Pride Names:</strong> Embereye, Flintclaw, Goldenfield, Ironmane, Starfeller, Sunguides</li>
 			</ul>
 			<h4>LEONIN TRAITS</h4>
 			<p>Your leonin character has the following racial traits:</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
-			<p class="indent"><strong><em>Age.</em></strong> Leonin mature and age at about the same rate as humans.</p>
-			<p class="indent"><strong><em>Alignment.</em></strong> Leonin tend toward good alignments. Leonin who are focused on the pride lean toward lawful good.</p>
-			<p class="indent"><strong><em>Size.</em></strong> Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 35 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
-			<p class="indent"><strong><em>Claws.</em></strong> Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
-			<p class="indent"><strong><em>Hunter’s Instincts.</em></strong> You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival.</p>
-			<p class="indent"><strong><em>Daunting Roar.</em></strong> As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can’t use it again until you finish a short or long rest.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Leonin.</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+			<p class="indent">
+				<strong>
+					<em>Age.</em>
+				</strong> Leonin mature and age at about the same rate as humans.</p>
+			<p class="indent">
+				<strong>
+					<em>Alignment.</em>
+				</strong> Leonin tend toward good alignments. Leonin who are focused on the pride lean toward lawful good.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your base walking speed is 35 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Claws.</em>
+				</strong> Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent">
+				<strong>
+					<em>Hunter’s Instincts.</em>
+				</strong> You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival.</p>
+			<p class="indent">
+				<strong>
+					<em>Daunting Roar.</em>
+				</strong> As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can’t use it again until you finish a short or long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Languages.</em>
+				</strong> You can speak, read, and write Common and Leonin.</p>
 		</description>
 		<setters>
 			<set name="names" type="male">Apto, Athoz, Baragon, Bryguz, Eremoz, Gorioz, Grexes, Oriz, Pyxathor, Teoz, Xemnon, Xior</set>
@@ -90,7 +144,7 @@
 		</sheet>
 		<rules>
 			<select type="Proficiency" name="Skill Proficiency (Hunter’s Instincts)" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Customized Skill Proficiency (Hunter’s Instincts)"  supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Hunter’s Instincts)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 	<element name="Daunting Roar" type="Racial Trait" source="Mythic Odysseys of Theros" id="ID_WOTC_MOOT_RACIAL_TRAIT_LEONIN_DAUNTING_ROAR">
@@ -105,7 +159,7 @@
 			<stat name="leonin daunting roar:dc" value="proficiency" />
 			<stat name="leonin daunting roar:dc" value="constitution:modifier" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Leonin" type="Language" source="Mythic Odysseys of Theros" id="ID_WOTC_MOOT_LANGUAGE_LEONIN">
 		<supports>Standard,Leonin Language</supports>
 		<description>
@@ -116,5 +170,5 @@
 			<set name="speakers">Leonin</set>
 			<set name="script">Common</set>
 		</setters>
-	</element>	
+	</element>
 </elements>

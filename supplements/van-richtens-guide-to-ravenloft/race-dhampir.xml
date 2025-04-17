@@ -3,7 +3,7 @@
 	<info>
 		<name>Dhampir</name>
 		<update version="0.0.2">
-			<file name="race-dhampir.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/van-richtens-guide-to-ravenloft/race-dhampir.xml" />
+			<file name="race-dhampir.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/van-richtens-guide-to-ravenloft/race-dhampir.xml" />
 		</update>
 	</info>
 
@@ -17,50 +17,128 @@
 			<h5>Dhampir Hungers</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Hunger</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Hunger</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Blood</td></tr>
-				<tr><td>2</td><td>Flesh or raw meat</td></tr>
-				<tr><td>3</td><td>Cerebral spinal fluid</td></tr>
-				<tr><td>4</td><td>Psychic energy</td></tr>
-				<tr><td>5</td><td>Dreams</td></tr>
-				<tr><td>6</td><td>Life energy</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Blood</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Flesh or raw meat</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Cerebral spinal fluid</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Psychic energy</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Dreams</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Life energy</td>
+				</tr>
 			</table>
 			<h4>Dhampir Origins</h4>
 			<p>Dhampirs often arise from encounters with vampires, but all manner of macabre bargains, necromantic influences, and encounters with mysterious immortals might have transformed your character. The Dhampir Origins table provides suggestions for how your character gained their lineage.</p>
 			<h5>Dhampir Origins</h5>
 			<table>
 				<thead>
-					<tr><td>d8</td><td>Origin</td></tr>
+					<tr>
+						<td>d8</td>
+						<td>Origin</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>You are the reincarnation of an ancestor who was a vampiric tyrant.</td></tr>
-				<tr><td>2</td><td>Your pact with a predatory deity, fiend, fey, or spirit causes you to share their hunger.</td></tr>
-				<tr><td>3</td><td>You survived being attacked by a vampire but were forever changed.</td></tr>
-				<tr><td>4</td><td>A parasite lives inside you. You indulge its hunger.</td></tr>
-				<tr><td>5</td><td>Tragedy interrupted your transformation into an immortal.</td></tr>
-				<tr><td>6</td><td>You are a diminished form of an otherworldly being. Slaking your hunger hastens your renewal.</td></tr>
-				<tr><td>7</td><td>One of your parents was a vampire.</td></tr>
-				<tr><td>8</td><td>A radical experiment changed your body, making you reliant on others for vital fluids.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>You are the reincarnation of an ancestor who was a vampiric tyrant.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Your pact with a predatory deity, fiend, fey, or spirit causes you to share their hunger.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>You survived being attacked by a vampire but were forever changed.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>A parasite lives inside you. You indulge its hunger.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Tragedy interrupted your transformation into an immortal.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>You are a diminished form of an otherworldly being. Slaking your hunger hastens your renewal.</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>One of your parents was a vampire.</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>A radical experiment changed your body, making you reliant on others for vital fluids.</td>
+				</tr>
 			</table>
 			<h4>Dhampir Traits</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Increase one score by 2 and increase a different score by 1, or you increase three different scores by 1.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you gain this lineage.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 35 feet.</p>
-			<p class="indent"><strong><em>Ancestral Legacy.</em></strong> If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Increase one score by 2 and increase a different score by 1, or you increase three different scores by 1.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you gain this lineage.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 35 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Ancestral Legacy.</em>
+				</strong> If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
 			<p class="indent">If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.</p>
-			<p class="indent"><strong><em>Deathless Nature.</em></strong> You don’t need to breathe.</p>
-			<p class="indent"><strong><em>Spider Climb.</em></strong> You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
-			<p class="indent"><strong><em>Vampiric Bite.</em></strong> Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Deathless Nature.</em>
+				</strong> You don’t need to breathe.</p>
+			<p class="indent">
+				<strong>
+					<em>Spider Climb.</em>
+				</strong> You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
+			<p class="indent">
+				<strong>
+					<em>Vampiric Bite.</em>
+				</strong> Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.</p>
 			<p class="indent">When you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
 			<ul>
 				<li>You regain hit points equal to the piercing damage dealt by the bite.</li>
 				<li>You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite.</li>
 			</ul>
 			<p class="indent">You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</p>
+			<p class="indent">
+				<strong>
+					<em>Languages.</em>
+				</strong> Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -83,9 +161,14 @@
 		<description>
 			<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
 			<p class="indent">If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
-			<p><strong><em>Notes:</em></strong> This trait's mechanics aren't implemented in the Aurora Builder. But you can emulate mechanics of this trait with following options:</p>
-			<p class="indent"><b>Skill Proficiencies.</b> You can recover lost skill proficiencies by selecting and equipping items from Additional Proficiency category of the Equipment section.</p>
-			<p class="indent"><b>Speed.</b> You can regain lost speed by selecting and equipping items from Additional Features category of the Equipment section.</p>
+			<p>
+				<strong>
+					<em>Notes:</em>
+				</strong> This trait's mechanics aren't implemented in the Aurora Builder. But you can emulate mechanics of this trait with following options:</p>
+			<p class="indent">
+				<b>Skill Proficiencies.</b> You can recover lost skill proficiencies by selecting and equipping items from Additional Proficiency category of the Equipment section.</p>
+			<p class="indent">
+				<b>Speed.</b> You can regain lost speed by selecting and equipping items from Additional Features category of the Equipment section.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -114,7 +197,7 @@
 			<stat name="innate speed:climb" value="innate speed" bonus="base" />
 		</rules>
 	</element>
-	
+
 	<element name="Vampiric Bite" type="Racial Trait" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_RACIAL_TRAIT_DHAMPIR_VAMPIRIC_BITE">
 		<description>
 			<p>Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.</p>

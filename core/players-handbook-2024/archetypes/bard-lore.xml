@@ -5,7 +5,7 @@
 		<description>The College of Lore subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="bard-lore.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/bard-lore.xml" />
+			<file name="bard-lore.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/bard-lore.xml" />
 		</update>
 	</info>
 
@@ -51,7 +51,7 @@
 	</element>
 
 	<element name="Level 6: Magical Discoveries" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARD_LORE_MAGICAL_DISCOVERIES">
-	<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_LORE_MAGICAL_DISCOVERIES</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_LORE_MAGICAL_DISCOVERIES</requirements>
 		<description>
 			<p>You learn two spells of your choice. These spells can come from the Cleric, Druid, or Wizard spell list or any combination thereof (see a class’s section for its spell list). A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the Bard Features table.</p>
 			<p class="indent">You always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements.</p>

@@ -3,7 +3,7 @@
 	<info>
 		<name>Tortle from Monsters of the Multiverse</name>
 		<update version="0.0.1">
-			<file name="race-tortle.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-tortle.xml" />
+			<file name="race-tortle.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-tortle.xml" />
 		</update>
 	</info>
 
@@ -13,14 +13,38 @@
 			<p class="indent">Tortles exhibit the same range of coloration and patterns found among turtles, and many tortles enjoy adorning their shells in distinctive ways.</p>
 			<h4>TORTLE TRAITS</h4>
 			<p>As a tortle, you have the following racial traits. </p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Claws.</em></strong> You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>
-			<p class="indent"><strong><em>Hold Breath.</em></strong> You can hold your breath for up to 1 hour.</p>
-			<p class="indent"><strong><em>Natural Armor.</em></strong>  Your shell provides you a base AC of 17 (your Dexterity modifier doesn't affect this number). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
-			<p class="indent"><strong><em>Nature's Intuition.</em></strong> Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival.</p>
-			<p class="indent"><strong><em>Shell Defense.</em></strong> You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is O and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Claws.</em>
+				</strong> You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent">
+				<strong>
+					<em>Hold Breath.</em>
+				</strong> You can hold your breath for up to 1 hour.</p>
+			<p class="indent">
+				<strong>
+					<em>Natural Armor.</em>
+				</strong>  Your shell provides you a base AC of 17 (your Dexterity modifier doesn't affect this number). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
+			<p class="indent">
+				<strong>
+					<em>Nature's Intuition.</em>
+				</strong> Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival.</p>
+			<p class="indent">
+				<strong>
+					<em>Shell Defense.</em>
+				</strong> You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is O and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -29,7 +53,7 @@
 			<stat name="innate speed" value="30" bonus="base" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Tortle)" supports="Standard||Exotic" />
 
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_TORTLE_CLAWS" />
@@ -57,7 +81,7 @@
 			<description>You can hold your breath for up to 1 hour.</description>
 		</sheet>
 	</element>
-	
+
 	<element name="Natural Armor" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_TORTLE_NATURAL_ARMOR">
 		<description>
 			<p>Your shell provides you a base AC of 17 (your Dexterity modifier doesn't affect this number). You can't wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>

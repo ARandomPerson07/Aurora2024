@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.6">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/descent-into-avernus/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/descent-into-avernus/items.xml" />
 		</update>
 	</info>
 	<element name="Battle Standard of Infernal Power" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_BATTLE_STANDARD_OF_INFERNAL_POWER">
@@ -37,7 +37,8 @@
 	</element>
 	<element name="Fane-Eater" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_FANE_EATER">
 		<description>
-			<p><em>Fane-Eater</em> is a battleaxe belonging to Arkhan the Cruel.</p>
+			<p>
+				<em>Fane-Eater</em> is a battleaxe belonging to Arkhan the Cruel.</p>
 			<p class="indent">You gain a +3 bonus to attack and damage rolls with <em>Fane-Eater</em>. If you attack a creature with this weapon and roll a 20 on the attack roll, the creature takes an extra 2d8 necrotic damage, and you regain a number of hit points equal to the necrotic damage taken.</p>
 		</description>
 		<setters>
@@ -115,7 +116,8 @@
 	</element>
 	<element name="Matalotok" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_MATALOTOK">
 		<description>
-			<p><em>Matalotok</em>, the Frost Father, is an ancient hammer fashioned by Thrym, the god of frost giants. The favored weapon of the demon lord Kostchtchie, <em>Matalotok</em> is frigid to the touch and wreathed in mist.</p>
+			<p>
+				<em>Matalotok</em>, the Frost Father, is an ancient hammer fashioned by Thrym, the god of frost giants. The favored weapon of the demon lord Kostchtchie, <em>Matalotok</em> is frigid to the touch and wreathed in mist.</p>
 			<p class="indent">You are immune to cold damage while holding <em>Matalotok</em>. Whenever it deals damage to a creature, the hammer radiates a burst of intense cold in a 30-foot-radius sphere. Each creature in that area takes 10 (3d6) cold damage.</p>
 		</description>
 		<setters>
@@ -152,17 +154,26 @@
 		<description>
 			<p>The <em>Shield of the Hidden Lord</em> is of celestial origin and serves as a prison for the pit fiend Gargauth, whose mortal followers revere it as a god. Over time, Gargauth’s evil has warped the shield’s appearance, so that its celestial motif and designs have become twisted into a fiendish face that subtly moves in disturbing ways.</p>
 			<p class="indent">While holding this shield, you gain a +2 bonus to AC and resistance to fire damage.</p>
-			<p class="indent"><strong><em>Sentience.</em></strong> The <em>Shield of the Hidden Lord</em> is sentient as long as it imprisons Gargauth. While sentient, the shield has the following properties:</p>
+			<p class="indent">
+				<strong>
+					<em>Sentience.</em>
+				</strong> The <em>Shield of the Hidden Lord</em> is sentient as long as it imprisons Gargauth. While sentient, the shield has the following properties:</p>
 			<ul>
 				<li>The shield has an Intelligence of 22, a Wisdom of 18, and a Charisma of 24, as well as hearing and truesight out to a range of 120 feet.</li>
 				<li>The shield can speak, read, and understand Common and Infernal, and it can communicate telepathically with any creature it can sense within 120 feet of it. Its voice is a deep, hollow whisper.</li>
 				<li>The shield has 3 charges. You can use an action to expend 1 charge to cast <em>fireball</em> or 2 charges to cast <em>wall of fire</em> from the shield (save DC 21 for each). The <em>wall of fire</em> spell lasts for 1 minute (no concentration required). The shield regains all expended charges daily at dawn.</li>
 				<li>Anytime during your turn, the shield can choose to radiate an aura of dread for 1 minute. (This is not a power of the shield that you control.) Any creature hostile to you that starts its turn within 20 feet of the shield must make a DC 18 Wisdom saving throw. On a failed save, the creature is frightened until the start of its next turn. On a successful save, the creature is immune to this power of the shield for the next 24 hours. Once the shield uses this power, it can’t use it again until the next dawn.</li>
 			</ul>
-			<p class="indent"><strong><em>Gargauth’s Personality.</em></strong> Gargauth desperately seeks freedom but can’t escape on its own. The pit fiend won’t reveal its true nature, referring to itself only as the Hidden Lord. It drops hints and subtle suggestions that it is an angel trapped in an unholy prison. If released from the shield, the pit fiend honors the terms of whatever bargain it struck to facilitate its escape.</p>
+			<p class="indent">
+				<strong>
+					<em>Gargauth’s Personality.</em>
+				</strong> Gargauth desperately seeks freedom but can’t escape on its own. The pit fiend won’t reveal its true nature, referring to itself only as the Hidden Lord. It drops hints and subtle suggestions that it is an angel trapped in an unholy prison. If released from the shield, the pit fiend honors the terms of whatever bargain it struck to facilitate its escape.</p>
 			<p class="indent">While trapped in the shield, Gargauth carefully steers the shield’s current owner toward committing acts of cruelty and domination, hoping to condemn the individual’s soul to the Nine Hells. Conflict occurs if the shield’s owner does anything that would make it more difficult for Gargauth to escape its prison, such as leaving the shield in a place where others are unlikely to find it.</p>
 			<p class="indent">Gargauth doesn’t know how to escape from the shield. The pit fiend believes (incorrectly) that it can break free of the shield if it’s brought to the Nine Hells, for it’s convinced that the shield’s powers are weaker there.</p>
-			<p class="indent"><strong><em>Freeing Gargauth.</em></strong> Casting <em>dispel evil and good</em> on the shield has a 1 percent change of freeing the pit fiend, or automatically succeeds if the spell is cast by a solar, a planetar, or an archdevil. A god can release the pit fiend by touching the shield and speaking Gargauth’s name. When released, Gargauth appears in a random, unoccupied space as close to the shield as possible.</p>
+			<p class="indent">
+				<strong>
+					<em>Freeing Gargauth.</em>
+				</strong> Casting <em>dispel evil and good</em> on the shield has a 1 percent change of freeing the pit fiend, or automatically succeeds if the spell is cast by a solar, a planetar, or an archdevil. A god can release the pit fiend by touching the shield and speaking Gargauth’s name. When released, Gargauth appears in a random, unoccupied space as close to the shield as possible.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Armor</set>
@@ -182,19 +193,36 @@
 	</element>
 	<element name="Soul Coin" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_SOUL_COIN">
 		<description>
-			<p><em>Soul coins</em> are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag’s curse.</p>
-			<p class="indent"><strong><em>Carrying Soul Coins.</em></strong> To hold a <em>soul coin</em> is to feel the soul bound within it—overcome with rage or fraught with despair.</p>
+			<p>
+				<em>Soul coins</em> are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag’s curse.</p>
+			<p class="indent">
+				<strong>
+					<em>Carrying Soul Coins.</em>
+				</strong> To hold a <em>soul coin</em> is to feel the soul bound within it—overcome with rage or fraught with despair.</p>
 			<p class="indent">An evil creature can carry as many <em>soul coins</em> as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of <em>soul coins</em> equal to or less than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p>
-			<p class="indent"><strong><em>Using a Soul Coin.</em></strong> A <em>soul coin</em> has 3 charges. A creature carrying the coin can use its action to expend 1 charge from a <em>soul coin</em> and use it to do one of the following:</p>
+			<p class="indent">
+				<strong>
+					<em>Using a Soul Coin.</em>
+				</strong> A <em>soul coin</em> has 3 charges. A creature carrying the coin can use its action to expend 1 charge from a <em>soul coin</em> and use it to do one of the following:</p>
 			<ul>
-				<li><strong>Drain Life.</strong> You siphon away some of the soul’s essence and gain 1d10 temporary hit points.</li>
-				<li><strong>Query.</strong> You telepathically ask the soul a question and receive a brief telepathic response, which you can understand. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more that a sentence or two and might be cryptic.</li>
+				<li>
+					<strong>Drain Life.</strong> You siphon away some of the soul’s essence and gain 1d10 temporary hit points.</li>
+				<li>
+					<strong>Query.</strong> You telepathically ask the soul a question and receive a brief telepathic response, which you can understand. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more that a sentence or two and might be cryptic.</li>
 			</ul>
-			<p class="indent"><strong><em>Freeing a Soul.</em></strong> Casting a spell that removes a curse on a <em>soul coin</em> frees the soul trapped within it, and does expending all of the coin’s charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM’s choice). The souls of lawful evil creatures released from <em>soul coins</em> typically emerge from the River Styx as lemure devils.</p>
+			<p class="indent">
+				<strong>
+					<em>Freeing a Soul.</em>
+				</strong> Casting a spell that removes a curse on a <em>soul coin</em> frees the soul trapped within it, and does expending all of the coin’s charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM’s choice). The souls of lawful evil creatures released from <em>soul coins</em> typically emerge from the River Styx as lemure devils.</p>
 			<p class="indent">A soul can also be freed by destroying the coin that contains it. A <em>soul coin</em> has AC 19, 1 hit point for each charge it has remaining, and immunity to all damage except that which is dealt by a <em>hellfire weapon</em> or an infernal war machine’s furnace.</p>
 			<p class="indent">Freeing a soul from a <em>soul coin</em> is considered a good act, even if the soul belongs to an evil creature.</p>
-			<p class="indent"><strong><em>Hellish Currency.</em></strong><em>Soul coins</em> are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favors, bribe the unwilling, and reward the faithful for services rendered.</p>
-			<p class="indent"><em>Soul coins</em> are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p>
+			<p class="indent">
+				<strong>
+					<em>Hellish Currency.</em>
+				</strong>
+				<em>Soul coins</em> are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favors, bribe the unwilling, and reward the faithful for services rendered.</p>
+			<p class="indent">
+				<em>Soul coins</em> are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p>
 		</description>
 		<setters>
 			<set name="keywords">currency</set>
@@ -210,74 +238,192 @@
 	<element name="Sword of Zariel" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_SWORD_OF_ZARIEL">
 		<description>
 			<p>This longsword belong to the angel Zariel before her fall from grace. Fashioned from celestial steel, it gives off a faint glow and hum. The weapon chooses who can attune to it and who can’t. It desires a wielder who embodies bravery and heroism.</p>
-			<p class="indent"><strong><em>Attunement.</em></strong> The sword allows you to attune to it immediately, without having to take a short rest. The first time you attune to the sword, you are transformed into a heavenly, idealized version of yourself, blessed with otherworldly beauty and a touch of heaven in your heart. Neither magic nor divine intervention can reverse this transformation. You alignment becomes lawful good, and you gain the following traits:</p>
+			<p class="indent">
+				<strong>
+					<em>Attunement.</em>
+				</strong> The sword allows you to attune to it immediately, without having to take a short rest. The first time you attune to the sword, you are transformed into a heavenly, idealized version of yourself, blessed with otherworldly beauty and a touch of heaven in your heart. Neither magic nor divine intervention can reverse this transformation. You alignment becomes lawful good, and you gain the following traits:</p>
 			<ul class="unstyled">
-				<li><strong>Angelic Language.</strong> You can speak, read, and write Celestial.</li>
-				<li><strong>Celestial Resistance.</strong> You have resistance to necrotic and radiant damage.</li>
-				<li><strong>Divine Presence.</strong> You Charisma score becomes 20, unless it is already 20 or higher.</li>
-				<li><strong>Feathered Wings.</strong> You sprout a beautiful pair of feathered wings that grant you a flying speed of 90 feet and the ability to hover.</li>
-				<li><strong>Truesight.</strong> Your eyes become luminous pools of silver. You can see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the Ethereal Plane, all within a range of 60 feet.</li>
-				<li><strong>New Personality.</strong> You gain new personality traits, determined by rolling once on each of the following tables. These traits override any conflicting personality trait, ideal, bond, or flaw.</li>
+				<li>
+					<strong>Angelic Language.</strong> You can speak, read, and write Celestial.</li>
+				<li>
+					<strong>Celestial Resistance.</strong> You have resistance to necrotic and radiant damage.</li>
+				<li>
+					<strong>Divine Presence.</strong> You Charisma score becomes 20, unless it is already 20 or higher.</li>
+				<li>
+					<strong>Feathered Wings.</strong> You sprout a beautiful pair of feathered wings that grant you a flying speed of 90 feet and the ability to hover.</li>
+				<li>
+					<strong>Truesight.</strong> Your eyes become luminous pools of silver. You can see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the Ethereal Plane, all within a range of 60 feet.</li>
+				<li>
+					<strong>New Personality.</strong> You gain new personality traits, determined by rolling once on each of the following tables. These traits override any conflicting personality trait, ideal, bond, or flaw.</li>
 			</ul>
 			<br />
 			<h5>Personality Traits</h5>
 			<table>
 				<thead>
-					<tr><td>d8</td><td>Personality Trait</td></tr>
+					<tr>
+						<td>d8</td>
+						<td>Personality Trait</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>I treat all beings, even enemies, with respect.</td></tr>
-				<tr><td>2</td><td>I won’t tell a lie.</td></tr>
-				<tr><td>3</td><td>I enjoy sharing my philosophical worldview and experiences with others.</td></tr>
-				<tr><td>4</td><td>I cut right to the chase in every conversation.</td></tr>
-				<tr><td>5</td><td>I often quote (or misquote) religious texts.</td></tr>
-				<tr><td>6</td><td>I anger quickly when I witness cruelty or injustice.</td></tr>
-				<tr><td>7</td><td>My praise and trust are earned and never given freely.</td></tr>
-				<tr><td>8</td><td>I like everything clean and organized.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>I treat all beings, even enemies, with respect.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>I won’t tell a lie.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>I enjoy sharing my philosophical worldview and experiences with others.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>I cut right to the chase in every conversation.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>I often quote (or misquote) religious texts.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>I anger quickly when I witness cruelty or injustice.</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>My praise and trust are earned and never given freely.</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>I like everything clean and organized.</td>
+				</tr>
 			</table>
 			<h5>Ideals</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Ideal</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Ideal</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Charity. I always help those in need. (Good)</td></tr>
-				<tr><td>2</td><td>Faith. I choose to follow the tenets of a particular lawful good deity to the letter. (Lawful)</td></tr>
-				<tr><td>3</td><td>Responsibility. It is the duty of the strong to protect the weak. (Lawful)</td></tr>
-				<tr><td>4</td><td>Respect. All people deserve to be treated with dignity. (Good)</td></tr>
-				<tr><td>5</td><td>Honor. The way I conduct myself determines my reward in the afterlife. (Lawful)</td></tr>
-				<tr><td>6</td><td>Redemption. All creatures are capable of change for the better. (Good)</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Charity. I always help those in need. (Good)</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Faith. I choose to follow the tenets of a particular lawful good deity to the letter. (Lawful)</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Responsibility. It is the duty of the strong to protect the weak. (Lawful)</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Respect. All people deserve to be treated with dignity. (Good)</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Honor. The way I conduct myself determines my reward in the afterlife. (Lawful)</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Redemption. All creatures are capable of change for the better. (Good)</td>
+				</tr>
 			</table>
 			<h5>Bonds</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Bond</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Bond</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>I have a favorite religious hymn that I constantly hum.</td></tr>
-				<tr><td>2</td><td>I must keep a written record of my beliefs and the sins that I witness. When finished, this book will be my gift to the multiverse.</td></tr>
-				<tr><td>3</td><td>I have cherished memories of Idyllglen, though I’ve only seen this bucolic town in dreams.</td></tr>
-				<tr><td>4</td><td>I would die for those who fight beside me, regardless of their faults.</td></tr>
-				<tr><td>5</td><td>I seek to honor the angel Zariel by destroying fiends and other evildoers wherever I find them.</td></tr>
-				<tr><td>6</td><td>The Sword of Zariel has chosen me. I shall not fail to wield it justly.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>I have a favorite religious hymn that I constantly hum.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>I must keep a written record of my beliefs and the sins that I witness. When finished, this book will be my gift to the multiverse.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>I have cherished memories of Idyllglen, though I’ve only seen this bucolic town in dreams.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>I would die for those who fight beside me, regardless of their faults.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>I seek to honor the angel Zariel by destroying fiends and other evildoers wherever I find them.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>The Sword of Zariel has chosen me. I shall not fail to wield it justly.</td>
+				</tr>
 			</table>
 			<h5>Flaws</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Flaw</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Flaw</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>I am too quick to judge others.</td></tr>
-				<tr><td>2</td><td>I offer forgiveness to readily.</td></tr>
-				<tr><td>3</td><td>I will sacrifice innocent lives for the greater good.</td></tr>
-				<tr><td>4</td><td>Flaw? What flaw? I am flawless. Utter perfection!</td></tr>
-				<tr><td>5</td><td>I allow nothing to stand in the way of my crusade to eradicate evil from the multiverse.</td></tr>
-				<tr><td>6</td><td>I ignore those who do not support my plans, for my calling is higher than all others.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>I am too quick to judge others.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>I offer forgiveness to readily.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>I will sacrifice innocent lives for the greater good.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Flaw? What flaw? I am flawless. Utter perfection!</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>I allow nothing to stand in the way of my crusade to eradicate evil from the multiverse.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>I ignore those who do not support my plans, for my calling is higher than all others.</td>
+				</tr>
 			</table>
-			<p class="indent"><strong><em>Holy Light.</em></strong> The sword sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Fiends find the sword’s light disconcerting and painful, even if they can’t see it, and have disadvantage on attack rolls made within the weapon’s radius of bright light.</p>
+			<p class="indent">
+				<strong>
+					<em>Holy Light.</em>
+				</strong> The sword sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Fiends find the sword’s light disconcerting and painful, even if they can’t see it, and have disadvantage on attack rolls made within the weapon’s radius of bright light.</p>
 			<p class="indent">As a bonus action, you can intensify the sword’s light, causing it to shed bright light in a 15-foot radius and dim light for an additional 5 feet, or reduce its glow to its normal intensity.</p>
-			<p class="indent"><strong><em>Random Properties.</em></strong> The sword has 2 minor beneficial properties, each determined by rolling on the Minor Beneficial Properties table in chapter 7 of the <em>Dungeon Master’s Guide</em>.</p>
-			<p class="indent"><strong><em>Searing Radiance.</em></strong> The sword deals an extra 9 (2d8) radiant damage to any creature it hits, or 16 (3d10) radiant damage if you’re wielding the weapon with two hands. An evil creature that takes this radiant damage must succeed on a DC 17 Constitution saving throw or be blinded until the end of its next turn.</p>
-			<p class="indent"><strong><em>Sentience.</em></strong> The <em>Sword of Zariel</em> is a sentient lawful good item with an Intelligence of 10, a Wisdom of 20, and a Charisma of 18. It has hearing and normal vision out to a range of 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Random Properties.</em>
+				</strong> The sword has 2 minor beneficial properties, each determined by rolling on the Minor Beneficial Properties table in chapter 7 of the <em>Dungeon Master’s Guide</em>.
+			</p>
+			<p class="indent">
+				<strong>
+					<em>Searing Radiance.</em>
+				</strong> The sword deals an extra 9 (2d8) radiant damage to any creature it hits, or 16 (3d10) radiant damage if you’re wielding the weapon with two hands. An evil creature that takes this radiant damage must succeed on a DC 17 Constitution saving throw or be blinded until the end of its next turn.</p>
+			<p class="indent">
+				<strong>
+					<em>Sentience.</em>
+				</strong> The <em>Sword of Zariel</em> is a sentient lawful good item with an Intelligence of 10, a Wisdom of 20, and a Charisma of 18. It has hearing and normal vision out to a range of 30 feet.</p>
 			<p class="indent">The sword communicates by transmitting emotion to the creature carrying or wielding it.</p>
-			<p class="indent"><strong><em>Truth Seer.</em></strong> While holding the sword, you gain advantage on all Wisdom (Insight) checks.</p>
-			<p class="indent"><strong><em>Destroying the Sword.</em></strong> Zariel can destroy the sword simply by grasping it. She couldn’t bring herself to do so when she was an angel, but as an archdevil she has no compunction about ridding the multiverse of the weapon. The sword is also destroyed if it’s used to shatter the Companion, unless the blade is wielded by and angel of challenge rating 15 or higher, or a good-aligned cleric or paladin of at least 10th level.</p>
+			<p class="indent">
+				<strong>
+					<em>Truth Seer.</em>
+				</strong> While holding the sword, you gain advantage on all Wisdom (Insight) checks.</p>
+			<p class="indent">
+				<strong>
+					<em>Destroying the Sword.</em>
+				</strong> Zariel can destroy the sword simply by grasping it. She couldn’t bring herself to do so when she was an angel, but as an archdevil she has no compunction about ridding the multiverse of the weapon. The sword is also destroyed if it’s used to shatter the Companion, unless the blade is wielded by and angel of challenge rating 15 or higher, or a good-aligned cleric or paladin of at least 10th level.</p>
 			<p class="indent">If Zariel is killed for good (that is, if she dies in the Nine Hells), the sword becomes no harder to destroy that a normal longsword.</p>
 		</description>
 		<setters>
@@ -302,15 +448,27 @@
 		<description>
 			<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.</p>
 			<p class="indent">When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature’s heads. The creature dies if it can’t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn’t have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.</p>
-			<p class="indent"><strong><em>Random Properties.</em></strong> The sword has the following random properties:</p>
+			<p class="indent">
+				<strong>
+					<em>Random Properties.</em>
+				</strong> The sword has the following random properties:</p>
 			<ul>
 				<li>2 minor beneficial properties</li>
 				<li>1 major beneficial property</li>
 				<li>1 major detrimental property, which is suppressed while the sword is attuned to an archdevil</li>
 			</ul>
-			<p class="indent"><strong><em>Ruler of Avernus.</em></strong> As an action, you can point this sword at one devil you can see within 60 feet of you. That devil must succeed on a DC 22 Charisma saving throw or be charmed by you for 1 hour. While charmed in this way, the devil follows your orders to the best of its ability. If you command the devil to do something it perceives as suicidal, the effect ends and you can no longer use this power of the sword against that devil.</p>
-			<p class="indent"><strong><em>Infernal recall.</em></strong> As an action, you can use the sword to cast <em>word of recall</em>. Creatures transported by this spell appear in an unoccupied space within 30 feet of the current ruler of Avernus, or a sanctuary you designate if you rule Avernus.</p>
-			<p class="indent"><strong><em>Destroying the Sword.</em></strong> The sword can be destroyed by casting it into the River Styx or melting it down in the forge that created it.</p>
+			<p class="indent">
+				<strong>
+					<em>Ruler of Avernus.</em>
+				</strong> As an action, you can point this sword at one devil you can see within 60 feet of you. That devil must succeed on a DC 22 Charisma saving throw or be charmed by you for 1 hour. While charmed in this way, the devil follows your orders to the best of its ability. If you command the devil to do something it perceives as suicidal, the effect ends and you can no longer use this power of the sword against that devil.</p>
+			<p class="indent">
+				<strong>
+					<em>Infernal recall.</em>
+				</strong> As an action, you can use the sword to cast <em>word of recall</em>. Creatures transported by this spell appear in an unoccupied space within 30 feet of the current ruler of Avernus, or a sanctuary you designate if you rule Avernus.</p>
+			<p class="indent">
+				<strong>
+					<em>Destroying the Sword.</em>
+				</strong> The sword can be destroyed by casting it into the River Styx or melting it down in the forge that created it.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>

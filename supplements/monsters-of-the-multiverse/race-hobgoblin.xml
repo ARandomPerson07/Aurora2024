@@ -3,7 +3,7 @@
 	<info>
 		<name>Hobgoblin from Monsters of the Multiverse</name>
 		<update version="0.0.1">
-			<file name="race-hobgoblin.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-hobgoblin.xml" />
+			<file name="race-hobgoblin.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-hobgoblin.xml" />
 		</update>
 	</info>
 
@@ -14,20 +14,44 @@
 			<p class="indent">Hobgoblins are generally taller than their goblin cousins but not quite as big as bugbears. They have curved, pointed ears and noses that turn bright red or blue during displays of emotion.</p>
 			<h4>HOBGOBLIN TRAITS</h4>
 			<p>As a hobgoblin, you have the following racial traits. </p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>
-			<p class="indent"><strong><em>Fey Gift.</em></strong> You can use this trait to take the Help action as a bonus action, and you can do so a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Fey Ancestry.</em>
+				</strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>
+			<p class="indent">
+				<strong>
+					<em>Fey Gift.</em>
+				</strong> You can use this trait to take the Help action as a bonus action, and you can do so a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</p>
 			<p class="indent">Starting at 3rd level, choose one of the options below each time you take the Help action with this trait:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Hospitality.</strong> You and the creature you help each gain a number of temporary hit points equal to 1d6 plus your proficiency bonus.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Passage.</strong> You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong>Spite.</strong> Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>Hospitality.</strong> You and the creature you help each gain a number of temporary hit points equal to 1d6 plus your proficiency bonus.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>Passage.</strong> You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>Spite.</strong> Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.</li>
 			</ul>
 			<br />
-			<p class="indent"><strong><em>Fortune from the Many.</em></strong> If you miss with an attack roll or fail an ability check or a saving throw, you can draw on your bonds of reciprocity to gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +3). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Fortune from the Many.</em>
+				</strong> If you miss with an attack roll or fail an ability check or a saving throw, you can draw on your bonds of reciprocity to gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +3). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -38,9 +62,9 @@
 			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_GOBLINOID" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Hobgoblin)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Hobgoblin)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Hobgoblin)" supports="Standard||Exotic" />
-			
+
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_HOBGOBLIN_FEY_ANCESTRY" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_HOBGOBLIN_FORTUNE_FROM_THE_MANY" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_HOBGOBLIN_FEY_GIFT" />
@@ -61,9 +85,12 @@
 			<p>You can use this trait to take the Help action as a bonus action, and you can do so a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</p>
 			<p class="indent">Starting at 3rd level, choose one of the options below each time you take the Help action with this trait:</p>
 			<ul class="unstyled">
-				<li style="margin-left:2em;text-indent:-1em;"><strong>Hospitality.</strong> You and the creature you help each gain a number of temporary hit points equal to 1d6 plus your proficiency bonus.</li>
-				<li style="margin-left:2em;text-indent:-1em;"><strong>Passage.</strong> You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.</li>
-				<li style="margin-left:2em;text-indent:-1em;"><strong>Spite.</strong> Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.</li>
+				<li style="margin-left:2em;text-indent:-1em;">
+					<strong>Hospitality.</strong> You and the creature you help each gain a number of temporary hit points equal to 1d6 plus your proficiency bonus.</li>
+				<li style="margin-left:2em;text-indent:-1em;">
+					<strong>Passage.</strong> You and the creature you help each increase your walking speeds by 10 feet until the start of your next turn.</li>
+				<li style="margin-left:2em;text-indent:-1em;">
+					<strong>Spite.</strong> Until the start of your next turn, the first time the creature you help hits a target with an attack roll, that target has disadvantage on the next attack roll it makes within the next minute.</li>
 			</ul>
 		</description>
 		<sheet usage="{{proficiency}}/Long Rest">

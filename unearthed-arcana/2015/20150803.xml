@@ -5,7 +5,7 @@
 		<description>When the fifth edition Dungeon Master’s Guide was released in 2014, two pages in chapter 9, “Dungeon Master’s Workshop,” attracted a lot of attention. Those pages covered the rules for using firearms and explosives, an addition that allowed DMs to introduce modern and alien weaponry into the D&amp;D world, as in the classic adventure Expedition to the Barrier Peaks.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/modern-magic">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="20150803.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2015/20150803.xml" />
+			<file name="20150803.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2015/20150803.xml" />
 		</update>
 	</info>
 
@@ -28,7 +28,8 @@
 		<supports>Divine Domain</supports>
 		<description>
 			<p>The City domain is concerned with the citizenry, commerce, traffic, and even architecture of modern civilization. In the eyes of a cleric of the city, the center of modern life is a sense and spirit of community, and the gravest enemies of the city are those who seek to harm the common weal of its citizens.</p>
-			<p class="indent">New spells introduced for the City domain are marked with an asterisk and detailed in the “New Spells” section. For all other spells, see the <i>Player’s Handbook</i>.</p>
+			<p class="indent">New spells introduced for the City domain are marked with an asterisk and detailed in the “New Spells” section. For all other spells, see the <i>Player’s Handbook</i>.
+			</p>
 			<div element="ID_WOTC_UA20150803_ARCHETYPE_FEATURE_CITY_DOMAIN_DOMAIN_SPELLS" />
 			<div element="ID_WOTC_UA20150803_ARCHETYPE_FEATURE_CITY_DOMAIN_BONUS_CANTRIP" />
 			<div element="ID_WOTC_UA20150803_ARCHETYPE_FEATURE_CITY_DOMAIN_BONUS_PROFICIENCIES" />
@@ -58,13 +59,41 @@
 			<h6>City Domain Spells</h6>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>comprehend languages, remote access*</em></td></tr>
-				<tr><td>3rd</td><td><em>find vehicle*, heat metal</em></td></tr>
-				<tr><td>5th</td><td><em>lightning bolt, protection from ballistics*</em></td></tr>
-				<tr><td>7th</td><td><em>locate creature, synchronicity*</em></td></tr>
-				<tr><td>9th</td><td><em>commune with city*, shutdown*</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>comprehend languages, remote access*</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>find vehicle*, heat metal</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>lightning bolt, protection from ballistics*</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>locate creature, synchronicity*</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>commune with city*, shutdown*</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">
@@ -183,13 +212,41 @@
 			<h5>GHOST IN THE MACHINE EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>infallible relay, remote access</em></td></tr>
-				<tr><td>2nd</td><td><em>arcane hacking, digital phantom</em></td></tr>
-				<tr><td>3rd</td><td><em>haywire, invisibility to cameras</em></td></tr>
-				<tr><td>4th</td><td><em>conjure knowbot, system backdoor</em></td></tr>
-				<tr><td>5th</td><td><em>shutdown, synchronicity</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>infallible relay, remote access</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>arcane hacking, digital phantom</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>haywire, invisibility to cameras</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>conjure knowbot, system backdoor</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>shutdown, synchronicity</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">
@@ -354,7 +411,7 @@
 			<set name="category">Tools</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0</set>
-	  		<set name="type">Tool</set>
+			<set name="type">Tool</set>
 			<set name="proficiency">ID_WOTC_UA20150803_PROFICIENCY_TOOL_PROFICIENCY_HACKING_TOOLS</set>
 		</setters>
 	</element>
@@ -377,7 +434,10 @@
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You gain advantage on all Intelligence checks using hacking tools to break software encryption or online security when using a foreign system. This spell also allows you to break 2nd-level and lower protective spells such as <i>arcane lock</i> or <i>glyph of warding</i> by making an Intelligence check using hacking tools against the spell save DC of the spell's caster.</p>
-			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, you can attempt to counteract a spell set to secure the foreign system if the spell's level is equal to or less than the level of the spell slot used.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels. </i>
+				</b>When you cast this spell using a spell slot of 3rd level or higher, you can attempt to counteract a spell set to secure the foreign system if the spell's level is equal to or less than the level of the spell slot used.</p>
 		</description>
 		<setters>
 			<set name="keywords">hacking, Transmutation</set>
@@ -428,8 +488,11 @@
 		<description>
 			<p>You touch a single computerized device or computer system to conjure knowbot - a partially sentient piece of software imprinted with vestiges of your own skills and computer abilities. For the duration of the spell, you can use a bonus action to have the knowbot execute a computer-related task that would normally require an action. The knowbot makes Intelligence ability checks using your ability score and proficiency bonuses (including your proficiency with hacking tools, if applicable).</p>
 			<p class="indent">You have a limited telepathic bond with the knowbot, out to a range of 500 feet from the device or system where the knowbot was conjured. If you move beyond this range, the knowbot disappears in 2d4 rounds, as if the duration of the spell had expired. Moving within range again immediately reestablishes the bond.</p>
-            <p class="indent">The knowbot is bound to the system in which it was created, and it stays there until it is dismissed or the spell's duration expires.</p>
-			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5rd level or higher, the spell's duration increases to 1 hour. Additionally, your telepathic bond with the knowbot is effective out to a range of 1,000 feet, and if you leave the range of the bond, the knowbot continues performing its last directed task until the spell expires.</p>
+			<p class="indent">The knowbot is bound to the system in which it was created, and it stays there until it is dismissed or the spell's duration expires.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels. </i>
+				</b>When you cast this spell using a spell slot of 5rd level or higher, the spell's duration increases to 1 hour. Additionally, your telepathic bond with the knowbot is effective out to a range of 1,000 feet, and if you leave the range of the bond, the knowbot continues performing its last directed task until the spell expires.</p>
 		</description>
 		<setters>
 			<set name="keywords">hacking, conjure, Conjuration</set>
@@ -473,7 +536,10 @@
 			<p class="indent">You have a supernatural bond with the conjured vehicle that allows you to drive beyond normal ability. While driving the conjured vehicle, you are considered proficient with vehicles of its type, and you add double your proficiency bonus to ability checks related to driving the vehicle. While driving the vehicle, you can make any spell you cast that targets only you also target the vehicle.</p>
 			<p class="indent">If the vehicle drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss the vehicle at any time as an action, causing it to disappear.</p>
 			<p class="indent">You can't have more than one vehicle bonded by this spell at a time. As an action, you can release the vehicle from its bond at any time, causing it to disappear.</p>
-			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, you can conjure a nonmilitary water vehicle large enough to carry six Medium creatures. When you cast this spell using a spell slot of 5th level or higher, you can conjure a nonmilitary air vehicle large enough to carry ten Medium creatures. When you cast this spell using a spell slot of 7th or higher, you can conjure any type of vehicle, subject to the DM's approval.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels. </i>
+				</b>When you cast this spell using a spell slot of 3rd level or higher, you can conjure a nonmilitary water vehicle large enough to carry six Medium creatures. When you cast this spell using a spell slot of 5th level or higher, you can conjure a nonmilitary air vehicle large enough to carry ten Medium creatures. When you cast this spell using a spell slot of 7th or higher, you can conjure any type of vehicle, subject to the DM's approval.</p>
 		</description>
 		<setters>
 			<set name="keywords">conjure, vehicle</set>
@@ -495,11 +561,18 @@
 		<description>
 			<p>This spell plays havoc with electronic devices, making the use of such devices impossible. Each electronic device in a 10-foot-radius sphere centered on a point you choose within range is subject to random behavior while it remains within the area. A device not held by a creature automatically affected. If an electronic device is held by a creature, that creature must succeed on a Wisdom saving throw or have the device affected by the spell.</p>
 			<p class="indent">At the start of each of your turns, roll a d6 for each affected device to determine its behavior. Except where otherwise indicated, that behavior lasts until the start of your next turn while this spell is in effect.</p>
-			<p class="indent"><i>1:</i> The device shuts down and must be restarted. Do not roll again for this device until it is restarted.</p>
-			<p class="indent"><i>2-4:</i> The device does not function.</p>
-			<p class="indent"><i>5:</i> The device experiences a power surge, causing an electric shock to the wielder (if any) and one random creature within 5 feet of the device. Each affected creature must make a Dexterity saving throw against your spell save DC, taking 6d6 lightning damage on a failed save, or half as much damage on a successful one.</p>
-			<p class="indent"><i>6:</i> The device is usable as normal.</p>
-			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the radius of the sphere affected by the spell increases by 5 feet for each slot level above 3rd.</p>
+			<p class="indent">
+				<i>1:</i> The device shuts down and must be restarted. Do not roll again for this device until it is restarted.</p>
+			<p class="indent">
+				<i>2-4:</i> The device does not function.</p>
+			<p class="indent">
+				<i>5:</i> The device experiences a power surge, causing an electric shock to the wielder (if any) and one random creature within 5 feet of the device. Each affected creature must make a Dexterity saving throw against your spell save DC, taking 6d6 lightning damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent">
+				<i>6:</i> The device is usable as normal.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels. </i>
+				</b>When you cast this spell using a spell slot of 4th level or higher, the radius of the sphere affected by the spell increases by 5 feet for each slot level above 3rd.</p>
 		</description>
 		<setters>
 			<set name="keywords">hacking, Enchantment</set>
@@ -560,7 +633,8 @@
 	<element name="On/Off" type="Spell" source="Unearthed Arcana: Modern Magic" id="ID_WOTC_UA20150803_SPELL_ON_OFF">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
-			<p>This cantrip allows you to activate or deactivate any electronic device within range, as long as the device has a clearly defined on or off function that can be easily accessed from the outside the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by <i>on/off</i>.</p>
+			<p>This cantrip allows you to activate or deactivate any electronic device within range, as long as the device has a clearly defined on or off function that can be easily accessed from the outside the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by <i>on/off</i>.
+			</p>
 		</description>
 		<setters>
 			<set name="keywords">hacking, Transmutation</set>
@@ -641,7 +715,8 @@
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>The creature you touch feels reality subtly shifted to its favor while this spell is in effect. The target isn't inconvenienced by mundane delays of any sort. Traffic light are always green, there's always a waiting elevator, and a taxi is always around the corner. The target can run at the full speed through dense crowds, and attacks opportunity provoked by the target's movement are made with disadvantage.</p>
-			<p class="indent"><i>Synchronicity </i>grants advantage to Dexterity (Stealth) checks, since the target always finds a handy piece of cover available. Additionally, the target has advantage on all ability checks mode to drive a vehicle.</p>
+			<p class="indent">
+				<i>Synchronicity </i>grants advantage to Dexterity (Stealth) checks, since the target always finds a handy piece of cover available. Additionally, the target has advantage on all ability checks mode to drive a vehicle.</p>
 			<p class="indent">In the event that two or more creatures under effect of synchronicity are attempting to avoid being inconvenienced by each other, the creatures engage in a contest of Charisma each time the effects of the spells would oppose each other.</p>
 		</description>
 		<setters>
@@ -664,7 +739,10 @@
 		<description>
 			<p>This spell allows you to bypass system security in order to create a secure login on a foreign system. The login you create allows you administrator-level privileges in any computer system not enhanced through technomagic. The login defeats any technomagic spells of 3rd level or lower.</p>
 			<p class="indent">Once the duration of the spell expires, the login and all privileges are wiped from the system. System logs still show the activity of the user, but the user identification cannot be found or traced.</p>
-			<p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, you are able to bypass technomagic spells if the spell's level is equal to or less than the level of the spell slot you used.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels. </i>
+				</b>When you cast this spell using a spell slot of 5th level or higher, you are able to bypass technomagic spells if the spell's level is equal to or less than the level of the spell slot you used.</p>
 		</description>
 		<setters>
 			<set name="keywords">hacking, login, Transmutation</set>

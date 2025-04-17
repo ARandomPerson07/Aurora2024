@@ -3,7 +3,7 @@
 	<info>
 		<name>Adventure with Muk</name>
 		<update version="0.0.1">
-			<file name="adventure-with-muk.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/extra-life/adventure-with-muk.xml" />
+			<file name="adventure-with-muk.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/extra-life/adventure-with-muk.xml" />
 		</update>
 	</info>
 
@@ -17,7 +17,7 @@
 		<setters>
 			<set name="abbreviation">AWM</set>
 			<set name="url">https://www.dmsguild.com/product/294712/Adventure-with-Muk-5e</set>
-			<set name="image">https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/extra-life/EL-AWM.jpg</set>
+			<set name="image">https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/extra-life/EL-AWM.jpg</set>
 			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
 			<set name="official">true</set>
 			<set name="supplement">true</set>
@@ -32,15 +32,42 @@
 			<p>Dankwood goblins are much like any other run-of-the-mill goblin but they are much more gentle and artistic than the savage and uncouth goblins of the world.</p>
 			<p class="indent">They are inquisitive and have a magical bond with the small forest creatures with which they are often friends. They are fast and nimble and love to explore. Because of this they make great adventurers and guides.</p>
 			<h4>DANKWOOD GOBLIN TRAITS</h4>
-			<p class="indent" style="margin-top:15px"><b><i>Ability Score Increase. </i></b>Your Dexterity score increases by 2 and your Wisdom score increases by 1.</p>
-			<p class="indent"><b><i>Age. </i></b>Dankwood goblins reach adulthood at age 8 and live up to 60 years.</p>
-			<p class="indent"><b><i>Alignment. </i></b>Dankwood goblins are typically neutral or neutral good, though some mischievous dankwood goblins are chaotic neutral.</p>
-			<p class="indent"><b><i>Size. </i></b>Dankwood goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.</p>
-			<p class="indent"><b><i>Speed. </i></b> Your base walking speed is 30 feet.</p>
-			<p class="indent"><b><i>Darkvision. </i></b>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
-			<p class="indent"><b><i>Speak with Small Beasts. </i></b>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Dankwood goblins love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</p>
-			<p class="indent"><b><i>Nimble Escape. </i></b>You can take the Disengage or Hide action as a bonus action on each of your turns.</p>
-			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Goblin.</p>
+			<p class="indent" style="margin-top:15px">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Dexterity score increases by 2 and your Wisdom score increases by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Age. </i>
+				</b>Dankwood goblins reach adulthood at age 8 and live up to 60 years.</p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b>Dankwood goblins are typically neutral or neutral good, though some mischievous dankwood goblins are chaotic neutral.</p>
+			<p class="indent">
+				<b>
+					<i>Size. </i>
+				</b>Dankwood goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.</p>
+			<p class="indent">
+				<b>
+					<i>Speed. </i>
+				</b> Your base walking speed is 30 feet.</p>
+			<p class="indent">
+				<b>
+					<i>Darkvision. </i>
+				</b>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent">
+				<b>
+					<i>Speak with Small Beasts. </i>
+				</b>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Dankwood goblins love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</p>
+			<p class="indent">
+				<b>
+					<i>Nimble Escape. </i>
+				</b>You can take the Disengage or Hide action as a bonus action on each of your turns.</p>
+			<p class="indent">
+				<b>
+					<i>Languages. </i>
+				</b>You can speak, read, and write Common and Goblin.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>

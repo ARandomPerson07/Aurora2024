@@ -3,7 +3,7 @@
 	<info>
 		<name>Githyanki from Monsters of the Multiverse</name>
 		<update version="0.0.1">
-			<file name="race-githyanki.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-githyanki.xml" />
+			<file name="race-githyanki.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-githyanki.xml" />
 		</update>
 	</info>
 
@@ -14,14 +14,32 @@
 			<p class="indent">Githyanki who reside in the Astral Plane can live indefinitely.</p>
 			<h4>GITHYANKI TRAITS</h4>
 			<p>As a githyanki, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Astral Knowledge.</em></strong> You can mystically access a reservoir of experiences of entities connected to the Astral Plane. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the Player's Handbook, as you momentarily project your consciousness into the Astral Plane. These proficiencies last until the end of your next long rest.</p>
-			<p class="indent"><strong><em>Githyanki Psionics.</em></strong> You know the <i>mage hand</i> cantrip, and the hand is invisible when you cast the cantrip with this trait.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Astral Knowledge.</em>
+				</strong> You can mystically access a reservoir of experiences of entities connected to the Astral Plane. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the Player's Handbook, as you momentarily project your consciousness into the Astral Plane. These proficiencies last until the end of your next long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Githyanki Psionics.</em>
+				</strong> You know the <i>mage hand</i> cantrip, and the hand is invisible when you cast the cantrip with this trait.</p>
 			<p class="indent">Starting at 3rd level, you can cast the <i>jump</i> spell with this trait. Starting at 5th level, you can also cast the <i>misty step</i> spell with it. Once you cast <i>jump</i> or <i>misty step</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait.</p>
-			<p class="indent"><strong><em>Psychic Resilience.</em></strong> You have resistance to psychic damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Psychic Resilience.</em>
+				</strong> You have resistance to psychic damage.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -30,9 +48,9 @@
 			<stat name="innate speed" value="30" bonus="base" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Githyanki)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Githyanki)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Githyanki)" supports="Standard||Exotic" />
-			
+
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHYANKI_ASTRAL_KNOWLEDGE" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHYANKI_GITHYANKI_PSIONICS" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHYANKI_PSYCHIC_RESILIENCE" />

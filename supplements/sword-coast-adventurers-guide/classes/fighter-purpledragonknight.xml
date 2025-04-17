@@ -5,7 +5,7 @@
 		<description>Purple Dragon Knight archetype from the Sword Coast Adventurer’s Guide.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide">Wizards of the Coast</author>
 		<update version="0.0.8">
-			<file name="fighter-purpledragonknight.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/sword-coast-adventurers-guide/classes/fighter-purpledragonknight.xml" />
+			<file name="fighter-purpledragonknight.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/sword-coast-adventurers-guide/classes/fighter-purpledragonknight.xml" />
 		</update>
 	</info>
 
@@ -18,7 +18,8 @@
 			<div class="sidebar">
 				<h5>RESTRICTION: KNIGHTHOOD</h5>
 				<p>Purple Dragon knights are tied to a specific order of Cormyrean knighthood.</p>
-				<p class="indent"><b>Banneret</b> serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than Purple Dragon knights.</p>
+				<p class="indent">
+					<b>Banneret</b> serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than Purple Dragon knights.</p>
 			</div>
 			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_PURPLE_DRAGON_KNIGHT_RALLYING_CRY" />
 			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_PURPLE_DRAGON_KNIGHT_ROYAL_ENVOY" />

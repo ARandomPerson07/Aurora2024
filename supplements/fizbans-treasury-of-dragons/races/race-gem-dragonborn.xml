@@ -5,7 +5,7 @@
 		<description>The Gem Dragonborn from Fizban's Treasury of Dragons</description>
 		<author url="https://dnd.wizards.com/products/treasury-dragons">Fizban's Treasury of Dragons</author>
 		<update version="0.0.2">
-			<file name="race-gem-dragonborn.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/fizbans-treasury-of-dragons/races/race-gem-dragonborn.xml" />
+			<file name="race-gem-dragonborn.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/fizbans-treasury-of-dragons/races/race-gem-dragonborn.xml" />
 		</update>
 	</info>
 	<element name="Dragonborn (Gem)" type="Race" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACE_GEM_DRAGONBORN">
@@ -13,25 +13,67 @@
 			<p>Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons—amethyst, crystal, emerald, sapphire, and topaz—gleam in these dragonborn’s scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discovery—but also the desiccation of despair.</p>
 			<h4>GEM DRAGONBORN TRAITS</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Gem Ancestry.</em></strong> You have a gem dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Gem Ancestry table. This determines the damage type for your other traits, as shown in the table.</p>
-			<p class="indent"><strong><em>Breath Weapon.</em></strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Gem Ancestry.</em>
+				</strong> You have a gem dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Gem Ancestry table. This determines the damage type for your other traits, as shown in the table.</p>
+			<p class="indent">
+				<strong>
+					<em>Breath Weapon.</em>
+				</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Gem Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
 			<p class="indent">You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
-			<p class="indent"><strong><em>Draconic Resistance.</em></strong> You have resistance to the damage type associated with your Gem Ancestry.</p>
-			<p class="indent"><strong><em>Psionic Mind.</em></strong> You can send telepathic messages to any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p>
-			<p class="indent"><strong><em>Gem Flight.</em></strong> Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Draconic Resistance.</em>
+				</strong> You have resistance to the damage type associated with your Gem Ancestry.</p>
+			<p class="indent">
+				<strong>
+					<em>Psionic Mind.</em>
+				</strong> You can send telepathic messages to any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand these messages, but it must be able to understand at least one language to comprehend them.</p>
+			<p class="indent">
+				<strong>
+					<em>Gem Flight.</em>
+				</strong> Starting at 5th level, you can use a bonus action to manifest spectral wings on your body. These wings last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest.</p>
 			<h5>Gem Ancestry</h5>
 			<table>
 				<thead>
-					<tr><td>Dragon</td><td>Damage Type</td></tr>
+					<tr>
+						<td>Dragon</td>
+						<td>Damage Type</td>
+					</tr>
 				</thead>
-				<tr><td>Amethyst</td><td>Force</td></tr>
-				<tr><td>Crystal</td><td>Radiant</td></tr>
-				<tr><td>Emerald</td><td>Psychic</td></tr>
-				<tr><td>Sapphire</td><td>Thunder</td></tr>
-				<tr><td>Topaz</td><td>Necrotic</td></tr>
+				<tr>
+					<td>Amethyst</td>
+					<td>Force</td>
+				</tr>
+				<tr>
+					<td>Crystal</td>
+					<td>Radiant</td>
+				</tr>
+				<tr>
+					<td>Emerald</td>
+					<td>Psychic</td>
+				</tr>
+				<tr>
+					<td>Sapphire</td>
+					<td>Thunder</td>
+				</tr>
+				<tr>
+					<td>Topaz</td>
+					<td>Necrotic</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" alt="Gem Dragonborn" />
@@ -40,7 +82,7 @@
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Gem Dragonborn)" supports="Standard||Exotic" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DRAGONBORN"/>
 			<grant type="Racial Trait" id="ID_WOTC_FTOD_RACIAL_TRAIT_GEM_DRAGONBORN_GEM_ANCESTRY" />
@@ -56,13 +98,31 @@
 			<h5>Gem Ancestry</h5>
 			<table>
 				<thead>
-					<tr><td>Dragon</td><td>Damage Type</td></tr>
+					<tr>
+						<td>Dragon</td>
+						<td>Damage Type</td>
+					</tr>
 				</thead>
-				<tr><td>Amethyst</td><td>Force</td></tr>
-				<tr><td>Crystal</td><td>Radiant</td></tr>
-				<tr><td>Emerald</td><td>Psychic</td></tr>
-				<tr><td>Sapphire</td><td>Thunder</td></tr>
-				<tr><td>Topaz</td><td>Necrotic</td></tr>
+				<tr>
+					<td>Amethyst</td>
+					<td>Force</td>
+				</tr>
+				<tr>
+					<td>Crystal</td>
+					<td>Radiant</td>
+				</tr>
+				<tr>
+					<td>Emerald</td>
+					<td>Psychic</td>
+				</tr>
+				<tr>
+					<td>Sapphire</td>
+					<td>Thunder</td>
+				</tr>
+				<tr>
+					<td>Topaz</td>
+					<td>Necrotic</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />

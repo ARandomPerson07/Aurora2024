@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="legendary-magic-items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/dnd-beyond/legendary-magic-items.xml" />
+			<file name="legendary-magic-items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/dnd-beyond/legendary-magic-items.xml" />
 		</update>
 	</info>
 
@@ -10,17 +10,27 @@
 		<description>
 			<p>Discover five legendary magic items from <i>Dungeons &amp; Dragons: Honor Among Thieves</i>. Create portals, instantly slay enemies with low hit points, and more with these claimable items:</p>
 			<ul>
-				<li><i>Helm of Disjunction</i></li>
-				<li><i>Hither-Thither Staff</i></li>
-				<li><i>Horn of Beckoning Death</i></li>
-				<li><i>Red Wizard Blade</i></li>
-				<li><i>Tablet of Reawakening</i></li>
+				<li>
+					<i>Helm of Disjunction</i>
+				</li>
+				<li>
+					<i>Hither-Thither Staff</i>
+				</li>
+				<li>
+					<i>Horn of Beckoning Death</i>
+				</li>
+				<li>
+					<i>Red Wizard Blade</i>
+				</li>
+				<li>
+					<i>Tablet of Reawakening</i>
+				</li>
 			</ul>
 		</description>
 		<setters>
 			<set name="abbreviation">LMI</set>
 			<set name="url">https://www.dndbeyond.com/claim/bundle/dungeons-and-dragons-honor-among-thieves</set>
-			<set name="image">https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/dnd-beyond/LMI.png</set>
+			<set name="image">https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/dnd-beyond/LMI.png</set>
 			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast, D&amp;D Beyond</set>
 			<set name="official">true</set>
 			<set name="supplement">true</set>
@@ -32,9 +42,18 @@
 		<description>
 			<p>The wizard Mordenkainen crafted this sleek, golden helmet. If he created other <i>helms of disjunction</i>, they have yet to be found.</p>
 			<p class="indent">As an action while wearing this helm, you can use it to emit an antimagic pulse in a 300-foot-radius sphere centered on yourself. The pulse has the following effects:</p>
-			<p class="indent"><strong><em>Magic Item Disjunction.</em></strong> Potions and scrolls in the area are destroyed. All other magic items in the area have their magical properties suppressed for 1 minute. Artifacts are unaffected by this property, as are magic items on your person.</p>
-			<p class="indent"><strong><em>Spell Disjunction.</em></strong> Any ongoing spell ends if the creature, object, or area affected by it is even partly in the pulse’s area.</p>
-			<p class="indent"><strong><em>Wave of Force.</em></strong> The antimagic pulse is strong enough to knock down creatures close to you. Each creature within 30 feet of you must succeed on a DC 15 Strength saving throw or have the prone condition.</p>
+			<p class="indent">
+				<strong>
+					<em>Magic Item Disjunction.</em>
+				</strong> Potions and scrolls in the area are destroyed. All other magic items in the area have their magical properties suppressed for 1 minute. Artifacts are unaffected by this property, as are magic items on your person.</p>
+			<p class="indent">
+				<strong>
+					<em>Spell Disjunction.</em>
+				</strong> Any ongoing spell ends if the creature, object, or area affected by it is even partly in the pulse’s area.</p>
+			<p class="indent">
+				<strong>
+					<em>Wave of Force.</em>
+				</strong> The antimagic pulse is strong enough to knock down creatures close to you. Each creature within 30 feet of you must succeed on a DC 15 Strength saving throw or have the prone condition.</p>
 			<p class="indent">Once you use the helm’s property, it can’t be used again until 1d4 days have passed.</p>
 		</description>
 		<setters>

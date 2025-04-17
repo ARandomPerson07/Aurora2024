@@ -6,7 +6,7 @@
 
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="ranger-gloomstalker.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/ranger-gloomstalker.xml" />
+			<file name="ranger-gloomstalker.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/ranger-gloomstalker.xml" />
 		</update>
 	</info>
 
@@ -37,9 +37,18 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_DREAD_AMBUSHER</requirements>
 		<description>
 			<p>You have mastered the art of creating fearsome ambushes, granting you the following benefits.</p>
-			<p class="indent"><b><i>Ambusher's Leap.</i></b> At the start of your first turn of each combat, your Speed increases by 10 feet until the end of that turn.</p>
-			<p class="indent"><b><i>Dreadful Strike.</i></b> When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
-			<p class="indent"><b><i>Initiative Bonus.</i></b> When you roll Initiative, you can add your Wisdom modifier to the roll.</p>
+			<p class="indent">
+				<b>
+					<i>Ambusher's Leap.</i>
+				</b> At the start of your first turn of each combat, your Speed increases by 10 feet until the end of that turn.</p>
+			<p class="indent">
+				<b>
+					<i>Dreadful Strike.</i>
+				</b> When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+			<p class="indent">
+				<b>
+					<i>Initiative Bonus.</i>
+				</b> When you roll Initiative, you can add your Wisdom modifier to the roll.</p>
 		</description>
 		<sheet alt="Dread Ambusher">
 			<description>You gain the following benefits:</description>
@@ -86,7 +95,7 @@
 			<stat name="initiative" value="wisdom:modifier" />
 		</rules>
 	</element>
-	
+
 	<element name="Level 3: Gloom Stalker Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_RANGER_GLOOM_STALKER_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_GLOOM_STALKER_SPELLS</requirements>
 		<description>
@@ -94,13 +103,41 @@
 			<h5>GLOOM STALKER SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Ranger Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Ranger Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Disguise Self</em></td></tr>
-				<tr><td>5rd</td><td><em>Rope Trick</em></td></tr>
-				<tr><td>9th</td><td><em>Fear</em></td></tr>
-				<tr><td>13th</td><td><em>Greater Invisibility</em></td></tr>
-				<tr><td>17th</td><td><em>Seeming</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Disguise Self</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5rd</td>
+					<td>
+						<em>Rope Trick</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Fear</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>Greater Invisibility</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>Seeming</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -135,7 +172,7 @@
 		<description>
 			<p>You have honed your ability to resist mind-altering powers. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</p>
 		</description>
-		<sheet alt="Iron Mind" >
+		<sheet alt="Iron Mind">
 			<description>You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</description>
 		</sheet>
 		<rules>
@@ -147,8 +184,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_STALKERS_FLURRY</requirements>
 		<description>
 			<p>The Psychic damage of your Dreadful Strike becomes 2d8. In addition, when you use the Dreadful Strike effect of your Dread Ambusher feature, you can cause one of the following additional effects.</p>
-			<p class="indent"><b><i>Sudden Strike.</i></b> You can make another attack with the same weapon against a different creature that is within 5 feet of the original target and that is within the weapon’s range.</p>
-			<p class="indent"><b><i>Mass Fear.</i></b> The target and each creature within 10 feet of it must make a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.</p>
+			<p class="indent">
+				<b>
+					<i>Sudden Strike.</i>
+				</b> You can make another attack with the same weapon against a different creature that is within 5 feet of the original target and that is within the weapon’s range.</p>
+			<p class="indent">
+				<b>
+					<i>Mass Fear.</i>
+				</b> The target and each creature within 10 feet of it must make a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.</p>
 		</description>
 		<sheet alt="Stalker's Flurry">
 			<description>When you use the Dreadful Strike effect, you can cause one of the following additional effects:</description>
@@ -189,12 +232,12 @@
 		</sheet>
 	</element>
 
-<!--Feature Replacement Grants-->
+	<!--Feature Replacement Grants-->
 	<element name="Dread Ambusher Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_DREAD_AMBUSHER" />
 	<element name="Gloom Stalker Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_GLOOM_STALKER_SPELLS" />
 	<element name="Umbral Sight Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_UMBRAL_SIGHT" />
 	<element name="Iron Mind Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_IRON_MIND" />
-	<element name="Stalker's Flurry Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_STALKERS_FLURRY" />	
-	<element name="Shadowy Dodge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_SHADOWY_DODGE" />	
+	<element name="Stalker's Flurry Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_STALKERS_FLURRY" />
+	<element name="Shadowy Dodge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_SHADOWY_DODGE" />
 
 </elements>

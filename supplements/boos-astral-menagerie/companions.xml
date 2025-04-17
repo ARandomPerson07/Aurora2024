@@ -4,7 +4,7 @@
 		<name>Companion</name>
 		<description>Creatures from Boo’s Astral Menagerie, that fit rules for Companions or Familiars</description>
 		<update version="0.0.1">
-			<file name="companions.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/boos-astral-menagerie/companions.xml" />
+			<file name="companions.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/boos-astral-menagerie/companions.xml" />
 		</update>
 	</info>
 
@@ -57,7 +57,8 @@
 	</element>
 	<element name="Tail Slap" type="Companion Action" source="Boo’s Astral Menagerie" id="ID_WOTC_BAM_COMPANION_ACTION_SPACE_GUPPY_TAIL_SLAP">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 1 bludgeoning damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 1 bludgeoning damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.</description>
@@ -116,7 +117,8 @@
 	</element>
 	<element name="Bite" type="Companion Action" source="Boo’s Astral Menagerie" id="ID_WOTC_BAM_COMPANION_ACTION_SPACE_MOLLYMAWK_BITE">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 4 (1d4 + 2) piercing damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 4 (1d4 + 2) piercing damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</description>
@@ -160,7 +162,8 @@
 	</element>
 	<element name="Bite" type="Companion Action" source="Boo’s Astral Menagerie" id="ID_WOTC_BAM_COMPANION_ACTION_SPACE_SWINE_BITE">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 4 (1d6 + 1) piercing damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 4 (1d6 + 1) piercing damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</description>
@@ -171,7 +174,8 @@
 	<element name="Chwinga Astronaut" type="Companion" source="Boo’s Astral Menagerie" id="ID_WOTC_BAM_COMPANION_CHWINGA_ASTRONAUT">
 		<supports>Variant Familiar</supports>
 		<description>
-			<p>Chwingas that live in Wildspace usually dwell on habitable moons and asteroids, though they occasionally stow away on spelljamming ships or ride around on space guppies. Using its Magical Gift ability, a chwinga astronaut can bestow one of the following charms in place of those described in the chapter 7 of <i>Dungeon Master's Guide</i>.</p>
+			<p>Chwingas that live in Wildspace usually dwell on habitable moons and asteroids, though they occasionally stow away on spelljamming ships or ride around on space guppies. Using its Magical Gift ability, a chwinga astronaut can bestow one of the following charms in place of those described in the chapter 7 of <i>Dungeon Master's Guide</i>.
+			</p>
 			<div class="reference">
 				<div element="ID_WOTC_BAM_MAGIC_ITEM_CHARM_OF_AIR_BUBBLES" />
 			</div>
@@ -250,7 +254,8 @@
 		<description>
 			<p>The chwinga casts one of the following spells, requiring no material or verbal components and using Charisma as the spellcasting ability:</p>
 			<ul class="unstyled">
-				<li>At will: <i>druidcraft, guidance, pass without trace, resistance</i></li>
+				<li>At will: <i>druidcraft, guidance, pass without trace, resistance</i>
+				</li>
 			</ul>
 		</description>
 		<sheet>
@@ -294,7 +299,8 @@
 	</element>
 	<element name="Bite" type="Companion Action" source="Boo’s Astral Menagerie" id="ID_WOTC_BAM_COMPANION_ACTION_SPACE_HAMSTER_BITE">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one target. <i>Hit:</i> 1 piercing damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one target. <i>Hit:</i> 1 piercing damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</description>
@@ -302,7 +308,8 @@
 	</element>
 	<element name="Go for the Eyes (Recharge 6)" type="Companion Action" source="Boo’s Astral Menagerie" id="ID_WOTC_BAM_COMPANION_ACTION_SPACE_HAMSTER_GO_FOR_THE_EYES">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one creature. <i>Hit:</i> 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 15 Dexterity saving throw or be blinded until the start of the hamster's next turn.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one creature. <i>Hit:</i> 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 15 Dexterity saving throw or be blinded until the start of the hamster's next turn.</p>
 		</description>
 		<sheet alt="Go for the Eyes" usage="Recharge 6">
 			<description>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 15 Dexterity saving throw or be blinded until the start of the hamster's next turn.</description>
@@ -336,7 +343,7 @@
 			<set name="intelligence">1</set>
 			<set name="wisdom">10</set>
 			<set name="charisma">1</set>
-			<set name="conditionImmunities">charmed, frightened, prone</set>			
+			<set name="conditionImmunities">charmed, frightened, prone</set>
 			<set name="senses">darkvision 30 ft., passive Perception 10</set>
 			<set name="languages">—</set>
 			<set name="challenge">1</set>
@@ -371,7 +378,8 @@
 	</element>
 	<element name="Spiked Tentacle" type="Companion Action" source="Boo’s Astral Menagerie" id="ID_WOTC_BAM_COMPANION_ACTION_JAMMER_LEECH_SPIKED_TENTACLE">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +2 to hit, reach 5 ft., one target <i>Hit:</i> 2 (1d4) piercing damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +2 to hit, reach 5 ft., one target <i>Hit:</i> 2 (1d4) piercing damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +2 to hit, reach 5 ft., one target Hit: 2 (1d4) piercing damage.</description>

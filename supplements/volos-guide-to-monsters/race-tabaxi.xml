@@ -3,7 +3,7 @@
 	<info>
 		<name>Tabaxi</name>
 		<update version="0.1.1">
-			<file name="race-tabaxi.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/volos-guide-to-monsters/race-tabaxi.xml" />
+			<file name="race-tabaxi.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/volos-guide-to-monsters/race-tabaxi.xml" />
 		</update>
 	</info>
 	<element name="Tabaxi" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_TAXBAXI">
@@ -26,108 +26,171 @@
 			<h4>TABAXI NAMES</h4>
 			<p>Each tabaxi has a single name, determined by clan and based on a complex formula that involves astrology, prophecy, clan history, and other esoteric factors. Tabaxi names can apply to both males and females, and most use nicknames derived from or inspired by their full names.</p>
 			<p class="indent">Clan names are usually based on a geographical feature located in or near the clan’s territory. The following list of sample tabaxi names includes nicknames in parenthesis.</p>
-			<p><b>Tabaxi Names: </b>Cloud on the Mountaintop (Cloud), Five Timber (Timber), Jade Shoe Qade), Left-Handed Hummingbird (Bird), Seven Thundercloud (Thunder), Skirt of Snakes (Snake), Smoking Mirror (Smoke) Tabaxi Clans: Bright Cliffs, Distant Rain, Mountain Tree, Rumbling River, Snoring Mountain</p>
+			<p>
+				<b>Tabaxi Names: </b>Cloud on the Mountaintop (Cloud), Five Timber (Timber), Jade Shoe Qade), Left-Handed Hummingbird (Bird), Seven Thundercloud (Thunder), Skirt of Snakes (Snake), Smoking Mirror (Smoke) Tabaxi Clans: Bright Cliffs, Distant Rain, Mountain Tree, Rumbling River, Snoring Mountain</p>
 			<h4>TABAXI PERSONALITY</h4>
 			<p>A tabaxi might have motivations and quirks much different from a dwarf or an elf with a similar background. You can use the following tables to customize your character in addition to the trait, ideal, bond, and flaw from your background.</p>
 			<p class="indent">The Tabaxi Obsession table can help hone your character’s goals. For extra fun, roll a new result every few days that pass in the campaign to reflect your ever-changing curiosity.</p>
 			<h5>TABAXI OBSESSIONS</h5>
 			<table>
 				<thead>
-					<tr> <td>d8</td><td>My curiosity is currently fixed on ...</td> </tr>
+					<tr>
+						<td>d8</td>
+						<td>My curiosity is currently fixed on ...</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>A god or planar entity</td></tr>
-				<tr><td>2</td><td>A monster</td></tr>
-				<tr><td>3</td><td>A lost civilization</td></tr>
-				<tr><td>4</td><td>A wizard’s secrets</td></tr>
-				<tr><td>5</td><td>A mundane item</td></tr>
-				<tr><td>6</td><td>A magic item</td></tr>
-				<tr><td>1</td><td>A location</td></tr>
-				<tr><td>8</td><td>A legend or tale</td></tr>
-			</table> 
+				<tr>
+					<td>1</td>
+					<td>A god or planar entity</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>A monster</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>A lost civilization</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>A wizard’s secrets</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>A mundane item</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>A magic item</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>A location</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>A legend or tale</td>
+				</tr>
+			</table>
 			<h5>TABAXI QUIRKS</h5>
 			<table>
-				<thead> <tr><td>d10</td><td>Quirk</td></tr> </thead>
-				<tr><td>1</td><td>You miss your tropical home and complain endlessly about the freezing, weather, even in summer.</td></tr>
-				<tr><td>2</td><td>You never wear the same outfit twice, unless you absolutely must.</td></tr>
-				<tr><td>3</td><td>You have a minor phobia of water and hate getting wet.</td></tr>
-				<tr><td>4</td><td>Your tail always betrays your inner thoughts.</td></tr>
-				<tr><td>5</td><td>You purr loudly when you are happy.</td></tr>
-				<tr><td>6</td><td>You keep a small ball of yarn in your hand, which you constantly fidget with.</td></tr>
-				<tr><td>7</td><td>You are always in debt, since you spend your gold on lavish parties and gifts for friends.</td></tr>
-				<tr><td>8</td><td>When talking about something you’re obsessed with, you speak quickly and never pause and others can’t understand you.</td></tr>
-				<tr><td>9</td><td>You are a font of random trivia from the lore and stories you have discovered.</td></tr>
-				<tr><td>10</td><td>You can’t help but pocket interesting objects you come across.</td></tr>
-			</table> 
+				<thead>
+					<tr>
+						<td>d10</td>
+						<td>Quirk</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>1</td>
+					<td>You miss your tropical home and complain endlessly about the freezing, weather, even in summer.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>You never wear the same outfit twice, unless you absolutely must.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>You have a minor phobia of water and hate getting wet.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Your tail always betrays your inner thoughts.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>You purr loudly when you are happy.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>You keep a small ball of yarn in your hand, which you constantly fidget with.</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>You are always in debt, since you spend your gold on lavish parties and gifts for friends.</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>When talking about something you’re obsessed with, you speak quickly and never pause and others can’t understand you.</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>You are a font of random trivia from the lore and stories you have discovered.</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>You can’t help but pocket interesting objects you come across.</td>
+				</tr>
+			</table>
 			<h4>TABAXI TRAITS</h4>
 			<p>Your tabaxi character has the following racial traits.</p>
 			<p>
-			<span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Charisma score increases by 1.<br/>
+				<span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Charisma score increases by 1.<br/>
 			<span class="feature">Age.</span>Tabaxi have lifespans equivalent to humans. <br/>
-			<!-- (removed in Errata v3.0) -->
-			<!-- <span class="feature">Alignment.</span> Tabaxi tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, with most of them driven by curiosity rather than greed or other dark impulses.<br/> -->
-			<span class="feature">Size.</span>Tabaxi are taller on average than humans and relatively slender. Your size is Medium.<br/>
-			<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
-			<span class="feature">Darkvision.</span>You have a cat’s keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br/>
-			<span class="feature">Feline Agility.</span>Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.<br/>
-			<span class="feature">Cat’s Claws.</span>Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.<br/>
-			<span class="feature">Cat’s Talent.</span>You have proficiency in the Perception and Stealth skills.<br/>
-			<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br/>
-			</p>
-		</description>
-		<sheet display="false"/>
-		<setters>
-			<set name="names" type="male">Cloud on the Mountaintop, Five Timber, Jade Shoe, Left-Handed Hummingbird, Seven Thundercloud, Skirt of Snakes, Smoking Mirror</set>
-			<set name="names" type="clan">Bright Cliffs, Distant Rain, Mountain Tree, Rumbling River, Snoring Mountain</set>
-			<set name="names-format">{{name}}</set>
-			<set name="height" modifier="2d12">4’8"</set>
-			<set name="weight" modifier="2d4">100 lb.</set>
-		</setters>
-		<rules>
-			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Tabaxi)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Tabaxi)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="innate speed" value="30" bonus="base"/>
-			<grant type="Vision" id="ID_VISION_DARKVISION" />
-			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Language (Tabaxi)" supports="Standard||Exotic" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_FELINE_AGILITY" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_CATS_CLAWS" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_CATS_TALENT" />
-		</rules>
-	</element>
-	<element name="Feline Agility" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_FELINE_AGILITY">
-		<description>
-			<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.</p>
-		</description>
-		<sheet>
-			<description>When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.</description>
-		</sheet>
-	</element>
-	<element name="Cat’s Claws" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_CATS_CLAWS">
-		<description>
-			<p>Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
-		</description>
-		<sheet>
-			<description>Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4+{{strength:modifier}}, instead of the bludgeoning damage normal for an unarmed strike.</description>
-		</sheet>
-		<rules>
-			<stat name="innate speed:climb" value="20" bonus="base" />
-		</rules>
-	</element>
-	<element name="Cat’s Talent" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_CATS_TALENT">
-		<description>
-			<p>You have proficiency in the Perception and Stealth skills.</p>
-		</description>
-		<sheet display="false">
-			<description>You have proficiency in the Perception and Stealth skills.</description>
-		</sheet>
-		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Customized Skill Proficiency, Cat’s Talent" supports="Skill" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-		</rules>
-	</element>  
+		<!-- (removed in Errata v3.0) -->
+		<!-- <span class="feature">Alignment.</span> Tabaxi tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, with most of them driven by curiosity rather than greed or other dark impulses.<br/> -->
+		<span class="feature">Size.</span>Tabaxi are taller on average than humans and relatively slender. Your size is Medium.<br/>
+	<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+<span class="feature">Darkvision.</span>You have a cat’s keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br/>
+<span class="feature">Feline Agility.</span>Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.<br/>
+<span class="feature">Cat’s Claws.</span>Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.<br/>
+<span class="feature">Cat’s Talent.</span>You have proficiency in the Perception and Stealth skills.<br/>
+<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br/>
+</p>
+</description>
+<sheet display="false"/>
+<setters>
+<set name="names" type="male">Cloud on the Mountaintop, Five Timber, Jade Shoe, Left-Handed Hummingbird, Seven Thundercloud, Skirt of Snakes, Smoking Mirror</set>
+<set name="names" type="clan">Bright Cliffs, Distant Rain, Mountain Tree, Rumbling River, Snoring Mountain</set>
+<set name="names-format">{{name}}</set>
+<set name="height" modifier="2d12">4’8"</set>
+<set name="weight" modifier="2d4">100 lb.</set>
+</setters>
+<rules>
+<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Tabaxi)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Tabaxi)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<stat name="innate speed" value="30" bonus="base"/>
+<grant type="Vision" id="ID_VISION_DARKVISION" />
+<grant type="Size" id="ID_SIZE_MEDIUM" />
+<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+<select type="Language" name="Language (Tabaxi)" supports="Standard||Exotic" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_FELINE_AGILITY" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_CATS_CLAWS" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_CATS_TALENT" />
+</rules>
+</element>
+<element name="Feline Agility" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_FELINE_AGILITY">
+<description>
+<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.</p>
+</description>
+<sheet>
+<description>When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.</description>
+</sheet>
+</element>
+<element name="Cat’s Claws" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_CATS_CLAWS">
+<description>
+<p>Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+</description>
+<sheet>
+<description>Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4+{{strength:modifier}}, instead of the bludgeoning damage normal for an unarmed strike.</description>
+</sheet>
+<rules>
+<stat name="innate speed:climb" value="20" bonus="base" />
+</rules>
+</element>
+<element name="Cat’s Talent" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_TAXBAXI_CATS_TALENT">
+<description>
+<p>You have proficiency in the Perception and Stealth skills.</p>
+</description>
+<sheet display="false">
+<description>You have proficiency in the Perception and Stealth skills.</description>
+</sheet>
+<rules>
+<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+<select type="Proficiency" name="Customized Skill Proficiency, Cat’s Talent" supports="Skill" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+</rules>
+</element>
 </elements>

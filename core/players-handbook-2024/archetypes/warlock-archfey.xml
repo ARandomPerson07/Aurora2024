@@ -5,7 +5,7 @@
 		<description>The Archfey Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/warlock-archfey.xml" />
+			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/warlock-archfey.xml" />
 		</update>
 	</info>
 
@@ -37,12 +37,35 @@
 			<h5 class="caption">Archfey Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Warlock Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Warlock Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Calm Emotions, Faerie Fire, Misty Step, Phantasmal Force, Sleep</em></td></tr>
-				<tr><td>5th</td><td><em>Blink, Plant Growth</em></td></tr>
-				<tr><td>7th</td><td><em>Dominate Beast, Greater Invisibility</em></td></tr>
-				<tr><td>9th</td><td><em>Dominate Person, Seeming</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Calm Emotions, Faerie Fire, Misty Step, Phantasmal Force, Sleep</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Blink, Plant Growth</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Dominate Beast, Greater Invisibility</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Dominate Person, Seeming</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -77,8 +100,14 @@
 		<description>
 			<p>Your patron grants you the ability to move between the boundaries of the planes. You can cast <i>Misty Step</i> without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
 			<p>In addition, whenever you cast that spell, you can choose one of the following additional effects.</p>
-			<p class="indent"><em><strong>Refreshing Step.</strong></em> Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains 1d10 Temporary Hit Points.</p>
-			<p class="indent"><em><strong>Taunting Step.</strong></em> Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</p>
+			<p class="indent">
+				<em>
+					<strong>Refreshing Step.</strong>
+				</em> Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains 1d10 Temporary Hit Points.</p>
+			<p class="indent">
+				<em>
+					<strong>Taunting Step.</strong>
+				</em> Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</p>
 		</description>
 		<sheet alt="Steps of the Fey" usage="{{steps of the fey:count}}/Long Rest">
 			<description>You can cast Misty Step without expending a spell slot, and can choose one of the following additional effects for each cast: &#13;
@@ -101,8 +130,14 @@
 		<description>
 			<p>You can cast <i>Misty Step</i> as a Reaction in response to taking damage.</p>
 			<p>In addition, the following effects are now among your Steps of the Fey options.</p>
-			<p class="indent"><em><strong>Disappearing Step.</strong></em> You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.</p>
-			<p class="indent"><em><strong>Dreadful Step.</strong></em> Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p>
+			<p class="indent">
+				<em>
+					<strong>Disappearing Step.</strong>
+				</em> You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.</p>
+			<p class="indent">
+				<em>
+					<strong>Dreadful Step.</strong>
+				</em> Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p>
 		</description>
 		<sheet alt="Misty Escape" action="Reaction">
 			<description>You can cast Misty Step as a Reaction in response to taking damage.</description>
@@ -126,7 +161,7 @@
 		<description>
 			<p>Your patron grants you the ability to weave your magic with teleportation. Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast <i>Misty Step</i> as part of the same action and without expending a spell slot.</p>
 		</description>
-		<sheet alt="Bewitching Magic" >
+		<sheet alt="Bewitching Magic">
 			<description>Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast Misty Step as part of the same action and without expending a spell slot.</description>
 		</sheet>
 	</element>

@@ -5,7 +5,7 @@
 		<description>The fighter faces four new Martial Archetype options this week: Arcane Archer, Knight, Samurai, and Sharpshooter. We invite you to read the options’ descriptions, make characters with them, and see whether you like them.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/fighter">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="20161205.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2016/20161205.xml" />
+			<file name="20161205.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2016/20161205.xml" />
 		</update>
 	</info>
 
@@ -75,7 +75,7 @@
 			<select type="Archetype Feature" name="Bonus Proficiency (Knight)" supports="ID_WOTC_UA20161205_FIGHTER_KNIGHT_PROFICIENCY|ID_WOTC_UA20161205_FIGHTER_KNIGHT_LANGUAGE"/>
 		</rules>
 	</element>
-   
+
 	<element name="Bonus Skill Proficiency" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_FIGHTER_KNIGHT_PROFICIENCY">
 		<description>
 			<p>You gain proficiency in two of the following skills of your choice: Animal Handling, History, Insight, Persuasion, or Religion.</p>
@@ -93,8 +93,8 @@
 		<rules>
 			<select type="Language" name="Bonus Language (Noble Cavalry)" supports="Standard||Exotic||Secret"/>
 		</rules>
-	</element>  
-	
+	</element>
+
 	<element name="Hold the Line" type="Archetype Feature" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FEATURE_KNIGHT_HOLD_THE_LINE">
 		<description>
 			<p>At 10th level, you master the ability to harass and slow your enemies. As a reaction when a creature moves at least 1 foot within 5 feet of you, you can make one melee weapon attack against that creature. If you hit, the attack’s weapon deals extra damage to the target equal to half your fighter level, and the target’s speed is reduced to 0 until the end of this turn.</p>
@@ -120,10 +120,10 @@
 			<description>Can make 1 opportunity attack on every turn in a round.</description>
 		</sheet>
 		<rules>
-			<stat name="ac:misc" value="1" bonus="defenders blade" equipped="[armor:heavy]"/>  
+			<stat name="ac:misc" value="1" bonus="defenders blade" equipped="[armor:heavy]"/>
 		</rules>
 	</element>
-	
+
 	<element name="Sharpshooter" type="Archetype" source="Unearthed Arcana: Fighter: Martial Archetypes" id="ID_WOTC_UA20161205_ARCHETYPE_FIGHTER_SHARPSHOOTER">
 		<supports>Martial Archetype</supports>
 		<description>

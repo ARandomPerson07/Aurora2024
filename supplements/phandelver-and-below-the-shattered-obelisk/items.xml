@@ -3,7 +3,7 @@
 	<info>
 		<name>Magic Items and Blessings from Phandelver and Below: The Shattered Obelisk</name>
 		<update version="0.0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/phandelver-and-below-the-shattered-obelisk/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/phandelver-and-below-the-shattered-obelisk/items.xml" />
 		</update>
 	</info>
 
@@ -72,7 +72,7 @@
 		</setters>
 		<rules>
 			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
-		</rules>	
+		</rules>
 	</element>
 
 	<element name="Flayer Slayer" type="Magic Item" source="Phandelver and Below: The Shattered Obelisk" id="ID_WOTC_PBSO_MAGIC_ITEM_FLAYER_SLAYER">
@@ -95,7 +95,8 @@
 	<element name="Hew" type="Magic Item" source="Phandelver and Below: The Shattered Obelisk" id="ID_WOTC_PBSO_MAGIC_ITEM_HEW">
 		<description>
 			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
-			<p class="indent"><i>Hew</i> is a +1 battleaxe that deals maximum damage when the wielder attacks a Plant creature or an object made of wood. The axe's creator used it for protection in the forest while he cut firewood.</p>
+			<p class="indent">
+				<i>Hew</i> is a +1 battleaxe that deals maximum damage when the wielder attacks a Plant creature or an object made of wood. The axe's creator used it for protection in the forest while he cut firewood.</p>
 		</description>
 		<setters>
 			<set name="keywords">attack, maximum, damage, plant</set>
@@ -364,7 +365,8 @@
 	<element name="Spider Staff" type="Magic Item" source="Phandelver and Below: The Shattered Obelisk" id="ID_WOTC_PBSO_MAGIC_ITEM_SPIDER_STAFF">
 		<description>
 			<p>The top of this magic quarterstaff is shaped like a spider. It deals an extra 1d6 poison damage on a hit when used to make a weapon attack.</p>
-			<p class="indent"><b>Spells.</b> The staff has 10 charges. While holding it, you can expend the requisite number of charges to cast one of the following spells from the staff: <i>spider climb</i> (1 charge) or <i>web</i> (2 charges; spell save DC 15).</p>
+			<p class="indent">
+				<b>Spells.</b> The staff has 10 charges. While holding it, you can expend the requisite number of charges to cast one of the following spells from the staff: <i>spider climb</i> (1 charge) or <i>web</i> (2 charges; spell save DC 15).</p>
 			<p class="indent">The staff regains 1d6 + 4 expended charges daily at dusk. If you expend the staff's last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_SPIDER_CLIMB" />
@@ -388,7 +390,8 @@
 	<element name="Staff of Defense" type="Magic Item" source="Phandelver and Below: The Shattered Obelisk" id="ID_WOTC_PBSO_MAGIC_ITEM_STAFF_OF_DEFENSE">
 		<description>
 			<p>This slender, hollow staff is made of glass yet is as strong as oak. It weighs 3 pounds. While holding the staff, you have a +1 bonus to your Armor Class.</p>
-			<p class="indent"><b>Spells.</b> The staff has 10 charges. While holding it, you can expend the requisite number of charges to cast one of the following spells from the staff: <i>mage armor</i> (1 charge) or <i>shield</i> (2 charges).</p>
+			<p class="indent">
+				<b>Spells.</b> The staff has 10 charges. While holding it, you can expend the requisite number of charges to cast one of the following spells from the staff: <i>mage armor</i> (1 charge) or <i>shield</i> (2 charges).</p>
 			<p class="indent">The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the staff's last charge, roll a d20. On a 1, the staff shatters and is destroyed.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_MAGE_ARMOR" />

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="mark-of-scribing.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-scribing.xml" />
+			<file name="mark-of-scribing.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-scribing.xml" />
 		</update>
 	</info>
 	<element name="Mark of Scribing" type="Sub Race" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_SUB_RACE_MARK_OF_SCRIBING">
@@ -10,20 +10,62 @@
 		<description>
 			<p>The Mark of Scribing deals with communication-both the written and spoken word. A gnome who bears the mark can feel words as though they are living creatures, struggling to make their meaning known. The mark provides a range of gifts. It translates languages, but it also allows its bearer to communicate with others at a distance.</p>
 			<p>If you’re a gnome with the Mark of Scribing, you have this subrace, with the following traits.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
-			<p class="indent"><strong><em>Gifted Scribe.</em></strong> When you make an Intelligence (History) check or an ability check using calligrapher’s supplies, you can roll a d4 and add the number rolled to the ability check.</p>
-			<p class="indent"><strong><em>Scribe’s Insight.</em></strong> You know the message cantrip. You can also cast comprehend languages once with this trait, and you regain the ability to cast it when you finish a short or long rest. Starting at 3rd level, you can cast the magic mouth spell with this trait, and you regain the ability to cast it when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
-			<p class="indent"><strong><em>Spells of the Mark.</em></strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your spellcasting class.</p>
-			<p><strong>MARK OF SCRIBING SPELLS</strong></p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Your Charisma score increases by 1.</p>
+			<p class="indent">
+				<strong>
+					<em>Gifted Scribe.</em>
+				</strong> When you make an Intelligence (History) check or an ability check using calligrapher’s supplies, you can roll a d4 and add the number rolled to the ability check.</p>
+			<p class="indent">
+				<strong>
+					<em>Scribe’s Insight.</em>
+				</strong> You know the message cantrip. You can also cast comprehend languages once with this trait, and you regain the ability to cast it when you finish a short or long rest. Starting at 3rd level, you can cast the magic mouth spell with this trait, and you regain the ability to cast it when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
+			<p class="indent">
+				<strong>
+					<em>Spells of the Mark.</em>
+				</strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your spellcasting class.</p>
+			<p>
+				<strong>MARK OF SCRIBING SPELLS</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>comprehend languages, illusory script</em></td></tr>
-				<tr><td>2nd</td><td><em>animal messenger, silence</em></td></tr>
-				<tr><td>3rd</td><td><em>sending, tongues</em></td></tr>
-				<tr><td>4th</td><td><em>arcane eye, confusion</em></td></tr>
-				<tr><td>5th</td><td><em>dream</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>comprehend languages, illusory script</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>animal messenger, silence</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>sending, tongues</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>arcane eye, confusion</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>dream</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Gnome (Mark of Scribing)" display="false" />
@@ -62,13 +104,41 @@
 			<h5>Mark of Scribing Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>comprehend languages, illusory script</em></td></tr>
-				<tr><td>2nd</td><td><em>animal messenger, silence</em></td></tr>
-				<tr><td>3rd</td><td><em>sending, tongues</em></td></tr>
-				<tr><td>4th</td><td><em>arcane eye, confusion</em></td></tr>
-				<tr><td>5th</td><td><em>dream</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>comprehend languages, illusory script</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>animal messenger, silence</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>sending, tongues</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>arcane eye, confusion</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>dream</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">

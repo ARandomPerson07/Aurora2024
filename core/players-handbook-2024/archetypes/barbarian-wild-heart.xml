@@ -5,7 +5,7 @@
 		<description>The Path of the Wild Heart subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="barbarian-wild-heart.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/barbarian-wild-heart.xml" />
+			<file name="barbarian-wild-heart.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/barbarian-wild-heart.xml" />
 		</update>
 	</info>
 
@@ -45,16 +45,25 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />-->
 
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BEAST_SENSE" />
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS" /> 
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS" />
 		</rules>
 	</element>
 	<element name="Level 3: Rage of the Wilds" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_RAGE_OF_THE_WILDS</requirements>
 		<description>
 			<p>Your Rage taps into the primal power of animals. Whenever you activate your Rage, you gain one of the following options of your choice.</p>
-			<p class="indent"><em><strong>Bear.</strong></em> While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>
-			<p class="indent"><em><strong>Eagle.</strong></em> When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions.</p>
-			<p class="indent"><em><strong>Wolf.</strong></em> While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p>
+			<p class="indent">
+				<em>
+					<strong>Bear.</strong>
+				</em> While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p>
+			<p class="indent">
+				<em>
+					<strong>Eagle.</strong>
+				</em> When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions.</p>
+			<p class="indent">
+				<em>
+					<strong>Wolf.</strong>
+				</em> While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -66,9 +75,18 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_ASPECT_OF_THE_WILDS</requirements>
 		<description>
 			<p>You gain one of the following options of your choice. Whenever you finish a Long Rest, you can change your choice.</p>
-			<p class="indent"><em><strong>Owl.</strong></em> You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>
-			<p class="indent"><em><strong>Panther.</strong></em> You have a Climb Speed equal to your Speed.</p>
-			<p class="indent"><em><strong>Salmon.</strong></em> You have a Swim Speed equal to your Speed.</p>
+			<p class="indent">
+				<em>
+					<strong>Owl.</strong>
+				</em> You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>
+			<p class="indent">
+				<em>
+					<strong>Panther.</strong>
+				</em> You have a Climb Speed equal to your Speed.</p>
+			<p class="indent">
+				<em>
+					<strong>Salmon.</strong>
+				</em> You have a Swim Speed equal to your Speed.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -94,9 +112,18 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WILD_HEART_POWER_OF_THE_WILDS</requirements>
 		<description>
 			<p>Whenever you activate your Rage, you gain one of the following options of your choice.</p>
-			<p class="indent"><em><strong>Falcon.</strong></em> While your Rage is active, you have a Fly Speed equal to your Speed if you aren’t wearing any armor.</p>
-			<p class="indent"><em><strong>Lion.</strong></em> While your Rage is active, any of your enemies within 5 feet of you have Disadvantage on attack rolls against targets other than you or another Barbarian who has this option active.</p>
-			<p class="indent"><em><strong>Ram.</strong></em> While your Rage is active, you can cause a Large or smaller creature to have the Prone condition when you hit it with a melee attack.</p>
+			<p class="indent">
+				<em>
+					<strong>Falcon.</strong>
+				</em> While your Rage is active, you have a Fly Speed equal to your Speed if you aren’t wearing any armor.</p>
+			<p class="indent">
+				<em>
+					<strong>Lion.</strong>
+				</em> While your Rage is active, any of your enemies within 5 feet of you have Disadvantage on attack rolls against targets other than you or another Barbarian who has this option active.</p>
+			<p class="indent">
+				<em>
+					<strong>Ram.</strong>
+				</em> While your Rage is active, you can cause a Large or smaller creature to have the Prone condition when you hit it with a melee attack.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

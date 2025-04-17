@@ -5,19 +5,23 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
 		<update version="0.0.7">
-			<file name="dimir-operative.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/guildmasters-guide-to-ravnica/backgrounds/dimir-operative.xml" />
+			<file name="dimir-operative.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/guildmasters-guide-to-ravnica/backgrounds/dimir-operative.xml" />
 		</update>
 	</info>
-    
+
 	<element name="Dimir Operative" type="Background" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_DIMIR_OPERATIVE">
 		<description>
 			<p>You’re a spy. Secrets and misinformation are your stock in trade. You skulk in the shadows, infiltrate other guilds, and steal the most precious secrets, whether they’re written in locked journals or hidden away in someone’s mind. Even you might not be aware of all the reasons behind the missions you carry out. Sometimes a mission’s sole purpose is to conceal the motivatjon behind another strike performed in a different part of the city, or simply to spread fear.</p>
 			<p class="indent">As part of your covert work for House Dimir, you maintain a false identity as a member of another guild. You can choose your secondary guild or roll to determine it randomly. This secondary guild membership determines a portion of your starting equipment and is also where most of your contacts come from. You infiltrate your secondary guild to learn its secrets, keep tabs on its activities, or perhaps undermine it from within.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Deception, Stealth</li>
-				<li><strong>Tool Proficiencies:</strong> Disguise kit</li>
-				<li><strong>Languages:</strong> One of your choice</li>
-				<li><strong>Equipment:</strong> A Dimir insignia, three small knives, a set of dark-colored common clothes, and the starting equipment of the background described in this chapter for your secondary guild</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Deception, Stealth</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> Disguise kit</li>
+				<li>
+					<strong>Languages:</strong> One of your choice</li>
+				<li>
+					<strong>Equipment:</strong> A Dimir insignia, three small knives, a set of dark-colored common clothes, and the starting equipment of the background described in this chapter for your secondary guild</li>
 			</ul>
 			<div element="ID_WOTC_GGTR_BACKGROUND_FEATURE_DIMIR_OPERATIVE_FALSE_IDENTITY" />
 			<div element="ID_WOTC_GGTR_BACKGROUND_FEATURE_DIMIR_OPERATIVE_DIMIR_GUILD_SPELLS" />
@@ -79,16 +83,43 @@
 			<p class="indent">Consider why you’re embedded in the secondary guild. Create a story with your DM, inspired by rolling on the following table or choosing a reason that suits you.</p>
 			<table>
 				<thead>
-					<tr><td>d8</td><td>Reason for Infiltration</td></tr>
+					<tr>
+						<td>d8</td>
+						<td>Reason for Infiltration</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>My parents belong to this guild, and I let them think I’m following in their footsteps.</td></tr>
-				<tr><td>2</td><td>I’ve been assigned to track this guild’s activities.</td></tr>
-				<tr><td>3</td><td>I’ve been assigned to get close to an individual in this guild and learn their secrets.</td></tr>
-				<tr><td>4</td><td>I’ve been assigned to recruit a new Dimir spy from the ranks of this guild.</td></tr>
-				<tr><td>S</td><td>I was a member of this guild before the Dimir recruited me.</td></tr>
-				<tr><td>6</td><td>I don’t like what this guild stands for and want to destroy it from within.</td></tr>
-				<tr><td>7</td><td>I secretly wish I could leave the Dimir and join this guild, but there is no escaping the Dimir.</td></tr>
-				<tr><td>8</td><td>I chose this guild at random or on a lark.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>My parents belong to this guild, and I let them think I’m following in their footsteps.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>I’ve been assigned to track this guild’s activities.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>I’ve been assigned to get close to an individual in this guild and learn their secrets.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>I’ve been assigned to recruit a new Dimir spy from the ranks of this guild.</td>
+				</tr>
+				<tr>
+					<td>S</td>
+					<td>I was a member of this guild before the Dimir recruited me.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>I don’t like what this guild stands for and want to destroy it from within.</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>I secretly wish I could leave the Dimir and join this guild, but there is no escaping the Dimir.</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>I chose this guild at random or on a lark.</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="False Identity">
@@ -99,19 +130,54 @@
 	<element name="Dimir Guild Spells" type="Background Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_BACKGROUND_FEATURE_DIMIR_OPERATIVE_DIMIR_GUILD_SPELLS">
 		<supports>2nd Background Feature</supports>
 		<description>
-			<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+			<p>
+				<em>Prerequisite: Spellcasting or Pact Magic class feature</em>
+			</p>
 			<p>For you, the spells on the Dimir Guild Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p>
 			<h5>Dimir Guild Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>Cantrip</td><td><em>encode thoughts, mage hand</em></td></tr>
-				<tr><td>1st</td><td><em>disguise self, sleep</em></td></tr>
-				<tr><td>2nd</td><td><em>detect thoughts, pass without trace</em></td></tr>
-				<tr><td>3rd</td><td><em>gaseous form, meld into stone, nondetection</em></td></tr>
-				<tr><td>4th</td><td><em>arcane eye, freedom of movement</em></td></tr>
-				<tr><td>5th</td><td><em>modify memory</em></td></tr>
+				<tr>
+					<td>Cantrip</td>
+					<td>
+						<em>encode thoughts, mage hand</em>
+					</td>
+				</tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>disguise self, sleep</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>detect thoughts, pass without trace</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>gaseous form, meld into stone, nondetection</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>arcane eye, freedom of movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>modify memory</em>
+					</td>
+				</tr>
 			</table>
 			<p class="indent">Your magic is meant to be subtle and undetectable, but it might pull shadows or clouds of mist around you as you cast your spells. Using the encode thoughts cantrip described below, you can turn a creature’s thoughts (including your own) into a thought st rand that others can potentially read, share, or steal. These thought strands are treated as valuable curre ncy among the Dimir.</p>
 		</description>

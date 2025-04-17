@@ -5,7 +5,7 @@
 		<description>Options from Tasha’s Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
 		<update version="0.0.4">
-			<file name="options.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/tashas-cauldron-of-everything/options.xml" />
+			<file name="options.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/tashas-cauldron-of-everything/options.xml" />
 		</update>
 	</info>
 
@@ -26,13 +26,41 @@
 			<h5 class="caption">PROFICIENCY SWAPS</h5>
 			<table>
 				<thead>
-					<tr><td>Proficiency</td><td>Replacement Proficiency</td></tr>
+					<tr>
+						<td>Proficiency</td>
+						<td>Replacement Proficiency</td>
+					</tr>
 				</thead>
-				<tr><td>Skill</td><td><em>Skill</em></td></tr>
-				<tr><td>Armor</td><td><em>Simple/martial weapon or tool</em></td></tr>
-				<tr><td>Simple weapon</td><td><em>Simple weapon or tool</em></td></tr>
-				<tr><td>Martial weapon</td><td><em>Simple/martial weapon or tool</em></td></tr>
-				<tr><td>Tool</td><td><em>Tool or simple weapon</em></td></tr>
+				<tr>
+					<td>Skill</td>
+					<td>
+						<em>Skill</em>
+					</td>
+				</tr>
+				<tr>
+					<td>Armor</td>
+					<td>
+						<em>Simple/martial weapon or tool</em>
+					</td>
+				</tr>
+				<tr>
+					<td>Simple weapon</td>
+					<td>
+						<em>Simple weapon or tool</em>
+					</td>
+				</tr>
+				<tr>
+					<td>Martial weapon</td>
+					<td>
+						<em>Simple/martial weapon or tool</em>
+					</td>
+				</tr>
+				<tr>
+					<td>Tool</td>
+					<td>
+						<em>Tool or simple weapon</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<setters>

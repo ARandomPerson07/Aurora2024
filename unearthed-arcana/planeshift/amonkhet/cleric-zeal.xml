@@ -5,7 +5,7 @@
 		<description>Hazoret: Zeal Domain for Clerics from Planeshift Amonkhet</description>
 		<author url="https://media.wizards.com/2017/downloads/magic/plane-shift_amonkhet.pdf">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="cleric-zeal.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/planeshift/amonkhet/cleric-zeal.xml" />
+			<file name="cleric-zeal.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/planeshift/amonkhet/cleric-zeal.xml" />
 		</update>
 	</info>
 
@@ -43,13 +43,41 @@
 			<h5>Zeal Domain Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>searing smite, thunderous smite</em></td></tr>
-				<tr><td>3rd</td><td><em>magic weapon, shatter</em></td></tr>
-				<tr><td>5th</td><td><em>haste, fireball</em></td></tr>
-				<tr><td>7th</td><td><em>fire shield (warm shield only), freedom of movement</em></td></tr>
-				<tr><td>9th</td><td><em>destructive wave, flame strike</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>searing smite, thunderous smite</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>magic weapon, shatter</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>haste, fireball</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>fire shield (warm shield only), freedom of movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>destructive wave, flame strike</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">

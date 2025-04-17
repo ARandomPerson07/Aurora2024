@@ -5,7 +5,7 @@
 		<description>The Clockwork Sorcery subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.7">
-			<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/sorcerer-clockwork.xml" />
+			<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/sorcerer-clockwork.xml" />
 		</update>
 	</info>
 
@@ -36,25 +36,69 @@
 			<h5 class="caption">Clockwork Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Sorcerer Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Sorcerer Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Aid, Alarm, Lesser Restoration, Protection from Evil and Good</em></td></tr>
-				<tr><td>5th</td><td><em>Dispel Magic, Protection from Energy</em></td></tr>
-				<tr><td>7th</td><td><em>Freedom of Movement, Summon Construct</em></td></tr>
-				<tr><td>9th</td><td><em>Greater Restoration, Wall of Force</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Aid, Alarm, Lesser Restoration, Protection from Evil and Good</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Dispel Magic, Protection from Energy</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Freedom of Movement, Summon Construct</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Greater Restoration, Wall of Force</em>
+					</td>
+				</tr>
 			</table>
 			<p>In addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your Sorcerer spells.</p>
 			<h5 class="caption">Manifestations of Order</h5>
 			<table>
 				<thead>
-					<tr><td>1d6</td><td>Manifestation</td></tr>
+					<tr>
+						<td>1d6</td>
+						<td>Manifestation</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Spectral cogwheels hover behind you</td></tr>
-				<tr><td>2</td><td>The hands of a clock spin in your eyes</td></tr>
-				<tr><td>3</td><td>Your skin glows with a brassy sheen</td></tr>
-				<tr><td>4</td><td>Floating equations and geometric objects overlay your body</td></tr>
-				<tr><td>5</td><td>Your Spellcasting Focus temporarily takes the form of a Tiny clockwork mechanism</td></tr>
-				<tr><td>6</td><td>The ticking of gears or ringing of a clock can be heard by you and those aﬀected by your magic</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Spectral cogwheels hover behind you</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>The hands of a clock spin in your eyes</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Your skin glows with a brassy sheen</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Floating equations and geometric objects overlay your body</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Your Spellcasting Focus temporarily takes the form of a Tiny clockwork mechanism</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>The ticking of gears or ringing of a clock can be heard by you and those aﬀected by your magic</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -118,9 +162,18 @@
 		<description>
 			<p>You momentarily summon spirits of order to expunge disorder around you. As a Magic action, you summon the spirits in a 30-foot Cube originating from you. The spirits look like modrons or other Constructs of your choice. The spirits are intangible and invulnerable, and they create the effects below within the Cube before vanishing. Once you use this action, you can’t use it again until you finish a Long Rest unless you spend 7 Sorcery Points (no action required) to restore your use of it.</p>
 			<ul>
-				<li><em><strong>Heal.</strong></em> The spirits restore up to 100 Hit Points, divided as you choose among any number of creatures of your choice in the Cube.</li>
-				<li><em><strong>Repair.</strong></em> Any damaged objects entirely in the Cube are repaired instantly.</li>
-				<li><em><strong>Dispel.</strong></em> Every spell of level 6 and lower ends on creatures and objects of your choice in the Cube.</li>
+				<li>
+					<em>
+						<strong>Heal.</strong>
+					</em> The spirits restore up to 100 Hit Points, divided as you choose among any number of creatures of your choice in the Cube.</li>
+				<li>
+					<em>
+						<strong>Repair.</strong>
+					</em> Any damaged objects entirely in the Cube are repaired instantly.</li>
+				<li>
+					<em>
+						<strong>Dispel.</strong>
+					</em> Every spell of level 6 and lower ends on creatures and objects of your choice in the Cube.</li>
 			</ul>
 		</description>
 		<sheet alt="Clockwork Cavalcade" action="Magic Action" usage="1/Long Rest">
@@ -140,7 +193,7 @@
 	<element name="Clockwork Cavalcade Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_CLOCKWORK_CLOCKWORK_CAVALCADE" />
 
 	<!--Spell Appends-->
-<!--
+	<!--
 	<append id="ID_PHB_SPELL_AID">
 		<supports>Aid</supports>
 	</append>
@@ -159,7 +212,7 @@
 	<append id="ID_PHB_SPELL_WALL_OF_FORCE">
 		<supports>Wall of Force</supports>
 	</append>-->
-	
+
 
 	<append id="ID_WOTC_PHB24_SPELL_ALARM">
 		<supports>Aid</supports>
@@ -191,5 +244,5 @@
 	<append id="ID_WOTC_PHB24_SPELL_WALL_OF_FORCE">
 		<supports>Wall of Force</supports>
 	</append>
-  
+
 </elements>

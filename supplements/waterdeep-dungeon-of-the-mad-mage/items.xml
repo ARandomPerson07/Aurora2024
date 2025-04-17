@@ -2,10 +2,10 @@
 <elements>
 	<info>
 		<update version="0.0.5">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/waterdeep-dungeon-of-the-mad-mage/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/waterdeep-dungeon-of-the-mad-mage/items.xml" />
 		</update>
 	</info>
-    <element name="Black Crystal Tablet" type="Magic Item" source="Waterdeep: Dungeon of the Mad Mage" id="ID_WOTC_WDMM_MAGIC_ITEM_BLACK_CRYSTAL_TABLET">
+	<element name="Black Crystal Tablet" type="Magic Item" source="Waterdeep: Dungeon of the Mad Mage" id="ID_WOTC_WDMM_MAGIC_ITEM_BLACK_CRYSTAL_TABLET">
 		<description>
 			<p>Any creature that attunes to the tablet must make a DC 20 Wisdom saving throw at the end of its next long rest. On a failed save, the creature becomes afflicted with a random form of long-term madness (see "Madness" in chapter 8 of the Dungeon Master’s Guide).</p>
 			<p class="indent">As an action, a creature attuned to the Black Crystal Tablet can use it to cast eyebite or gate (the portal created by this spell links to the Far Realm only). After the tablet is used to cast a spell, it cannot be used again until the next dawn.</p>
@@ -100,14 +100,35 @@
 			<p class="indent">The dodecahedron can be hurled up to 60 feet as an action. A random magical effect occurs when the die comes to rest after rolling across the ground for at least 10 feet. If an effect requires a target and no eligible target is within range, nothing happens. Spells cast by the dodecahedron require no components. Roll a d12 and consult the following table to determine the effect:</p>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>effect</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>effect</td>
+					</tr>
 				</thead>
-				<tr><td>1-2</td><td>The dodecahedron explodes and is destroyed. Each creature within 20 feet of the exploding die must make a DC 13 Dexterity saving throw, taking 40 (9d8) force damage on a failed save, or half as much damage on a successful one.</td></tr>
-				<tr><td>3-4</td><td>The dodecahedron casts light on itself. The effect lasts until a creature touches the die.</td></tr>
-				<tr><td>5-6</td><td>The dodecahedron casts ray of frost (+5 to hit), targeting a random creature within 60 feet of it that doesn’t have total cover against the attack.</td></tr>
-				<tr><td>7-8</td><td>The dodecahedron casts shocking grasp (+5 to hit) on the next creature that touches it.</td></tr>
-				<tr><td>9-10</td><td>The dodecahedron casts darkness on itself. The effect has a duration of 10 minutes.</td></tr>
-				<tr><td>11-12</td><td>The next creature to touch the dodecahedron gains 1d10 temporary hit points that last for 1 hour.</td></tr>
+				<tr>
+					<td>1-2</td>
+					<td>The dodecahedron explodes and is destroyed. Each creature within 20 feet of the exploding die must make a DC 13 Dexterity saving throw, taking 40 (9d8) force damage on a failed save, or half as much damage on a successful one.</td>
+				</tr>
+				<tr>
+					<td>3-4</td>
+					<td>The dodecahedron casts light on itself. The effect lasts until a creature touches the die.</td>
+				</tr>
+				<tr>
+					<td>5-6</td>
+					<td>The dodecahedron casts ray of frost (+5 to hit), targeting a random creature within 60 feet of it that doesn’t have total cover against the attack.</td>
+				</tr>
+				<tr>
+					<td>7-8</td>
+					<td>The dodecahedron casts shocking grasp (+5 to hit) on the next creature that touches it.</td>
+				</tr>
+				<tr>
+					<td>9-10</td>
+					<td>The dodecahedron casts darkness on itself. The effect has a duration of 10 minutes.</td>
+				</tr>
+				<tr>
+					<td>11-12</td>
+					<td>The next creature to touch the dodecahedron gains 1d10 temporary hit points that last for 1 hour.</td>
+				</tr>
 			</table>
 		</description>
 		<setters>
@@ -134,19 +155,28 @@
 	<element name="Helm of the Scavenger" type="Magic Item" source="Waterdeep: Dungeon of the Mad Mage" id="ID_WOTC_WDMM_MAGIC_ITEM_HELM_OF_THE_SCAVENGER">
 		<description>
 			<p>This ornate chair is designed to propel and maneuver a ship through space.</p>
-			<p class="indent"><strong><em>Passive Properties.</em></strong> The following properties of the helm come into play even when no creature is attuned to it:</p>
+			<p class="indent">
+				<strong>
+					<em>Passive Properties.</em>
+				</strong> The following properties of the helm come into play even when no creature is attuned to it:</p>
 			<ul>
 				<li>When placed aboard a vessel weighing between 1 and 100 tons, the helm generates an envelope of fresh air around the ship while it is in the void of space (but not underwater). This envelope extends out from the edges of the hull in all directions for a distance equal in length to the vessel’s beam, so that creatures aboard and near the ship can breathe normally in space. The temperature within the air envelope is 70 degrees Fahrenheit.</li>
 				<li>When placed aboard a vessel weighing between 1 and 100 tons, the helm generates an artificial gravity field while the ship is in the void of space, so that creatures can walk on the ship’s decks as they normally would. Creatures and objects that fall overboard bob in a gravity plane that extends out from the main deck for a distance equal in length to the vessel’s beam.</li>
 			</ul>
-			<p class="indent"><strong><em>Active Properties.</em></strong> The sensation of being attuned to the helm is akin to being immersed in warm water. While attuned to the helm, you gain the following abilities while you sit in it:</p>
+			<p class="indent">
+				<strong>
+					<em>Active Properties.</em>
+				</strong> The sensation of being attuned to the helm is akin to being immersed in warm water. While attuned to the helm, you gain the following abilities while you sit in it:</p>
 			<ul>
 				<li>You can use the helm to propel the vessel across or through water and other liquids at a maximum speed in miles per hour equal to your highest-level unexpended spell slot.</li>
 				<li>You can use the helm to propel the vessel through air or space at a maximum speed in miles per hour equal to your highest-level unexpended spell slot × 10.</li>
 				<li>Provided you have at least one unexpended spell slot, you can steer the vessel, albeit in a somewhat clumsy fashion, in much the same way that oars or a rudder can maneuver a seafaring ship.</li>
 				<li>Whenever you like, you can see what’s happening on and around the vessel as though you were standing in a location of your choice aboard it.</li>
 			</ul>
-			<p class="indent"><strong><em>Drawback.</em></strong> While attuned to the helm, you cannot expend your own spell slots.</p>
+			<p class="indent">
+				<strong>
+					<em>Drawback.</em>
+				</strong> While attuned to the helm, you cannot expend your own spell slots.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -287,10 +317,22 @@
 		<description>
 			<p>This shield is made from the scale of an ancient white dragon. It has a rune burned into its outward-facing side. A character who examines the rune and succeeds on a DC 20 Intelligence (History) check recognizes it as an uven ("enemy" in Giant) rune that confers great power.</p>
 			<p class="indent">While holding the shield, you benefit from the following properties.</p>
-			<p class="indent"><strong><em>Winter’s Friend.</em></strong> You are immune to cold damage.</p>
-			<p class="indent"><strong><em>Deadly Rebuke.</em></strong> Immediately after a creature hits you with a melee attack, you can use your reaction to deal 3d6 necrotic damage to that creature.</p>
-			<p class="indent"><strong><em>Bane.</em></strong> You can cast the bane spell from the shield (save DC 17). The spell does not require concentration and lasts for 1 minute. Once you cast the spell from the shield, you can’t do so again until you finish a short or long rest.</p>
-			<p class="indent"><strong><em>Gift of Vengeance.</em></strong> You can transfer the shield’s magic to a nonmagical weapon by tracing the uven rune on the weapon with one finger. The transfer takes 8 hours of work that requires the two items to be within 5 feet of each other. At the end, the shield is destroyed, and the rune is etched or burned into the chosen weapon. This weapon becomes a rare magic item that requires attunement. It has the properties of a +1 weapon. The bonus increases to +3 when the weapon is used against one of the following creature types, chosen by you at the time of the magic weapon’s creation: aberrations, celestials, constructs, dragons, elementals, fey, fiends, giants, or undead.</p>
+			<p class="indent">
+				<strong>
+					<em>Winter’s Friend.</em>
+				</strong> You are immune to cold damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Deadly Rebuke.</em>
+				</strong> Immediately after a creature hits you with a melee attack, you can use your reaction to deal 3d6 necrotic damage to that creature.</p>
+			<p class="indent">
+				<strong>
+					<em>Bane.</em>
+				</strong> You can cast the bane spell from the shield (save DC 17). The spell does not require concentration and lasts for 1 minute. Once you cast the spell from the shield, you can’t do so again until you finish a short or long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Gift of Vengeance.</em>
+				</strong> You can transfer the shield’s magic to a nonmagical weapon by tracing the uven rune on the weapon with one finger. The transfer takes 8 hours of work that requires the two items to be within 5 feet of each other. At the end, the shield is destroyed, and the rune is etched or burned into the chosen weapon. This weapon becomes a rare magic item that requires attunement. It has the properties of a +1 weapon. The bonus increases to +3 when the weapon is used against one of the following creature types, chosen by you at the time of the magic weapon’s creation: aberrations, celestials, constructs, dragons, elementals, fey, fiends, giants, or undead.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Armor</set>
@@ -302,7 +344,7 @@
 			<set name="attunement">true</set>
 		</setters>
 		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD" />			
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD" />
 		</rules>
 	</element>
 	<!-- todo: create weapon of the uven rune  -->
@@ -310,9 +352,18 @@
 		<description>
 			<p>The longsword, Tearulai, is a sentient, neutral good sword of sharpness with an emerald-colored blade and precious gemstones embedded in its hilt and pommel. The sword’s magical properties are suppressed until it is removed from Valdemar’s skull.</p>
 			<p class="indent">Evil creatures can’t attune to Tearulai; any evil creature that tries to do so takes 20 psychic damage. The weapon’s emerald blade can’t be damaged or dulled, and the sword can’t be teleported anywhere without its wielder while the two are attuned to one another.</p>
-			<p class="indent"><strong><em>Spells.</em></strong> The sword has 6 charges and regains 1d4 + 2 expended charges daily at dawn. A creature attuned to the sword can use an action and expend 1 or more charges to cast one of the following spells from it without material components: fly (2 charges), polymorph (3 charges), or transport via plants (4 charges).</p>
-			<p class="indent"><strong><em>Sentience.</em></strong> The sword has an Intelligence of 17, a Wisdom of 12, and a Charisma of 20. It has hearing and truesight out to a range of 120 feet. It communicates telepathically with its attuned wielder and can speak, read, and understand Common, Draconic, Elvish, and Sylvan. In addition, the sword can ascertain the true value of any gemstone brought within 5 feet of it.</p>
-			<p class="indent"><strong><em>Personality.</em></strong> Tearulai admires great beauty, music, fine art, and poetry. Vain, the weapon strives to improve its appearance. It craves gemstones and seeks out better ones with which to adorn itself. Most of all, it longs to return to the forests around Myth Drannor, where it was created. If its wielder’s goals run counter to its own, Tearulai attempts to take control of its wielder and escape Undermountain, whereupon it can use its transport via plants spell to return whence it came.</p>
+			<p class="indent">
+				<strong>
+					<em>Spells.</em>
+				</strong> The sword has 6 charges and regains 1d4 + 2 expended charges daily at dawn. A creature attuned to the sword can use an action and expend 1 or more charges to cast one of the following spells from it without material components: fly (2 charges), polymorph (3 charges), or transport via plants (4 charges).</p>
+			<p class="indent">
+				<strong>
+					<em>Sentience.</em>
+				</strong> The sword has an Intelligence of 17, a Wisdom of 12, and a Charisma of 20. It has hearing and truesight out to a range of 120 feet. It communicates telepathically with its attuned wielder and can speak, read, and understand Common, Draconic, Elvish, and Sylvan. In addition, the sword can ascertain the true value of any gemstone brought within 5 feet of it.</p>
+			<p class="indent">
+				<strong>
+					<em>Personality.</em>
+				</strong> Tearulai admires great beauty, music, fine art, and poetry. Vain, the weapon strives to improve its appearance. It craves gemstones and seeks out better ones with which to adorn itself. Most of all, it longs to return to the forests around Myth Drannor, where it was created. If its wielder’s goals run counter to its own, Tearulai attempts to take control of its wielder and escape Undermountain, whereupon it can use its transport via plants spell to return whence it came.</p>
 			<p class="indent">When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.</p>
 		</description>
 		<setters>

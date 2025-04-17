@@ -5,7 +5,7 @@
 		<description>Kor Race from Planeshift: Zendikar</description>
 		<author url="https://media.wizards.com/2016/downloads/magic/Plane%20Shift%20Zendikar.pdf">Planeshift: Zendikar</author>
 		<update version="0.0.4">
-			<file name="race-kor.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/planeshift/zendikar/race-kor.xml" />
+			<file name="race-kor.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/planeshift/zendikar/race-kor.xml" />
 		</update>
 	</info>
 
@@ -18,15 +18,42 @@
 			<p class="indent">The kor have a nonverbal language of hand signs and gestures that allows communication despite significant distance (particularly when augmented with whirling ropes) or howling winds. They also use this sign language among themselves when they wish to avoid being overheard, giving rise to misguided rumors that they are incapable of speech. When they do speak, they typically use as few words as possible to convey their meaning.</p>
 			<h4>KOR TRAITS</h4>
 			<p>Kor are athletic climbers, known for their use of rope to swing and climb through the dizzying vertical terrain of Zendikar. Your kor character has these traits.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p>
-			<p class="indent"><b><i>Age. </i></b>Kor mature at the same rate as humans and live about as long.</p>
-			<p class="indent"><b><i>Alignment. </i></b>Most kor are lawful good, with a strong dedication to community and the traditions of their ancestors.</p>
-			<p class="indent"><b><i>Size. </i></b>Kor average nearly 6 feet tall, but are much lighter and more slender than humans. Your size is Medium.</p>
-			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet. You also have a climbing speed of 30 feet as long as you are not encumbered or wearing heavy armor.</p>
-			<p class="indent"><b><i>Kor Climbing. </i></b>You have proficiency in the Athletics and Acrobatics skills.</p>
-			<p class="indent"><b><i>Lucky. </i></b>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>
-			<p class="indent"><b><i>Brave. </i></b>You have advantage on saving throws against being frightened.</p>
-			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common, and communicate in the silent speech of the kor.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Age. </i>
+				</b>Kor mature at the same rate as humans and live about as long.</p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b>Most kor are lawful good, with a strong dedication to community and the traditions of their ancestors.</p>
+			<p class="indent">
+				<b>
+					<i>Size. </i>
+				</b>Kor average nearly 6 feet tall, but are much lighter and more slender than humans. Your size is Medium.</p>
+			<p class="indent">
+				<b>
+					<i>Speed. </i>
+				</b>Your base walking speed is 30 feet. You also have a climbing speed of 30 feet as long as you are not encumbered or wearing heavy armor.</p>
+			<p class="indent">
+				<b>
+					<i>Kor Climbing. </i>
+				</b>You have proficiency in the Athletics and Acrobatics skills.</p>
+			<p class="indent">
+				<b>
+					<i>Lucky. </i>
+				</b>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>
+			<p class="indent">
+				<b>
+					<i>Brave. </i>
+				</b>You have advantage on saving throws against being frightened.</p>
+			<p class="indent">
+				<b>
+					<i>Languages. </i>
+				</b>You can speak, read, and write Common, and communicate in the silent speech of the kor.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -44,7 +71,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BRAVE" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Customized Skill Proficiency"  number="2" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" number="2" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 

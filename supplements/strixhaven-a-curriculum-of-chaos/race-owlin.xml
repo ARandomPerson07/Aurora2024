@@ -3,7 +3,7 @@
 	<info>
 		<name>Owlin</name>
 		<update version="0.0.1">
-			<file name="race-owlin.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/strixhaven-a-curriculum-of-chaos/race-owlin.xml" />
+			<file name="race-owlin.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/strixhaven-a-curriculum-of-chaos/race-owlin.xml" />
 		</update>
 	</info>
 	<element name="Owlin" type="Race" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_RACE_OWLIN">
@@ -13,12 +13,30 @@
 			<p class="indent">Your owlin character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl.</p>
 			<h4>Owlin Traits</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Flight.</em></strong> Thanks to your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.</p>
-			<p class="indent"><strong><em>Silent Feathers.</em></strong> You have proficiency in the Stealth skill.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Flight.</em>
+				</strong> Thanks to your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.</p>
+			<p class="indent">
+				<strong>
+					<em>Silent Feathers.</em>
+				</strong> You have proficiency in the Stealth skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -56,5 +74,5 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<select type="Proficiency" name="Customized Skill Proficiency (Silent Feathers)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
-	</element>	
+	</element>
 </elements>

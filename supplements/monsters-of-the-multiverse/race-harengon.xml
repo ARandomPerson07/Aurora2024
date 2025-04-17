@@ -3,7 +3,7 @@
 	<info>
 		<name>Harengon from Monsters of the Multiverse</name>
 		<update version="0.0.2">
-			<file name="race-harengon.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-harengon.xml" />
+			<file name="race-harengon.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-harengon.xml" />
 		</update>
 	</info>
 	<element name="Harengon" type="Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_HARENGON">
@@ -12,13 +12,34 @@
 			<p class="indent">Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.</p>
 			<h4>HARENGON TRAITS</h4>
 			<p>As a harengon, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Hare-Trigger.</em></strong> You can add your proficiency bonus to your initiative rolls.</p>
-			<p class="indent"><strong><em>Leporine Senses.</em></strong> You have proficiency in the Perception skill.</p>
-			<p class="indent"><strong><em>Lucky Footwork.</em></strong> When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the result, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.</p>
-			<p class="indent"><strong><em>Rabbit Hop.</em></strong> As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Hare-Trigger.</em>
+				</strong> You can add your proficiency bonus to your initiative rolls.</p>
+			<p class="indent">
+				<strong>
+					<em>Leporine Senses.</em>
+				</strong> You have proficiency in the Perception skill.</p>
+			<p class="indent">
+				<strong>
+					<em>Lucky Footwork.</em>
+				</strong> When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the result, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.</p>
+			<p class="indent">
+				<strong>
+					<em>Rabbit Hop.</em>
+				</strong> As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -54,7 +75,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION"  requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<select type="Proficiency" name="Customized Skill Proficiency (Leporine Senses)" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>

@@ -5,7 +5,7 @@
 		<description>The Ranger class from the Player’s Handbook 2024.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.2">
-			<file name="class-ranger.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/classes/class-ranger.xml" />
+			<file name="class-ranger.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/classes/class-ranger.xml" />
 		</update>
 	</info>
 
@@ -26,13 +26,50 @@
 			<!-- -->
 			<h5>CORE RANGER TRAITS</h5>
 			<table>
-				<tr><td><b>Primary Ability</b></td><td>Dexterity and Wisdom</td></tr>
-				<tr><td><b>Hit Point Die</b></td><td>1d10 per ranger level</td></tr>
-				<tr><td><b>Saving Throw Proficiencies</b></td><td>Strength and Dexterity</td></tr>
-				<tr><td><b>Skills Proficiencies</b></td><td><i>Choose 3:</i> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</td></tr>
-				<tr><td><b>Weapon Proficiencies</b></td><td>Simple and Martial weapons</td></tr>
-				<tr><td><b>Armor Training</b></td><td>Light and Medium armor and Shields</td></tr>
-				<tr><td><b>Starting Equipment</b></td><td><i>Choose A or B:</i> (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer's Pack, and 7 CP; or (B) 150 GP</td></tr>
+				<tr>
+					<td>
+						<b>Primary Ability</b>
+					</td>
+					<td>Dexterity and Wisdom</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Point Die</b>
+					</td>
+					<td>1d10 per ranger level</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Saving Throw Proficiencies</b>
+					</td>
+					<td>Strength and Dexterity</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Skills Proficiencies</b>
+					</td>
+					<td>
+						<i>Choose 3:</i> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Weapon Proficiencies</b>
+					</td>
+					<td>Simple and Martial weapons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Armor Training</b>
+					</td>
+					<td>Light and Medium armor and Shields</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Starting Equipment</b>
+					</td>
+					<td>
+						<i>Choose A or B:</i> (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer's Pack, and 7 CP; or (B) 150 GP</td>
+				</tr>
 			</table>
 			<!-- -->
 			<h3>CLASS FEATURES</h3>
@@ -40,28 +77,238 @@
 			<h5 class="caption">RANGER FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Favored Enemy</td><td class="col-10">Prepared Spells</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="left">Features</td>
+						<td class="col-10">Favored Enemy</td>
+						<td class="col-10">Prepared Spells</td>
+						<td>1st</td>
+						<td>2nd</td>
+						<td>3rd</td>
+						<td>4th</td>
+						<td>5th</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Spellcasting, Favored Enemy, Weapon Mastery</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td class="left">Deft Explorer, Fighting Style</td><td>2</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td class="left">Ranger Subclass</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td class="left">Extra Attack</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td class="left">Roving</td><td>3</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td class="left">Subclass feature</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td class="left">Expertise</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td class="left">Tireless</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td class="left">Subclass feature</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td class="left">Relentless Hunter</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>14th</td><td class="left">Nature's Veil</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>15th</td><td class="left">Subclass feature</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>17th</td><td class="left">Precise Hunter</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>18th</td><td class="left">Feral Senses</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>19th</td><td class="left">Epic Boon</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
-				<tr><td>20th</td><td class="left">Foe Slayer</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td class="left">Spellcasting, Favored Enemy, Weapon Mastery</td>
+					<td>2</td>
+					<td>2</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td class="left">Deft Explorer, Fighting Style</td>
+					<td>2</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td class="left">Ranger Subclass</td>
+					<td>2</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>2</td>
+					<td>5</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td class="left">Extra Attack</td>
+					<td>3</td>
+					<td>6</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td class="left">Roving</td>
+					<td>3</td>
+					<td>6</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td class="left">Subclass feature</td>
+					<td>3</td>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>3</td>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td class="left">Expertise</td>
+					<td>4</td>
+					<td>9</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td class="left">Tireless</td>
+					<td>4</td>
+					<td>9</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td class="left">Subclass feature</td>
+					<td>4</td>
+					<td>10</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>10</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td class="left">Relentless Hunter</td>
+					<td>5</td>
+					<td>11</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td class="left">Nature's Veil</td>
+					<td>5</td>
+					<td>11</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td class="left">Subclass feature</td>
+					<td>5</td>
+					<td>12</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>5</td>
+					<td>12</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td class="left">Precise Hunter</td>
+					<td>6</td>
+					<td>14</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td class="left">Feral Senses</td>
+					<td>6</td>
+					<td>14</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td class="left">Epic Boon</td>
+					<td>6</td>
+					<td>15</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td class="left">Foe Slayer</td>
+					<td>6</td>
+					<td>15</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_SPELLCASTING" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FAVORED_ENEMY" />
@@ -137,16 +384,23 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_SPELLCASTING</requirements>
 		<description>
 			<p>You have learned to channel the magical essence of nature to cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class's description.</p>
-			<p class="indent"><b>Spell Slots.</b> The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
-			<p class="indent"><b>Prepared Spells of Level 1+.</b> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. Cure Wounds and Ensnaring Strike are recommended.</p>
+			<p class="indent">
+				<b>Spell Slots.</b> The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
+			<p class="indent">
+				<b>Prepared Spells of Level 1+.</b> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. Cure Wounds and Ensnaring Strike are recommended.</p>
 			<p class="indent">The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.</p>
 			<p class="indent">If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.</p>
-			<p class="indent"><b>Changing Your Prepared Spells.</b> Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.</p>
-			<p class="indent"><b>Spellcasting Ability.</b> Wisdom is your spellcasting ability for your Ranger spells.</p>
-			<p class="indent"><b>Spellcasting Focus.</b> You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.</p>
+			<p class="indent">
+				<b>Changing Your Prepared Spells.</b> Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.</p>
+			<p class="indent">
+				<b>Spellcasting Ability.</b> Wisdom is your spellcasting ability for your Ranger spells.</p>
+			<p class="indent">
+				<b>Spellcasting Focus.</b> You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.</p>
 			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+				<p>
+					<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p>
+					<strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
 			</center>
 		</description>
 		<sheet display="false">
@@ -169,7 +423,7 @@
 			<stat name="ranger:spellcasting:slots:4" value="1" level="17" />
 			<stat name="ranger:spellcasting:slots:5" value="1" level="17" />
 			<stat name="ranger:spellcasting:slots:5" value="1" level="19" />
-			
+
 			<stat name="ranger:spellcasting:prepare" value="2" />
 			<stat name="ranger:spellcasting:prepare" value="1" level="2"/>
 			<stat name="ranger:spellcasting:prepare" value="1" level="3"/>
@@ -194,7 +448,7 @@
 			<description>You always have the Hunter's Mark spell prepared. You can cast it without expending a spell slot.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HUNTERS_MARK" spellcasting="Ranger" prepared="true"/> 
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HUNTERS_MARK" spellcasting="Ranger" prepared="true"/>
 			<stat name="favoredenemy:usage" value="2" />
 			<stat name="favoredenemy:usage" value="1" level="5"/>
 			<stat name="favoredenemy:usage" value="1" level="9"/>
@@ -219,8 +473,10 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_DEFT_EXPLORER</requirements>
 		<description>
 			<p>Thanks to your travels, you gain the following benefits.</p>
-			<p class="indent"><i>Expertise.</i> Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.</p>
-			<p class="indent"><i>Languages.</i> You know two languages of your choice from the language tables in chapter 2.</p>
+			<p class="indent">
+				<i>Expertise.</i> Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.</p>
+			<p class="indent">
+				<i>Languages.</i> You know two languages of your choice from the language tables in chapter 2.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -273,7 +529,7 @@
 			<p>You gain the Ability Score Improvement feat (see chapter 5) or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8,12, and 16.</p>
 		</description>
 		<sheet display="false" />
-		<rules> 
+		<rules>
 			<select type="Feat" name="Ability Score Improvement (Ranger 4)" supports="!Boon" level="4" />
 			<select type="Feat" name="Ability Score Improvement (Ranger 8)" supports="!Boon" level="8" />
 			<select type="Feat" name="Ability Score Improvement (Ranger 12)" supports="!Boon" level="12" />
@@ -322,8 +578,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_TIRELESS</requirements>
 		<description>
 			<p>Primal forces now help fuel you on your journeys, granting you the following benefits.</p>
-			<p class="indent"><b><i>Temporary Hit Points.</i></b> As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
-			<p class="indent"><b><i>Decrease Exhaustion.</i></b> Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Temporary Hit Points.</i>
+				</b> As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+			<p class="indent">
+				<b>
+					<i>Decrease Exhaustion.</i>
+				</b> Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.</p>
 		</description>
 		<sheet alt="Tireless" action="Action" usage="{{tirelesstemp:hp}}/Long Rest">
 			<description>You can give yourself a number of temporary hit points equal to 1d8 + {{tirelesstemp:hp}}. In addition, whenever you finish a Short rest, your exhaustion level, if any, decreases by 1.</description>
@@ -359,7 +621,8 @@
 	<element name="Level 17: Precise Hunter" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_PRECISE_HUNTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_PRECISE_HUNTER</requirements>
 		<description>
-			<p>You have Advantage on attack rolls against the creature currently marked by your <i>Hunter’s Mark.</i></p>
+			<p>You have Advantage on attack rolls against the creature currently marked by your <i>Hunter’s Mark.</i>
+			</p>
 		</description>
 		<sheet alt="Precise Hunter">
 			<description>You have Advantage on attack rolls against the creature currently marked by your Hunter’s Mark.</description>
@@ -384,7 +647,7 @@
 			<p>You gain an Epic Boon feat (see chapter 5) or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.</p>
 		</description>
 		<sheet display="false"/>
-		<rules>  
+		<rules>
 			<select type="Feat" name="Epic Boon (Ranger 19)" level="19" />
 		</rules>
 	</element>

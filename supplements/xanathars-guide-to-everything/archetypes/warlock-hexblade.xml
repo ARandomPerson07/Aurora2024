@@ -3,7 +3,7 @@
 	<info>
 		<name>The Hexblade</name>
 		<update version="0.0.8">
-			<file name="warlock-hexblade.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/warlock-hexblade.xml" />
+			<file name="warlock-hexblade.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/warlock-hexblade.xml" />
 		</update>
 	</info>
 
@@ -39,13 +39,41 @@
 			<h5>HEXBLADE EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
-				</thead> 
-				<tr><td>1st</td><td><em>shield, wrathful smite</em></td></tr>
-				<tr><td>2nd</td><td><em>blur, branding smite</em></td></tr>
-				<tr><td>3rd</td><td><em>blink, elemental weapon</em></td></tr>
-				<tr><td>4th</td><td><em>phantasmal killer, staggering smite</em></td></tr>
-				<tr><td>5th</td><td><em>banishing smite, cone of cold</em></td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>shield, wrathful smite</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>blur, branding smite</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>blink, elemental weapon</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>phantasmal killer, staggering smite</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>banishing smite, cone of cold</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">

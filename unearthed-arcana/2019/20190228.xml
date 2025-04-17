@@ -3,7 +3,7 @@
 	<info>
 		<name>Unearthed Arcana: Artificer Revisited</name>
 		<update version="0.0.7">
-			<file name="20190228.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2019/20190228.xml" />
+			<file name="20190228.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2019/20190228.xml" />
 		</update>
 	</info>
 
@@ -38,27 +38,35 @@
 			<p>As an artificer, you gain the following class features.</p>
 			<h5>HIT POINTS</h5>
 			<ul class="unstyled">
-				<li><strong>Hit Dice:</strong> 1d8 per artificer level</li>
-				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
-				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per artificer level after 1st</li>
+				<li>
+					<strong>Hit Dice:</strong> 1d8 per artificer level</li>
+				<li>
+					<strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li>
+					<strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per artificer level after 1st</li>
 			</ul>
 			<h5>PROFICIENCIES</h5>
 			<ul class="unstyled">
-				<li><strong>Armor:</strong> Light armor, medium armor, shields</li>
-				<li><strong>Weapons:</strong> Simple weapons, hand crossbows, heavy crossbows</li>
-				<li><strong>Tools:</strong> Thieves’ tools, tinker’s tools, one type of artisan’s tools of your choice</li>
+				<li>
+					<strong>Armor:</strong> Light armor, medium armor, shields</li>
+				<li>
+					<strong>Weapons:</strong> Simple weapons, hand crossbows, heavy crossbows</li>
+				<li>
+					<strong>Tools:</strong> Thieves’ tools, tinker’s tools, one type of artisan’s tools of your choice</li>
 			</ul>
 			<p></p>
 			<ul class="unstyled">
-				<li><strong>Saving Throws:</strong> Constitution, Intelligence</li>
-				<li><strong>Skills:</strong> Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand</li>
+				<li>
+					<strong>Saving Throws:</strong> Constitution, Intelligence</li>
+				<li>
+					<strong>Skills:</strong> Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand</li>
 			</ul>
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
 				<li>any two simple weapons</li>
 				<li>a light crossbow and 20 bolts</li>
-				<li>(<i>a</i>) studded leather armor or (<i>b</i>) scale mail</li>
+				<li>(					<i>a</i>) studded leather armor or (<i>b</i>) scale mail</li>
 				<li>thieves’ tools and a dungeoneer’s pack</li>
 			</ul>
 			<p class="indent">If you forgo this starting equipment, as well as the items offered by your background, you start with 5d4 × 10 gp to buy your equipment.</p>
@@ -164,8 +172,10 @@
 			<h5>SPELLCASTING ABILITY</h5>
 			<p>Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.</p>
 			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+				<p>
+					<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p>
+					<strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
 			</center>
 			<h5>RITUAL CASTING</h5>
 			<p>You can cast an artificer spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
@@ -360,8 +370,14 @@
 	<element name="Tools of the Trade" type="Archetype Feature" source="Unearthed Arcana: Artificer Revisited" id="ID_WOTC_UA20190228_CLASS_FEATURE_ARTIFICER_ALCHEMIST_TOOLS_OF_THE_TRADE">
 		<description>
 			<p>By the time you adopt this specialty at 3rd level, you’re deeply familiar with employing its tools.</p>
-			<p class="indent"><strong><em>Proficiencies.</em></strong> You gain proficiency with alchemist’s supplies and the herbalism kit, assuming you don’t already have them. You also gain alchemist’s supplies and an herbalism kit for free—the result of tinkering you’ve done as you’ve prepared for this specialization.</p>
-			<p class="indent"><strong><em>Crafting.</em></strong> If you craft a magic item in the potion category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</p>
+			<p class="indent">
+				<strong>
+					<em>Proficiencies.</em>
+				</strong> You gain proficiency with alchemist’s supplies and the herbalism kit, assuming you don’t already have them. You also gain alchemist’s supplies and an herbalism kit for free—the result of tinkering you’ve done as you’ve prepared for this specialization.</p>
+			<p class="indent">
+				<strong>
+					<em>Crafting.</em>
+				</strong> If you craft a magic item in the potion category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</p>
 		</description>
 		<sheet>
 			<description>If you craft a magic item in the potion category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</description>
@@ -376,12 +392,32 @@
 			<p>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.</p>
 			<h6>Alchemist Spells</h6>
 			<table>
-				<thead><tr><td>Artificer Level</td><td>Spell</td></tr></thead>
-				<tr><td>3rd</td><td>purify food and drink, ray of sickness</td></tr>
-				<tr><td>5th</td><td>Melf’s acid arrow, web</td></tr>
-				<tr><td>9th</td><td>create food and water, stinking cloud</td></tr>
-				<tr><td>13th</td><td>blight, death ward</td></tr>
-				<tr><td>17th</td><td>cloudkill, raise dead</td></tr>
+				<thead>
+					<tr>
+						<td>Artificer Level</td>
+						<td>Spell</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>3rd</td>
+					<td>purify food and drink, ray of sickness</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>Melf’s acid arrow, web</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>create food and water, stinking cloud</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>blight, death ward</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>cloudkill, raise dead</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -542,9 +578,12 @@
 		<description>
 			<p>The homunculus produces a salve and touches one creature you designate. The target receives one of the following magical benefits of your choice:</p>
 			<ul>
-				<li><strong>Buoyancy.</strong> The target gains a flying speed of 10 feet for 10 minutes.</li>
-				<li><strong>Inspiration.</strong> The target feels giddy and effective, gaining advantage on certain ability checks in the next hour. The target chooses the checks before or after rolling. The magic runs out after the target has used it on a number of checks equal to your Intelligence modifier (minimum of 1). </li>
-				<li><strong>Resilience.</strong> The target gains a number of temporary hit points equal to 2d6 + your Intelligence modifier. </li>
+				<li>
+					<strong>Buoyancy.</strong> The target gains a flying speed of 10 feet for 10 minutes.</li>
+				<li>
+					<strong>Inspiration.</strong> The target feels giddy and effective, gaining advantage on certain ability checks in the next hour. The target chooses the checks before or after rolling. The magic runs out after the target has used it on a number of checks equal to your Intelligence modifier (minimum of 1). </li>
+				<li>
+					<strong>Resilience.</strong> The target gains a number of temporary hit points equal to 2d6 + your Intelligence modifier. </li>
 			</ul>
 		</description>
 		<setter>
@@ -586,9 +625,15 @@
 	<element name="Tools of the Trade" type="Archetype Feature" source="Unearthed Arcana: Artificer Revisited" id="ID_WOTC_UA20190228_CLASS_FEATURE_ARTIFICER_ARTILLERIST_TOOLS_OF_THE_TRADE">
 		<description>
 			<p>By the time you adopt this specialty at 3rd level, you’re deeply familiar with employing its tools.</p>
-			<p class="indent"><strong><em>Proficiencies.</em></strong>  You gain proficiency with smith’s tools and woodcarver’s tools, assuming you don’t already have them. You also gain those tools for free—the result of tinkering you’ve done as you’ve prepared for this specialization.</p>
+			<p class="indent">
+				<strong>
+					<em>Proficiencies.</em>
+				</strong>  You gain proficiency with smith’s tools and woodcarver’s tools, assuming you don’t already have them. You also gain those tools for free—the result of tinkering you’ve done as you’ve prepared for this specialization.</p>
 			<p class="indent">In addition, you gain the ability to use rods, staffs, and wands as spellcasting focuses for your artificer spells. You also gain a nonmagical, wooden wand for free, which you’ve carved in your spare time.</p>
-			<p class="indent"><strong><em>Crafting.</em></strong> If you craft a magic item in the wand category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</p>
+			<p class="indent">
+				<strong>
+					<em>Crafting.</em>
+				</strong> If you craft a magic item in the wand category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</p>
 		</description>
 		<sheet>
 			<description>You gain the ability to use rods, staffs, and wands as spellcasting focuses for your artificer spells.
@@ -604,12 +649,32 @@
 			<p>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.</p>
 			<h6>Alchemist Spells</h6>
 			<table>
-				<thead><tr><td>Artificer Level</td><td>Spell</td></tr></thead>
-				<tr><td>3rd</td><td>shield, thunderwave</td></tr>
-				<tr><td>5th</td><td>scorching ray, shatter</td></tr>
-				<tr><td>9th</td><td>fireball, wind wall</td></tr>
-				<tr><td>13th</td><td>ice storm, wall of fire</td></tr>
-				<tr><td>17th</td><td>cone of cold, wall of force</td></tr>
+				<thead>
+					<tr>
+						<td>Artificer Level</td>
+						<td>Spell</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>3rd</td>
+					<td>shield, thunderwave</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>scorching ray, shatter</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>fireball, wind wall</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>ice storm, wall of fire</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>cone of cold, wall of force</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -635,10 +700,24 @@
 			<p class="indent">As an action, you can command your turret to detonate if you are within 60 feet of it. Doing so destroys the turret and forces each creature within 10 feet of it to make a Dexterity saving throw against your spell save DC, taking 3d6 force damage on a failed save or half as much damage on a successful one.</p>
 			<h6>Arcane Turrets</h6>
 			<table>
-				<thead><tr><td>Turret</td><td>Activation</td></tr></thead>
-				<tr><td>Flamethrower</td><td>The turret exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 1d8 fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.</td></tr>
-				<tr><td>Force Ballista</td><td>Make a ranged spell attack, originating from the turret, at one creature or object within 120 feet of it. On a hit, the target takes 2d8 force damage, and if the target is a creature, it is pushed up to 5 feet away from the turret.</td></tr>
-				<tr><td>Defender</td><td>The turret emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to 1d8 + your Intelligence modifier (minimum of +1).</td></tr>
+				<thead>
+					<tr>
+						<td>Turret</td>
+						<td>Activation</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>Flamethrower</td>
+					<td>The turret exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 1d8 fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.</td>
+				</tr>
+				<tr>
+					<td>Force Ballista</td>
+					<td>Make a ranged spell attack, originating from the turret, at one creature or object within 120 feet of it. On a hit, the target takes 2d8 force damage, and if the target is a creature, it is pushed up to 5 feet away from the turret.</td>
+				</tr>
+				<tr>
+					<td>Defender</td>
+					<td>The turret emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to 1d8 + your Intelligence modifier (minimum of +1).</td>
+				</tr>
 			</table>
 		</description>
 		<sheet>
@@ -688,8 +767,12 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:4]</requirements>
 		<description>
-			<p><em>Prerequisite: 4th-level artificer</em></p>
-			<p><em>Item: A pair of boots (requires attunement)</em></p>
+			<p>
+				<em>Prerequisite: 4th-level artificer</em>
+			</p>
+			<p>
+				<em>Item: A pair of boots (requires attunement)</em>
+			</p>
 			<p>While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.</p>
 		</description>
 		<sheet usage="requires attunement">
@@ -722,8 +805,12 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:4]</requirements>
 		<description>
-			<p><em>Prerequisite: 4th-level artificer</em></p>
-			<p><em>Item: 2–5 pouches</em></p>
+			<p>
+				<em>Prerequisite: 4th-level artificer</em>
+			</p>
+			<p>
+				<em>Item: 2–5 pouches</em>
+			</p>
 			<p>The infused pouches all share one interdimensional space of the same capacity as a single pouch. Thus, reaching into any of the pouches allows access to the same storage space. A pouch operates as long as it is within 100 miles of another one of the pouches; the pouch is otherwise empty and won’t accept any contents.</p>
 			<p class="indent">If this infusion ends, the items stored in the shared space move into one of the pouches, determined at random. The rest of the pouches become empty.</p>
 		</description>
@@ -736,8 +823,12 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:8]</requirements>
 		<description>
-			<p><em>Prerequisite: 8th-level artificer</em></p>
-			<p><em>Item: A simple or martial weapon (requires attunement)</em></p>
+			<p>
+				<em>Prerequisite: 8th-level artificer</em>
+			</p>
+			<p>
+				<em>Item: A simple or martial weapon (requires attunement)</em>
+			</p>
 			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.</p>
 			<p class="indent">As a reaction immediately after being hit by a melee attack, the wielder can cause the attacker to be blinded until the end of the attacker’s next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. Once used, this reaction can’t be used again until the wielder finishes a short or long rest.</p>
 		</description>
@@ -913,7 +1004,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Boots of elvenkind.</p>
 		</description>
 		<sheet>
@@ -924,7 +1017,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Boots of striding and springing.</p>
 		</description>
 		<sheet>
@@ -935,7 +1030,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Boots of the winterlands.</p>
 		</description>
 		<sheet>
@@ -946,7 +1043,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Bracers of archery.</p>
 		</description>
 		<sheet>
@@ -957,7 +1056,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Brooch of shielding.</p>
 		</description>
 		<sheet>
@@ -968,7 +1069,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Cloak of elvenkind.</p>
 		</description>
 		<sheet>
@@ -979,7 +1082,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Cloak of protection.</p>
 		</description>
 		<sheet>
@@ -990,7 +1095,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Eyes of charming.</p>
 		</description>
 		<sheet>
@@ -1001,7 +1108,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Eyes of the eagle.</p>
 		</description>
 		<sheet>
@@ -1012,7 +1121,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Gauntlets of ogre power.</p>
 		</description>
 		<sheet>
@@ -1023,7 +1134,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Gloves of missile snaring.</p>
 		</description>
 		<sheet>
@@ -1034,7 +1147,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Gloves of swimming and climbing.</p>
 		</description>
 		<sheet>
@@ -1045,7 +1160,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Gloves of thievery.</p>
 		</description>
 		<sheet>
@@ -1056,7 +1173,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Hat of disguise.</p>
 		</description>
 		<sheet>
@@ -1067,7 +1186,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Headband of intellect.</p>
 		</description>
 		<sheet>
@@ -1078,7 +1199,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Helm of telepathy.</p>
 		</description>
 		<sheet>
@@ -1089,7 +1212,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Medallion of thoughts.</p>
 		</description>
 		<sheet>
@@ -1100,7 +1225,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Periapt of wound closure.</p>
 		</description>
 		<sheet>
@@ -1111,7 +1238,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Pipes of haunting.</p>
 		</description>
 		<sheet>
@@ -1122,7 +1251,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Pipes of the sewers.</p>
 		</description>
 		<sheet>
@@ -1133,7 +1264,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Quiver of Ehlonna.</p>
 		</description>
 		<sheet>
@@ -1144,7 +1277,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Ring of jumping.</p>
 		</description>
 		<sheet>
@@ -1155,7 +1290,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Ring of mind shielding.</p>
 		</description>
 		<sheet>
@@ -1166,7 +1303,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Ring of water walking.</p>
 		</description>
 		<sheet>
@@ -1177,7 +1316,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Slippers of spider climbing.</p>
 		</description>
 		<sheet>
@@ -1188,7 +1329,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:12]</requirements>
 		<description>
-			<p><em>Prerequisite: 12th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 12th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Winged boots.</p>
 		</description>
 		<sheet>
@@ -1200,7 +1343,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate an Amulet of health.</p>
 		</description>
 		<sheet>
@@ -1211,7 +1356,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Belt of hill giant strength.</p>
 		</description>
 		<sheet>
@@ -1222,7 +1369,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Boots of levitation.</p>
 		</description>
 		<sheet>
@@ -1233,7 +1382,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Boots of speed.</p>
 		</description>
 		<sheet>
@@ -1244,7 +1395,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Bracers of defense.</p>
 		</description>
 		<sheet>
@@ -1255,7 +1408,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Cloak of the bat.</p>
 		</description>
 		<sheet>
@@ -1266,7 +1421,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate Dimensional shackles.</p>
 		</description>
 		<sheet>
@@ -1277,7 +1434,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Gem of seeing.</p>
 		</description>
 		<sheet>
@@ -1288,7 +1447,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Horn of blasting.</p>
 		</description>
 		<sheet>
@@ -1299,7 +1460,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Ring of free action.</p>
 		</description>
 		<sheet>
@@ -1310,7 +1473,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Ring of protection.</p>
 		</description>
 		<sheet>
@@ -1321,7 +1486,9 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:16]</requirements>
 		<description>
-			<p><em>Prerequisite: 16th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 16th-level artificer</em>
+			</p>
 			<p>Using this infusion, you replicate a Ring of the ram.</p>
 		</description>
 		<sheet>
@@ -1335,8 +1502,12 @@
 		<supports>UA Artificer Infusion</supports>
 		<requirements>[level:8]</requirements>
 		<description>
-			<p><em>Prerequisite: 8th-level artificer</em></p>
-			<p><em>Item: A suit of armor (requires attunement)</em></p>
+			<p>
+				<em>Prerequisite: 8th-level artificer</em>
+			</p>
+			<p>
+				<em>Item: A suit of armor (requires attunement)</em>
+			</p>
 			<p>While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.</p>
 		</description>
 		<sheet>
@@ -1346,7 +1517,9 @@
 	<element name="Returning Weapon" type="Class Feature" source="Unearthed Arcana: Artificer Revisited" id="ID_WOTC_UA20190228_CLASS_FEATURE_ARTIFICER_INFUSION_RETURNING_WEAPON">
 		<supports>UA Artificer Infusion</supports>
 		<description>
-			<p><em>Item: A simple or martial weapon with the thrown property</em></p>
+			<p>
+				<em>Item: A simple or martial weapon with the thrown property</em>
+			</p>
 			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder’s hand immediately after it is used to make a ranged attack.</p>
 			<p class="indent"></p>
 		</description>

@@ -5,7 +5,7 @@
 		<description>Way of the Sun Soul archetype from the Sword Coast Adventurer’s Guide.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide">Wizards of the Coast</author>
 		<update version="0.0.6">
-			<file name="monk-sunsoul.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/sword-coast-adventurers-guide/classes/monk-sunsoul.xml" />
+			<file name="monk-sunsoul.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/sword-coast-adventurers-guide/classes/monk-sunsoul.xml" />
 		</update>
 	</info>
 
@@ -57,7 +57,7 @@
 			<description>After an attack, spend 2 ki point to cast burning hands. Each additional ki point you spend increases the spell’s level by 1. You can spent on this spell a maximum of {{level:monk:half}} ki points.</description>
 		</sheet>
 	</element>
-	
+
 	<element name="Searing Sunburst" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_WAY_OF_THE_SUN_SOUL_SEARING_SUNBURST">
 		<description>
 			<p>At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you magically create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.</p>

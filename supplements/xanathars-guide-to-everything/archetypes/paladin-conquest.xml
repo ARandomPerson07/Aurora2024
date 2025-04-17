@@ -5,7 +5,7 @@
 		<description>The Oath of Conquest from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
 		<update version="0.0.5">
-			<file name="paladin-conquest.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/paladin-conquest.xml" />
+			<file name="paladin-conquest.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/paladin-conquest.xml" />
 		</update>
 	</info>
 
@@ -16,9 +16,18 @@
 			<p class="indent">Some of these paladins go so far as to consort with the powers of the Nine Hells, valuing the rule of law over the balm of mercy. The archdevil Bel, warlord of Avernus, counts many of these paladins — called hell knights — as his most ardent supporters. Hell knights cover their armor with trophies taken from fallen enemies, a grim warning to any who dare oppose them and the decrees of their lords. These knights are often most fiercely resisted by other paladins of this oath, who believe that the hell knights have wandered too far into darkness.</p>
 			<h5>TENETS OF CONQUEST</h5>
 			<p>A paladin who takes this oath has the tenets of conquest seared on the upper arm.</p>
-			<p class="indent"><b><i>Douse the Flames of Hope. </i></b>It is not enough to merely defeat an enemy in battle. Your victory must be so overwhelming that your enemies’ will to fight is shattered forever. A blade can end a life. Fear can end an empire.</p>
-			<p class="indent"><b><i>Rule with an Iron Fist. </i></b>Once you have conquered, tolerate no dissent. Your word is law. Those who obey it shall be favored. Those who defy it shall be punished as an example to all who might follow.</p>
-			<p class="indent"><b><i>Strength Above All. </i></b>You shall rule until a stronger one arises. Then you must grow mightier and meet the challenge, or fall to your own ruin. </p>
+			<p class="indent">
+				<b>
+					<i>Douse the Flames of Hope. </i>
+				</b>It is not enough to merely defeat an enemy in battle. Your victory must be so overwhelming that your enemies’ will to fight is shattered forever. A blade can end a life. Fear can end an empire.</p>
+			<p class="indent">
+				<b>
+					<i>Rule with an Iron Fist. </i>
+				</b>Once you have conquered, tolerate no dissent. Your word is law. Those who obey it shall be favored. Those who defy it shall be punished as an example to all who might follow.</p>
+			<p class="indent">
+				<b>
+					<i>Strength Above All. </i>
+				</b>You shall rule until a stronger one arises. Then you must grow mightier and meet the challenge, or fall to your own ruin. </p>
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_OATH_SPELLS" />
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_CHANNEL_DIVINITY" />
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_AURA_OF_CONQUEST" />
@@ -41,14 +50,42 @@
 			<h5>Oath of Conquest Spells</h5>
 			<table>
 				<thead>
-				<tr><td>Paladin Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Paladin Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>armor of agathys, command</em></td></tr>
-				<tr><td>5th</td><td><em>hold person, spiritual weapon</em></td></tr>
-				<tr><td>9th</td><td><em>bestow curse, fear</em></td></tr>
-				<tr><td>13th</td><td><em>dominate beast, stoneskin</em></td></tr>
-				<tr><td>17th</td><td><em>cloudkill, dominate person</em></td></tr>
-			</table>      
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>armor of agathys, command</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>hold person, spiritual weapon</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>bestow curse, fear</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>dominate beast, stoneskin</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>cloudkill, dominate person</em>
+					</td>
+				</tr>
+			</table>
 		</description>
 		<sheet display="false">
 			<description>You gain oath spells at the paladin levels listed in the Oath of Conquest Spells table.</description>
@@ -71,8 +108,14 @@
 		<compendium display="false" />
 		<description>
 			<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
-			<p class="indent"><b><i>Conquering Presence.</i></b> You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
-			<p class="indent"><b><i>Guided Strike.</i></b> You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>
+			<p class="indent">
+				<b>
+					<i>Conquering Presence.</i>
+				</b> You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+			<p class="indent">
+				<b>
+					<i>Guided Strike.</i>
+				</b> You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

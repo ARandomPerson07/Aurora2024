@@ -5,7 +5,7 @@
 		<description>The Scout from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
 		<update version="0.0.7">
-			<file name="rogue-scout.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/rogue-scout.xml" />
+			<file name="rogue-scout.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/rogue-scout.xml" />
 		</update>
 	</info>
 
@@ -58,7 +58,7 @@
 		<sheet display="false">
 			<description>Your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well.</description>
 		</sheet>
-		<rules>			
+		<rules>
 			<stat name="innate speed:misc" value="10" />
 			<stat name="innate speed:climb:misc" value="10" requirements="[innate speed:climb:1]" />
 			<stat name="innate speed:swim:misc" value="10" requirements="[innate speed:swim:1]" />

@@ -5,7 +5,7 @@
 		<description>The Paladin class from the Player’s Handbook 2024.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-paladin.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/classes/class-paladin.xml" />
+			<file name="class-paladin.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/classes/class-paladin.xml" />
 		</update>
 	</info>
 
@@ -28,13 +28,50 @@
 			<!-- -->
 			<h5>CORE PALADIN TRAITS</h5>
 			<table>
-				<tr><td><b>Primary Ability</b></td><td>Strength and Charisma</td></tr>
-				<tr><td><b>Hit Point Die</b></td><td>1d10 per Paladin level</td></tr>
-				<tr><td><b>Saving Throw Proficiencies</b></td><td>Wisdom and Charisma</td></tr>
-				<tr><td><b>Skills Proficiencies</b></td><td><i>Choose 2:</i> Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion</td></tr>
-				<tr><td><b>Weapon Proficiencies</b></td><td>Simple and Martial weapons</td></tr>
-				<tr><td><b>Armor Training</b></td><td>Light, Medium and Heavy armor and Shields</td></tr>
-				<tr><td><b>Starting Equipment</b></td><td><i>Choose A or B:</i> (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest's Pack, and 9 GP; or (B) 150 GP</td></tr>
+				<tr>
+					<td>
+						<b>Primary Ability</b>
+					</td>
+					<td>Strength and Charisma</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Point Die</b>
+					</td>
+					<td>1d10 per Paladin level</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Saving Throw Proficiencies</b>
+					</td>
+					<td>Wisdom and Charisma</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Skills Proficiencies</b>
+					</td>
+					<td>
+						<i>Choose 2:</i> Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Weapon Proficiencies</b>
+					</td>
+					<td>Simple and Martial weapons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Armor Training</b>
+					</td>
+					<td>Light, Medium and Heavy armor and Shields</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Starting Equipment</b>
+					</td>
+					<td>
+						<i>Choose A or B:</i> (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest's Pack, and 9 GP; or (B) 150 GP</td>
+				</tr>
 			</table>
 			<!-- -->
 			<h3>CLASS FEATURES</h3>
@@ -42,28 +79,238 @@
 			<h5 class="caption">PALADIN FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Channel Divinity</td><td class="col-10">Prepared Spells</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="left">Features</td>
+						<td class="col-10">Channel Divinity</td>
+						<td class="col-10">Prepared Spells</td>
+						<td>1st</td>
+						<td>2nd</td>
+						<td>3rd</td>
+						<td>4th</td>
+						<td>5th</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Lay On Hands, Spellcasting, Weapon Mastery</td><td>—</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td class="left">Fighting Style, Paladin's Smite</td><td>—</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td class="left">Channel Divinity, Paladin Subclass</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td class="left">Extra Attack, Faithful Steed</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td class="left">Aura of Protection</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td class="left">Subclass feature</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td class="left">Abjure Foes</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td class="left">Aura of Courage</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td class="left">Radiant Strikes</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td class="left">—</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>14th</td><td class="left">Restoring Touch</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>15th</td><td class="left">Subclass feature</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>17th</td><td class="left">—</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>18th</td><td class="left">Aura Expansion</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>19th</td><td class="left">Epic Boon</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
-				<tr><td>20th</td><td class="left">Subclass feature</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td class="left">Lay On Hands, Spellcasting, Weapon Mastery</td>
+					<td>—</td>
+					<td>2</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td class="left">Fighting Style, Paladin's Smite</td>
+					<td>—</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td class="left">Channel Divinity, Paladin Subclass</td>
+					<td>2</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>2</td>
+					<td>5</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td class="left">Extra Attack, Faithful Steed</td>
+					<td>2</td>
+					<td>6</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td class="left">Aura of Protection</td>
+					<td>2</td>
+					<td>6</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td class="left">Subclass feature</td>
+					<td>2</td>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>2</td>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td class="left">Abjure Foes</td>
+					<td>2</td>
+					<td>9</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td class="left">Aura of Courage</td>
+					<td>2</td>
+					<td>9</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td class="left">Radiant Strikes</td>
+					<td>3</td>
+					<td>10</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>3</td>
+					<td>10</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td class="left">—</td>
+					<td>3</td>
+					<td>11</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td class="left">Restoring Touch</td>
+					<td>3</td>
+					<td>11</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td class="left">Subclass feature</td>
+					<td>3</td>
+					<td>12</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>3</td>
+					<td>12</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td class="left">—</td>
+					<td>3</td>
+					<td>14</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td class="left">Aura Expansion</td>
+					<td>3</td>
+					<td>14</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td class="left">Epic Boon</td>
+					<td>3</td>
+					<td>15</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td class="left">Subclass feature</td>
+					<td>3</td>
+					<td>15</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_SPELLCASTING" />
@@ -132,7 +379,7 @@
 				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
 				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
 				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-			<!--<select type="Proficiency" name="Skill Proficiency (Paladin)" supports="Skill,Paladin" number="1"/>-->
+				<!--<select type="Proficiency" name="Skill Proficiency (Paladin)" supports="Skill,Paladin" number="1"/>-->
 			</rules>
 		</multiclass>
 	</element>
@@ -140,22 +387,29 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_SPELLCASTING</requirements>
 		<description>
 			<p>You have learned to cast spells through prayer and meditation. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the Paladin spell list later in the class's description.</p>
-			<p class="indent"><b>Spell Slots.</b> The Paladin Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
-			<p class="indent"><b>Prepared Spells of Level 1+.</b> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Paladin spells. <i>Heroism</i> and <i>Searing Smite</i> are recommended.</p>
+			<p class="indent">
+				<b>Spell Slots.</b> The Paladin Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
+			<p class="indent">
+				<b>Prepared Spells of Level 1+.</b> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Paladin spells. <i>Heroism</i> and <i>Searing Smite</i> are recommended.</p>
 			<p class="indent">The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Paladin Features table. Whenever that number increases, choose additional Paladin spells until the number of spells on your list matches the number in the Paladin Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Paladin, your list of prepared spells can include six Paladin spells of level 1 or 2 in any combination.</p>
 			<p class="indent">If another Paladin feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Paladin spells for you.</p>
-			<p class="indent"><b>Changing Your Prepared Spells.</b> Whenever you finish a Long Rest, you can replace one spell on your list with another Paladin spell for which you have spell slots.</p>
-			<p class="indent"><b>Spellcasting Ability.</b> Charisma is your spellcasting ability for your Paladin spells.</p>
-			<p class="indent"><b>Spellcasting Focus.</b> You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.</p>
+			<p class="indent">
+				<b>Changing Your Prepared Spells.</b> Whenever you finish a Long Rest, you can replace one spell on your list with another Paladin spell for which you have spell slots.</p>
+			<p class="indent">
+				<b>Spellcasting Ability.</b> Charisma is your spellcasting ability for your Paladin spells.</p>
+			<p class="indent">
+				<b>Spellcasting Focus.</b> You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.</p>
 			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+				<p>
+					<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p>
+					<strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
 			</center>
 		</description>
 		<sheet display="false">
 			<description>You have learned to cast spells through prayer and meditation.</description>
 		</sheet>
-		<spellcasting name="Paladin" ability="Charisma" prepare="true" >
+		<spellcasting name="Paladin" ability="Charisma" prepare="true">
 			<list known="true">Paladin</list>
 		</spellcasting>
 		<rules>
@@ -172,7 +426,7 @@
 			<stat name="paladin:spellcasting:slots:4" value="1" level="17" />
 			<stat name="paladin:spellcasting:slots:5" value="1" level="17" />
 			<stat name="paladin:spellcasting:slots:5" value="1" level="19" />
-			
+
 			<stat name="paladin:spellcasting:prepare" value="2" />
 			<stat name="paladin:spellcasting:prepare" value="1" level="2"/>
 			<stat name="paladin:spellcasting:prepare" value="1" level="3"/>
@@ -266,7 +520,7 @@
 			<p>You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class’s Channel Divinity, you choose which effect from this class to create.</p>
 			<p class="indent">You can use this class’s Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.</p>
 			<p class="indent">If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class’s Spellcasting feature.</p>
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY_DIVINE_SENSE" />			
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY_DIVINE_SENSE" />
 		</description>
 		<sheet alt="Channel Divinity" usage="{{channel divinity:count}}/Long Rest">
 			<description>You can channel divine energy to fuel magical effects. Each time you use this class’s Channel Divinity, you choose which effect from this class to create. You regain one of its expended uses when you finish a Short Rest. If an effect requires a saving throw, the DC equals {{spellcasting:dc:cha}}</description>
@@ -348,7 +602,7 @@
 			<stat name="aura of protection:range" value="10" bonus="base" />
 			<stat name="aura of protection:save bonus" value="1" bonus="base"/>
 			<stat name="aura of protection:save bonus" value="charisma:modifier" bonus="base"/>
-	<!--	<stat name="strength:save:misc" value="aura of protection:save bonus"/>
+			<!--	<stat name="strength:save:misc" value="aura of protection:save bonus"/>
 			<stat name="dexterity:save:misc" value="aura of protection:save bonus"/>
 			<stat name="constitution:save:misc" value="aura of protection:save bonus"/>
 			<stat name="wisdom:save:misc" value="aura of protection:save bonus"/>
@@ -412,7 +666,7 @@
 			<p>You gain an Epic Boon feat (see chapter 5) or another feat of your choice for which you qualify. Boon of Truesight is recommended.</p>
 		</description>
 		<sheet alt="Epic Boon" display="false"/>
-		<rules> 
+		<rules>
 			<select type="Feat" name="Epic Boon (Paladin 19)" />
 		</rules>
 	</element>

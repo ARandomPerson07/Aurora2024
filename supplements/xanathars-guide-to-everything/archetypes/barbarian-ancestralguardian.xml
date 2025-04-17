@@ -3,10 +3,10 @@
 	<info>
 		<name>Ancestral Guardian</name>
 		<update version="0.0.6">
-			<file name="barbarian-ancestralguardian.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/barbarian-ancestralguardian.xml" />
+			<file name="barbarian-ancestralguardian.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/barbarian-ancestralguardian.xml" />
 		</update>
 	</info>
-	
+
 	<element name="Path of the Ancestral Guardian" type="Archetype" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_PATH_OF_THE_ANCESTRAL_GUARDIAN">
 		<supports>Primal Path</supports>
 		<description>

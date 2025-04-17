@@ -3,7 +3,7 @@
 	<info>
 		<name>Unearthed Arcana: Subclasses, Part 5</name>
 		<update version="0.0.2">
-			<file name="20201026.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2020/20201026.xml" />
+			<file name="20201026.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2020/20201026.xml" />
 		</update>
 	</info>
 
@@ -28,14 +28,35 @@
 			<h5 class="caption">Ascendant Dragon Origin</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Origin</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Origin</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>You honed your abilities by observing a dragon and aligning your ki with their world-altering power.</td></tr>
-				<tr><td>2</td><td>A dragon personally took an active role in shaping your inner energy.</td></tr>
-				<tr><td>3</td><td>You studied at a monastery that traces its teachings back centuries or more to a single dragon’s instruction.</td></tr>
-				<tr><td>4</td><td>You spent long stretches meditating in the region of influence of an ancient dragon’s lair, absorbing its ambient magic.</td></tr>
-				<tr><td>5</td><td>You found a scroll written in Draconic that contained inspiring new techniques.</td></tr>
-				<tr><td>6</td><td>After a dream that featured a five-handed dragonborn you awoke with altered ki, reflecting the breaths of dragons.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>You honed your abilities by observing a dragon and aligning your ki with their world-altering power.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>A dragon personally took an active role in shaping your inner energy.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>You studied at a monastery that traces its teachings back centuries or more to a single dragon’s instruction.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>You spent long stretches meditating in the region of influence of an ancient dragon’s lair, absorbing its ambient magic.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>You found a scroll written in Draconic that contained inspiring new techniques.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>After a dream that featured a five-handed dragonborn you awoke with altered ki, reflecting the breaths of dragons.</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_ASCENDANT_DRAGON_DRACONIC_DISCIPLE" />
 			<div element="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_ASCENDANT_DRAGON_BREATH_OF_THE_DRAGON" />
@@ -54,7 +75,9 @@
 	</element>
 	<element name="Draconic Disciple" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_ASCENDANT_DRAGON_DRACONIC_DISCIPLE">
 		<description>
-			<p><em>3rd-level Way of the Ascendant Dragon feature</em></p>
+			<p>
+				<em>3rd-level Way of the Ascendant Dragon feature</em>
+			</p>
 			<p>You can channel your draconic ki to imbue your unarmed strikes with the essence of a dragon’s breath and to use your connection with draconic creatures to magnify your presence. You gain the following benefits:</p>
 			<ul>
 				<li>When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.</li>
@@ -72,7 +95,9 @@
 	</element>
 	<element name="Breath of the Dragon" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_ASCENDANT_DRAGON_BREATH_OF_THE_DRAGON">
 		<description>
-			<p><em>3rd-level Way of the Ascendant Dragon feature</em></p>
+			<p>
+				<em>3rd-level Way of the Ascendant Dragon feature</em>
+			</p>
 			<p>You can channel your ki into destructive waves of energy like the dragons you emulate. When you take the Attack action on your turn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (your choice). Choose a damage type: acid, cold, fire, lightning, or poison. Each creature in the area must make a Dexterity saving throw against your ki save DC, taking damage of the chosen type equal to two rolls of your Martial Arts die on a failure, or half as much damage on a success.</p>
 			<p class="indent">At 11th level, the damage of your breath increases to three rolls of your Martial Arts die.</p>
 			<p class="indent">You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend 1 ki point to use this feature again.</p>
@@ -86,7 +111,9 @@
 	</element>
 	<element name="Wings Unfurled" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_ASCENDANT_DRAGON_WINGS_UNFURLED">
 		<description>
-			<p><em>6th-level Way of the Ascendant Dragon feature</em></p>
+			<p>
+				<em>6th-level Way of the Ascendant Dragon feature</em>
+			</p>
 			<p>When you use your Step of the Wind, you can unfurl spectral draconic wings from your back that vanish at the end of your turn. While the wings exist, you have a flying speed equal to your walking speed.</p>
 			<p class="indent">You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend 1 additional ki point when you activate Step of the Wind to use this feature again.</p>
 		</description>
@@ -97,7 +124,9 @@
 	</element>
 	<element name="Aspect of the Wyrm" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_ASCENDANT_DRAGON_ASPECT_OF_THE_WYRM">
 		<description>
-			<p><em>11th-level Way of the Ascendant Dragon feature</em></p>
+			<p>
+				<em>11th-level Way of the Ascendant Dragon feature</em>
+			</p>
 			<p>The power of your draconic ki now radiates from you, protecting your allies from harm and punishing any who raise arms against them. As a bonus action, you can create an aura of draconic power that radiates 30 feet from you for 1 minute. Choose acid, cold, fire, lightning, or poison damage, and for the duration, you gain the following effects:</p>
 			<ul>
 				<li>You and your allies within your aura gain resistance to the chosen damage type.</li>
@@ -115,7 +144,9 @@
 	</element>
 	<element name="Ascendant Aspect" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_ASCENDANT_DRAGON_ASCENDANT_ASPECT">
 		<description>
-			<p><em>17th-level Way of the Ascendant Dragon feature</em></p>
+			<p>
+				<em>17th-level Way of the Ascendant Dragon feature</em>
+			</p>
 			<p>Your draconic ki reaches its peak. You gain the following benefits:</p>
 			<ul>
 				<li>You gain blindsight out to 30 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</li>
@@ -139,14 +170,35 @@
 			<h5 class="caption">Drakewarden Origin</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Origin</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Origin</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>You studied a dragon’s scale or claw, or a trinket from its hoard, and created your bond through the token’s lingering draconic magic.</td></tr>
-				<tr><td>2</td><td>A secret order of rangers who collect and guard draconic lore taught you their ways.</td></tr>
-				<tr><td>3</td><td>A true dragon gave you a drake egg to care for. When it hatched, the drake bonded to you.</td></tr>
-				<tr><td>4</td><td>You drank a few drops of dragon blood, forever infusing your nature magic with draconic power.</td></tr>
-				<tr><td>5</td><td>An ancient Draconic inscription on a standing stone empowered you when you read it aloud.</td></tr>
-				<tr><td>6</td><td>You had a vivid dream of a mysterious man, accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>You studied a dragon’s scale or claw, or a trinket from its hoard, and created your bond through the token’s lingering draconic magic.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>A secret order of rangers who collect and guard draconic lore taught you their ways.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>A true dragon gave you a drake egg to care for. When it hatched, the drake bonded to you.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>You drank a few drops of dragon blood, forever infusing your nature magic with draconic power.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>An ancient Draconic inscription on a standing stone empowered you when you read it aloud.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>You had a vivid dream of a mysterious man, accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you.</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRACONIC_GIFT" />
 			<div element="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKE_COMPANION" />
@@ -165,7 +217,9 @@
 	</element>
 	<element name="Draconic Gift" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRACONIC_GIFT">
 		<description>
-			<p><em>3rd-level Drakewarden feature</em></p>
+			<p>
+				<em>3rd-level Drakewarden feature</em>
+			</p>
 			<p>The bond you share with your drake creates a deeper connection to dragon kind, granting you understanding and empowering your presence. You gain the following benefits:</p>
 			<ul>
 				<li>If you can’t already, you learn to speak, read, and write Draconic.</li>
@@ -180,7 +234,9 @@
 	</element>
 	<element name="Drake Companion" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKE_COMPANION">
 		<description>
-			<p><em>3rd-level Drakewarden feature</em></p>
+			<p>
+				<em>3rd-level Drakewarden feature</em>
+			</p>
 			<p>You can magically summon the drake bound to you. As an action, you can summon the drake, which appears in an unoccupied space of your choice that you can see within 30 feet of you.</p>
 			<p class="indent">The drake is friendly to you and your companions and obeys your commands. See its game statistics in the Drake Companion stat block, which uses your proficiency bonus (PB) in several places. When you summon the drake, choose a damage type listed in its Draconic Essence trait. You can determine the cosmetic characteristics of the drake such as its color, scale texture, or any visible effect of its Draconic Essence; your choice has no effect on its game statistics.</p>
 			<p class="indent">In combat, the drake shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.</p>
@@ -200,7 +256,9 @@
 	</element>
 	<element name="Bond of Fang and Scale" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_BOND_OF_FANG_AND_SCALE">
 		<description>
-			<p><em>7th-level Drakewarden feature</em></p>
+			<p>
+				<em>7th-level Drakewarden feature</em>
+			</p>
 			<p>The bond you share with your drake intensifies, protecting you and stoking the drake’s fury. While your drake is summoned, you and the drake gain the following benefits:</p>
 			<ul>
 				<li>You gain resistance to the damage type chosen for the drake’s Draconic Essence.</li>
@@ -217,7 +275,9 @@
 	</element>
 	<element name="Drake’s Breath" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKES_BREATH">
 		<description>
-			<p><em>11th-level Drakewarden feature</em></p>
+			<p>
+				<em>11th-level Drakewarden feature</em>
+			</p>
 			<p>As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage. Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking 6d6 damage on a failed save, or half as much damage on a successful one.</p>
 			<p class="indent">This damage increases to 8d6 when you reach 15th level in this class.</p>
 			<p class="indent">Once you use this feature, you can’t do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again.</p>
@@ -231,7 +291,9 @@
 	</element>
 	<element name="Perfected Bond" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 5" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_PERFECTED_BOND">
 		<description>
-			<p><em>15th-level Drakewarden feature</em></p>
+			<p>
+				<em>15th-level Drakewarden feature</em>
+			</p>
 			<p>Your bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:</p>
 			<ul>
 				<li>The drake grows to Large size.</li>
@@ -281,7 +343,7 @@
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:speed" value="40" bonus="base" />
 			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 		</rules>
@@ -347,7 +409,7 @@
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:speed" value="40" bonus="base" />
 			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 		</rules>
@@ -398,7 +460,7 @@
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:speed" value="40" bonus="base" />
 			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 		</rules>
@@ -449,7 +511,7 @@
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:speed" value="40" bonus="base" />
 			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 		</rules>
@@ -500,7 +562,7 @@
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:speed" value="40" bonus="base" />
 			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 		</rules>
@@ -542,7 +604,7 @@
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
 			<stat name="companion:hp:max" value="level:ranger" />
-			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:speed" value="40" bonus="base" />
 			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 		</rules>

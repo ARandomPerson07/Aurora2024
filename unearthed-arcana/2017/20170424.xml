@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<info>
-		<name>Unearthed Arcana: Feats for Races</name>
-		<description>Today we're offering another batch of feats to playtest. This time, the feats are associated with the races in the <i>Player’s Handbook</i>.</description>
-		<author url="http://dnd.wizards.com/articles/unearthed-arcana/feats-races">Wizards of the Coast</author>
-		<update version="0.0.6">
-			<file name="20170424.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2017/20170424.xml" />
-		</update>
-	</info>
+    <info>
+        <name>Unearthed Arcana: Feats for Races</name>
+        <description>Today we're offering another batch of feats to playtest. This time, the feats are associated with the races in the <i>Player’s Handbook</i>.
+        </description>
+        <author url="http://dnd.wizards.com/articles/unearthed-arcana/feats-races">Wizards of the Coast</author>
+        <update version="0.0.6">
+            <file name="20170424.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2017/20170424.xml" />
+        </update>
+    </info>
 
-	<element name="Unearthed Arcana: Feats for Races" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170424">
-		<description>
-			<p>Today we're offering another batch of feats to playtest. This time, the feats are associated with the races in the <i>Player’s Handbook</i>.</p>
-		</description>
-		<setters>
-			<set name="abbreviation">UA20170424</set>
-			<set name="url">http://dnd.wizards.com/articles/unearthed-arcana/feats-races</set>
-			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
-			<set name="official">true</set>
-			<set name="playtest">true</set>
-			<set name="release">20170424</set>
-		</setters>
-	</element>
+    <element name="Unearthed Arcana: Feats for Races" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170424">
+        <description>
+            <p>Today we're offering another batch of feats to playtest. This time, the feats are associated with the races in the <i>Player’s Handbook</i>.
+            </p>
+        </description>
+        <setters>
+            <set name="abbreviation">UA20170424</set>
+            <set name="url">http://dnd.wizards.com/articles/unearthed-arcana/feats-races</set>
+            <set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+            <set name="official">true</set>
+            <set name="playtest">true</set>
+            <set name="release">20170424</set>
+        </setters>
+    </element>
 
-	<element name="Barbed Hide" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_BARBED_HIDE">
+    <element name="Barbed Hide" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_BARBED_HIDE">
         <prerequisite>Tiefling</prerequisite>
         <requirements>ID_RACE_TIEFLING||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
         <description>
-            <p><i>Prerequisite: Tiefling</i></p>
+            <p>
+                <i>Prerequisite: Tiefling</i>
+            </p>
             <p>One of your ancestors was a barbed devil or other spiky fiend. Barbs protrude from your head. You gain the following benefits:</p>
             <ul>
                 <li>Increase your Constitution or Charisma score by 1, to a maximum of 20.</li>
@@ -44,11 +48,13 @@
         </rules>
     </element>
 
-	<element name="Critter Friend" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_CRITTER_FRIEND">
+    <element name="Critter Friend" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_CRITTER_FRIEND">
         <prerequisite>Gnome (forest)</prerequisite>
         <requirements>ID_SUB_RACE_FOREST_GNOME||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
         <description>
-            <p><i>Prerequisite: Gnome (forest)</i></p>
+            <p>
+                <i>Prerequisite: Gnome (forest)</i>
+            </p>
             <p>Your friendship with animals mystically deepens. You gain the following benefits:</p>
             <ul>
                 <li>You gain proficiency in the Animal Handling skill. If you’re already proficient in it, your proficiency bonus is doubled for any check you make with it.</li>
@@ -64,26 +70,30 @@
         </rules>
     </element>
 
-	<element name="Dragon Wings" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_DRAGON_WINGS">
+    <element name="Dragon Wings" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_DRAGON_WINGS">
         <prerequisite>Dragonborn</prerequisite>
         <requirements>ID_RACE_DRAGONBORN||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
         <description>
-            <p><i>Prerequisite: Dragonborn</i></p>
+            <p>
+                <i>Prerequisite: Dragonborn</i>
+            </p>
             <p>You sprout draconic wings. With your wings, you have a flying speed of 20 feet if you aren’t wearing heavy armor and aren’t exceeding your carrying capacity.</p>
         </description>
         <sheet>
             <description>With your wings, you have a flying speed of 20 feet if you aren’t wearing heavy armor and aren’t exceeding your carrying capacity.</description>
         </sheet>
         <rules>
-			<stat name="speed:fly" value="20" bonus="base" equipped="![armor:heavy]" />
+            <stat name="speed:fly" value="20" bonus="base" equipped="![armor:heavy]" />
         </rules>
     </element>
 
-	<element name="Everybody's Friend" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_EVERYBODYS_FRIEND">
+    <element name="Everybody's Friend" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_EVERYBODYS_FRIEND">
         <prerequisite>Half-elf</prerequisite>
         <requirements>ID_RACE_HALFELF||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
         <description>
-            <p><i>Prerequisite: Half-elf</i></p>
+            <p>
+                <i>Prerequisite: Half-elf</i>
+            </p>
             <p>You develop your magnetic personality to ease your way through the world. You gain the following benefits:</p>
             <ul>
                 <li>Increase your Charisma score by 1, to a maximum of 20.</li>
@@ -92,17 +102,19 @@
         </description>
         <sheet display="false" />
         <rules>
-			<stat name="charisma" value="1" />
+            <stat name="charisma" value="1" />
             <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_DECEPTION" />
             <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERSUASION" />
         </rules>
     </element>
 
-	<element name="Grudge-Bearer" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER">
+    <element name="Grudge-Bearer" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER">
         <prerequisite>Dwarf</prerequisite>
         <requirements>ID_SRD_RACE_DWARF||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
         <description>
-            <p><i>Prerequisite: Dwarf</i></p>
+            <p>
+                <i>Prerequisite: Dwarf</i>
+            </p>
             <p>You have a deep hatred for a particular kind of creature. Choose your foes, a type of creature to bear the burden of your wrath: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can choose two races of humanoid (such as gnolls and orcs). You gain the following benefits:</p>
             <ul>
                 <li>Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.</li>
@@ -116,7 +128,7 @@
         </sheet>
         <rules>
             <select type="Ability Score Improvement" name="Grudge-Bearer" supports="ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_WISDOM" />
-            <select type="Feat Feature" name="Hated Foe" supports="Hated Foe" /> 
+            <select type="Feat Feature" name="Hated Foe" supports="Hated Foe" />
         </rules>
     </element>
     <!-- Hated Foes-->
@@ -129,7 +141,7 @@
             <description></description>
         </sheet>
     </element>
-    <element name="Beasts" type="Feat Feature" source="Unearthed Arcana: Feats for Races"  id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER_BEAST">
+    <element name="Beasts" type="Feat Feature" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER_BEAST">
         <supports>Hated Foe</supports>
         <description>
             <p>Beasts are nonhumanoid creatures that are a natural part of the fantasy ecology. Some of them have magical powers, but most are unintelligent and lack any society or language. Beasts include all varieties of ordinary animals, dinosaurs, and giant versions of animals.</p>
@@ -138,7 +150,7 @@
             <description></description>
         </sheet>
     </element>
-    <element name="Celestials" type="Feat Feature" source="Unearthed Arcana: Feats for Races"  id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER_CELESTIALS">
+    <element name="Celestials" type="Feat Feature" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER_CELESTIALS">
         <supports>Hated Foe</supports>
         <description>
             <p>Celestials are creatures native to the Upper Planes. Many of them are the servants of deities, employed as messengers or agents in the mortal realm and throughout the planes. Celestials are good by nature, so the exceptional celestial who strays from a good alignment is a horrifying rarity. Celestials include angels, couatls, and pegasi.</p>
@@ -147,7 +159,7 @@
             <description></description>
         </sheet>
     </element>
-    <element name="Constructs" type="Feat Feature" source="Unearthed Arcana: Feats for Races"  id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER_CONSTRUCTS">
+    <element name="Constructs" type="Feat Feature" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER_CONSTRUCTS">
         <compendium display="false" />
         <supports>Hated Foe</supports>
         <description>
@@ -167,7 +179,7 @@
             <description></description>
         </sheet>
     </element>
-    <element name="Elementals" type="Feat Feature" source="Unearthed Arcana: Feats for Races"  id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER_ELEMENTALS">
+    <element name="Elementals" type="Feat Feature" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_GRUDGE_BEARER_ELEMENTALS">
         <compendium display="false" />
         <supports>Hated Foe</supports>
         <description>
@@ -259,11 +271,13 @@
         </sheet>
     </element>
 
-	<element name="Human Determination" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_HUMAN_DETERMINATION">
+    <element name="Human Determination" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_HUMAN_DETERMINATION">
         <prerequisite>Human</prerequisite>
         <requirements>ID_RACE_HUMAN||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
         <description>
-            <p><i>Prerequisite: Human</i></p>
+            <p>
+                <i>Prerequisite: Human</i>
+            </p>
             <p>You are filled with a determination that can draw the unreachable within your reach. You gain the following benefits:</p>
             <ul>
                 <li>Increase one ability score of your choice by 1, to a maximum of 20.</li>
@@ -278,11 +292,13 @@
         </rules>
     </element>
 
-	<element name="Orcish Aggression" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_ORCISH_AGGRESSION">
+    <element name="Orcish Aggression" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_ORCISH_AGGRESSION">
         <prerequisite>Half-orc</prerequisite>
         <requirements>ID_RACE_HALFORC||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
         <description>
-            <p><i>Prerequisite: Half-orc</i></p>
+            <p>
+                <i>Prerequisite: Half-orc</i>
+            </p>
             <p>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
         </description>
         <sheet action="Bonus Action">
@@ -290,11 +306,13 @@
         </sheet>
     </element>
 
-	<element name="Wonder Maker" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_WONDER_MAKER">
+    <element name="Wonder Maker" type="Feat" source="Unearthed Arcana: Feats for Races" id="ID_WOTC_UA20170424_FEAT_WONDER_MAKER">
         <prerequisite>Gnome (rock)</prerequisite>
         <requirements>ID_SUB_RACE_ROCK_GNOME||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE</requirements>
         <description>
-            <p><i>Prerequisite: Gnome (rock)</i></p>
+            <p>
+                <i>Prerequisite: Gnome (rock)</i>
+            </p>
             <p>You master the tinker techniques of your people. You gain the following benefits:</p>
             <ul>
                 <li>Increase your Dexterity or Intelligence score by 1, to a maximum of 20.</li>
@@ -303,17 +321,17 @@
             </ul>
             <p style="margin-left:20px;">
                 <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Alarm.</span>This device senses when a creature moves to within 15 feet of it without speaking aloud a password chosen when you create it. One round after a creature moves into range, the alarm makes a shrill ringing that lasts for 1 minute and can be heard from up to 300 feet away.<br />
-                <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Calculator.</span>This device makes doing sums easy.<br />
-                <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Lifter.</span>This device can be used as a block and tackle, allowing its user to hoist five times the weight the user can normally lift.<br />
-                <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Timekeeper.</span>This pocket watch keeps accurate time.<br />
-                <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Weather Sensor.</span>When used as an action, this device predicts weather conditions in a 1-mile radius over the next 4 hours, showing one symbol (clouds, sun/moon, rain, or snow) for each hour.<br />
-            </p>
-        </description>
-        <sheet>
-            <description>When you make a check using your proficiency with tinker’s tools, you add double your proficiency bonus to the check. When you make a device with your Tinker trait, you have the following additional options for what you make: Alarm, Calculator, Lifter, Timekeeper or Weather Sensor.</description>
-        </sheet>
-        <rules>
-            <select type="Ability Score Improvement" name="Wonder Maker" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE" />
-        </rules>
-    </element>
+            <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Calculator.</span>This device makes doing sums easy.<br />
+        <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Lifter.</span>This device can be used as a block and tackle, allowing its user to hoist five times the weight the user can normally lift.<br />
+    <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Timekeeper.</span>This pocket watch keeps accurate time.<br />
+<span style="font-style:italic;padding-right:5px;padding-left:-20px;">Weather Sensor.</span>When used as an action, this device predicts weather conditions in a 1-mile radius over the next 4 hours, showing one symbol (clouds, sun/moon, rain, or snow) for each hour.<br />
+</p>
+</description>
+<sheet>
+<description>When you make a check using your proficiency with tinker’s tools, you add double your proficiency bonus to the check. When you make a device with your Tinker trait, you have the following additional options for what you make: Alarm, Calculator, Lifter, Timekeeper or Weather Sensor.</description>
+</sheet>
+<rules>
+<select type="Ability Score Improvement" name="Wonder Maker" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE" />
+</rules>
+</element>
 </elements>

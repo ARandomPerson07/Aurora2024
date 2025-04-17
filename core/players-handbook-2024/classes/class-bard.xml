@@ -6,7 +6,7 @@
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.10">
-			<file name="class-bard.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/classes/class-bard.xml" />
+			<file name="class-bard.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/classes/class-bard.xml" />
 		</update>
 	</info>
 
@@ -15,19 +15,46 @@
 			<p>Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions. Bards believe the multiverse was spoken into existence and that remnants of its Words of Creation still resound and glimmer on every plane of existence. Bardic magic attempts to harness those words, which transcend any language.</p>
 			<p class="indent">Anything can inspire a new song or tale, so Bards are fascinated by almost everything. They become masters of many things, including performing music, working magic, and making jests.</p>
 			<p class="indent">A Bard’s life is spent traveling, gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards’ depth of knowledge and mastery of magic sets them apart.</p>
-			
+
 			<table>
 				<thead>
-					<tr><td>Core Bard Traits</td></tr>
+					<tr>
+						<td>Core Bard Traits</td>
+					</tr>
 				</thead>
-				<tr><td>Primary Ability</td><td class="left">Charisma </td> </tr>
-				<tr><td>Hit Point Die</td><td class="left">D8 per Bard level</td></tr>
-				<tr><td>Saving Throw Proficiencies</td><td class="left">Dexterity and Charisma</td></tr>
-				<tr><td>Skill Proficiencies</td><td class="left">Choose any 3.</td></tr>
-				<tr><td>Tool Proficiencies</td><td class="left">Choose 3 Musical Instruments.</td></tr>
-				<tr><td>Weapon Proficiencies</td><td class="left">Simple weapons</td></tr>
-				<tr><td>Armor Training</td><td class="left">Light armor</td></tr>
-				<tr><td>Starting Equipment</td><td class="left"><i> Choose A or B:</i> (A) Leather Armor, 2 Dagger, Musical Instrument of your choice, Entertainer’s Pack, 19 GP; or (B) 90 GP</td></tr>
+				<tr>
+					<td>Primary Ability</td>
+					<td class="left">Charisma </td>
+				</tr>
+				<tr>
+					<td>Hit Point Die</td>
+					<td class="left">D8 per Bard level</td>
+				</tr>
+				<tr>
+					<td>Saving Throw Proficiencies</td>
+					<td class="left">Dexterity and Charisma</td>
+				</tr>
+				<tr>
+					<td>Skill Proficiencies</td>
+					<td class="left">Choose any 3.</td>
+				</tr>
+				<tr>
+					<td>Tool Proficiencies</td>
+					<td class="left">Choose 3 Musical Instruments.</td>
+				</tr>
+				<tr>
+					<td>Weapon Proficiencies</td>
+					<td class="left">Simple weapons</td>
+				</tr>
+				<tr>
+					<td>Armor Training</td>
+					<td class="left">Light armor</td>
+				</tr>
+				<tr>
+					<td>Starting Equipment</td>
+					<td class="left">
+						<i> Choose A or B:</i> (A) Leather Armor, 2 Dagger, Musical Instrument of your choice, Entertainer’s Pack, 19 GP; or (B) 90 GP</td>
+				</tr>
 			</table>
 			<h3>BECOMING A BARD ...</h3>
 			<h4>As A Level 1 Character</h4>
@@ -44,28 +71,343 @@
 			<h5 class="caption">BARD FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Bardic Die</td><td>Cantrips Known</td><td>Prepared Spells</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="left">Features</td>
+						<td class="col-10">Bardic Die</td>
+						<td>Cantrips Known</td>
+						<td>Prepared Spells</td>
+						<td>1st</td>
+						<td>2nd</td>
+						<td>3rd</td>
+						<td>4th</td>
+						<td>5th</td>
+						<td>6th</td>
+						<td>7th</td>
+						<td>8th</td>
+						<td>9th</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Bardic Inspiration, Spellcasting</td><td>1d6</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td class="left">Expertise, Jack of All Trades</td><td>1d6</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td class="left">Bard Subclass</td><td>1d6</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>1d6</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td class="left">Font of Inspiration</td><td>1d8</td><td>3</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td class="left">Subclass Feature</td><td>1d8</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td class="left">Countercharm</td><td>1d8</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>1d8</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td class="left">Expertise</td><td>1d8</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td class="left">Magical Secrets</td><td>1d10</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td class="left">—</td><td>1d10</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>1d10</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td class="left">—</td><td>1d10</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>14th</td><td class="left">Subclass Feature</td><td>1d10</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>15th</td><td class="left">—</td><td>1d12</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>1d12</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>17th</td><td class="left">—</td><td>1d12</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>18th</td><td class="left">Superior Inspiration</td><td>1d12</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>19th</td><td class="left">Epic Boon</td><td>1d12</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>20th</td><td class="left">Words of Creation</td><td>1d12</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td class="left">Bardic Inspiration, Spellcasting</td>
+					<td>1d6</td>
+					<td>2</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td class="left">Expertise, Jack of All Trades</td>
+					<td>1d6</td>
+					<td>2</td>
+					<td>5</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td class="left">Bard Subclass</td>
+					<td>1d6</td>
+					<td>2</td>
+					<td>6</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>1d6</td>
+					<td>3</td>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td class="left">Font of Inspiration</td>
+					<td>1d8</td>
+					<td>3</td>
+					<td>9</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td class="left">Subclass Feature</td>
+					<td>1d8</td>
+					<td>3</td>
+					<td>10</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td class="left">Countercharm</td>
+					<td>1d8</td>
+					<td>3</td>
+					<td>11</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>1d8</td>
+					<td>3</td>
+					<td>12</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td class="left">Expertise</td>
+					<td>1d8</td>
+					<td>3</td>
+					<td>14</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td class="left">Magical Secrets</td>
+					<td>1d10</td>
+					<td>4</td>
+					<td>15</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td class="left">—</td>
+					<td>1d10</td>
+					<td>4</td>
+					<td>16</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>1d10</td>
+					<td>4</td>
+					<td>16</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td class="left">—</td>
+					<td>1d10</td>
+					<td>4</td>
+					<td>17</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td class="left">Subclass Feature</td>
+					<td>1d10</td>
+					<td>4</td>
+					<td>17</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td class="left">—</td>
+					<td>1d12</td>
+					<td>4</td>
+					<td>18</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>1d12</td>
+					<td>4</td>
+					<td>18</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td class="left">—</td>
+					<td>1d12</td>
+					<td>4</td>
+					<td>19</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td class="left">Superior Inspiration</td>
+					<td>1d12</td>
+					<td>4</td>
+					<td>20</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td class="left">Epic Boon</td>
+					<td>1d12</td>
+					<td>4</td>
+					<td>21</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td class="left">Words of Creation</td>
+					<td>1d12</td>
+					<td>4</td>
+					<td>22</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
 			</table>
 			<h3>BARD CLASS FEATURES</h3>
 			<p>As a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.</p>
@@ -131,10 +473,19 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARD_24_BARDIC_INSPIRATION</requirements>
 		<description>
 			<p>You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.</p>
-			<p><em><strong>Using Bardic Inspiration.</strong></em> As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.</p>
+			<p>
+				<em>
+					<strong>Using Bardic Inspiration.</strong>
+				</em> As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.</p>
 			<p class="indent">Once within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it’s rolled.</p>
-			<p><em><strong>Number of Uses</strong></em> You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
-			<p><em><strong>At Higher Levels.</strong></em> Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.</p>
+			<p>
+				<em>
+					<strong>Number of Uses</strong>
+				</em> You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+			<p>
+				<em>
+					<strong>At Higher Levels.</strong>
+				</em> Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.</p>
 		</description>
 		<sheet alt="Bardic Inspiration" action="Bonus Action" usage="{{bardic-inspiration:count}}/Long Rest">
 			<description>Inspire one creature other than yourself within 60 feet of you who can see or hear you. It gains one Bardic Inspiration die, a d{{bardic-inspiration:dice}}. &#13;
@@ -160,7 +511,7 @@
 			<h5>SPELL SLOTS</h5>
 			<p>The Bard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
 			<h5>PREPARED SPELLS OF LEVEL 1+</h5>
-			<p>You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list. <i>Charm Person</i>, <i>Color Spray</i>, <i>Dissonant Whispers</i>, and <i>Healing Word</i> are recommended.</p>
+			<p>You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list. <i>Charm Person</i>,				<i>Color Spray</i>,				<i>Dissonant Whispers</i>, and <i>Healing Word</i> are recommended.</p>
 			<p class="indent">The number of spells on your list increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard Features table. Whenever that number increases, choose additional spells from the Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 3 Bard, your list of prepared spells can include six spells of levels 1 and 2 in any combination.</p>
 			<p class="indent">If another Bard feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Bard spells for you.</p>
 			<h5>CHANGING YOUR PREPARED SPELLS</h5>
@@ -168,8 +519,10 @@
 			<h5>SPELLCASTING ABILITY</h5>
 			<p>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</p>
 			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+				<p>
+					<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p>
+					<strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
 			</center>
 			<h5>SPELLCASTING FOCUS</h5>
 			<p>You can use a Musical Instrument as a Spellcasting Focus for your Bard spells.</p>

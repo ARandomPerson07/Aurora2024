@@ -5,32 +5,63 @@
 		<description>Archaeologist Background</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tomb-annihilation">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="background-archaeologist.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/tomb-of-annihilation/backgrounds/background-archaeologist.xml" />
+			<file name="background-archaeologist.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/tomb-of-annihilation/backgrounds/background-archaeologist.xml" />
 		</update>
 	</info>
 	<element name="Archaeologist" type="Background" source="Tomb of Annihilation" id="ID_WOTC_TOA_BACKGROUND_ARCHAEOLOGIST">
 		<description>
 			<p>An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains -their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> History, Survival</li>
-				<li><strong>Tool Proficiencies:</strong> Cartographer’s tools or navigator’s tools</li>
-				<li><strong>Languages:</strong> One of your choice</li>
-				<li><strong>Equipment:</strong> A wooden case containing a map to a ruin or dungeon, a bullseye lantern, a miner’s pick, a set of traveler’s clothes, a shovel, a two-person tent, a trinket recovered from a dig site, and a pouch containing 25 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> History, Survival</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> Cartographer’s tools or navigator’s tools</li>
+				<li>
+					<strong>Languages:</strong> One of your choice</li>
+				<li>
+					<strong>Equipment:</strong> A wooden case containing a map to a ruin or dungeon, a bullseye lantern, a miner’s pick, a set of traveler’s clothes, a shovel, a two-person tent, a trinket recovered from a dig site, and a pouch containing 25 gp</li>
 			</ul>
 			<h5>DUST DIGGER</h5>
 			<p>Prior to becoming an adventurer, you spent most of your young life crawling around in the dust, pilfering relics of questionable value from crypts and ruins. Though you managed to sell a few of your discoveries and earn enough coin to buy proper adventuring gear, you have held onto an item that has great emotional value to you. Roll on the Signature Item table to see what you have, or choose an item from the table.</p>
 			<table>
 				<thead>
-					<tr> <td>d8</td> <td>Signature Item</td> </tr>
+					<tr>
+						<td>d8</td>
+						<td>Signature Item</td>
+					</tr>
 				</thead>
-				<tr> <td>1</td> <td>10-foot pole</td> </tr>
-				<tr> <td>2</td> <td>Crowbar</td> </tr>
-				<tr> <td>3</td> <td>Hat</td> </tr>
-				<tr> <td>4</td> <td>Hooded lantern</td> </tr>
-				<tr> <td>5</td> <td>Medallion</td> </tr>
-				<tr> <td>6</td> <td>Shovel</td> </tr>
-				<tr> <td>1</td> <td>Sledgehammer</td> </tr>
-				<tr> <td>8</td> <td>Whip</td> </tr>
+				<tr>
+					<td>1</td>
+					<td>10-foot pole</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Crowbar</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Hat</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Hooded lantern</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Medallion</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Shovel</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Sledgehammer</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Whip</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_TOA_BACKGROUND_ARCHAEOLOGIST_FEATURE_HISTORICAL_KNOWLEDGE" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>

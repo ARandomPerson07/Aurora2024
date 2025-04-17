@@ -5,7 +5,7 @@
 		<description>The Chromatic Dragonborn from Fizban's Treasury of Dragons</description>
 		<author url="https://dnd.wizards.com/products/treasury-dragons">Fizban's Treasury of Dragons</author>
 		<update version="0.0.1">
-			<file name="race-chromatic-dragonborn.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/fizbans-treasury-of-dragons/races/race-chromatic-dragonborn.xml" />
+			<file name="race-chromatic-dragonborn.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/fizbans-treasury-of-dragons/races/race-chromatic-dragonborn.xml" />
 		</update>
 	</info>
 	<element name="Dragonborn (Chromatic)" type="Race" source="Fizban's Treasury of Dragons" id="ID_WOTC_FTOD_RACE_CHROMATIC_DRAGONBORN">
@@ -13,24 +13,63 @@
 			<p>Dragonborn with chromatic ancestry claim the raw elemental power of chromatic dragons. The vibrant colors of black, blue, green, red, and white dragons gleam in those dragonborn’s scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, and of raging lightning storms, as well as the subtle whisper of swamp and forest, toxic and corrosive.</p>
 			<h4>CHROMATIC DRAGONBORN TRAITS</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Chromatic Ancestry.</em></strong> You have a chromatic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits, as shown in the table.</p>
-			<p class="indent"><strong><em>Breath Weapon.</em></strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Chromatic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Chromatic Ancestry.</em>
+				</strong> You have a chromatic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits, as shown in the table.</p>
+			<p class="indent">
+				<strong>
+					<em>Breath Weapon.</em>
+				</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d10 damage of the type associated with your Chromatic Ancestry. On a successful save, it takes half as much damage. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
 			<p class="indent">You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
-			<p class="indent"><strong><em>Draconic Resistance.</em></strong> You have resistance to the damage type associated with your Chromatic Ancestry.</p>
-			<p class="indent"><strong><em>Chromatic Warding.</em></strong> Starting at 5th level, as an action, you can channel your draconic energy to protect yourself. For 1 minute, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Draconic Resistance.</em>
+				</strong> You have resistance to the damage type associated with your Chromatic Ancestry.</p>
+			<p class="indent">
+				<strong>
+					<em>Chromatic Warding.</em>
+				</strong> Starting at 5th level, as an action, you can channel your draconic energy to protect yourself. For 1 minute, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest.</p>
 			<h5>Chromatic Ancestry</h5>
 			<table>
 				<thead>
-					<tr><td>Dragon</td><td>Damage Type</td></tr>
+					<tr>
+						<td>Dragon</td>
+						<td>Damage Type</td>
+					</tr>
 				</thead>
-				<tr><td>Black</td><td>Acid</td></tr>
-				<tr><td>Blue</td><td>Lightning</td></tr>
-				<tr><td>Green</td><td>Poison</td></tr>
-				<tr><td>Red</td><td>Fire</td></tr>
-				<tr><td>White</td><td>Cold</td></tr>
+				<tr>
+					<td>Black</td>
+					<td>Acid</td>
+				</tr>
+				<tr>
+					<td>Blue</td>
+					<td>Lightning</td>
+				</tr>
+				<tr>
+					<td>Green</td>
+					<td>Poison</td>
+				</tr>
+				<tr>
+					<td>Red</td>
+					<td>Fire</td>
+				</tr>
+				<tr>
+					<td>White</td>
+					<td>Cold</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" alt="Chromatic Dragonborn" />
@@ -39,7 +78,7 @@
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Chromatic Dragonborn)" supports="Standard||Exotic" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_DRAGONBORN"/>
 			<grant type="Racial Trait" id="ID_WOTC_FTOD_RACIAL_TRAIT_CHROMATIC_DRAGONBORN_CHROMATIC_ANCESTRY" />
@@ -54,13 +93,31 @@
 			<h5>Chromatic Ancestry</h5>
 			<table>
 				<thead>
-					<tr><td>Dragon</td><td>Damage Type</td></tr>
+					<tr>
+						<td>Dragon</td>
+						<td>Damage Type</td>
+					</tr>
 				</thead>
-				<tr><td>Black</td><td>Acid</td></tr>
-				<tr><td>Blue</td><td>Lightning</td></tr>
-				<tr><td>Green</td><td>Poison</td></tr>
-				<tr><td>Red</td><td>Fire</td></tr>
-				<tr><td>White</td><td>Cold</td></tr>
+				<tr>
+					<td>Black</td>
+					<td>Acid</td>
+				</tr>
+				<tr>
+					<td>Blue</td>
+					<td>Lightning</td>
+				</tr>
+				<tr>
+					<td>Green</td>
+					<td>Poison</td>
+				</tr>
+				<tr>
+					<td>Red</td>
+					<td>Fire</td>
+				</tr>
+				<tr>
+					<td>White</td>
+					<td>Cold</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />

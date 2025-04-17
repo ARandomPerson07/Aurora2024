@@ -5,7 +5,7 @@
 		<description>Siren Race from Planeshift: Ixalan</description>
 		<author url="https://media.wizards.com/2018/downloads/magic/plane-shift_ixalan.pdf">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="race-siren.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/planeshift/ixalan/race-siren.xml" />
+			<file name="race-siren.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/planeshift/ixalan/race-siren.xml" />
 		</update>
 	</info>
 
@@ -16,14 +16,38 @@
 			<p>Sirens are humanoid creatures with birdlike features. Their long, slender arms extend into powerful wings that easily carry their light frames into the air. Their fingers bear sharp claws but are nimble enough to wield weapons and perform fine manipulation. Crests of feathery plumage start between their eyes and cover the backs of their heads.</p>
 			<h4>SIREN TRAITS</h4>
 			<p>Your siren character has the following traits.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b> Your Charisma score increases by 2.</p>
-			<p class="indent"><b><i>Age. </i></b> Sirens have relatively long lifespans. They become physically mature at 20 but can live up to 300 years naturally.</p>
-			<p class="indent"><b><i>Alignment. </i></b> Most sirens lean toward chaotic alignment, cherishing the freedom and independence that comes from joining a pirate crew</p>
-			<p class="indent"><b><i>Size. </i></b> Sirens stand about 5 to 6 feet tall, but their bodies are slender and their bones partially hollow to facilitate their flight. Your size is Medium.</p>
-			<p class="indent"><b><i>Speed. </i></b> Your base walking speed is 25 feet.</p>
-			<p class="indent"><b><i>Flight. </i></b> You have a flying speed of 30 feet. You can’t use your flying speed while you wear medium or heavy armor. </p>
-			<p class="indent"><b><i>Languages. </i></b> You can speak, read, and write Common and Siren.</p>
-			<p class="indent"><b><i>Siren’s Song. </i></b> You know the friends cantrip and can cast it without material components.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b> Your Charisma score increases by 2.</p>
+			<p class="indent">
+				<b>
+					<i>Age. </i>
+				</b> Sirens have relatively long lifespans. They become physically mature at 20 but can live up to 300 years naturally.</p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b> Most sirens lean toward chaotic alignment, cherishing the freedom and independence that comes from joining a pirate crew</p>
+			<p class="indent">
+				<b>
+					<i>Size. </i>
+				</b> Sirens stand about 5 to 6 feet tall, but their bodies are slender and their bones partially hollow to facilitate their flight. Your size is Medium.</p>
+			<p class="indent">
+				<b>
+					<i>Speed. </i>
+				</b> Your base walking speed is 25 feet.</p>
+			<p class="indent">
+				<b>
+					<i>Flight. </i>
+				</b> You have a flying speed of 30 feet. You can’t use your flying speed while you wear medium or heavy armor. </p>
+			<p class="indent">
+				<b>
+					<i>Languages. </i>
+				</b> You can speak, read, and write Common and Siren.</p>
+			<p class="indent">
+				<b>
+					<i>Siren’s Song. </i>
+				</b> You know the friends cantrip and can cast it without material components.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

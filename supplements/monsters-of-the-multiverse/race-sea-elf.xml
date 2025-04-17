@@ -3,7 +3,7 @@
 	<info>
 		<name>Sea Elf from Monsters of the Multiverse</name>
 		<update version="0.0.1">
-			<file name="race-sea-elf.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-sea-elf.xml" />
+			<file name="race-sea-elf.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-sea-elf.xml" />
 		</update>
 	</info>
 
@@ -13,16 +13,43 @@
 			<p class="indent">Like other elves, sea elves can live to be over 750 years old.</p>
 			<h4>SEA ELF TRAITS</h4>
 			<p>As a sea elf, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf. </p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Child of the Sea.</em></strong> You can breathe air and water, and you have resistance to cold damage.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself. </p>
-			<p class="indent"><strong><em>Friend of the Sea.</em></strong> Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
-			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>
-			<p class="indent"><strong><em>Trance.</em></strong> You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness. </p>	
-			<p class="indent">Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest. </p>	
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf. </p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent">
+				<strong>
+					<em>Child of the Sea.</em>
+				</strong> You can breathe air and water, and you have resistance to cold damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Fey Ancestry.</em>
+				</strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself. </p>
+			<p class="indent">
+				<strong>
+					<em>Friend of the Sea.</em>
+				</strong> Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
+			<p class="indent">
+				<strong>
+					<em>Keen Senses.</em>
+				</strong> You have proficiency in the Perception skill.</p>
+			<p class="indent">
+				<strong>
+					<em>Trance.</em>
+				</strong> You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness. </p>
+			<p class="indent">Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest. </p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -34,7 +61,7 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Sea Elf)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Sea Elf)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Sea Elf)" supports="Standard||Exotic" />
 
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_CHILD_OF_THE_SEA" />
@@ -88,8 +115,8 @@
 
 	<element name="Trance" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SEA_ELF_TRANCE">
 		<description>
-			<p> You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness. </p>	
-			<p class="indent">Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest. </p>	
+			<p> You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness. </p>
+			<p class="indent">Whenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest. </p>
 		</description>
 		<sheet>
 			<description>You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.&#13;

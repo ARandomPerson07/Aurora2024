@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="mark-of-storm.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-storm.xml" />
+			<file name="mark-of-storm.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-storm.xml" />
 		</update>
 	</info>
 	<element name="Mark of Storm" type="Race Variant" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACE_VARIANT_MARK_OF_STORM">
@@ -10,21 +10,66 @@
 		<description>
 			<p>Wind and water welcome the half-elves who carry the Mark of Storm, and some learn to call on the power of the storm itself.</p>
 			<p>If your half-elf character has the Mark of Storm, the following traits replace the half-elf’s Ability Score Increase and Skill Versatility traits in the Player’s Handbook.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2, and your Dexterity score increases by 1.</p>
-			<p class="indent"><strong><em>Windwright’s Intuition.</em></strong> When you make a Dexterity (Acrobatics) check or any ability check involving navigator’s tools, you can roll a d4 and add the number rolled to the ability check.</p>
-			<p class="indent"><strong><em>Storm’s Boon.</em></strong> You have resistance to lightning damage.</p>
-			<p class="indent"><strong><em>Headwinds.</em></strong> You know the gust cantrip. Starting at 3rd level, you can cast the gust of wind spell once with this trait, and you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
-			<p class="indent"><strong><em>Spells of the Mark.</em></strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Storm Spells table are added to the spell list of your spellcasting class.</p>
-			<p><strong>MARK OF STORM SPELLS</strong></p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Your Charisma score increases by 2, and your Dexterity score increases by 1.</p>
+			<p class="indent">
+				<strong>
+					<em>Windwright’s Intuition.</em>
+				</strong> When you make a Dexterity (Acrobatics) check or any ability check involving navigator’s tools, you can roll a d4 and add the number rolled to the ability check.</p>
+			<p class="indent">
+				<strong>
+					<em>Storm’s Boon.</em>
+				</strong> You have resistance to lightning damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Headwinds.</em>
+				</strong> You know the gust cantrip. Starting at 3rd level, you can cast the gust of wind spell once with this trait, and you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent">
+				<strong>
+					<em>Spells of the Mark.</em>
+				</strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Storm Spells table are added to the spell list of your spellcasting class.</p>
+			<p>
+				<strong>MARK OF STORM SPELLS</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>feather fall, fog cloud</em></td></tr>
-				<tr><td>2nd</td><td><em>gust of wind, levitate</em></td></tr>
-				<tr><td>3rd</td><td><em>sleet storm, wind wall</em></td></tr>
-				<tr><td>4th</td><td><em>conjure minor elemental, control water</em></td></tr>
-				<tr><td>5th</td><td><em>conjure elemental</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>feather fall, fog cloud</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>gust of wind, levitate</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>sleet storm, wind wall</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>conjure minor elemental, control water</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>conjure elemental</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Half-Elf (Mark of Storm)" display="false" />
@@ -77,13 +122,41 @@
 			<h5>Mark of Storm Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>feather fall, fog cloud</em></td></tr>
-				<tr><td>2nd</td><td><em>gust of wind, levitate</em></td></tr>
-				<tr><td>3rd</td><td><em>sleet storm, wind wall</em></td></tr>
-				<tr><td>4th</td><td><em>conjure minor elemental, control water</em></td></tr>
-				<tr><td>5th</td><td><em>conjure elemental</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>feather fall, fog cloud</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>gust of wind, levitate</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>sleet storm, wind wall</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>conjure minor elemental, control water</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>conjure elemental</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">
@@ -100,5 +173,5 @@
 			<extend>ID_PHB_SPELL_CONTROL_WATER</extend>
 			<extend>ID_PHB_SPELL_CONJURE_ELEMENTAL</extend>
 		</spellcasting>
-	</element>	
+	</element>
 </elements>

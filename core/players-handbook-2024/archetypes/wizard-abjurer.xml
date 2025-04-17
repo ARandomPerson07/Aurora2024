@@ -2,22 +2,24 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-		<file name="wizard-abjurer.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/wizard-abjurer.xml" />
+			<file name="wizard-abjurer.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/wizard-abjurer.xml" />
 		</update>
 	</info>
 
 	<element name="Abjurer" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER">
 		<supports>Arcane Tradition</supports>
 		<description>
-			<h5><i>Shield Companions and Banish Foes</i></h5>
+			<h5>
+				<i>Shield Companions and Banish Foes</i>
+			</h5>
 			<p>Your study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value Abjurers for the protection they provide against a variety of hostile magic and other attacks.</p>
-            <div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ABJURATION_SAVANT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ABJURATION_SAVANT" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ARCANE_WARD" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_PROTECTED_WARD" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_SPELL_BREAKER" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_SPELL_RESISTANCE" />
 		</description>
-        <sheet display="false" />
+		<sheet display="false" />
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ABJURATION_SAVANT" level="3"/>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ABJURER_ARCANE_WARD" level="3"/>
@@ -35,7 +37,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Spell" name="Abjuration Savant (1-2nd Level)" supports="$(spellcasting:slots),Abjuration,$(spellcasting:list)" number="2"  level="3" spellcasting="Wizard" />
+			<select type="Spell" name="Abjuration Savant (1-2nd Level)" supports="$(spellcasting:slots),Abjuration,$(spellcasting:list)" number="2" level="3" spellcasting="Wizard" />
 
 			<select type="Spell" name="Abjuration Savant (1-3rd Level)" supports="$(spellcasting:slots),Abjuration,$(spellcasting:list)" number="1" level="5" spellcasting="Wizard" />
 
@@ -90,7 +92,7 @@
 		<sheet alt="Spell Breaker">
 			<description>You always have the Counterspell and Dispel Magic spells prepared. In addition, you can cast Dispel Magic as a Bonus Action, and you can add your Proficiency Bonus to its ability check. When you cast either spell with a spell slot, that slot isn't expended if the spell fails to stop a spell.</description>
 		</sheet>
-		<rules>		
+		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_COUNTERSPELL" level="5" spellcasting="Wizard" prepared="true" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DISPEL_MAGIC" level="5" spellcasting="Wizard" prepared="true" />
 		</rules>
@@ -104,7 +106,7 @@
 			<description>You have Advantage on saving throws against spells, and you have Resistance to the damage of spells.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Abjuration Savant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ABJURATION_ABJURATION_SAVANT" />
 	<element name="Arcane Ward Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ABJURATION_ARCANE_WARD" />

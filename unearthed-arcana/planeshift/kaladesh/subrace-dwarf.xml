@@ -5,7 +5,7 @@
 		<description>Dwarf Variant from Plane Shift: kaladesh.</description>
 		<author url="https://media.wizards.com/2017/downloads/magic/Plane-Shift_Kaladesh.pdf">Wizards of the Coast</author>
 		<update version="0.0.3">
-			<file name="subrace-dwarf.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/planeshift/kaladesh/subrace-dwarf.xml" />
+			<file name="subrace-dwarf.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/planeshift/kaladesh/subrace-dwarf.xml" />
 		</update>
 	</info>
 
@@ -23,35 +23,35 @@
 			<p>Your dwarf character has an assortment of inborn abili-ties, part and parcel of dwarven nature:</p>
 			<p>
 				<span class="feature">Ability Score Increase. </span>Your Wisdom score increases by 1.<br />
-				<span class="feature">Artisan’s Expertise.</span>You lose your combat training but gain proficiency with two kinds of artisan’s tools of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. In addition, whenever you make an Intelligence (History) check related to the origin of any architectural construction (including buildings, public works such as canals and aqueducts, and the massive cogwork that underlies much of the construction of Ghirapur), you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.<br />
-				<span class="feature">Dwarven Toughness. </span>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.  <br />
-			</p>
-		</description>
-		<sheet alt="Dwarf" display="false" />
-		<rules>
-			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Kaladesh Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_TOUGHNESS" />
-			<grant type="Racial Trait" id="ID_WOTC_PSK_RACIAL_TRAIT_ARTISANS_EXPERTISE" />
-		</rules>
-	</element>
+			<span class="feature">Artisan’s Expertise.</span>You lose your combat training but gain proficiency with two kinds of artisan’s tools of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. In addition, whenever you make an Intelligence (History) check related to the origin of any architectural construction (including buildings, public works such as canals and aqueducts, and the massive cogwork that underlies much of the construction of Ghirapur), you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.<br />
+		<span class="feature">Dwarven Toughness. </span>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.  <br />
+	</p>
+</description>
+<sheet alt="Dwarf" display="false" />
+<rules>
+	<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+	<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Kaladesh Dwarf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_TOUGHNESS" />
+	<grant type="Racial Trait" id="ID_WOTC_PSK_RACIAL_TRAIT_ARTISANS_EXPERTISE" />
+</rules>
+</element>
 
-	<element name="Artisan’s Expertise" type="Racial Trait" source="Plane Shift: Kaladesh" id="ID_WOTC_PSK_RACIAL_TRAIT_ARTISANS_EXPERTISE">
-		<description>
-			<p>You gain proficiency with two kinds of artisan’s tools of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. In addition, whenever you make an Intelligence (History) check related to the origin of any architectural construction (including buildings, public works such as canals and aqueducts, and the massive cogwork that underlies much of the construction of Ghirapur), you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
-		</description>
-		<sheet>
-			<description>You gain double proficiency (+{{artisans-expertise:proficiency}}) for any checks made with your two chosen Artisan’s Tools. Also a +{{artisans-expertise:check}} to Intelligence (History) check related to origin of any architectural construction.</description>
-		</sheet>
-		<rules>
-			<select type="Proficiency" name="Artisan’s Expertise" supports="Artisan tools" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Simple Weapon or Tool, Artisan’s Expertise" number="2" supports="Simple||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<stat name="artisans-expertise:proficiency" value="proficiency" />
-			<stat name="artisans-expertise:proficiency" value="proficiency" />
-			<stat name="artisans-expertise:check" value="intelligence:modifier" />
-			<stat name="artisans-expertise:check" value="history:misc" />
-			<stat name="artisans-expertise:check" value="proficiency" />
-			<stat name="artisans-expertise:check" value="proficiency" />
-		</rules>
-	</element>
+<element name="Artisan’s Expertise" type="Racial Trait" source="Plane Shift: Kaladesh" id="ID_WOTC_PSK_RACIAL_TRAIT_ARTISANS_EXPERTISE">
+<description>
+	<p>You gain proficiency with two kinds of artisan’s tools of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. In addition, whenever you make an Intelligence (History) check related to the origin of any architectural construction (including buildings, public works such as canals and aqueducts, and the massive cogwork that underlies much of the construction of Ghirapur), you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+</description>
+<sheet>
+	<description>You gain double proficiency (+{{artisans-expertise:proficiency}}) for any checks made with your two chosen Artisan’s Tools. Also a +{{artisans-expertise:check}} to Intelligence (History) check related to origin of any architectural construction.</description>
+</sheet>
+<rules>
+	<select type="Proficiency" name="Artisan’s Expertise" supports="Artisan tools" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+	<select type="Proficiency" name="Simple Weapon or Tool, Artisan’s Expertise" number="2" supports="Simple||Tool" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+	<stat name="artisans-expertise:proficiency" value="proficiency" />
+	<stat name="artisans-expertise:proficiency" value="proficiency" />
+	<stat name="artisans-expertise:check" value="intelligence:modifier" />
+	<stat name="artisans-expertise:check" value="history:misc" />
+	<stat name="artisans-expertise:check" value="proficiency" />
+	<stat name="artisans-expertise:check" value="proficiency" />
+</rules>
+</element>
 </elements>

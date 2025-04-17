@@ -5,7 +5,7 @@
 		<description>Centaurs gallop into Unearthed Arcana this month—a playtest option for when you choose your character’s race. Another type of character from Greek myth joins them: minotaurs. We first showed off minotaurs in a 2015 installment of Unearthed Arcana, and we present revised versions of their traits today.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/centaurs-and-minotaurs">Wizards of the Coast</author>
 		<update version="0.0.7">
-			<file name="20180514.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2018/20180514.xml" />
+			<file name="20180514.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2018/20180514.xml" />
 		</update>
 	</info>
 
@@ -38,19 +38,52 @@
 			<p class="indent">Centaurs rarely use family names, but wear symbols that represent their family membership. These symbols might include graphical representations of plants or animals, printed mottos, braids and beads worn in the hair and tail, or even specific patterns of woven fabric.</p>
 			<h4>CENTAUR TRAITS</h4>
 			<p>The following traits are shared by player characters who are centaurs.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength score increases by 2, and your Wisdom score increases by 1.</p>
-			<p class="indent"><b><i>Age. </i></b>Centaurs mature and age at about the same rate as humans.</p>
-			<p class="indent"><b><i>Alignment. </i></b>Centaurs are inclined toward neutrality.</p>
-			<p class="indent"><b><i>Size. </i></b>Your size is Medium, yet you tower over most other humanoids.</p>
-			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 40 feet.</p>
-			<p class="indent"><b><i>Charge. </i></b>If you move at least 20 feet straight toward a target and then hit it with a melee weapon attack on the same turn, roll the weapon’s damage dice twice and add them together. Once you use this ability, you can’t use it again until you finish a short or long rest.</p>
-			<p class="indent"><b><i>Hooves. </i></b>Your hooves are natural melee weapons, with which you’re proficient. If you hit with a hoof, the target takes bludgeoning damage equal to 1d6 + your Strength modifier.</p>
-			<p class="indent"><b><i>Equine Build. </i></b>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Strength score increases by 2, and your Wisdom score increases by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Age. </i>
+				</b>Centaurs mature and age at about the same rate as humans.</p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b>Centaurs are inclined toward neutrality.</p>
+			<p class="indent">
+				<b>
+					<i>Size. </i>
+				</b>Your size is Medium, yet you tower over most other humanoids.</p>
+			<p class="indent">
+				<b>
+					<i>Speed. </i>
+				</b>Your base walking speed is 40 feet.</p>
+			<p class="indent">
+				<b>
+					<i>Charge. </i>
+				</b>If you move at least 20 feet straight toward a target and then hit it with a melee weapon attack on the same turn, roll the weapon’s damage dice twice and add them together. Once you use this ability, you can’t use it again until you finish a short or long rest.</p>
+			<p class="indent">
+				<b>
+					<i>Hooves. </i>
+				</b>Your hooves are natural melee weapons, with which you’re proficient. If you hit with a hoof, the target takes bludgeoning damage equal to 1d6 + your Strength modifier.</p>
+			<p class="indent">
+				<b>
+					<i>Equine Build. </i>
+				</b>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
 			<p class="indent">In addition, any climb that requires hands and feet is especially difficult for you because of your hooves. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.</p>
 			<p class="indent">Finally, a Medium or smaller creature can ride on your equine back if you allow it. In such a situation, you continue to act independently, not as a controlled mount.</p>
-			<p class="indent"><b><i>Survivor. </i></b>You have proficiency in the Survival skill.</p>
-			<p class="indent"><b><i>Hybrid Nature. </i></b>You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types.</p>
-			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Sylvan.</p> 
+			<p class="indent">
+				<b>
+					<i>Survivor. </i>
+				</b>You have proficiency in the Survival skill.</p>
+			<p class="indent">
+				<b>
+					<i>Hybrid Nature. </i>
+				</b>You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types.</p>
+			<p class="indent">
+				<b>
+					<i>Languages. </i>
+				</b>You can speak, read, and write Common and Sylvan.</p>
 		</description>
 		<setters>
 			<set name="names" type="male">Vulor, Prifaenon, Zuzo, Purytion, Cibus, Cleban, Ulibor, Uedral,Nyzycarn, Alasotral</set>
@@ -141,22 +174,58 @@
 			<p>In the world of Krynn, the minotaurs rule a chain of islands dominated by the isles of Mithas and Kothas. Bound by the sea on all sides, the minotaurs focused their tenacity, strength, and cunning to become some of the most skilled and ferocious mariners in the world. They range across the water in their ships, raiding and pillaging as they wish. Minotaurs sometimes engage in trade, but they much prefer to take what they want by force. After all, as the strongest of all folk, they deserve the treasures and goods that lesser creatures have gathered.</p>
 			<h4>MINOTAUR NAMES</h4>
 			<p>Minotaur clan names originate with a great hero whose descendants take on that name as their own, doing their best to live up to the ideals of their ancestor. On Krynn, clan names are always preceded by the prefix “es‐” for minotaurs from lands controlled by the island of Mithas, or “de‐” for minotaurs from areas under the sway of Kothas.</p>
-			<p class="indent"><b>Male Names: </b>Beliminorgath, Cinmac, Dastrun, Edder, Galdar, Ganthirogani, Hecariverani, Kyris, Tosher, Zurgas</p>
-			<p class="indent"><b>Female Names: </b>Ayasha, Calina, Fliara, Helati, Keeli, Kyri, Mogara, Sekra, Tariki, Telia</p>
-			<p class="indent"><b>Clan Names: </b>Athak, Bregan, Entragath, Kaziganthi, Lagrangli, Mascun, Orilg, Sumarr, Teskos, Zhakan</p>
+			<p class="indent">
+				<b>Male Names: </b>Beliminorgath, Cinmac, Dastrun, Edder, Galdar, Ganthirogani, Hecariverani, Kyris, Tosher, Zurgas</p>
+			<p class="indent">
+				<b>Female Names: </b>Ayasha, Calina, Fliara, Helati, Keeli, Kyri, Mogara, Sekra, Tariki, Telia</p>
+			<p class="indent">
+				<b>Clan Names: </b>Athak, Bregan, Entragath, Kaziganthi, Lagrangli, Mascun, Orilg, Sumarr, Teskos, Zhakan</p>
 			<h4>MINOTAUR TRAITS</h4>
 			<p>Your minotaur character possesses a number of traits that reflect the power and superiority of your kind.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength score increases by 2, and your Constitution increases by 1.</p>
-			<p class="indent"><b><i>Age. </i></b> Minotaurs enter adulthood at around the age of 17 and can live up to 150 years.</p>
-			<p class="indent"><b><i>Alignment. </i></b>Most minotaurs lean toward lawful alignments.</p>
-			<p class="indent"><b><i>Size. </i></b>Minotaurs average over 6 feet in height, and they have strong, stocky builds. Your size is Medium.</p>
-			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p>
-			<p class="indent"><b><i>Horns. </i></b>Your horns are natural melee weapons, with which you’re proficient. When you hit with them, the target takes piercing damage equal to 1d6 + your Strength modifier.</p>
-			<p class="indent"><b><i>Goring Rush. </i></b>Immediately after you use the Dash action on your turn and move at least as far as your speed, you can make one melee attack with your horns as a bonus action.</p>
-			<p class="indent"><b><i>Hammering Horns. </i></b>Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can attempt to shove that creature with your horns using your reaction. The creature must be no more than one size larger than you and within 5 feet of you. It must make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier. If it fails, you push it up to 5 feet away from you.</p>
-			<p class="indent"><b><i>Menacing. </i></b>You have proficiency in the Intimidation skill.</p>
-			<p class="indent"><b><i>Hybrid Nature. </i></b>You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types.</p>
-			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Minotaur.</p> 
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Strength score increases by 2, and your Constitution increases by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Age. </i>
+				</b> Minotaurs enter adulthood at around the age of 17 and can live up to 150 years.</p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b>Most minotaurs lean toward lawful alignments.</p>
+			<p class="indent">
+				<b>
+					<i>Size. </i>
+				</b>Minotaurs average over 6 feet in height, and they have strong, stocky builds. Your size is Medium.</p>
+			<p class="indent">
+				<b>
+					<i>Speed. </i>
+				</b>Your base walking speed is 30 feet.</p>
+			<p class="indent">
+				<b>
+					<i>Horns. </i>
+				</b>Your horns are natural melee weapons, with which you’re proficient. When you hit with them, the target takes piercing damage equal to 1d6 + your Strength modifier.</p>
+			<p class="indent">
+				<b>
+					<i>Goring Rush. </i>
+				</b>Immediately after you use the Dash action on your turn and move at least as far as your speed, you can make one melee attack with your horns as a bonus action.</p>
+			<p class="indent">
+				<b>
+					<i>Hammering Horns. </i>
+				</b>Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can attempt to shove that creature with your horns using your reaction. The creature must be no more than one size larger than you and within 5 feet of you. It must make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier. If it fails, you push it up to 5 feet away from you.</p>
+			<p class="indent">
+				<b>
+					<i>Menacing. </i>
+				</b>You have proficiency in the Intimidation skill.</p>
+			<p class="indent">
+				<b>
+					<i>Hybrid Nature. </i>
+				</b>You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types.</p>
+			<p class="indent">
+				<b>
+					<i>Languages. </i>
+				</b>You can speak, read, and write Common and Minotaur.</p>
 		</description>
 		<sheet display="false" />
 		<setters>
@@ -227,7 +296,7 @@
 			<description>You count as humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types.</description>
 		</sheet>
 	</element>
-		
+
 	<!-- Minotaur Language -->
 	<element name="Minotaur" type="Language" source="Unearthed Arcana: Centaurs and Minotaurs" id="ID_WOTC_UA20180514_LANGUAGE_MINOTAUR">
 		<supports>Exotic</supports>

@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description>Items and Vehicles from Astral Adventurer's Guide</description>
 		<update version="0.0.2">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/astral-adventurers-guide/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/astral-adventurers-guide/items.xml" />
 		</update>
 	</info>
 
@@ -32,10 +32,14 @@
 				<li>You can steer the vessel, albeit in a somewhat clumsy fashion, in much the way that a rudder or oars can be used to maneuver a seafaring ship.</li>
 				<li>At any time, you can see and hear what’s happening on and around the vessel as though you were standing in a location of your choice aboard it.</li>
 			</ul>
-			<p class="indent"><b><i>Transfer Attunement.</i></b> You can use an action to touch a willing spellcaster. That creature attunes to the <i>spelljamming helm</i> immediately, and your attunement to it ends.</p>
+			<p class="indent">
+				<b>
+					<i>Transfer Attunement.</i>
+				</b> You can use an action to touch a willing spellcaster. That creature attunes to the <i>spelljamming helm</i> immediately, and your attunement to it ends.</p>
 			<div class="sidebar">
 				<h5>COST OF A SPELLJAMMING HELM</h5>
-				<p>A <i>spelljamming helm</i> propels and steers a ship much as sails, oars, and rudders work on a seafaring vessel, and a <i>spelljamming helm</i> is easy to create if one has the proper spell. <i>Create spelljamming helm</i> spell has a material component cost of 5,000 gp, so that's the least one can pay to acquire a <i>spelljamming helm</i>.</p>
+				<p>A <i>spelljamming helm</i> propels and steers a ship much as sails, oars, and rudders work on a seafaring vessel, and a <i>spelljamming helm</i> is easy to create if one has the proper spell. <i>Create spelljamming helm</i> spell has a material component cost of 5,000 gp, so that's the least one can pay to acquire a <i>spelljamming helm</i>.
+				</p>
 				<p class="indent">Wildspace merchants, including <b>dohwars</b> and <b>mercanes</b> (both described in <i>Boo's Astral Menagerie</i>, on pages 19 and 37 respectively), typically sell a spelljammer helm for substantially more than it cost to make. How much more depends on the market, but 7,500 gp would be a reasonable demand. A desperate buyer in a seller's market might pay 10,000 gp or more.</p>
 			</div>
 		</description>
@@ -68,22 +72,40 @@
 			<p class="indent">Fishing is a popular pastime in Wildspace and the Astral Sea, though this activity isn't possible aboard a ship that is moving faster than its flying speed. At the end of each hour spent fishing, a character can make a DC 15 Wisdom (Survival) check. A failed check indicates no fish is caught during that hour. On a successful check, roll a d10 and consult the Fishing table to determine the catch.</p>
 			<table>
 				<thead>
-					<tr><td>d10</td><td>Catch</td></tr>
+					<tr>
+						<td>d10</td>
+						<td>Catch</td>
+					</tr>
 				</thead>
-				<tr><td>1-2</td><td>Tiny, inedible fish (a creature that consumes it is poisoned for 1 hour)</td></tr>
-				<tr><td>3-5</td><td>Tiny, edible fish (feeds one person)</td></tr>
-				<tr><td>6-8</td><td>Small, edible fish (feeds up to four people)</td></tr>
-				<tr><td>9</td><td>Hostile <b>space eel</b> (see <i>Boo's Astral Menagerie</i>, page 55; feeds up to twelve people)</td></tr>
-				<tr><td>10</td><td>Hostile <b>gray scavver</b> (see <i>Boo's Astral Menagerie</i>, page 49; feeds up to twenty people), some other creature of the DM's choosing, or an Tiny object of the DM's choosing</td></tr>
+				<tr>
+					<td>1-2</td>
+					<td>Tiny, inedible fish (a creature that consumes it is poisoned for 1 hour)</td>
+				</tr>
+				<tr>
+					<td>3-5</td>
+					<td>Tiny, edible fish (feeds one person)</td>
+				</tr>
+				<tr>
+					<td>6-8</td>
+					<td>Small, edible fish (feeds up to four people)</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Hostile <b>space eel</b> (see <i>Boo's Astral Menagerie</i>, page 55; feeds up to twelve people)</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Hostile <b>gray scavver</b> (see <i>Boo's Astral Menagerie</i>, page 49; feeds up to twenty people), some other creature of the DM's choosing, or an Tiny object of the DM's choosing</td>
+				</tr>
 			</table>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
-			<set name="type">Adventuring Gear</set>			
+			<set name="type">Adventuring Gear</set>
 			<set name="cost" currency="sp">1</set>
 			<set name="weight" lb="0">0 lb.</set>
 		</setters>
-	</element> 
+	</element>
 
 	<!-- Vehicles -->
 	<element name="Bombard" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_ITEM_BOMBARD">
@@ -92,35 +114,65 @@
 			<p class="indent">A bombard can float and sail on water, but it can’t land safely on the ground (its keel would cause it to roll on its side).</p>
 			<h5>Bombard Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 150 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 300</td><td><b>Crew:</b> 12</td></tr>
-				<tr><td><b>Damage Threshold:</b> 20</td><td><b>Keel/Beam:</b> 140 ft./30 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 35 ft. (4 mph)</td><td><b>Cost:</b> 50,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 150 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 300</td>
+					<td>
+						<b>Crew:</b> 12</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 20</td>
+					<td>
+						<b>Keel/Beam:</b> 140 ft./30 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 35 ft. (4 mph)</td>
+					<td>
+						<b>Cost:</b> 50,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">2 Ballistae (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Giant Cannon (Crew: 4)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 19</li>
-				<li><b>Hit Points:</b> 250</li>
-				<li><b>Cost:</b> — (cannon), 1,000 gp (giant cannon ball)</li>
+				<li>
+					<b>Armor Class:</b> 19</li>
+				<li>
+					<b>Hit Points:</b> 250</li>
+				<li>
+					<b>Cost:</b> — (cannon), 1,000 gp (giant cannon ball)</li>
 			</ul>
 			<p>It takes 3 actions to load the enormous cannon and 1 action to fire it.</p>
-			<p class="indent"><i><b>Cannon Ball.</b> Ranged Weapon Attack:</i> +6 to hit, range 600/2,400 ft., one target. <i>Hit:</i> 88 (16d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Cannon Ball.</b> Ranged Weapon Attack:</i> +6 to hit, range 600/2,400 ft., one target. <i>Hit:</i> 88 (16d10) bludgeoning damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">50000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Damselfly Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_DAMSELFLY_SHIP">
 		<description>
@@ -129,35 +181,65 @@
 			<p class="indent">Damselfly ship owners are a proud lot, fond of painting their ships in colorful patterns as well as customizing their vessels with special equipment. Large, private gatherings of damselfly ship owners are not uncommon; they use these get-togethers to show off their ships and to race one another through asteroid belts and other obstacle courses, either for rewards or bragging rights.</p>
 			<h5>Damselfly Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 19 (metal)</td><td><b>Cargo:</b> 5 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 200</td><td><b>Crew:</b> 9</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 100 ft./20 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 70 ft. (8 mph)</td><td><b>Cost:</b> 20,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 19 (metal)</td>
+					<td>
+						<b>Cargo:</b> 5 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 200</td>
+					<td>
+						<b>Crew:</b> 9</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 100 ft./20 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 70 ft. (8 mph)</td>
+					<td>
+						<b>Cost:</b> 20,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">Ballista (Crew: 3)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Mangonel (Crew: 4)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 1 action to aim it using the turret rotator (area 2 on the accompanying deck plan), and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Flying Fish Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_FLYING_FISH_SHIP">
 		<description>
@@ -166,78 +248,145 @@
 			<p class="indent">Typical weapons on a flying fish ship include a forward-mounted mangonel and an aft-mounted ballista.</p>
 			<h5>Flying Fish Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 13 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 250</td><td><b>Crew:</b> 10</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 120 ft./30 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 40 ft. (4½ mph)</td><td><b>Cost:</b> 20,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 13 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 250</td>
+					<td>
+						<b>Crew:</b> 10</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 120 ft./30 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 40 ft. (4½ mph)</td>
+					<td>
+						<b>Cost:</b> 20,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">Ballista (Crew: 3)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Mangonel (Crew: 5)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Hammerhead Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_HAMMERHEAD_SHIP">
 		<description>
 			<p>Hammerhead ships are popular craft, especially among pirates and merchants carrying heavy cargo. They can float on water and sail across it, but they aren’t built to land on the ground (their keels would cause them to tip to one side). Standard weapons on a hammerhead ship include fore and aft mangonels, a ballista, and a reinforced bow for ramming.</p>
 			<h5>Hammerhead Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 30 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 400</td><td><b>Crew:</b> 15</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 250 ft./25 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 35 ft. (4 mph)</td><td><b>Cost:</b> 40,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 30 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 400</td>
+					<td>
+						<b>Crew:</b> 15</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 250 ft./25 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 35 ft. (4 mph)</td>
+					<td>
+						<b>Cost:</b> 40,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">Ballista (Crew: 3)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Blunt Ram</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> —</li>
-				<li><b>Hit Points:</b> —</li>
-				<li><b>Cost:</b> — (included in ship cost)</li>
+				<li>
+					<b>Armor Class:</b> —
+				</li>
+				<li>
+					<b>Hit Points:</b> —
+				</li>
+				<li>
+					<b>Cost:</b> — (included in ship cost)</li>
 			</ul>
-			<p>The ship’s spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see “Crashing”<!-- specify the page number -->).</p>
-			<p class="indent"><i><b>Blunt Ram.</b> Melee Weapon Attack:</i> +8 to hit, range 0 ft., one object or Gargantuan creature. <i>Hit:</i> 88 (16d10) bludgeoning damage. The hammerhead ship takes half asmuch damage and comes to a dead stop. <i>Miss:</i> The attack deals no damage, the target moves into the nearest unoccupied space that isn’t in the hammerhead ship’s path, and the hammerhead ship can continue moving if it has any movement left.</p>
+			<p>The ship’s spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see “Crashing”				<!-- specify the page number -->).</p>
+			<p class="indent">
+				<i>
+					<b>Blunt Ram.</b> Melee Weapon Attack:</i> +8 to hit, range 0 ft., one object or Gargantuan creature. <i>Hit:</i> 88 (16d10) bludgeoning damage. The hammerhead ship takes half asmuch damage and comes to a dead stop. <i>Miss:</i> The attack deals no damage, the target moves into the nearest unoccupied space that isn’t in the hammerhead ship’s path, and the hammerhead ship can continue moving if it has any movement left.</p>
 			<h4 style="border-bottom:0px">2 Mangonels (Crew: 5 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">40000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Lamprey Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_LAMPREY_SHIP">
 		<description>
@@ -246,35 +395,67 @@
 			<p class="indent">A lamprey can float on water, though it can’t land safely on the ground. Lamprey ships that land on the ground have the distressing habit of rolling over, as more than a few crews have discovered to their dismay.</p>
 			<h5>Lamprey Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 6 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 250</td><td><b>Crew:</b> 15</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 115 ft./25 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 35 ft. (4 mph)</td><td><b>Cost:</b> 20,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 6 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 250</td>
+					<td>
+						<b>Crew:</b> 15</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 115 ft./25 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 35 ft. (4 mph)</td>
+					<td>
+						<b>Cost:</b> 20,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">4 Ballistae (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Grappling Jaws (Crew: 1)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> —</li>
-				<li><b>Hit Points:</b> —</li>
-				<li><b>Cost:</b> — (included in ship cost)</li>
+				<li>
+					<b>Armor Class:</b> —
+				</li>
+				<li>
+					<b>Hit Points:</b> —
+				</li>
+				<li>
+					<b>Cost:</b> — (included in ship cost)</li>
 			</ul>
 			<p>It takes 1 action to make a Grappling Jaws attack.</p>
-			<p class="indent"><i><b>Grappling Jaws.</b> Melee Weapon Attack:</i> +6 to hit, range 0 ft., one ship or Gargantuan creature. <i>Hit:</i> 22 (4d10) piercing damage, and the speed of the lamprey ship and the target become 0 until the grapple ends. As an action, a creature can use the grappling jaws’ controls to release the target. Otherwise, the effect ends when the target or the lamprey ship drops to 0 hit points.</p>
+			<p class="indent">
+				<i>
+					<b>Grappling Jaws.</b> Melee Weapon Attack:</i> +6 to hit, range 0 ft., one ship or Gargantuan creature. <i>Hit:</i> 22 (4d10) piercing damage, and the speed of the lamprey ship and the target become 0 until the grapple ends. As an action, a creature can use the grappling jaws’ controls to release the target. Otherwise, the effect ends when the target or the lamprey ship drops to 0 hit points.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Living Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_LIVING_SHIP">
 		<description>
@@ -284,27 +465,52 @@
 			<p class="indent">A living ship can float on water and sail across it, but it can’t land safely on the ground (its keel would cause it to roll on its side). Its standard weaponry is an aft-mounted ballista.</p>
 			<h5>Living Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 10 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 250</td><td><b>Crew:</b> 5 (plus the treant)</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 80 ft./20 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 40 ft. (4½ mph)</td><td><b>Cost:</b> 25,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 10 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 250</td>
+					<td>
+						<b>Crew:</b> 5 (plus the treant)</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 80 ft./20 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 40 ft. (4½ mph)</td>
+					<td>
+						<b>Cost:</b> 25,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">Ballista (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">25000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Nautiloid" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_NAUTILOID">
 		<description>
@@ -312,44 +518,83 @@
 			<p class="indent">As an action, a creature attuned to a nautiloid’s <i>spelljamming helm</i> and in physical contact with the ship can transport the nautiloid and all creatures and objects aboard it to a different plane of existence, at or near a destination envisioned by the spelljammer (or to a random location on the plane if no destination is envisioned). This property is a feature of the ship, not the <i>spelljamming helm</i>. Each time this property is used, roll a d6. On a 5–6, the property recharges after 1 minute; otherwise, it can’t be used again for 24 hours.</p>
 			<h5>Nautiloid Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 17 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 400</td><td><b>Crew:</b> 20</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 180 ft./30 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 40 ft. (4½ mph)</td><td><b>Cost:</b> 50,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 17 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 400</td>
+					<td>
+						<b>Crew:</b> 20</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 180 ft./30 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 40 ft. (4½ mph)</td>
+					<td>
+						<b>Cost:</b> 50,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">4 Ballistae (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Mangonel (Crew: 5)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 			<h4 style="border-bottom:0px">Tentacles</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> —</li>
-				<li><b>Hit Points:</b> —</li>
-				<li><b>Cost:</b> — (included in ship cost)</li>
+				<li>
+					<b>Armor Class:</b> —
+				</li>
+				<li>
+					<b>Hit Points:</b> —
+				</li>
+				<li>
+					<b>Cost:</b> — (included in ship cost)</li>
 			</ul>
 			<p>As an action, the ship’s spelljammer can make one of the following attacks with the ship’s tentacles.</p>
-			<p class="indent"><i><b>Grappling Tentacles.</b> Melee Weapon Attack:</i> +8 to hit, reach 30 ft., one Huge or Gargantuan target. <i>Hit:</i> 22 (4d10) bludgeoning damage, and the nautiloid’s speed becomes 0 until its spelljammer uses an action to release the target. If the target is a creature, it is grappled (escape DC 16). If the target is another ship, the target’s speed becomes 0 until the nautiloid releases it, or until the target or the nautiloid drops to 0 hit points.</p>
-			<p class="indent"><i><b>Teleport.</b> Melee Spell Attack:</i> +8 to hit, reach 30 ft., one creature. <i>Hit:</i> The target must succeed on a DC 15 Constitution saving throw or be teleported to an unoccupied space aboard the nautiloid that the nautiloid’s spelljammer can see.</p>
+			<p class="indent">
+				<i>
+					<b>Grappling Tentacles.</b> Melee Weapon Attack:</i> +8 to hit, reach 30 ft., one Huge or Gargantuan target. <i>Hit:</i> 22 (4d10) bludgeoning damage, and the nautiloid’s speed becomes 0 until its spelljammer uses an action to release the target. If the target is a creature, it is grappled (escape DC 16). If the target is another ship, the target’s speed becomes 0 until the nautiloid releases it, or until the target or the nautiloid drops to 0 hit points.</p>
+			<p class="indent">
+				<i>
+					<b>Teleport.</b> Melee Spell Attack:</i> +8 to hit, reach 30 ft., one creature. <i>Hit:</i> The target must succeed on a DC 15 Constitution saving throw or be teleported to an unoccupied space aboard the nautiloid that the nautiloid’s spelljammer can see.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">50000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Nightspider" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_NIGHTSPIDER">
 		<description>
@@ -358,78 +603,145 @@
 			<p class="indent">Nightspiders are designed for space travel alone and can’t float on water or land safely on the ground (the weight of the ship would snap its spindly legs, destroying its weblike rigging in the process). Standard weaponry on a nightspider includes four ballistae (two forward-facing and two aft-facing) and a forward-facing mangonel.</p>
 			<h5>Nightspider Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 19 (metal)</td><td><b>Cargo:</b> 50 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 300</td><td><b>Crew:</b> 25</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 175 ft./50 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 40 ft. (4½ mph)</td><td><b>Cost:</b> 50,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 19 (metal)</td>
+					<td>
+						<b>Cargo:</b> 50 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 300</td>
+					<td>
+						<b>Crew:</b> 25</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 175 ft./50 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 40 ft. (4½ mph)</td>
+					<td>
+						<b>Cost:</b> 50,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">4 Ballistae (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Mangonel (Crew: 5)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">50000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Scorpion Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_SCORPION_SHIP">
 		<description>
 			<p>Scorpion ships are archaic metal warships that have never lost their popularity, largely because of their versatility. Articulated legs enable a scorpion ship to land safely on the ground and move across a solid surface at a walking speed of 30 feet. The ship can’t float on water, however. A ballista is mounted on the top deck, and a mangonel is perched on the end of the tail. The ship’s two claws are relatively inefficient in combat, but a claw that grabs a creature can quickly take it out of action.</p>
 			<h5>Scorpion Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 19 (metal)</td><td><b>Cargo:</b> 12 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 250</td><td><b>Crew:</b> 12</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 75 ft./25 ft.</td></tr>
-				<tr><td><b>Speed:</b> 30 ft. (3½ mph), fly 30 ft. (3½ mph)</td><td><b>Cost:</b> 25,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 19 (metal)</td>
+					<td>
+						<b>Cargo:</b> 12 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 250</td>
+					<td>
+						<b>Crew:</b> 12</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 75 ft./25 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> 30 ft. (3½ mph), fly 30 ft. (3½ mph)</td>
+					<td>
+						<b>Cost:</b> 25,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">Ballista (Crew: 3)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">2 Claws (Crew: 1 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> —</li>
-				<li><b>Hit Points:</b> —</li>
-				<li><b>Cost:</b> — (included in ship cost)</li>
+				<li>
+					<b>Armor Class:</b> —
+				</li>
+				<li>
+					<b>Hit Points:</b> —
+				</li>
+				<li>
+					<b>Cost:</b> — (included in ship cost)</li>
 			</ul>
 			<p>It takes 1 action to make a Claw attack.</p>
-			<p class="indent"><i><b>Claw.</b> Melee Weapon Attack:</i> +3 to hit, reach 20 ft., one target. <i>Hit:</i> 11 (2d10) bludgeoning damage. If the target is a Huge or smaller creature, it is also grappled (escape DC 13). Until this grapple ends, the creature takes 11 (2d10) bludgeoning damage at the start of each of its turns.</p>
+			<p class="indent">
+				<i>
+					<b>Claw.</b> Melee Weapon Attack:</i> +3 to hit, reach 20 ft., one target. <i>Hit:</i> 11 (2d10) bludgeoning damage. If the target is a Huge or smaller creature, it is also grappled (escape DC 13). Until this grapple ends, the creature takes 11 (2d10) bludgeoning damage at the start of each of its turns.</p>
 			<h4 style="border-bottom:0px">Mangonel (Crew: 5)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">25000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Shrike Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_SHRIKE_SHIP">
 		<description>
@@ -437,70 +749,132 @@
 			<p class="indent">Standard weaponry on a shrike ship includes three ballistae—one on the forecastle, one in the middle of the top deck, and one on the sterncastle. In a desperate situation, the ship’s reinforced bow can be used as a piercing ram.</p>
 			<h5>Scorpion Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 20 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 250</td><td><b>Crew:</b> 11</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 100 ft./20 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 70 ft. (8 mph)</td><td><b>Cost:</b> 20,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 20 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 250</td>
+					<td>
+						<b>Crew:</b> 11</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 100 ft./20 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 70 ft. (8 mph)</td>
+					<td>
+						<b>Cost:</b> 20,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">3 Ballistae (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Piercing Ram</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> —</li>
-				<li><b>Hit Points:</b> —</li>
-				<li><b>Cost:</b> — (included in ship cost)</li>
+				<li>
+					<b>Armor Class:</b> —
+				</li>
+				<li>
+					<b>Hit Points:</b> —
+				</li>
+				<li>
+					<b>Cost:</b> — (included in ship cost)</li>
 			</ul>
-			<p>The ship’s spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see “Crashing”<!-- specify the page number -->).</p>
-			<p class="indent"><i><b>Piercing Ram.</b> Melee Weapon Attack:</i> +8 to hit, range 0 ft., one object or Gargantuan creature. <i>Hit:</i> 88 (16d10) piercing damage. The shrike ship takes half as much damage and comes to a dead stop. <i>Miss:</i> The attack deals no damage, the target moves into the nearest unoccupied space that isn’t in the shrike ship’s path, and the shrike ship can continue moving if it has any movement left.</p>
+			<p>The ship’s spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see “Crashing”				<!-- specify the page number -->).</p>
+			<p class="indent">
+				<i>
+					<b>Piercing Ram.</b> Melee Weapon Attack:</i> +8 to hit, range 0 ft., one object or Gargantuan creature. <i>Hit:</i> 88 (16d10) piercing damage. The shrike ship takes half as much damage and comes to a dead stop. <i>Miss:</i> The attack deals no damage, the target moves into the nearest unoccupied space that isn’t in the shrike ship’s path, and the shrike ship can continue moving if it has any movement left.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Space Galleon" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_SPACE_GALLEON">
 		<description>
 			<p>The space galleon is a mainstay among the host of vessels that ply Wildspace and the Astral Sea. Space galleons can easily pass for ordinary seafaring galleons. Because they can land on water and move across it like their namesakes, they can sail into ports on terrestrial worlds without attracting undue attention. Like an ordinary galleon, a space galleon isn’t built to land on the ground (its keel would cause it to roll on its side). The ship’s standard weaponry includes two forward-mounted ballistae and an aft-mounted mangonel.</p>
 			<h5>Space Galleon Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 20 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 400</td><td><b>Crew:</b> 20</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 130 ft./30 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 35 ft. (4 mph)</td><td><b>Cost:</b> 30,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 20 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 400</td>
+					<td>
+						<b>Crew:</b> 20</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 130 ft./30 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 35 ft. (4 mph)</td>
+					<td>
+						<b>Cost:</b> 30,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">2 Ballistae (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Mangonel (Crew: 5)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">30000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Squid Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_SQUID_SHIP">
 		<description>
@@ -508,43 +882,80 @@
 			<p class="indent">Squid ships can float and sail on water, and they can land on the ground.</p>
 			<h5>Squid Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 20 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 300</td><td><b>Crew:</b> 13</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 250 ft./25 ft.</td></tr>
-				<tr><td><b>Speed:</b> 30 ft. (3½ mph)</td><td><b>Cost:</b> 25,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 20 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 300</td>
+					<td>
+						<b>Crew:</b> 13</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 250 ft./25 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> 30 ft. (3½ mph)</td>
+					<td>
+						<b>Cost:</b> 25,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">2 Ballistae (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Mangonel (Crew: 5)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 			<h4 style="border-bottom:0px">Piercing Ram</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> —</li>
-				<li><b>Hit Points:</b> —</li>
-				<li><b>Cost:</b> — (included in ship cost)</li>
+				<li>
+					<b>Armor Class:</b> —
+				</li>
+				<li>
+					<b>Hit Points:</b> —
+				</li>
+				<li>
+					<b>Cost:</b> — (included in ship cost)</li>
 			</ul>
-			<p>The ship’s spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see “Crashing”<!-- specify the page number -->).</p>
-			<p class="indent"><i><b>Piercing Ram.</b> Melee Weapon Attack:</i> +8 to hit, range 0 ft., one object or Gargantuan creature. <i>Hit:</i> 88 (16d10) piercing damage. The squid ship takes half as much damage and comes to a dead stop. <i>Miss:</i> The attack deals no damage, the target moves into the nearest unoccupied space that isn’t in the squid ship’s path, and the squid ship can continue moving if it has any movement left.</p>
+			<p>The ship’s spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see “Crashing”				<!-- specify the page number -->).</p>
+			<p class="indent">
+				<i>
+					<b>Piercing Ram.</b> Melee Weapon Attack:</i> +8 to hit, range 0 ft., one object or Gargantuan creature. <i>Hit:</i> 88 (16d10) piercing damage. The squid ship takes half as much damage and comes to a dead stop. <i>Miss:</i> The attack deals no damage, the target moves into the nearest unoccupied space that isn’t in the squid ship’s path, and the squid ship can continue moving if it has any movement left.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">25000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Star Moth" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_STAR_MOTH">
 		<description>
@@ -552,35 +963,65 @@
 			<p class="indent">A star moth’s hull is fashioned from a grown and sculpted organic substance, and its enormous, decorative wings are made of shimmering crystal. The vessel is built for space travel, but its design does enable it to float on water or land safely on the ground. Standard weaponry includes two ballistae nestled in the star moth’s eye holes and a mangonel mounted above the bridge.</p>
 			<h5>Star Moth Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 13 (ceramic)</td><td><b>Cargo:</b> 30 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 400</td><td><b>Crew:</b> 13</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 200 ft./20 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 50 ft. (5½ mph)</td><td><b>Cost:</b> 40,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 13 (ceramic)</td>
+					<td>
+						<b>Cargo:</b> 30 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 400</td>
+					<td>
+						<b>Crew:</b> 13</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 200 ft./20 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 50 ft. (5½ mph)</td>
+					<td>
+						<b>Cost:</b> 40,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">2 Ballistae (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Mangonel (Crew: 5)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">40000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Turtle Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_TURTLE_SHIP">
 		<description>
@@ -588,64 +1029,123 @@
 			<p class="indent">Standard weaponry on a turtle ship includes three forward-mounted ballistae and a rear-facing mangonel. These weapons can’t be used while the ship is underwater.</p>
 			<h5>Turtle Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 19 (metal)</td><td><b>Cargo:</b> 30 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 300</td><td><b>Crew:</b> 16</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 95 ft./70 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 25 ft. (3 mph), swim 25 ft. (3 mph)</td><td><b>Cost:</b> 40,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 19 (metal)</td>
+					<td>
+						<b>Cargo:</b> 30 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 300</td>
+					<td>
+						<b>Crew:</b> 16</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 95 ft./70 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 25 ft. (3 mph), swim 25 ft. (3 mph)</td>
+					<td>
+						<b>Cost:</b> 40,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">3 Ballistae (Crew: 3 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 			<h4 style="border-bottom:0px">Mangonel (Crew: 5)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Cost:</b> 100 gp (mangonel), — (stone)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Cost:</b> 100 gp (mangonel), — (stone)</li>
 			</ul>
 			<p>It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
+			<p class="indent">
+				<i>
+					<b>Mangonel Stone.</b> Ranged Weapon Attack:</i> +5 to hit, range 200/800 ft. (can’t hit targets within 60 feet of it), one target. <i>Hit:</i> 27 (5d10) bludgeoning damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">40000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Tyrant Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_TYRANT_SHIP">
 		<description>
-			<p><b>Beholders</b> carve tyrant ships out of stone using their disintegration rays and use these ships to wander the Astral Plane, looking for worlds to conquer and rival beholders to destroy. No two tyrant ships look alike, but they all have one or more features reminiscent of their creators, such as a bulbous shape and eyestalks.</p>
+			<p>
+				<b>Beholders</b> carve tyrant ships out of stone using their disintegration rays and use these ships to wander the Astral Plane, looking for worlds to conquer and rival beholders to destroy. No two tyrant ships look alike, but they all have one or more features reminiscent of their creators, such as a bulbous shape and eyestalks.</p>
 			<p class="indent">A spherical chamber on the ship’s command deck functions as a <i>spelljamming helm</i> that only beholders can attune to. Any beholder that occupies this chamber can attune to it. Reducing a tyrant ship to 0 hit points not only destroys it but also destroys the ship’s <i>spelljamming helm</i> and eyestalk cannons.</p>
 			<p class="indent">A tyrant ship can’t float on water, but it can safely land on the ground.</p>
 			<h5>Tyrant Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 17 (stone)</td><td><b>Cargo:</b> 20 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 300</td><td><b>Crew:</b> 10 (beholders)</td></tr>
-				<tr><td><b>Damage Threshold:</b> 20</td><td><b>Keel/Beam:</b> 100 ft./100 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 40 ft. (4½ mph)</td><td><b>Cost:</b> —</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 17 (stone)</td>
+					<td>
+						<b>Cargo:</b> 20 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 300</td>
+					<td>
+						<b>Crew:</b> 10 (beholders)</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 20</td>
+					<td>
+						<b>Keel/Beam:</b> 100 ft./100 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 40 ft. (4½ mph)</td>
+					<td>
+						<b>Cost:</b> —
+					</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">3 Eyestalk Cannons (Crew: 1 Each)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> —</li>
-				<li><b>Hit Points:</b> —</li>
-				<li><b>Cost:</b> — (included in ship cost)</li>
+				<li>
+					<b>Armor Class:</b> —
+				</li>
+				<li>
+					<b>Hit Points:</b> —
+				</li>
+				<li>
+					<b>Cost:</b> — (included in ship cost)</li>
 			</ul>
 			<p>This weapon looks like an eye mounted on an eyestalk. A beholder stationed in one of the tyrant ship’s meditation pods can see through the eye by concentrating on it (as if concentrating on a spell) and use an action to make the following attack.</p>
-			<p class="indent"><i><b>Destructive Ray.</b> Ranged Spell Attack:</i> +8 to hit, range 120/480 ft., one target. <i>Hit:</i> 35 (10d6) force damage.</p>
+			<p class="indent">
+				<i>
+					<b>Destructive Ray.</b> Ranged Spell Attack:</i> +8 to hit, range 120/480 ft., one target. <i>Hit:</i> 35 (10d6) force damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<element name="Wasp Ship" type="Item" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_WASP_SHIP">
 		<description>
@@ -653,27 +1153,52 @@
 			<p class="indent">The ship’s raised back provides high ground for a weapon emplacement, which is typically equipped with a ballista.</p>
 			<h5>Wasp Ship Summary</h5>
 			<table>
-				<tr><td><b>Armor Class:</b> 15 (wood)</td><td><b>Cargo:</b> 10 tons</td></tr>
-				<tr><td><b>Hit Points:</b> 250</td><td><b>Crew:</b> 5</td></tr>
-				<tr><td><b>Damage Threshold:</b> 15</td><td><b>Keel/Beam:</b> 80 ft./20 ft.</td></tr>
-				<tr><td><b>Speed:</b> fly 50 ft. (5½ mph)</td><td><b>Cost:</b> 20,000 gp</td></tr>
+				<tr>
+					<td>
+						<b>Armor Class:</b> 15 (wood)</td>
+					<td>
+						<b>Cargo:</b> 10 tons</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Hit Points:</b> 250</td>
+					<td>
+						<b>Crew:</b> 5</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Damage Threshold:</b> 15</td>
+					<td>
+						<b>Keel/Beam:</b> 80 ft./20 ft.</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Speed:</b> fly 50 ft. (5½ mph)</td>
+					<td>
+						<b>Cost:</b> 20,000 gp</td>
+				</tr>
 			</table>
 			<h4 style="border-bottom:0px">Ballista (Crew: 3)</h4>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 50</li>
-				<li><b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 50</li>
+				<li>
+					<b>Cost:</b> 50 gp (ballista), 5 gp (bolt)</li>
 			</ul>
 			<p>It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.</p>
-			<p class="indent"><i><b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
+			<p class="indent">
+				<i>
+					<b>Bolt.</b> Ranged Weapon Attack:</i> +6 to hit, range 120/480 ft., one target. <i>Hit:</i> 16 (3d10) piercing damage.</p>
 		</description>
 		<setters>
 			<set name="category">Mounts &amp; Vehicles</set>
 			<set name="cost" currency="gp">20000</set>
 			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
-			<set name="type">Vehicle</set>			
+			<set name="type">Vehicle</set>
 		</setters>
-	</element> 
+	</element>
 
 	<!-- Proficiency -->
 	<element name="Tool Proficiency (Vehicles (space))" type="Proficiency" source="Astral Adventurer's Guide" id="ID_WOTC_AAG_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_SPACE">

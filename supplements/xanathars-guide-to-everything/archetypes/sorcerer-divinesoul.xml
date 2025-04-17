@@ -5,7 +5,7 @@
 		<description>The Divine Soul Sorcerous Origin from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
 		<update version="0.0.5">
-			<file name="sorcerer-divinesoul.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/sorcerer-divinesoul.xml" />
+			<file name="sorcerer-divinesoul.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/sorcerer-divinesoul.xml" />
 		</update>
 	</info>
 
@@ -14,7 +14,7 @@
 		<description>
 			<p>Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god’s name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.</p>
 			<p class="indent">A Divine Soul, with a natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands sacred power, a Divine Soul can undermine an existing order by claiming a direct tie to the divine.</p>
-			<p class="indent">In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.</p>			
+			<p class="indent">In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.</p>
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_DIVINE_MAGIC" />
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS" />
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_EMPOWERED_HEALING" />
@@ -37,13 +37,41 @@
 			<p class="indent">In addition, choose an affinity for the source of your divine power: good, evil, law, chaos, or neutrality. You learn an additional spell based on that affinity, as shown below. It is a sorcerer spell for you, but it doesn’t count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a Spell from the cleric spell list.</p>
 			<table>
 				<thead>
-					<tr><td>Affinity</td><td>Spell</td></tr>
+					<tr>
+						<td>Affinity</td>
+						<td>Spell</td>
+					</tr>
 				</thead>
-				<tr><td>Good</td><td><i>cure wounds</i></td></tr>
-				<tr><td>Evil</td><td><i>inflict wounds</i></td></tr>
-				<tr><td>Law</td><td><i>bless</i></td></tr>
-				<tr><td>Chaos</td><td><i>bane</i></td></tr>
-				<tr><td>Neutrality</td><td><i>protection from evil and good</i></td></tr>
+				<tr>
+					<td>Good</td>
+					<td>
+						<i>cure wounds</i>
+					</td>
+				</tr>
+				<tr>
+					<td>Evil</td>
+					<td>
+						<i>inflict wounds</i>
+					</td>
+				</tr>
+				<tr>
+					<td>Law</td>
+					<td>
+						<i>bless</i>
+					</td>
+				</tr>
+				<tr>
+					<td>Chaos</td>
+					<td>
+						<i>bane</i>
+					</td>
+				</tr>
+				<tr>
+					<td>Neutrality</td>
+					<td>
+						<i>protection from evil and good</i>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<spellcasting name="Sorcerer" extend="true">

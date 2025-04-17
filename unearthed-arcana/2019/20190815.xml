@@ -5,10 +5,10 @@
 		<description>The barbarian receives a new Primal Path feature: Path of the Wild Soul. Meanwhile the monk gains a new Monastic Tradition feature: the Way of the Astral Self.</description>
 		<author url="https://dnd.wizards.com/articles/unearthed-arcana/barbarian-and-monk">Wizards of the Coast</author>
 		<update version="0.0.3">
-			<file name="20190815.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2019/20190815.xml" />
+			<file name="20190815.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2019/20190815.xml" />
 		</update>
 	</info>
-		
+
 	<element name="Unearthed Arcana: Barbarian and Monk" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20190815">
 		<description>
 			<p>The barbarian receives a new Primal Path feature: Path of the Wild Soul. Meanwhile the monk gains a new Monastic Tradition feature: the Way of the Astral Self.</p>
@@ -48,9 +48,9 @@
 			<p>At 3rd level, your mastery of your ki allows you to summon a portion of your astral self. On your turn, you can spend 2 ki points as a bonus action to summon the arms of your astral self for 10 minutes. These spectral arms hover near your shoulders. You determine the arms’ appearance based on the qualities of your character.</p>
 			<p class="indent">While your astral arms are summoned, you gain the following benefits:</p>
 			<ul>
-			<li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>
-			<li>The arms are monk weapons and have a reach of 10 feet. The arms deal radiant or necrotic damage (your choice). When you attack with the arms, you can use your Wisdom modifier instead of your Strength or Dexterity modifier for the attack and damage rolls.</li>
-			<li>Immediately after you use the Attack action with your astral arms on your turn, you can make one extra attack with your astral arms as a bonus action. The number of extra attacks increases when you reach certain levels in this class, increasing to two at 11th level and three at 17th level.</li>
+				<li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>
+				<li>The arms are monk weapons and have a reach of 10 feet. The arms deal radiant or necrotic damage (your choice). When you attack with the arms, you can use your Wisdom modifier instead of your Strength or Dexterity modifier for the attack and damage rolls.</li>
+				<li>Immediately after you use the Attack action with your astral arms on your turn, you can make one extra attack with your astral arms as a bonus action. The number of extra attacks increases when you reach certain levels in this class, increasing to two at 11th level and three at 17th level.</li>
 			</ul>
 		</description>
 		<sheet action="Bonus Action">
@@ -64,8 +64,10 @@
 			<p>Starting at 6th level, you can summon the visage of your astral self. On your turn, you can spend 1 ki point as a bonus action, or as part of summoning your astral arms, to summon this visage for 10 minutes. The spectral visage covers your face like a helmet or mask. You determine its appearance based on the qualities of your character.</p>
 			<p class="indent">While your visage is summoned, you gain the following benefits.</p>
 			<ul>
-			<li><b>Wisdom of the Spirit. </b>You have advantage on Wisdom (Insight) and Charisma (Intimidation) checks.</li>
-			<li><b>Astral Sight. </b>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</li>
+				<li>
+					<b>Wisdom of the Spirit. </b>You have advantage on Wisdom (Insight) and Charisma (Intimidation) checks.</li>
+				<li>
+					<b>Astral Sight. </b>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</li>
 			</ul>
 		</description>
 		<sheet action="Bonus Action">
@@ -76,9 +78,12 @@
 		<description>
 			<p>Starting at 11th level, you tap into the greater power of your astral self. While you have both your astral arms and visage summoned, you gain the following benefits.</p>
 			<ul>
-			<li><b>Deflect Energy. </b>When you take acid, cold, fire, lightning, or force damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by 1d10 + your Wisdom modifier + your monk level.</li>
-			<li><b>Empowered Arms. </b>Once on each of your turns when you hit a target with your astral arms, you can deal extra damage to the target equal to your Martial Arts die.</li>
-			<li><b>Word of the Sprit. </b>When you speak through your visage, you can direct your words to a creature of your choice that you can see within 30 feet of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 feet can hear you.</li>
+				<li>
+					<b>Deflect Energy. </b>When you take acid, cold, fire, lightning, or force damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by 1d10 + your Wisdom modifier + your monk level.</li>
+				<li>
+					<b>Empowered Arms. </b>Once on each of your turns when you hit a target with your astral arms, you can deal extra damage to the target equal to your Martial Arts die.</li>
+				<li>
+					<b>Word of the Sprit. </b>When you speak through your visage, you can direct your words to a creature of your choice that you can see within 30 feet of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 feet can hear you.</li>
 			</ul>
 		</description>
 		<sheet>
@@ -94,9 +99,12 @@
 			<p>Starting at 17th level, your connection to your astral self is complete, allowing you summon it entirely. On your turn, you can spend 10 ki points as a bonus action to summon the arms, visage, and body of your astral self for 10 minutes. This spectral body covers your physical form like a suit of armor, connecting with the arms and visage. You determine its appearance based on the qualities of your character.</p>
 			<p class="indent">While your astral self is summoned, you gain the following benefits.</p>
 			<ul>
-			<li><b>Armor of the Spirit. </b>You gain a +2 bonus to AC while you aren’t incapacitated.</li>
-			<li><b>Astral Barrage. </b>Whenever you use the Extra Attack feature to attack twice, you can instead attack three times using your astral arms.</li>
-			<li><b>Ki Consumption. </b>When a creature within 10 feet of you is reduced to 0 hit points, you can use your reaction to regain ki points equal to your Wisdom modifier (minimum 1).</li>
+				<li>
+					<b>Armor of the Spirit. </b>You gain a +2 bonus to AC while you aren’t incapacitated.</li>
+				<li>
+					<b>Astral Barrage. </b>Whenever you use the Extra Attack feature to attack twice, you can instead attack three times using your astral arms.</li>
+				<li>
+					<b>Ki Consumption. </b>When a creature within 10 feet of you is reduced to 0 hit points, you can use your reaction to regain ki points equal to your Wisdom modifier (minimum 1).</li>
 			</ul>
 		</description>
 		<sheet action="Bonus Action">
@@ -149,15 +157,44 @@
 			<p class="indent">If the wild surge requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.</p>
 			<h6>WILD SURGE</h6>
 			<table>
-				<thead><tr><td>d8</td><td>Effect</td></tr></thead>
-				<tr><td>1</td><td>Necrotic energy bursts from you. Each creature within 30 feet of you takes 1d10 necrotic damage, and you gain temporary hit points equal to the sum of the necrotic damage dealt to the creatures</td></tr>
-				<tr><td>2</td><td>You teleport up to 20 feet to an unoccupied space you can see. Until your rage ends, you can activate this effect again on each of your turns as a bonus action.</td></tr>
-				<tr><td>3</td><td>You conjure 1d4 intangible spirits that look like flumphs in unoccupied spaces within 30 feet of you. Each spirit immediately flies 30 feet in a random direction. At the end of your turn, all spirits explode and each creature within 5 feet of one or more of them must succeed on a Dexterity saving throw or take 2d8 force damage.</td></tr>
-				<tr><td>4</td><td>Arcane energy enshrouds you. Until your rage ends, you gain a +2 bonus to AC, and whenever a creature within 10 feet of you hits you with an attack, that creature takes force damage equal to your Constitution modifier</td></tr>
-				<tr><td>5</td><td>Plant life temporarily grows around you: until your rage ends, the ground within 10 feet of you is difficult terrain.</td></tr>
-				<tr><td>6</td><td>Arcane energy taps into the minds of those around you. Each creature within 30 feet of you must succeed on a Wisdom saving throw or you see a glimpse of the creature’s thoughts, learning how it plans to attack you. As a result, the creature has disadvantage on attack rolls against you until the start of your next turn.</td></tr>
-				<tr><td>7</td><td>Shadows weave around a weapon of your choice you are holding. Until your rage ends, your weapon deals psychic damage instead of its bludgeoning, slashing, or piercing damage, and it gains the light and thrown properties with a normal range of 20 feet and a long range of 60 feet. If you drop the weapon or throw it, the weapon dissipates and reappears in your hand at the end of your turn.</td></tr>
-				<tr><td>8</td><td>A beam of brilliant light lances from your chest in a 5-foot-wide, 60-foot-long line. Each creature in the line must succeed on a Constitution saving throw or take 2d8 radiant damage and be blinded until the start of your next turn.</td></tr>
+				<thead>
+					<tr>
+						<td>d8</td>
+						<td>Effect</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>1</td>
+					<td>Necrotic energy bursts from you. Each creature within 30 feet of you takes 1d10 necrotic damage, and you gain temporary hit points equal to the sum of the necrotic damage dealt to the creatures</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>You teleport up to 20 feet to an unoccupied space you can see. Until your rage ends, you can activate this effect again on each of your turns as a bonus action.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>You conjure 1d4 intangible spirits that look like flumphs in unoccupied spaces within 30 feet of you. Each spirit immediately flies 30 feet in a random direction. At the end of your turn, all spirits explode and each creature within 5 feet of one or more of them must succeed on a Dexterity saving throw or take 2d8 force damage.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Arcane energy enshrouds you. Until your rage ends, you gain a +2 bonus to AC, and whenever a creature within 10 feet of you hits you with an attack, that creature takes force damage equal to your Constitution modifier</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Plant life temporarily grows around you: until your rage ends, the ground within 10 feet of you is difficult terrain.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Arcane energy taps into the minds of those around you. Each creature within 30 feet of you must succeed on a Wisdom saving throw or you see a glimpse of the creature’s thoughts, learning how it plans to attack you. As a result, the creature has disadvantage on attack rolls against you until the start of your next turn.</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Shadows weave around a weapon of your choice you are holding. Until your rage ends, your weapon deals psychic damage instead of its bludgeoning, slashing, or piercing damage, and it gains the light and thrown properties with a normal range of 20 feet and a long range of 60 feet. If you drop the weapon or throw it, the weapon dissipates and reappears in your hand at the end of your turn.</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>A beam of brilliant light lances from your chest in a 5-foot-wide, 60-foot-long line. Each creature in the line must succeed on a Constitution saving throw or take 2d8 radiant damage and be blinded until the start of your next turn.</td>
+				</tr>
 			</table>
 		</description>
 		<sheet>

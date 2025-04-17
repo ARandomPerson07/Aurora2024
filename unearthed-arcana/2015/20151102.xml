@@ -5,7 +5,7 @@
 		<description>Two new fighting styles for fighters, paladins, and rangers; the Deep Stalker ranger archetype; the shadow sorcerer; and the warlock pact of the Undying Light all offer exciting options for adventuring in the endless gloom of the Underdark.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/light-dark-underdark">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="20151102.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2015/20151102.xml" />
+			<file name="20151102.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2015/20151102.xml" />
 		</update>
 	</info>
 
@@ -49,7 +49,7 @@
 
 	<!-- deep stalker (gloom stalker in XGTE) -->
 	<!-- shadow sorcerer (shadow magic in XGTE) -->
-	
+
 	<element name="The Undying Light" type="Archetype" source="Unearthed Arcana: Light, Dark, Underdark!" id="ID_WOTC_UA20151102_ARCHETYPE_THE_UNDYING_LIGHT">
 		<supports>Otherworldly Patron</supports>
 		<description>
@@ -59,14 +59,35 @@
 			<h5 class="caption">Undying Light Flaws</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Flaw</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Flaw</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>You are afraid of the dark, and must always have a light source at hand.</td></tr>
-				<tr><td>2</td><td>You have a nervous compulsion to keep a bright light in even the barest shadow.</td></tr>
-				<tr><td>3</td><td>You have a compulsion to enter and illuminate dark areas.</td></tr>
-				<tr><td>4</td><td>You have an overwhelming hatred of undead creatures.</td></tr>
-				<tr><td>5</td><td>You fidget and are irritable when you can’t see the sun.</td></tr>
-				<tr><td>6</td><td>In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>You are afraid of the dark, and must always have a light source at hand.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>You have a nervous compulsion to keep a bright light in even the barest shadow.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>You have a compulsion to enter and illuminate dark areas.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>You have an overwhelming hatred of undead creatures.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>You fidget and are irritable when you can’t see the sun.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought.</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_UA20151102_ARCHETYPE_FEATURE_UNDYING_LIGHT_EXPANDED_SPELL_LIST" />
 			<div element="ID_WOTC_UA20151102_ARCHETYPE_FEATURE_UNDYING_LIGHT_RADIANT_SOUL" />
@@ -89,13 +110,41 @@
 			<h5>UNDYING LIGHT EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>burning hands</em></td></tr>
-				<tr><td>2nd</td><td><em>flaming sphere</em></td></tr>
-				<tr><td>3rd</td><td><em>daylight</em></td></tr>
-				<tr><td>4th</td><td><em>fire shield</em></td></tr>
-				<tr><td>5th</td><td><em>flame strike</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>burning hands</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>flaming sphere</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>daylight</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>fire shield</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>flame strike</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">

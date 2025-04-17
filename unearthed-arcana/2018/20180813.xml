@@ -5,7 +5,7 @@
 		<description>A group of races from the world of Ravnica have arrived in Unearthed Arcana: loxodons, Simic hybrids, vedalken, and viashino. While native to Ravnica, these folk could potentially be used in any D&amp;D world. They are destined for the upcoming book Guildmasters' Guide to Ravnica, out this November. Now is your chance to help shape their final forms!</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/races-ravnica">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="20180813.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2018/20180813.xml" />
+			<file name="20180813.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2018/20180813.xml" />
 		</update>
 	</info>
 
@@ -34,18 +34,46 @@
 			<p class="indent">They’re also easily distracted, jumping from one idea to another in an instant. Likewise, they’re easily bored, and if nothing captures their attention, they’ll do something interesting.</p>
 			<h4>VIASHINO NAMES</h4>
 			<p>Viashino accept, collect, and discard names freely, choosing names that fit their current sense of self or whim. Sometimes they’ll string two or more names together, because they like the sound or because all the names feel meaningful and relevant at the time. As a result members of other races often have a hard time keeping track of a viashino’s name.</p>
-			<p><strong>Viashino Names:</strong> Aun, Bay, Bassisk, Cresh, Din, Essek, Fiksh, Gyan, Hsiska, Illati, Izka, Kyri, Liszik, Maush, Nyoser, Ossanash, Shekess, Skellek, Szil, Tenk, Tzia, Villi, Wyoryn, Yom, Ztash</p>
+			<p>
+				<strong>Viashino Names:</strong> Aun, Bay, Bassisk, Cresh, Din, Essek, Fiksh, Gyan, Hsiska, Illati, Izka, Kyri, Liszik, Maush, Nyoser, Ossanash, Shekess, Skellek, Szil, Tenk, Tzia, Villi, Wyoryn, Yom, Ztash</p>
 			<h4>VIASHINO TRAITS</h4>
 			<p>Your viashino character has the following traits.</p>
-			<p><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2, and your Strength score increases by 1.</p>
-			<p><strong><em>Age.</em></strong> Viashino mature quickly, reaching adulthood in their early teens. They live violent lives and rarely die of old age, but they would rarely live past 60 anyway.</p>
-			<p><strong><em>Alignment.</em></strong> Viashino strongly tend toward chaotic alignments. They have no particular inclination toward good or evil.</p>
-			<p><strong><em>Size.</em></strong> Viashino are about as tall as humans, but they have lithe, wiry frames. Your size is Medium.</p>
-			<p><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
-			<p><strong><em>Bite.</em></strong> Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
-			<p><strong><em>Lashing Tail.</em></strong> Your semi-prehensile tail is tipped with a bony blade. Immediately after a creature within 5 feet of you deals damage to you with a melee attack, you can use your reaction to make an unarmed strike against that creature with your tail. If you hit, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
-			<p><strong><em>Wiry Frame.</em></strong> You gain proficiency in the Acrobatics or the Stealth skill (your choice).</p>
-			<p><strong><em>Languages.</em></strong> You can speak, read, and write Common and Draconic.</p>
+			<p>
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Your Dexterity score increases by 2, and your Strength score increases by 1.</p>
+			<p>
+				<strong>
+					<em>Age.</em>
+				</strong> Viashino mature quickly, reaching adulthood in their early teens. They live violent lives and rarely die of old age, but they would rarely live past 60 anyway.</p>
+			<p>
+				<strong>
+					<em>Alignment.</em>
+				</strong> Viashino strongly tend toward chaotic alignments. They have no particular inclination toward good or evil.</p>
+			<p>
+				<strong>
+					<em>Size.</em>
+				</strong> Viashino are about as tall as humans, but they have lithe, wiry frames. Your size is Medium.</p>
+			<p>
+				<strong>
+					<em>Speed.</em>
+				</strong> Your base walking speed is 30 feet.</p>
+			<p>
+				<strong>
+					<em>Bite.</em>
+				</strong> Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p>
+				<strong>
+					<em>Lashing Tail.</em>
+				</strong> Your semi-prehensile tail is tipped with a bony blade. Immediately after a creature within 5 feet of you deals damage to you with a melee attack, you can use your reaction to make an unarmed strike against that creature with your tail. If you hit, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p>
+				<strong>
+					<em>Wiry Frame.</em>
+				</strong> You gain proficiency in the Acrobatics or the Stealth skill (your choice).</p>
+			<p>
+				<strong>
+					<em>Languages.</em>
+				</strong> You can speak, read, and write Common and Draconic.</p>
 		</description>
 		<setters>
 			<set name="names" type="custom">Aun, Bay, Bassisk, Cresh, Din, Essek, Fiksh, Gyan, Hsiska, Illati, Izka, Kyri, Liszik, Maush, Nyoser, Ossanash, Shekess, Skellek, Szil, Tenk, Tzia, Villi, Wyoryn, Yom, Ztash</set>

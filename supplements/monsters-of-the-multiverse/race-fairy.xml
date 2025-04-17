@@ -3,7 +3,7 @@
 	<info>
 		<name>Fairy from Monsters of the Multiverse</name>
 		<update version="0.0.1">
-			<file name="race-fairy.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-fairy.xml" />
+			<file name="race-fairy.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-fairy.xml" />
 		</update>
 	</info>
 	<element name="Fairy" type="Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_FAIRY">
@@ -13,26 +13,68 @@
 			<h5>Fey Characteristics</h5>
 			<table>
 				<thead>
-					<tr><td class="col-10" style="text-align:center">d8</td><td>Characteristic</td></tr>
+					<tr>
+						<td class="col-10" style="text-align:center">d8</td>
+						<td>Characteristic</td>
+					</tr>
 				</thead>
-				<tr><td style="text-align:center">1</td><td>Your wings are like those of a bird.</td></tr>
-				<tr><td style="text-align:center">2</td><td>You have shimmering, multicolored skin.</td></tr>
-				<tr><td style="text-align:center">3</td><td>You have exceptionally large ears.</td></tr>
-				<tr><td style="text-align:center">4</td><td>A glittering mist constantly surrounds you.</td></tr>
-				<tr><td style="text-align:center">5</td><td>You have a small spectral horn on your forehead, like a little unicorn horn.</td></tr>
-				<tr><td style="text-align:center">6</td><td>Your legs are insectile.</td></tr>
-				<tr><td style="text-align:center">7</td><td>You smell like fresh brownies.</td></tr>
-				<tr><td style="text-align:center">8</td><td>A noticeable, harmless chill surrounds you.</td></tr>
+				<tr>
+					<td style="text-align:center">1</td>
+					<td>Your wings are like those of a bird.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">2</td>
+					<td>You have shimmering, multicolored skin.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">3</td>
+					<td>You have exceptionally large ears.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">4</td>
+					<td>A glittering mist constantly surrounds you.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">5</td>
+					<td>You have a small spectral horn on your forehead, like a little unicorn horn.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">6</td>
+					<td>Your legs are insectile.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">7</td>
+					<td>You smell like fresh brownies.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">8</td>
+					<td>A noticeable, harmless chill surrounds you.</td>
+				</tr>
 			</table>
 			<h4>FAIRY TRAITS</h4>
 			<p>As a fairy, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Fey.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Small.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Fairy Magic.</em></strong> You know the <i>druidcraft</i> cantrip.</p> 
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Fey.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Small.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Fairy Magic.</em>
+				</strong> You know the <i>druidcraft</i> cantrip.</p>
 			<p class="indent">Starting at 3rd level, you can cast the <i>faerie fire</i> spell with this trait. Starting at 5th level, you can also cast the <i>enlarge/reduce</i> spell with this trait. Once you cast the <i>faerie fire</i> or <i>enlarge/reduce</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-			<p class="indent"><strong><em>Flight.</em></strong> You have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.</p>
+			<p class="indent">
+				<strong>
+					<em>Flight.</em>
+				</strong> You have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -49,7 +91,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC" />
 		</rules>
 	</element>
-	
+
 	<element name="Flight" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_FAIRY_FLIGHT">
 		<description>
 			<p>You have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.</p>
@@ -64,7 +106,7 @@
 
 	<element name="Fairy Magic" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC">
 		<description>
-			<p>You know the <i>druidcraft</i> cantrip.</p> 
+			<p>You know the <i>druidcraft</i> cantrip.</p>
 			<p class="indent">Starting at 3rd level, you can cast the <i>faerie fire</i> spell with this trait. Starting at 5th level, you can also cast the <i>enlarge/reduce</i> spell with this trait. Once you cast the <i>faerie fire</i> or <i>enlarge/reduce</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 		</description>

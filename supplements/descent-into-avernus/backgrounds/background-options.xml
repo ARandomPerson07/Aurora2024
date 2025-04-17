@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <info>
-        <name>Character Backgrounds</name>
-        <update version="0.0.2">
-            <file name="background-options.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/descent-into-avernus/backgrounds/background-options.xml" />
-        </update>
-    </info>	
+	<info>
+		<name>Character Backgrounds</name>
+		<update version="0.0.2">
+			<file name="background-options.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/descent-into-avernus/backgrounds/background-options.xml" />
+		</update>
+	</info>
 	<element name="Baldur’s Gate Feature: Religious Community" type="Background Feature" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_BACKGROUND_FEATURE_RELIGIOUS_COMMUNITY">
 		<requirements>ID_BACKGROUND_ACOLYTE</requirements>
 		<supports>Background Feature, Optional Background Feature</supports>
@@ -18,7 +18,7 @@
 		</rules>
 	</element>
 	<element name="Baldur’s Gate Feature: Long-Lost Heir" type="Background Feature" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_BACKGROUND_FEATURE_LONG_LOST_HEIR">
-		<requirements>ID_BACKGROUND_CHARLATAN</requirements>	
+		<requirements>ID_BACKGROUND_CHARLATAN</requirements>
 		<supports>Background Feature, Optional Background Feature</supports>
 		<description>
 			<p>You’re well-versed in the mannerisms and idiosyncrasies of Baldurian patriars and other nobles, imitating them smoothly enough to convince even the snootiest family heads of your authenticity. You’re skilled at posing as the long-lost heir to some imaginary or extinguished patriar lineage.</p>
@@ -30,7 +30,7 @@
 		</rules>
 	</element>
 	<element name="Baldur’s Gate Feature: Criminal Connections" type="Background Feature" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_BACKGROUND_FEATURE_CRIMINAL_CONNECTIONS">
-		<requirements>ID_BACKGROUND_CRIMINAL</requirements>	
+		<requirements>ID_BACKGROUND_CRIMINAL</requirements>
 		<supports>Background Feature, Optional Background Feature</supports>
 		<description>
 			<p>In Baldur’s Gate, crime is just another business. As a result, you can arrange a meeting with a low ranking operative of nearly any business, patriar family, crew, government institution, or—certainly— the Guild. This operative will hear you out and, at their discretion take your information on request up their chain of command. These meetings almost always occur in shady venues.</p>
@@ -133,8 +133,14 @@
 		<supports>Background Feature, Optional Background Feature</supports>
 		<description>
 			<p>You may choose to currently serve in either the Flaming Fist or the Watch. If you do, you have responsibilities related to your post. For as long as you perform these responsibilities, you gain benefits. If you stop performing your responsibilities, though, you lose access to the benefits and might suffer further fallout. Should you lose these benefits, you main regain them by having an unpleasant conversation with your commanding officer and fulfilling your responsibilities for a month.</p>
-			<p class="indent"><strong><em>Flaming Fist.</em></strong> If you serve in the Flaming Fist, once every ten days, you must report to the Seatower of Balduran for training, and you’re required to take a regular shift patrolling either the Lower City or the Outer City. In return, you have access to the Flaming Fist’s fortresses and a direct line of communication with Flaming Fist officers and other soldiers. You can also pass through the city’s gates without question—although you can’t bring guests into the Upper City as a member of the Watch might. Additionally, you’re always welcome as the Three Old Kegs, where the Three Old Toads are glad to greet you with a smile and a mug of ale.</p>
-			<p class="indent"><strong><em>The Watch.</em></strong> If you serve in the Watch, you’re required to conduct a regular patrol in the Upper City or take a regular shift at its gates, and you must report for training in the Watch Citadel once every ten days. In return, you have access to the Citadel and a direct line of communication with Watch officers and officials. Your word carries considerable weight in the High Hall, and most establishments in the Citadel Streets neighborhood are happy to give you and your friends free meals. Additionally, you can escort people into the Upper City without question, regardless of whether they are patriars or have Watch tokens. Outside the Upper City, however, most people regard you with suspicion, and you generally get a chilly reception while in uniform.</p>
+			<p class="indent">
+				<strong>
+					<em>Flaming Fist.</em>
+				</strong> If you serve in the Flaming Fist, once every ten days, you must report to the Seatower of Balduran for training, and you’re required to take a regular shift patrolling either the Lower City or the Outer City. In return, you have access to the Flaming Fist’s fortresses and a direct line of communication with Flaming Fist officers and other soldiers. You can also pass through the city’s gates without question—although you can’t bring guests into the Upper City as a member of the Watch might. Additionally, you’re always welcome as the Three Old Kegs, where the Three Old Toads are glad to greet you with a smile and a mug of ale.</p>
+			<p class="indent">
+				<strong>
+					<em>The Watch.</em>
+				</strong> If you serve in the Watch, you’re required to conduct a regular patrol in the Upper City or take a regular shift at its gates, and you must report for training in the Watch Citadel once every ten days. In return, you have access to the Citadel and a direct line of communication with Watch officers and officials. Your word carries considerable weight in the High Hall, and most establishments in the Citadel Streets neighborhood are happy to give you and your friends free meals. Additionally, you can escort people into the Upper City without question, regardless of whether they are patriars or have Watch tokens. Outside the Upper City, however, most people regard you with suspicion, and you generally get a chilly reception while in uniform.</p>
 		</description>
 		<sheet alt="City Guard" />
 		<rules>
@@ -179,5 +185,5 @@
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 		</rules>
-	</element>	
+	</element>
 </elements>

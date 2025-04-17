@@ -5,7 +5,7 @@
 		<description>Oath of the Crown archetype from the Sword Coast Adventurer’s Guide.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide">Wizards of the Coast</author>
 		<update version="0.0.6">
-			<file name="paladin-thecrown.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/sword-coast-adventurers-guide/classes/paladin-thecrown.xml" />
+			<file name="paladin-thecrown.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/sword-coast-adventurers-guide/classes/paladin-thecrown.xml" />
 		</update>
 	</info>
 
@@ -15,10 +15,22 @@
 			<p>The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the just laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or a sovereign, and undergo their oath as part of their admission to the order's ranks.</p>
 			<h5>TENETS OF THE CROWN</h5>
 			<p>The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.</p>
-			<p class="indent"><b><i>Law.</i></b> The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.</p>
-			<p class="indent"><b><i>Loyalty.</i></b> Your word is your bond. Without loyalty, oaths and laws are meaningless.</p>
-			<p class="indent"><b><i>Courage.</i></b> You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?</p>
-			<p class="indent"><b><i>Responsibility.</i></b> You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations.</p>
+			<p class="indent">
+				<b>
+					<i>Law.</i>
+				</b> The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.</p>
+			<p class="indent">
+				<b>
+					<i>Loyalty.</i>
+				</b> Your word is your bond. Without loyalty, oaths and laws are meaningless.</p>
+			<p class="indent">
+				<b>
+					<i>Courage.</i>
+				</b> You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?</p>
+			<p class="indent">
+				<b>
+					<i>Responsibility.</i>
+				</b> You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations.</p>
 			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_OATH_OF_THE_CROWN_OATH_SPELLS" />
 			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_OATH_OF_THE_CROWN_CHANNEL_DIVINITY" />
 			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_OATH_OF_THE_CROWN_DIVINE_ALLEGIANCE" />
@@ -44,13 +56,41 @@
 			<h5>Oath of the Crown Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Paladin Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Paladin Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>command, compelled duel</em></td></tr>
-				<tr><td>5th</td><td><em>warding bond, zone of truth</em></td></tr>
-				<tr><td>9th</td><td><em>aura of vitality, spirit guardians</em></td></tr>
-				<tr><td>13th</td><td><em>banishment, guardian of faith</em></td></tr>
-				<tr><td>17th</td><td><em>circle of power, geas</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>command, compelled duel</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>warding bond, zone of truth</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>aura of vitality, spirit guardians</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>banishment, guardian of faith</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>circle of power, geas</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">
@@ -72,8 +112,14 @@
 	<element name="Channel Divinity" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_OATH_OF_THE_CROWN_CHANNEL_DIVINITY">
 		<description>
 			<p>When you take this oath at 3rd level, you gain the following Channel Divinity options.</p>
-			<p class="indent"><b><i>Champion Challenge.</i></b> As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is more than 30 feet away from you.</p>
-			<p class="indent"><b><i>Turn the Tide.</i></b> As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.</p>
+			<p class="indent">
+				<b>
+					<i>Champion Challenge.</i>
+				</b> As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is more than 30 feet away from you.</p>
+			<p class="indent">
+				<b>
+					<i>Turn the Tide.</i>
+				</b> As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.</p>
 		</description>
 		<sheet display="false">
 			<description>Champion Challenge / Turn the Tide.</description>
@@ -102,7 +148,7 @@
 			<stat name="cd:turn the tide:hp" value="1" bonus="turn the tide" />
 			<stat name="cd:turn the tide:hp" value="charisma:modifier" bonus="turn the tide" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Divine Allegiance" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_OATH_OF_THE_CROWN_DIVINE_ALLEGIANCE">
 		<description>
 			<p>Starting at 7th level, when a creature within 5 feet of you takes damage, you can use your reaction to magically substitute your own health for that of the target creature, causing that creature not to take the damage. Instead, you take the damage. This damage to you can't be reduced or prevented in any way.</p>

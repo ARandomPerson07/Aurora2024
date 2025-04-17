@@ -3,7 +3,7 @@
 	<info>
 		<name>Items from Critical Role: Call of the Netherdeep</name>
 		<update version="0.0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/critical-role-call-of-the-netherdeep/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/critical-role-call-of-the-netherdeep/items.xml" />
 		</update>
 	</info>
 
@@ -41,7 +41,10 @@
 		<compendium display="false" />
 		<description>
 			<p>The <i>Jewel of Three Prayers</i> is a Vestige of Divergence (see the "Vestiges of Divergence" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a hero—or heroes—who can follow in Alyxian's footsteps.</p>
-			<p class="indent"><strong><em>Dormant State.</em></strong> In this state, the <i>Jewel of Three Prayers</i> is a glittering golden disk attached to a fine golden chain. The chain magically resizes to function as a necklace for the creature that wears it.</p>
+			<p class="indent">
+				<strong>
+					<em>Dormant State.</em>
+				</strong> In this state, the <i>Jewel of Three Prayers</i> is a glittering golden disk attached to a fine golden chain. The chain magically resizes to function as a necklace for the creature that wears it.</p>
 			<p class="indent">In its Dormant State, the jewel has the following properties:</p>
 			<ul>
 				<li>You gain a +1 bonus to AC while wearing the jewel.</li>
@@ -72,14 +75,20 @@
 		<compendium display="false" />
 		<description>
 			<p>The <i>Jewel of Three Prayers</i> is a Vestige of Divergence (see the "Vestiges of Divergence" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a hero—or heroes—who can follow in Alyxian's footsteps.</p>
-			<p class="indent"><strong><em>Dormant State.</em></strong> In this state, the <i>Jewel of Three Prayers</i> is a glittering golden disk attached to a fine golden chain. The chain magically resizes to function as a necklace for the creature that wears it.</p>
+			<p class="indent">
+				<strong>
+					<em>Dormant State.</em>
+				</strong> In this state, the <i>Jewel of Three Prayers</i> is a glittering golden disk attached to a fine golden chain. The chain magically resizes to function as a necklace for the creature that wears it.</p>
 			<p class="indent">In its Dormant State, the jewel has the following properties:</p>
 			<ul>
 				<li>You gain a +1 bonus to AC while wearing the jewel.</li>
 				<li>While wearing or holding the jewel you can use an action to cause it to shed bright light in a 15-foot radius and dim light for an additional 15 feet. The light lasts until you extinguish It (no action required).</li>
 				<li>The jewel has 3 charges and regains all its expended charges daily at dawn. While holding the jewel, you can expend 1 charge from it to cast the <i>invisibility</i> spell.</li>
 			</ul>
-			<p class="indent"><strong><em>Awakened State.</em></strong> In this state, the jewel has received the blessing of Avandra the Change Bringer. Three delicate spires unfurl from the jewels center, like the buds of flowers opening in the spring. Three lapis lazuli stones rest like dewdrops on these spires.</p>
+			<p class="indent">
+				<strong>
+					<em>Awakened State.</em>
+				</strong> In this state, the jewel has received the blessing of Avandra the Change Bringer. Three delicate spires unfurl from the jewels center, like the buds of flowers opening in the spring. Three lapis lazuli stones rest like dewdrops on these spires.</p>
 			<p class="indent">The following benefits of the jewel improve:</p>
 			<ul>
 				<li>The bonus that the jewel confers to your AC increases to +2.</li>
@@ -113,14 +122,20 @@
 	<element name="Jewel of Three Prayers (Exalted)" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_JEWEL_OF_THREE_PRAYERS_EXALTED">
 		<description>
 			<p>The <i>Jewel of Three Prayers</i> is a Vestige of Divergence (see the "Vestiges of Divergence" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a hero—or heroes—who can follow in Alyxian's footsteps.</p>
-			<p class="indent"><strong><em>Dormant State.</em></strong> In this state, the <i>Jewel of Three Prayers</i> is a glittering golden disk attached to a fine golden chain. The chain magically resizes to function as a necklace for the creature that wears it.</p>
+			<p class="indent">
+				<strong>
+					<em>Dormant State.</em>
+				</strong> In this state, the <i>Jewel of Three Prayers</i> is a glittering golden disk attached to a fine golden chain. The chain magically resizes to function as a necklace for the creature that wears it.</p>
 			<p class="indent">In its Dormant State, the jewel has the following properties:</p>
 			<ul>
 				<li>You gain a +1 bonus to AC while wearing the jewel.</li>
 				<li>While wearing or holding the jewel you can use an action to cause it to shed bright light in a 15-foot radius and dim light for an additional 15 feet. The light lasts until you extinguish It (no action required).</li>
 				<li>The jewel has 3 charges and regains all its expended charges daily at dawn. While holding the jewel, you can expend 1 charge from it to cast the <i>invisibility</i> spell.</li>
 			</ul>
-			<p class="indent"><strong><em>Awakened State.</em></strong> In this state, the jewel has received the blessing of Avandra the Change Bringer. Three delicate spires unfurl from the jewels center, like the buds of flowers opening in the spring. Three lapis lazuli stones rest like dewdrops on these spires.</p>
+			<p class="indent">
+				<strong>
+					<em>Awakened State.</em>
+				</strong> In this state, the jewel has received the blessing of Avandra the Change Bringer. Three delicate spires unfurl from the jewels center, like the buds of flowers opening in the spring. Three lapis lazuli stones rest like dewdrops on these spires.</p>
 			<p class="indent">The following benefits of the jewel improve:</p>
 			<ul>
 				<li>The bonus that the jewel confers to your AC increases to +2.</li>
@@ -131,7 +146,10 @@
 				<li>You can expend 1 of the jewels charges (no action required) to end one of the following conditions on yourself: grappled, paralyzed, or restrained.</li>
 				<li>When another creature you can see within 60 feel of you fails a saving throw, you can expend 1 of the jewel's charges as a reaction to enable that creature to reroll the saving throw, potentially turning a failure into a success. The creature must use the new roll.</li>
 			</ul>
-			<p class="indent"><strong><em>Exalted State.</em></strong> In this state, the jewel has received the blessing of Corellon the Arch Heart. A gleaming emerald surrounded by a halo of gold appears on the jewel.</p>
+			<p class="indent">
+				<strong>
+					<em>Exalted State.</em>
+				</strong> In this state, the jewel has received the blessing of Corellon the Arch Heart. A gleaming emerald surrounded by a halo of gold appears on the jewel.</p>
 			<p class="indent">The following benefits of the jewel improve:</p>
 			<ul>
 				<li>The bonus that the jewel confers to your AC increases to +3.</li>
@@ -264,15 +282,25 @@
 				<li>You can breathe water.</li>
 				<li>You gain a swimming speed equal to your walking speed.</li>
 			</ul>
-			<p class="indent"><strong><em>Ruidium Rage.</em></strong> As a bonus action, you can use the ring to gain the following benefits, which last for 1 minute or until you are incapacitated:</p>
+			<p class="indent">
+				<strong>
+					<em>Ruidium Rage.</em>
+				</strong> As a bonus action, you can use the ring to gain the following benefits, which last for 1 minute or until you are incapacitated:</p>
 			<ul>
 				<li>You have advantage on Strength checks and Strength saving throws.</li>
 				<li>When you hit with an attack, you can add your proficiency bonus to the damage roll.</li>
 				<li>Difficult terrain doesn't cost you extra movement, and you are immune to the paralyzed and restrained conditions.</li>
 			</ul>
 			<p class="indent">You can't use this property of the ring again until you finish a long rest.</p>
-			<p class="indent"><strong><em>Ruidium Corruption.</em></strong> When you use the Ruidium Rage property of the ring, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.</p>
-			<p class="indent"><strong><em>If Ruidium Is Destroyed.</em></strong> If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and the <i>ring of red fury</i> becomes a <i>ring of free action</i>.</p>
+			<p class="indent">
+				<strong>
+					<em>Ruidium Corruption.</em>
+				</strong> When you use the Ruidium Rage property of the ring, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.</p>
+			<p class="indent">
+				<strong>
+					<em>If Ruidium Is Destroyed.</em>
+				</strong> If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and the <i>ring of red fury</i> becomes a <i>ring of free action</i>.
+			</p>
 		</description>
 		<setters>
 			<set name="category">Rings</set>
@@ -295,8 +323,15 @@
 				<li>You can breathe water.</li>
 				<li>You gain a swimming speed equal to your walking speed.</li>
 			</ul>
-			<p class="indent"><strong><em>Ruidium Corruption.</em></strong> When you roll a 1 on a saving throw while wearing this armor, you must make a DC 15 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.</p>
-			<p class="indent"><strong><em>If Ruidium Is Destroyed.</em></strong> If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and <i>ruidium armor</i> becomes <i>+1 armor</i>.</p>
+			<p class="indent">
+				<strong>
+					<em>Ruidium Corruption.</em>
+				</strong> When you roll a 1 on a saving throw while wearing this armor, you must make a DC 15 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.</p>
+			<p class="indent">
+				<strong>
+					<em>If Ruidium Is Destroyed.</em>
+				</strong> If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and <i>ruidium armor</i> becomes <i>+1 armor</i>.
+			</p>
 		</description>
 		<setters>
 			<set name="category">Magic Armor</set>
@@ -322,9 +357,19 @@
 				<li>You can breathe water.</li>
 				<li>You gain a swimming speed equal to your walking speed.</li>
 			</ul>
-			<p class="indent"><strong><em>Psychic Reflection.</em></strong> When you take psychic damage while holding the shield, you can use your reaction to choose another creature you can see within 30 feet of you. That creature takes the psychic damage you would have taken.</p>
-			<p class="indent"><strong><em>Ruidium Corruption.</em></strong> When you use the shield's Psychic Reflection property, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.</p>
-			<p class="indent"><strong><em>If Ruidium Is Destroyed.</em></strong> If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and a <i>ruidium shield</i> becomes a <i>+2 shield</i>.</p>
+			<p class="indent">
+				<strong>
+					<em>Psychic Reflection.</em>
+				</strong> When you take psychic damage while holding the shield, you can use your reaction to choose another creature you can see within 30 feet of you. That creature takes the psychic damage you would have taken.</p>
+			<p class="indent">
+				<strong>
+					<em>Ruidium Corruption.</em>
+				</strong> When you use the shield's Psychic Reflection property, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.</p>
+			<p class="indent">
+				<strong>
+					<em>If Ruidium Is Destroyed.</em>
+				</strong> If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and a <i>ruidium shield</i> becomes a <i>+2 shield</i>.
+			</p>
 		</description>
 		<setters>
 			<set name="category">Magic Armor</set>
@@ -347,9 +392,19 @@
 				<li>You can breathe water.</li>
 				<li>You gain a swimming speed equal to your walking speed.</li>
 			</ul>
-			<p class="indent"><strong><em>Ruidium Strike.</em></strong> A creature you hit with this weapon takes an extra 2d6 psychic damage.</p>
-			<p class="indent"><strong><em>Ruidium Corruption.</em></strong> When you roll a 1 on an attack roll made with this weapon, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.</p>
-			<p class="indent"><strong><em>If Ruidium Is Destroyed.</em></strong> If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and a <i>ruidium weapon</i> becomes a <i>+2 weapon</i>.</p>
+			<p class="indent">
+				<strong>
+					<em>Ruidium Strike.</em>
+				</strong> A creature you hit with this weapon takes an extra 2d6 psychic damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Ruidium Corruption.</em>
+				</strong> When you roll a 1 on an attack roll made with this weapon, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of exhaustion. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.</p>
+			<p class="indent">
+				<strong>
+					<em>If Ruidium Is Destroyed.</em>
+				</strong> If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and a <i>ruidium weapon</i> becomes a <i>+2 weapon</i>.
+			</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -383,8 +438,10 @@
 	<!-- Fragments of Suffering -->
 	<element name="Fragment of Abhorrence" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_FRAGMENT_OF_ABHORRENCE">
 		<description>
-			<p><b>Benefit.</b> Once on each of your turns when you hit a creature with a weapon attack roll, you can force the target to move up to 10 feet away from you in a direction af your choice. A creature that can't be frightened is immune to this effect.</p>
-			<p><b>Drawback.</b> If you start your turn frightened, you take 2d6 psychic damage.</p>
+			<p>
+				<b>Benefit.</b> Once on each of your turns when you hit a creature with a weapon attack roll, you can force the target to move up to 10 feet away from you in a direction af your choice. A creature that can't be frightened is immune to this effect.</p>
+			<p>
+				<b>Drawback.</b> If you start your turn frightened, you take 2d6 psychic damage.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -395,12 +452,14 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_ABHORRENCE" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Fragment of Abhorrence" type="Racial Trait" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_ABHORRENCE">
 		<compendium display="false" />
 		<description>
-			<p><b>Benefit.</b> Once on each of your turns when you hit a creature with a weapon attack roll, you can force the target to move up to 10 feet away from you in a direction af your choice. A creature that can't be frightened is immune to this effect.</p>
-			<p><b>Drawback.</b> If you start your turn frightened, you take 2d6 psychic damage.</p>
+			<p>
+				<b>Benefit.</b> Once on each of your turns when you hit a creature with a weapon attack roll, you can force the target to move up to 10 feet away from you in a direction af your choice. A creature that can't be frightened is immune to this effect.</p>
+			<p>
+				<b>Drawback.</b> If you start your turn frightened, you take 2d6 psychic damage.</p>
 		</description>
 		<sheet>
 			<description>Benefit. Once on each of your turns when you hit a creature with a weapon attack roll, you can force the target to move up to 10 feet away from you in a direction af your choice. A creature that can't be frightened is immune to this effect. &#13;
@@ -410,8 +469,10 @@
 
 	<element name="Fragment of Despondence" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_FRAGMENT_OF_DESPONDENCE">
 		<description>
-			<p><b>Benefit.</b> You are immune to the charmed condition.</p>
-			<p><b>Drawback.</b> You can't take the Help action.</p>
+			<p>
+				<b>Benefit.</b> You are immune to the charmed condition.</p>
+			<p>
+				<b>Drawback.</b> You can't take the Help action.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -422,12 +483,14 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_DESPONDENCE" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Fragment of Despondence" type="Racial Trait" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_DESPONDENCE">
 		<compendium display="false" />
 		<description>
-			<p><b>Benefit.</b> You are immune to the charmed condition.</p>
-			<p><b>Drawback.</b> You can't take the Help action.</p>
+			<p>
+				<b>Benefit.</b> You are immune to the charmed condition.</p>
+			<p>
+				<b>Drawback.</b> You can't take the Help action.</p>
 		</description>
 		<sheet>
 			<description>Benefit. You are immune to the charmed condition. &#13;
@@ -437,8 +500,10 @@
 
 	<element name="Fragment of Melancholy" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_FRAGMENT_OF_MELANCHOLY">
 		<description>
-			<p><b>Benefit.</b> When you fail a Wisdom or Charisma saving throw, you can reroll it with advantage, potentially turning a failure into a success. After you use this benefit, you must finish a long rest before you can use it again.</p>
-			<p><b>Drawback.</b> If you use this fragment's benefit and it doesn't turn a failed saving throw into a success, you are incapacitated until the end of your next turn, overcome with despair.</p>
+			<p>
+				<b>Benefit.</b> When you fail a Wisdom or Charisma saving throw, you can reroll it with advantage, potentially turning a failure into a success. After you use this benefit, you must finish a long rest before you can use it again.</p>
+			<p>
+				<b>Drawback.</b> If you use this fragment's benefit and it doesn't turn a failed saving throw into a success, you are incapacitated until the end of your next turn, overcome with despair.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -449,12 +514,14 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_MELANCHOLY" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Fragment of Melancholy" type="Racial Trait" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_MELANCHOLY">
 		<compendium display="false" />
 		<description>
-			<p><b>Benefit.</b> When you fail a Wisdom or Charisma saving throw, you can reroll it with advantage, potentially turning a failure into a success. After you use this benefit, you must finish a long rest before you can use it again.</p>
-			<p><b>Drawback.</b> If you use this fragment's benefit and it doesn't turn a failed saving throw into a success, you are incapacitated until the end of your next turn, overcome with despair.</p>
+			<p>
+				<b>Benefit.</b> When you fail a Wisdom or Charisma saving throw, you can reroll it with advantage, potentially turning a failure into a success. After you use this benefit, you must finish a long rest before you can use it again.</p>
+			<p>
+				<b>Drawback.</b> If you use this fragment's benefit and it doesn't turn a failed saving throw into a success, you are incapacitated until the end of your next turn, overcome with despair.</p>
 		</description>
 		<sheet>
 			<description>Benefit. When you fail a Wisdom or Charisma saving throw, you can reroll it with advantage, potentially turning a failure into a success. After you use this benefit, you must finish a long rest before you can use it again. &#13;
@@ -464,8 +531,10 @@
 
 	<element name="Fragment of Attachment" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_FRAGMENT_OF_ATTACHMENT">
 		<description>
-			<p><b>Benefit.</b> You can't be frightened while within 10 feet af an ally. If you're already frightened and move within 10 feet of an ally, the frightened condition ends on you.</p>
-			<p><b>Drawback.</b> You have disadvantage on Wisdom and Charisma saving throws while you aren't within 10 feet of an ally.</p>
+			<p>
+				<b>Benefit.</b> You can't be frightened while within 10 feet af an ally. If you're already frightened and move within 10 feet of an ally, the frightened condition ends on you.</p>
+			<p>
+				<b>Drawback.</b> You have disadvantage on Wisdom and Charisma saving throws while you aren't within 10 feet of an ally.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -476,12 +545,14 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_ATTACHMENT" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Fragment of Attachment" type="Racial Trait" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_ATTACHMENT">
 		<compendium display="false" />
 		<description>
-			<p><b>Benefit.</b> You can't be frightened while within 10 feet af an ally. If you're already frightened and move within 10 feet of an ally, the frightened condition ends on you.</p>
-			<p><b>Drawback.</b> You have disadvantage on Wisdom and Charisma saving throws while you aren't within 10 feet of an ally.</p>
+			<p>
+				<b>Benefit.</b> You can't be frightened while within 10 feet af an ally. If you're already frightened and move within 10 feet of an ally, the frightened condition ends on you.</p>
+			<p>
+				<b>Drawback.</b> You have disadvantage on Wisdom and Charisma saving throws while you aren't within 10 feet of an ally.</p>
 		</description>
 		<sheet>
 			<description>Benefit. You can't be frightened while within 10 feet af an ally. If you're already frightened and move within 10 feet of an ally, the frightened condition ends on you. &#13;
@@ -491,8 +562,10 @@
 
 	<element name="Fragment of Intransigence" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_FRAGMENT_OF_INTRANSIGENCE">
 		<description>
-			<p><b>Benefit.</b> Another creature can't force you to move anywhere you don't want to go.</p>
-			<p><b>Drawback.</b> You can't take the Disengage or Dodge action.</p>
+			<p>
+				<b>Benefit.</b> Another creature can't force you to move anywhere you don't want to go.</p>
+			<p>
+				<b>Drawback.</b> You can't take the Disengage or Dodge action.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -503,12 +576,14 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_INTRANSIGENCE" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Fragment of Intransigence" type="Racial Trait" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_INTRANSIGENCE">
 		<compendium display="false" />
 		<description>
-			<p><b>Benefit.</b> Another creature can't force you to move anywhere you don't want to go.</p>
-			<p><b>Drawback.</b> You can't take the Disengage or Dodge action.</p>
+			<p>
+				<b>Benefit.</b> Another creature can't force you to move anywhere you don't want to go.</p>
+			<p>
+				<b>Drawback.</b> You can't take the Disengage or Dodge action.</p>
 		</description>
 		<sheet>
 			<description>Benefit. Another creature can't force you to move anywhere you don't want to go. &#13;
@@ -518,8 +593,10 @@
 
 	<element name="Fragment of Pity" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_FRAGMENT_OF_PITY">
 		<description>
-			<p><b>Benefit.</b> Each time you spend a Hit Die to regain hit points, you regain additional hit points equal to your proficiency bonus.</p>
-			<p><b>Drawback.</b> You have disadvantage on death saving throws.</p>
+			<p>
+				<b>Benefit.</b> Each time you spend a Hit Die to regain hit points, you regain additional hit points equal to your proficiency bonus.</p>
+			<p>
+				<b>Drawback.</b> You have disadvantage on death saving throws.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -530,12 +607,14 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_PITY" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Fragment of Pity" type="Racial Trait" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_PITY">
 		<compendium display="false" />
 		<description>
-			<p><b>Benefit.</b> Each time you spend a Hit Die to regain hit points, you regain additional hit points equal to your proficiency bonus.</p>
-			<p><b>Drawback.</b> You have disadvantage on death saving throws.</p>
+			<p>
+				<b>Benefit.</b> Each time you spend a Hit Die to regain hit points, you regain additional hit points equal to your proficiency bonus.</p>
+			<p>
+				<b>Drawback.</b> You have disadvantage on death saving throws.</p>
 		</description>
 		<sheet>
 			<description>Benefit. Each time you spend a Hit Die to regain hit points, you regain additional hit points equal to your proficiency bonus. &#13;
@@ -545,8 +624,10 @@
 
 	<element name="Fragment of Deception" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_FRAGMENT_OF_DECEPTION">
 		<description>
-			<p><b>Benefit.</b> When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you make a damage roll or cast a spell.</p>
-			<p><b>Drawback.</b> You have disadvantage on Wisdom checks.</p>
+			<p>
+				<b>Benefit.</b> When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you make a damage roll or cast a spell.</p>
+			<p>
+				<b>Drawback.</b> You have disadvantage on Wisdom checks.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -557,12 +638,14 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_DECEPTION" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Fragment of Deception" type="Racial Trait" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_DECEPTION">
 		<compendium display="false" />
 		<description>
-			<p><b>Benefit.</b> When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you make a damage roll or cast a spell.</p>
-			<p><b>Drawback.</b> You have disadvantage on Wisdom checks.</p>
+			<p>
+				<b>Benefit.</b> When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you make a damage roll or cast a spell.</p>
+			<p>
+				<b>Drawback.</b> You have disadvantage on Wisdom checks.</p>
 		</description>
 		<sheet>
 			<description>Benefit. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you make a damage roll or cast a spell. &#13;
@@ -572,8 +655,10 @@
 
 	<element name="Fragment of Loathing" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_FRAGMENT_OF_LOATHING">
 		<description>
-			<p><b>Benefit.</b> When a creature damages you with a weapon attack or a spell, you can focus your hatred on that creature. Until the end af your next turn, you have advantage on attack rolls you make against the creature. You can focus your hatred on only one creature at a time.</p>
-			<p><b>Drawback.</b> You have disadvantage on Charisma checks.</p>
+			<p>
+				<b>Benefit.</b> When a creature damages you with a weapon attack or a spell, you can focus your hatred on that creature. Until the end af your next turn, you have advantage on attack rolls you make against the creature. You can focus your hatred on only one creature at a time.</p>
+			<p>
+				<b>Drawback.</b> You have disadvantage on Charisma checks.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -584,12 +669,14 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_LOATHING" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Fragment of Loathing" type="Racial Trait" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_LOATHING">
 		<compendium display="false" />
 		<description>
-			<p><b>Benefit.</b> When a creature damages you with a weapon attack or a spell, you can focus your hatred on that creature. Until the end af your next turn, you have advantage on attack rolls you make against the creature. You can focus your hatred on only one creature at a time.</p>
-			<p><b>Drawback.</b> You have disadvantage on Charisma checks.</p>
+			<p>
+				<b>Benefit.</b> When a creature damages you with a weapon attack or a spell, you can focus your hatred on that creature. Until the end af your next turn, you have advantage on attack rolls you make against the creature. You can focus your hatred on only one creature at a time.</p>
+			<p>
+				<b>Drawback.</b> You have disadvantage on Charisma checks.</p>
 		</description>
 		<sheet>
 			<description>Benefit. When a creature damages you with a weapon attack or a spell, you can focus your hatred on that creature. Until the end af your next turn, you have advantage on attack rolls you make against the creature. You can focus your hatred on only one creature at a time. &#13;
@@ -599,8 +686,10 @@
 
 	<element name="Fragment of Rancor" type="Magic Item" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_MAGIC_ITEM_FRAGMENT_OF_RANCOR">
 		<description>
-			<p><b>Benefit.</b> When you hit a creature with an attack, you can choose to deal either an extra 2d6 psychic damage to the creature or 4d6 psychic damage to each other creature within 5 feet of it. After you use this benefit, you must finish a short or long rest before you can use it again.</p>
-			<p><b>Drawback.</b> Whenever you are not unconscious and fail a saving throw, you take 2d6 psychic damage.</p>
+			<p>
+				<b>Benefit.</b> When you hit a creature with an attack, you can choose to deal either an extra 2d6 psychic damage to the creature or 4d6 psychic damage to each other creature within 5 feet of it. After you use this benefit, you must finish a short or long rest before you can use it again.</p>
+			<p>
+				<b>Drawback.</b> Whenever you are not unconscious and fail a saving throw, you take 2d6 psychic damage.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -611,12 +700,14 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_RANCOR" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Fragment of Rancor" type="Racial Trait" source="Critical Role: Call of the Netherdeep" id="ID_WOTC_CRCN_RACIAL_TRAIT_FRAGMENT_OF_RANCOR">
 		<compendium display="false" />
 		<description>
-			<p><b>Benefit.</b> When you hit a creature with an attack, you can choose to deal either an extra 2d6 psychic damage to the creature or 4d6 psychic damage to each other creature within 5 feet of it. After you use this benefit, you must finish a short or long rest before you can use it again.</p>
-			<p><b>Drawback.</b> Whenever you are not unconscious and fail a saving throw, you take 2d6 psychic damage.</p>
+			<p>
+				<b>Benefit.</b> When you hit a creature with an attack, you can choose to deal either an extra 2d6 psychic damage to the creature or 4d6 psychic damage to each other creature within 5 feet of it. After you use this benefit, you must finish a short or long rest before you can use it again.</p>
+			<p>
+				<b>Drawback.</b> Whenever you are not unconscious and fail a saving throw, you take 2d6 psychic damage.</p>
 		</description>
 		<sheet>
 			<description>Benefit. When you hit a creature with an attack, you can choose to deal either an extra 2d6 psychic damage to the creature or 4d6 psychic damage to each other creature within 5 feet of it. After you use this benefit, you must finish a short or long rest before you can use it again. &#13;

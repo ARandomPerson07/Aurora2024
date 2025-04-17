@@ -5,7 +5,7 @@
 		<description>New spells have been unearthed this week, a collection of cantrips and 1st-level spells for characters to choose from at the start of their spellcasting careers and beyond.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/starter-spells">Wizards of the Coast</author>
 		<update version="0.0.2">
-			<file name="20170403.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2017/20170403.xml" />
+			<file name="20170403.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2017/20170403.xml" />
 		</update>
 	</info>
 
@@ -106,7 +106,7 @@
 	<element name="Sense Emotion" type="Spell" source="Unearthed Arcana: Starter Spells" id="ID_WOTC_UA20170403_SPELL_SENSE_EMOTION">
 		<supports>Bard, Warlock, Wizard</supports>
 		<description>
-			<p>You attune your senses to pick up the emotions of others for the duration. When you cast the spell, and as your action on each turn until the spell ends, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.</p>      
+			<p>You attune your senses to pick up the emotions of others for the duration. When you cast the spell, and as your action on each turn until the spell ends, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.</p>
 		</description>
 		<setters>
 			<set name="level">1</set>

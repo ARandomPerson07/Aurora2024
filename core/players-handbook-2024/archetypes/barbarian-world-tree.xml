@@ -5,7 +5,7 @@
 		<description>The Path of the World Tree subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.3">
-			<file name="barbarian-berserker.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/barbarian-berserker.xml" />
+			<file name="barbarian-berserker.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/barbarian-berserker.xml" />
 		</update>
 	</info>
 
@@ -34,8 +34,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_24_WORLD_TREE_VITALITY_OF_THE_TREE</requirements>
 		<description>
 			<p>Your Rage taps into the life force of the World Tree. You gain the following benefits.</p>
-			<p class="indent"><em><strong>Vitality Surge.</strong></em> When you activate your Rage, you gain a number of Temporary Hit Points equal to your Barbarian level.</p>
-			<p class="indent"><em><strong>Life-Giving Force.</strong></em> At the start of each of your turns while your Rage is active, you can choose another creature within 10 feet of yourself to gain Temporary Hit Points. To determine the number of Temporary Hit Points, roll a number of d6s equal to your Rage Damage bonus, and add them together. If any of these Temporary Hit Points remain when your Rage ends, they vanish.</p>
+			<p class="indent">
+				<em>
+					<strong>Vitality Surge.</strong>
+				</em> When you activate your Rage, you gain a number of Temporary Hit Points equal to your Barbarian level.</p>
+			<p class="indent">
+				<em>
+					<strong>Life-Giving Force.</strong>
+				</em> At the start of each of your turns while your Rage is active, you can choose another creature within 10 feet of yourself to gain Temporary Hit Points. To determine the number of Temporary Hit Points, roll a number of d6s equal to your Rage Damage bonus, and add them together. If any of these Temporary Hit Points remain when your Rage ends, they vanish.</p>
 		</description>
 		<sheet alt="Vitality of the Tree">
 			<description>When you activate your Rage, you gain {{level:barbarian}} Temporary Hit Points. &#13;

@@ -2,9 +2,9 @@
 <elements>
 	<info>
 		<update version="0.1.1">
-			<file name="spells.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/rime-of-the-frostmaiden/spells.xml" />
+			<file name="spells.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/rime-of-the-frostmaiden/spells.xml" />
 		</update>
-	</info>	
+	</info>
 	<element name="Blade of Disaster" type="Spell" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_SPELL_BLADE_OF_DISASTER">
 		<supports>Wizard, Melee, Spell Attack</supports>
 		<description>
@@ -54,7 +54,10 @@
 		<description>
 			<p>Freezing cold blasts from your fingertips in a 15-foot cone. Each creature in that area must make a Constitution saving throw, taking 2d8 cold damage on a failed save, or half as much damage on a successful one.</p>
 			<p class="indent">The cold freezes nonmagical liquids in the area that aren't being worn or carried.</p>
-			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+			<p class="indent">
+				<strong>
+					<em>At Higher Levels.</em>
+				</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>

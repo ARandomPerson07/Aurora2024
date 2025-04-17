@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <info>
-        <name>Items</name>
+	<info>
+		<name>Items</name>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
-        <update version="0.0.4">
-            <file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/guildmasters-guide-to-ravnica/items.xml" />
-        </update>
-    </info>
+		<update version="0.0.4">
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/guildmasters-guide-to-ravnica/items.xml" />
+		</update>
+	</info>
 
 	<element name="Cup of Coffee" type="Item" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ITEM_CUP_OF_COFFEE">
 		<description>
@@ -59,7 +59,7 @@
 			<set name="weight" lb="0">0 lb.</set>
 		</setters>
 	</element>
-	
+
 	<element name="Azorius Senate Guild Insignia" type="Item" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ITEM_AZORIUS_SENATE_GUILD_INSIGNIA">
 		<description>
 			<p>Members of Ravnica’s guilds typically carry guild insignia with them, though in some cases (notably House Dimir) the insignia might be carefully hidden. A replacement insignia costs 5 gp and is available only to members of the guild. Any character can use the insignia of their guild as a spellcasting focus.</p>
@@ -170,7 +170,7 @@
 			<set name="slot">neck</set>
 		</setters>
 	</element>
-	
+
 	<element name="Azorius Charm" type="Magic Item" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_MAGIC_ITEM_AZORIUS_CHARM">
 		<description>
 			<p>When you activate this charm, you can cast the hold person (3rd-level version), command, or counterspell spell. The charm vanishes after you activate it.</p>
@@ -271,7 +271,7 @@
 			<set name="slot">gift</set>
 		</setters>
 	</element>
-	
+
 	<element name="Azorius Guild Signet" type="Magic Item" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_MAGIC_ITEM_AZORIUS_GUILD_SIGNET">
 		<description>
 			<p>This ring, adorned with the symbol of the Azorius guild, allows you to cast <em>ensnaring strike</em>. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor.</p>
@@ -402,7 +402,7 @@
 			<set name="charges">3</set>
 		</setters>
 	</element>
-	
+
 	<element name="Azorius Keyrune" type="Magic Item" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_MAGIC_ITEM_AZORIUS_KEYRUNE">
 		<description>
 			<p>This keyrune is carved from white marble and lapis lazuli to resemble a noble bird of prey. It can become a <strong>giant eagle</strong> for up to 1 hour. While the transformed eagle is within 1 mile of you, you can communicate with it telepathically. As an action, you can see through the eagle's eyes and hear what it hears until the start of your next turn, and you gain the benefit of its keen sight. During this time, you are deaf and blind with regard to your own senses.</p>
@@ -553,7 +553,7 @@
 			<set name="attunement" addition="by a member of the simic guild">true</set>
 		</setters>
 	</element>
-	
+
 	<element name="Illusionist’s Bracers" type="Magic Item" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_MAGIC_ITEM_ILLUSIONISTS_BRACERS">
 		<description>
 			<p>A powerful illusionist of House Dimir originally developed these bracers, which enabled her to create multiple minor illusions at once. The bracers' power, though, extends far beyond illusions.</p>
@@ -576,58 +576,151 @@
 			<h5>1ST-LEVEL SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Spell</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Spell</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>burning hands</td></tr>
-				<tr><td>2</td><td>chaos bolt</td></tr>
-				<tr><td>3</td><td>color spray</td></tr>
-				<tr><td>4</td><td>faerie fire</td></tr>
-				<tr><td>5</td><td>fog cloud</td></tr>
-				<tr><td>6</td><td>thunderwave</td></tr>
+				<tr>
+					<td>1</td>
+					<td>burning hands</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>chaos bolt</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>color spray</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>faerie fire</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>fog cloud</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>thunderwave</td>
+				</tr>
 			</table>
 			<h5>2ND-LEVEL SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Spell</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Spell</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>blur</td></tr>
-				<tr><td>2</td><td>gust of wind</td></tr>
-				<tr><td>3</td><td>heat metal</td></tr>
-				<tr><td>4</td><td>Melf's acid arrow</td></tr>
-				<tr><td>5</td><td>scorching ray</td></tr>
-				<tr><td>6</td><td>shatter</td></tr>
+				<tr>
+					<td>1</td>
+					<td>blur</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>gust of wind</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>heat metal</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Melf's acid arrow</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>scorching ray</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>shatter</td>
+				</tr>
 			</table>
 			<h5>3RD-LEVEL SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Spell</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Spell</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>fear</td></tr>
-				<tr><td>2</td><td>feign death</td></tr>
-				<tr><td>3</td><td>fireball</td></tr>
-				<tr><td>4</td><td>gaseous form</td></tr>
-				<tr><td>5</td><td>sleet storm</td></tr>
-				<tr><td>6</td><td>stinking cloud</td></tr>
+				<tr>
+					<td>1</td>
+					<td>fear</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>feign death</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>fireball</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>gaseous form</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>sleet storm</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>stinking cloud</td>
+				</tr>
 			</table>
 			<h5>4TH-LEVEL SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>d4</td><td>Spell</td></tr>
+					<tr>
+						<td>d4</td>
+						<td>Spell</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>confusion</td></tr>
-				<tr><td>2</td><td>conjure minor elementals</td></tr>
-				<tr><td>3</td><td>Evard's black tentacles</td></tr>
-				<tr><td>4</td><td>ice storm</td></tr>
+				<tr>
+					<td>1</td>
+					<td>confusion</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>conjure minor elementals</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Evard's black tentacles</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>ice storm</td>
+				</tr>
 			</table>
 			<h5>5TH-LEVEL SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>d4</td><td>Spell</td></tr>
+					<tr>
+						<td>d4</td>
+						<td>Spell</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>animate objects</td></tr>
-				<tr><td>2</td><td>cloudkill</td></tr>
-				<tr><td>3</td><td>cone of cold</td></tr>
-				<tr><td>4</td><td>flame strike</td></tr>
+				<tr>
+					<td>1</td>
+					<td>animate objects</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>cloudkill</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>cone of cold</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>flame strike</td>
+				</tr>
 			</table>
 		</description>
 		<setters>
@@ -638,12 +731,12 @@
 			<set name="rarity">Uncommon</set>
 			<set name="attunement" addition="by a sorcerer, warlock, or wiziard">true</set>
 		</setters>
-	</element>	
+	</element>
 	<element name="Mizzium Armor" type="Magic Item" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_MAGIC_ITEM_MIZZIUM_ARMOR">
 		<description>
 			<p>This suit of armor is reinforced with a magically enhanced metal alloy called mizzium, which is made in Izzet foundries. While you're wearing the armor, any critical hit against you becomes a normal hit. In addition, when you are subjected to a magical effect that allows you to make a Strength or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw.</p>
 		</description>
-		<setters>		
+		<setters>
 			<set name="keywords">medium, heavy</set>
 			<set name="category">Magic Armor</set>
 			<set name="cost" currency="gp">0</set>
@@ -659,8 +752,14 @@
 		<description>
 			<p>This short tube, about 2 feet long and 6 inches in diameter, is made from mizzium, a magically enhanced metal alloy forged by the Izzet League. The end that's pointed toward a target is open, and a glowing ball of molten metal can be seen at the other end as long as the mortar has at least 1 charge remaining.</p>
 			<p class="indent">The mortar has 4 charges for the following properties. It regains 1d4 expended charges daily at dawn.</p>
-			<p class="indent"><strong><em>Molten Spray.</em></strong> You can expend 1 charge as an action to loose a 30-foot cone of molten mizzium. Each creature in the area must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one.</p>
-			<p class="indent"><strong><em>Mizzium Bombard.</em></strong> You can expend 3 charges as an action to launch a hail of molten projectiles in a 20-foot-radius, 40-foot-high cylinder centered on a point you can see within 60 feet of you. Each creature in the area must make a DC 15 Dexterity saving throw. A creature takes 5d8 fire damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent">
+				<strong>
+					<em>Molten Spray.</em>
+				</strong> You can expend 1 charge as an action to loose a 30-foot cone of molten mizzium. Each creature in the area must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent">
+				<strong>
+					<em>Mizzium Bombard.</em>
+				</strong> You can expend 3 charges as an action to launch a hail of molten projectiles in a 20-foot-radius, 40-foot-high cylinder centered on a point you can see within 60 feet of you. Each creature in the area must make a DC 15 Dexterity saving throw. A creature takes 5d8 fire damage on a failed save, or half as much damage on a successful one.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -729,8 +828,14 @@
 			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. Its blade is cruelly serrated, and its hilt resembles a demonic head and wings. Whenever you slay a creature with an attack using the dagger, the creature's soul is imprisoned inside the dagger, and that creature can be restored to life only by a wish spell. The dagger can hold a maximum of five souls.</p>
 			<p class="indent">For each soul imprisoned in the dagger, your attacks with it deal an extra 1d4 necrotic damage on a hit. While the dagger is within 5 feet of you, your dreams are haunted by whispers from the trapped souls.</p>
 			<p class="indent">The dagger has the following additional properties.</p>
-			<p class="indent"><strong><em>Siphon Vitality.</em></strong> As a bonus action, you can release any number of stored souls from the dagger to regain 1d10 hit points per soul released.</p>
-			<p class="indent"><strong><em>Annihilation.</em></strong> If the dagger holds five souls, you can use this property: As a reaction immediately after you hit a creature with the dagger and deal damage to that target, you can release all five souls. If the target now has fewer than 75 hit points, it must succeed on a DC 15 Constitution saving throw or die. If the target dies, you can't use this property again until you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Siphon Vitality.</em>
+				</strong> As a bonus action, you can release any number of stored souls from the dagger to regain 1d10 hit points per soul released.</p>
+			<p class="indent">
+				<strong>
+					<em>Annihilation.</em>
+				</strong> If the dagger holds five souls, you can use this property: As a reaction immediately after you hit a creature with the dagger and deal damage to that target, you can release all five souls. If the target now has fewer than 75 hit points, it must succeed on a DC 15 Constitution saving throw or die. If the target dies, you can't use this property again until you finish a long rest.</p>
 		</description>
 		<setters>
 			<set name="keywords">dagger</set>

@@ -2,11 +2,11 @@
 <elements>
 	<info>
 		<name>Fighter</name>
-				<description>The Fighter class from the Player’s Handbook 2024.</description>
+		<description>The Fighter class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/classes/class-fighter.xml" />
+			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/classes/class-fighter.xml" />
 		</update>
 	</info>
 
@@ -14,18 +14,43 @@
 		<description>
 			<p>Fighters rule many battlefields. Questing knights, royal champions, elite soldiers and hardened mercenaries- as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and defying it.</p>
 			<p class="indent">Fighters master various weapon techniques, and a well-equipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with every form of armor. Beyond that basic degree of familiarity, each Fighter specializes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad ability and extensive specialization makes Fighters superior combatants.</p>
-			
+
 			<table>
 				<thead>
-					<tr><td>Core Fighter Traits</td></tr>
+					<tr>
+						<td>Core Fighter Traits</td>
+					</tr>
 				</thead>
-				<tr><td>Primary Ability</td><td class="left">Strength or Dexterity </td> </tr>
-				<tr><td>Hit Point Die</td><td class="left">D10 per Fighter level</td></tr>
-				<tr><td>Saving Throw Proficiencies</td><td class="left">Strength and Constitution</td></tr>
-				<tr><td>Skill Proficiencies</td><td class="left"><i>Choose 2:</i> Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival</td></tr>
-				<tr><td>Weapon Proficiencies</td><td class="left">Simple weapons and Martial weapons</td></tr>
-				<tr><td>Armor Training</td><td class="left">Light, Medium and Heavy armor and Shields</td></tr>
-				<tr><td>Starting Equipment</td><td class="left"><i> Choose A, B or C:</i> (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer's Pack and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer's Pack and 11 GP; or (C) 155 GP</td></tr>
+				<tr>
+					<td>Primary Ability</td>
+					<td class="left">Strength or Dexterity </td>
+				</tr>
+				<tr>
+					<td>Hit Point Die</td>
+					<td class="left">D10 per Fighter level</td>
+				</tr>
+				<tr>
+					<td>Saving Throw Proficiencies</td>
+					<td class="left">Strength and Constitution</td>
+				</tr>
+				<tr>
+					<td>Skill Proficiencies</td>
+					<td class="left">
+						<i>Choose 2:</i> Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival</td>
+				</tr>
+				<tr>
+					<td>Weapon Proficiencies</td>
+					<td class="left">Simple weapons and Martial weapons</td>
+				</tr>
+				<tr>
+					<td>Armor Training</td>
+					<td class="left">Light, Medium and Heavy armor and Shields</td>
+				</tr>
+				<tr>
+					<td>Starting Equipment</td>
+					<td class="left">
+						<i> Choose A, B or C:</i> (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer's Pack and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer's Pack and 11 GP; or (C) 155 GP</td>
+				</tr>
 			</table>
 			<h3>BECOMING A Fighter ...</h3>
 			<h4>As A Level 1 Character</h4>
@@ -41,28 +66,133 @@
 			<h5 class="caption">THE FIGHTER</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td><td>Second Wind</td><td>Weapon Mastery</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="left">Features</td>
+						<td>Second Wind</td>
+						<td>Weapon Mastery</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Fighting Style, Second Wind, Weapon Mastery</td><td>2</td><td>3</td></tr>
-				<tr><td> 2nd</td><td class="left">Action Surge (one use), Tactical Mind</td><td>2</td><td>3</td></tr>
-				<tr><td> 3rd</td><td class="left">Fighter Subclass</td><td>2</td><td>3</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>4</td></tr>
-				<tr><td> 5th</td><td class="left">Extra Attack, Tactical Shift</td><td>3</td><td>4</td></tr>
-				<tr><td> 6th</td><td class="left">Ability Score Improvement</td><td>3</td><td>4</td></tr>
-				<tr><td> 7th</td><td class="left">Subclass Feature</td><td>3</td><td>4</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>4</td></tr>
-				<tr><td> 9th</td><td class="left">Indomitable (one use), Tactical Master</td><td>3</td><td>4</td></tr>
-				<tr><td>10th</td><td class="left">Subclass Feature</td><td>4</td><td>5</td></tr>
-				<tr><td>11th</td><td class="left">Two Extra Attacks</td><td>4</td><td>5</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>5</td></tr>
-				<tr><td>13th</td><td class="left">Indomitable (two uses), Studied Attacks</td><td>4</td><td>5</td></tr>
-				<tr><td>14th</td><td class="left">Ability Score Improvement</td><td>4</td><td>5</td></tr>
-				<tr><td>15th</td><td class="left">Subclass Feature</td><td>4</td><td>5</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>6</td></tr>
-				<tr><td>17th</td><td class="left">Action Surge (two uses), Indomitable (three uses)</td><td>4</td><td>6</td></tr>
-				<tr><td>18th</td><td class="left">Subclass Feature</td><td>4</td><td>6</td></tr>
-				<tr><td>19th</td><td class="left">Epic Boon</td><td>4</td><td>6</td></tr>
-				<tr><td>20th</td><td class="left">Three Extra Attacks</td><td>4</td><td>6</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td class="left">Fighting Style, Second Wind, Weapon Mastery</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td class="left">Action Surge (one use), Tactical Mind</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td class="left">Fighter Subclass</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td class="left">Extra Attack, Tactical Shift</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td class="left">Subclass Feature</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td class="left">Indomitable (one use), Tactical Master</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td class="left">Subclass Feature</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td class="left">Two Extra Attacks</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td class="left">Indomitable (two uses), Studied Attacks</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td class="left">Subclass Feature</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td class="left">Action Surge (two uses), Indomitable (three uses)</td>
+					<td>4</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td class="left">Subclass Feature</td>
+					<td>4</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td class="left">Epic Boon</td>
+					<td>4</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td class="left">Three Extra Attacks</td>
+					<td>4</td>
+					<td>6</td>
+				</tr>
 			</table>
 			<h3>FIGHTER CLASS FEATURES</h3>
 			<p>As a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table.</p>
@@ -174,7 +304,7 @@
 		<rules>
 			<stat name="second wind:count" value="2" bonus="base" />
 			<stat name="second wind:count" value="3" level="4" bonus="base" />
-			<stat name="second wind:count" value="4" level="10" bonus="base" />	
+			<stat name="second wind:count" value="4" level="10" bonus="base" />
 		</rules>
 	</element>
 
@@ -189,8 +319,8 @@
 		<rules>
 			<stat name="weapon mastery:count" value="3" bonus="base" />
 			<stat name="weapon mastery:count" value="4" level="4" bonus="base" />
-			<stat name="weapon mastery:count" value="5" level="10" bonus="base" />	
-			<stat name="weapon mastery:count" value="6" level="16" bonus="base" />	
+			<stat name="weapon mastery:count" value="5" level="10" bonus="base" />
+			<stat name="weapon mastery:count" value="6" level="16" bonus="base" />
 
 			<select type="Class Feature" name="Weapon Mastery" level="1" supports="Weapon Mastery" number="3"/>
 			<select type="Class Feature" name="Weapon Mastery" level="4" supports="Weapon Mastery" number="1"/>
@@ -211,7 +341,7 @@
 		</sheet>
 	</element>
 
-		<element name="Level 2: Tactical Mind" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICALMIND">
+	<element name="Level 2: Tactical Mind" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICALMIND">
 		<description>
 			<p>You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.</p>
 		</description>
@@ -310,7 +440,7 @@
 		</sheet>
 	</element>
 
-		<element name="Level 19: Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EPICBOON">
+	<element name="Level 19: Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EPICBOON">
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.</p>
 		</description>

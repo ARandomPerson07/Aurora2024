@@ -3,7 +3,7 @@
 	<info>
 		<name>Triton</name>
 		<update version="0.1.4">
-			<file name="race-triton.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/volos-guide-to-monsters/race-triton.xml" />
+			<file name="race-triton.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/volos-guide-to-monsters/race-triton.xml" />
 		</update>
 	</info>
 	<element name="Triton" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_TRITON">
@@ -30,36 +30,90 @@
 			<h5 class="caption">TRITON QUIRKS</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Quirk</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Quirk</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>You phrase requests as orders that you expect to be obeyed.</td></tr>
-				<tr><td>2</td><td>You are quick to boast of the greatness of your civilization.</td></tr>
-				<tr><td>3</td><td>You learned an antiquated version of Common and drop "thee" and "thou" into your speech.</td></tr>
-				<tr><td>4</td><td>You assume that people are telling you the truth about local customs and expectations.</td></tr>
-				<tr><td>5</td><td>The surface world is a wondrous place, and you catalog all its details in a journal.</td></tr>
-				<tr><td>6</td><td>You mistakenly assume that surface folk know about and are impressed by your people's history.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>You phrase requests as orders that you expect to be obeyed.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>You are quick to boast of the greatness of your civilization.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>You learned an antiquated version of Common and drop "thee" and "thou" into your speech.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>You assume that people are telling you the truth about local customs and expectations.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>The surface world is a wondrous place, and you catalog all its details in a journal.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>You mistakenly assume that surface folk know about and are impressed by your people's history.</td>
+				</tr>
 			</table>
 			<h4>TRITON NAMES</h4>
 			<p>Most triton names have two or three syllables. Male names typically end with a vowel and the letters, and female names traditionally end with an n. Tritons use their home protectorate as a surname, with the name formed by adding a vowel followed by a "th" to the end of the protectorate's name.</p>
 			<ul class="unstyled">
-				<li><strong>Female Triton Names:</strong> Aryn, Belthyn, Duthyn, Feloren, Otanyn, Shalryn, Vlaryn, Wolyn</li>
-				<li><strong>Male Triton Names:</strong> Corus, Delnis, Jhimas, Keros, Molos, Nalos, Vodos, Zunis</li>
-				<li><strong>Triton Surnames:</strong> Ahlorsath, Pumanath, Vuuvaxath</li>
+				<li>
+					<strong>Female Triton Names:</strong> Aryn, Belthyn, Duthyn, Feloren, Otanyn, Shalryn, Vlaryn, Wolyn</li>
+				<li>
+					<strong>Male Triton Names:</strong> Corus, Delnis, Jhimas, Keros, Molos, Nalos, Vodos, Zunis</li>
+				<li>
+					<strong>Triton Surnames:</strong> Ahlorsath, Pumanath, Vuuvaxath</li>
 			</ul>
 			<h4>TRITON TRAITS</h4>
 			<p>Your triton character has the following racial traits.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength, Constitution, and Charisma scores each increase by 1.</p>
-			<p class="indent"><strong><em>Age.</em></strong> Tritons reach maturity around age 15 and can live up to 200 years.</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Your Strength, Constitution, and Charisma scores each increase by 1.</p>
+			<p class="indent">
+				<strong>
+					<em>Age.</em>
+				</strong> Tritons reach maturity around age 15 and can live up to 200 years.</p>
 			<!-- (removed in Errata v3.0) -->
 			<!-- <p class="indent"><strong><em>Alignment.</em></strong> Tritons tend toward lawful good. As guardians of the darkest reaches of the sea, their culture pushes them toward order and benevolence.</p> -->
-			<p class="indent"><strong><em>Size.</em></strong> Tritons are slightly sli'orter than humans, averaging about 5 feet tall. Your size is Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.</p>
-			<p class="indent"><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>
-			<p class="indent"><strong><em>Control Air and Water.</em></strong> A child of the sea, you can call on the magic of elemental air and water. You can cast fog cloud with this trait. Starting at 3rd level, you can cast gust of wind with it, and starting at 5th level, you can also cast wall of water with it (see the spell in the sidebar). Once you cast a spell with this trait, you can’t cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
-			<p class="indent"><strong><em>Emissary of the Sea.</em></strong> Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.</p>
-			<p class="indent"><strong><em>Guardians of the Depths.</em></strong> Adapted to even the most extreme ocean depths, you have resistance to cold damage.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Primordial.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> Tritons are slightly sli'orter than humans, averaging about 5 feet tall. Your size is Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Amphibious.</em>
+				</strong> You can breathe air and water.</p>
+			<p class="indent">
+				<strong>
+					<em>Control Air and Water.</em>
+				</strong> A child of the sea, you can call on the magic of elemental air and water. You can cast fog cloud with this trait. Starting at 3rd level, you can cast gust of wind with it, and starting at 5th level, you can also cast wall of water with it (see the spell in the sidebar). Once you cast a spell with this trait, you can’t cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Emissary of the Sea.</em>
+				</strong> Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.</p>
+			<p class="indent">
+				<strong>
+					<em>Guardians of the Depths.</em>
+				</strong> Adapted to even the most extreme ocean depths, you have resistance to cold damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Languages.</em>
+				</strong> You can speak, read, and write Common and Primordial.</p>
 		</description>
 		<sheet display="false"/>
 		<setters>

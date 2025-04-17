@@ -5,23 +5,23 @@
         <description>At 3rd level, a ranger gains the Ranger Archetype feature. Here are new options for that feature: the Horizon Walker and the Primeval Guardian.</description>
         <author url="http://dnd.wizards.com/articles/unearthed-arcana/ranger-and-rogue">Wizards of the Coast</author>
         <update version="0.0.6">
-            <file name="20170116.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2017/20170116.xml" />
+            <file name="20170116.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2017/20170116.xml" />
         </update>
     </info>
 
-	<element name="Unearthed Arcana: Ranger &amp; Rogue" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170116">
-		<description>
-			<p>At 3rd level, a ranger gains the Ranger Archetype feature. Here are new options for that feature: the Horizon Walker and the Primeval Guardian.</p>
-		</description>
-		<setters>
-			<set name="abbreviation">UA20170116</set>
-			<set name="url">http://dnd.wizards.com/articles/unearthed-arcana/ranger-and-rogue</set>
-			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
-			<set name="official">true</set>
-			<set name="playtest">true</set>
-			<set name="release">20170116</set>
-		</setters>
-	</element>
+    <element name="Unearthed Arcana: Ranger &amp; Rogue" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170116">
+        <description>
+            <p>At 3rd level, a ranger gains the Ranger Archetype feature. Here are new options for that feature: the Horizon Walker and the Primeval Guardian.</p>
+        </description>
+        <setters>
+            <set name="abbreviation">UA20170116</set>
+            <set name="url">http://dnd.wizards.com/articles/unearthed-arcana/ranger-and-rogue</set>
+            <set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+            <set name="official">true</set>
+            <set name="playtest">true</set>
+            <set name="release">20170116</set>
+        </setters>
+    </element>
 
     <element name="Primeval Guardian" type="Archetype" source="Unearthed Arcana: Ranger &amp; Rogue" id="ID_WOTC_UA_ARCHETYPE_PRIMEVAL_GUARDIAN">
         <supports>Ranger Archetype</supports>
@@ -47,24 +47,49 @@
             <grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_GUARDIAN_AURA" level="15" />
         </rules>
     </element>
-        
+
     <element name="Primeval Guardian Magic" type="Archetype Feature" source="Unearthed Arcana: Ranger &amp; Rogue" id="ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_MAGIC">
         <description>
             <p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.</p>
             <h5>PRIMEVAL GUARDIAN SPELLS</h5>
-              <table>
+            <table>
                 <thead>
-                  <tr>
-                    <td>Ranger Level</td>
-                    <td>Spell</td>
-                  </tr>
+                    <tr>
+                        <td>Ranger Level</td>
+                        <td>Spell</td>
+                    </tr>
                 </thead>
-                <tr><td>3rd</td><td><em>entangle</em></td></tr>
-                <tr><td>5th</td><td><em>enhance ability</em></td></tr>
-                <tr><td>9th</td><td><em>conjure animals</em></td></tr>
-                <tr><td>13th</td><td><em>giant insect</em></td></tr>
-                <tr><td>17th</td><td><em>insect plague</em></td></tr>
-              </table>
+                <tr>
+                    <td>3rd</td>
+                    <td>
+                        <em>entangle</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5th</td>
+                    <td>
+                        <em>enhance ability</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9th</td>
+                    <td>
+                        <em>conjure animals</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>13th</td>
+                    <td>
+                        <em>giant insect</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>17th</td>
+                    <td>
+                        <em>insect plague</em>
+                    </td>
+                </tr>
+            </table>
         </description>
         <sheet display="false" />
         <rules>
@@ -113,8 +138,8 @@
             <description>Your hit point maximum and current hit points increase by {{ancient fortitude}} when you assume your guardian form. This lasts until you leave the form.</description>
         </sheet>
         <rules>
-			<stat name="ancient fortitude" value="level:ranger" />
-			<stat name="ancient fortitude" value="level:ranger" />
+            <stat name="ancient fortitude" value="level:ranger" />
+            <stat name="ancient fortitude" value="level:ranger" />
         </rules>
     </element>
 
@@ -135,5 +160,5 @@
             <description>When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to {{level:ranger:half}}. Has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs.</description>
         </sheet>
     </element>
-    
+
 </elements>

@@ -2,52 +2,128 @@
 <elements>
 	<info>
 		<update version="0.0.3">
-			<file name="house-agent.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/backgrounds/house-agent.xml" />
+			<file name="house-agent.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/backgrounds/house-agent.xml" />
 		</update>
-	</info>	
+	</info>
 	<element name="House Agent" type="Background" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT">
 		<description>
 			<p>You have sworn fealty to a dragonmarked house. If you have a dragonmark, you’re likely a member of one of the house’s influential families; otherwise you’re an outsider who hopes to make your fortune through the house. Your main task is to serve as the eyes of your house, but you could be called on at any time to act as its hand. Such missions can be perilous but lucrative.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Investigation, Persuasion</li>
-				<li><strong>Tool Proficiencies:</strong> Two proficiencies from the House Tool Proficiencies table</li>
-				<li><strong>Equipment:</strong> A set of fine clothes, house signet ring, identification papers, and a purse containing 20 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Investigation, Persuasion</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> Two proficiencies from the House Tool Proficiencies table</li>
+				<li>
+					<strong>Equipment:</strong> A set of fine clothes, house signet ring, identification papers, and a purse containing 20 gp</li>
 			</ul>
 			<br/>
-			<p><strong>HOUSE TOOL PROFICIENCIES</strong></p>
+			<p>
+				<strong>HOUSE TOOL PROFICIENCIES</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Your House</td><td>Proficiencies</td></tr>
+					<tr>
+						<td>Your House</td>
+						<td>Proficiencies</td>
+					</tr>
 				</thead>
-				<tr><td>Cannith</td><td>Alchemist’s supplies and tinker’s tools</td></tr>
-				<tr><td>Deneith</td><td>One gaming set and vehicles (land)</td></tr>
-				<tr><td>Ghallanda</td><td>Brewer’s supplies and cook’s utensils</td></tr>
-				<tr><td>Jorasco</td><td>Alchemist’s supplies and herbalism kit</td></tr>
-				<tr><td>Kundarak</td><td>Thieves’ tools and tinker’s tools</td></tr>
-				<tr><td>Lyrandar</td><td>Navigator’s tools and vehicles (air and sea)</td></tr>
-				<tr><td>Medani</td><td>Disguise kit and thieves’ tools</td></tr>
-				<tr><td>Orien</td><td>One gaming set and vehicles (land)</td></tr>
-				<tr><td>Phiarlan</td><td>Disguise kit and one musical instrument</td></tr>
-				<tr><td>Sivis</td><td>Calligrapher’s tools and forgery kit</td></tr>
-				<tr><td>Tharashk</td><td>One gaming set and thieves’ tools</td></tr>
-				<tr><td>Thuranni</td><td>One musical instrument and poisoner’s kit</td></tr>
-				<tr><td>Vadalis</td><td>Herbalism kit and vehicles (land)</td></tr>
+				<tr>
+					<td>Cannith</td>
+					<td>Alchemist’s supplies and tinker’s tools</td>
+				</tr>
+				<tr>
+					<td>Deneith</td>
+					<td>One gaming set and vehicles (land)</td>
+				</tr>
+				<tr>
+					<td>Ghallanda</td>
+					<td>Brewer’s supplies and cook’s utensils</td>
+				</tr>
+				<tr>
+					<td>Jorasco</td>
+					<td>Alchemist’s supplies and herbalism kit</td>
+				</tr>
+				<tr>
+					<td>Kundarak</td>
+					<td>Thieves’ tools and tinker’s tools</td>
+				</tr>
+				<tr>
+					<td>Lyrandar</td>
+					<td>Navigator’s tools and vehicles (air and sea)</td>
+				</tr>
+				<tr>
+					<td>Medani</td>
+					<td>Disguise kit and thieves’ tools</td>
+				</tr>
+				<tr>
+					<td>Orien</td>
+					<td>One gaming set and vehicles (land)</td>
+				</tr>
+				<tr>
+					<td>Phiarlan</td>
+					<td>Disguise kit and one musical instrument</td>
+				</tr>
+				<tr>
+					<td>Sivis</td>
+					<td>Calligrapher’s tools and forgery kit</td>
+				</tr>
+				<tr>
+					<td>Tharashk</td>
+					<td>One gaming set and thieves’ tools</td>
+				</tr>
+				<tr>
+					<td>Thuranni</td>
+					<td>One musical instrument and poisoner’s kit</td>
+				</tr>
+				<tr>
+					<td>Vadalis</td>
+					<td>Herbalism kit and vehicles (land)</td>
+				</tr>
 			</table>
 			<h4>ROLE</h4>
 			<p>You always gather information for your house, but when a baron give you a specific mission, what sort of work do you do? The House Agent Role table gives possibilities.</p>
-			<p><strong>HOUSE AGENT ROLE</strong></p>
+			<p>
+				<strong>HOUSE AGENT ROLE</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td class="col-10">d8</td><td>Role</td></tr>
+					<tr>
+						<td class="col-10">d8</td>
+						<td>Role</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Acquisition</td></tr>
-				<tr><td>2</td><td>Investigation</td></tr>
-				<tr><td>3</td><td>Research &amp; Development</td></tr>
-				<tr><td>4</td><td>Security</td></tr>
-				<tr><td>5</td><td>Intimidation</td></tr>
-				<tr><td>6</td><td>Exploration</td></tr>
-				<tr><td>7</td><td>Negotiation</td></tr>
-				<tr><td>8</td><td>Covert Operations</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Acquisition</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Investigation</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Research &amp; Development</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Security</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Intimidation</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Exploration</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Negotiation</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Covert Operations</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_AGENT_HOUSE_CONNECTIONS" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
@@ -115,7 +191,7 @@
 			<description>As an agent of your house, you can always get food and lodging for yourself and your friends at a house enclave. When the house assigns you a mission, it will usually provide you with the necessary supplies and transportation. Beyond this, you have many old friends, mentors, and rivals in your house, and you may encounter one of them when you interact with a house business. The degree to which such acquaintances are willing to help you depends on your current standing in your house.</description>
 		</sheet>
 	</element>
-	
+
 	<element name="House Cannith" type="Background Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_BACKGROUND_FEATURE_HOUSE_TOOL_CANNITH">
 		<supports>House Agent Tool Proficiency</supports>
 		<requirements>ID_WOTC_ERLW_BACKGROUND_HOUSE_AGENT</requirements>

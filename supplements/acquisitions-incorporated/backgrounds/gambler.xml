@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-        <name>Gambler</name>
+		<name>Gambler</name>
 		<update version="0.0.3">
-			<file name="gambler.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/acquisitions-incorporated/backgrounds/gambler.xml" />
+			<file name="gambler.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/acquisitions-incorporated/backgrounds/gambler.xml" />
 		</update>
 	</info>
-    <element name="Gambler" type="Background" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_BACKGROUND_GAMBLER">
+	<element name="Gambler" type="Background" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_BACKGROUND_GAMBLER">
 		<description>
 			<p>All you need to make a lot of gold is a little gold. Except at those times when all you need to have no gold at all is a little gold. Whether you’re a good gambler or a bad one rarely matters, because no one can divine the whims of Lady Luck. Sometimes you’re up, sometimes you’re down. But the thing about gambling is that someone is always willing to take a bet.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Deception, Insight</li>
-				<li><strong>Tool Proficiencies:</strong> One gaming set</li>
-				<li><strong>Languages:</strong> Any one of your choice</li>
-				<li><strong>Equipment:</strong> One gaming set, a lucky charm, a set of fine clothes, and a belt pouch containing 15 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Deception, Insight</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> One gaming set</li>
+				<li>
+					<strong>Languages:</strong> Any one of your choice</li>
+				<li>
+					<strong>Equipment:</strong> One gaming set, a lucky charm, a set of fine clothes, and a belt pouch containing 15 gp</li>
 			</ul>
 			<div element="ID_WOTC_ACQINC_BACKGROUND_FEATURE_NEVER_TELL_ME_THE_ODDS" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>

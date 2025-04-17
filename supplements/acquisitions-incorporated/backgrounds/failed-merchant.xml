@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-        <name>Failed Merchant</name>
+		<name>Failed Merchant</name>
 		<update version="0.0.3">
-			<file name="failed-merchant.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/acquisitions-incorporated/backgrounds/failed-merchant.xml" />
+			<file name="failed-merchant.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/acquisitions-incorporated/backgrounds/failed-merchant.xml" />
 		</update>
 	</info>
-    <element name="Failed Merchant" type="Background" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_BACKGROUND_FAILED_MERCHANT">
+	<element name="Failed Merchant" type="Background" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_BACKGROUND_FAILED_MERCHANT">
 		<description>
 			<p>Maybe you come from a long line of merchants. Perhaps you were an entrepreneur. Regardless, your ventures ended poorly. Whether it was because of outside influences, bad luck, or simply because your business acumen was weak, you lost everything.</p>
 			<p class="indent">With failure, however, comes experience. You’re free of that old life, having made some connections and learned your lessons. Prepared to pursue the life of an adventurer, your insight into the world of commerce brought you into the sphere of Acquisitions Incorporated—and a franchise just might be in your future.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Investigation, Persuasion</li>
-				<li><strong>Tool Proficiencies:</strong> One type of artisan’s tools</li>
-				<li><strong>Languages:</strong> Any one of your choice</li>
-				<li><strong>Equipment:</strong> One set of artisan’s tools, merchant’s scale, a set of fine clothes, and a belt pouch containing 10 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Investigation, Persuasion</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> One type of artisan’s tools</li>
+				<li>
+					<strong>Languages:</strong> Any one of your choice</li>
+				<li>
+					<strong>Equipment:</strong> One set of artisan’s tools, merchant’s scale, a set of fine clothes, and a belt pouch containing 10 gp</li>
 			</ul>
 			<div element="ID_WOTC_ACQINC_BACKGROUND_FEATURE_SUPPLY_CHAIN" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>

@@ -3,7 +3,7 @@
 	<info>
 		<name>Unearthed Arcana: Sorcerer and Warlock</name>
 		<update version="0.0.2">
-			<file name="20190905.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2019/20190905.xml" />
+			<file name="20190905.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2019/20190905.xml" />
 		</update>
 	</info>
 
@@ -62,13 +62,41 @@
 			<h5>PSIONIC SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Sorcerer Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Sorcerer Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>arms of Hadar, dissonant whispers</em></td></tr>
-				<tr><td>3rd</td><td><em>calm emotions, detect thoughts</em></td></tr>
-				<tr><td>5th</td><td><em>hunger of Hadar, sending</em></td></tr>
-				<tr><td>7th</td><td><em>compulsion, Evard’s black tentacles</em></td></tr>
-				<tr><td>9th</td><td><em>modify memory, Rary’s telepathic bond</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>arms of Hadar, dissonant whispers</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>calm emotions, detect thoughts</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>hunger of Hadar, sending</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>compulsion, Evard’s black tentacles</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>modify memory, Rary’s telepathic bond</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -180,13 +208,41 @@
 			<h5>LURKER EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>create or destroy water, thunderwave</em></td></tr>
-				<tr><td>2nd</td><td><em>gust of wind, silence</em></td></tr>
-				<tr><td>3rd</td><td><em>lightning bolt, sleet storm</em></td></tr>
-				<tr><td>4th</td><td><em>control water, Evard’s black tentacles</em></td></tr>
-				<tr><td>5th</td><td><em>commune with nature, cone of cold</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>create or destroy water, thunderwave</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>gust of wind, silence</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>lightning bolt, sleet storm</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>control water, Evard’s black tentacles</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>commune with nature, cone of cold</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -264,8 +320,14 @@
 	<element name="Unleash the Depths" type="Archetype Feature" source="Unearthed Arcana: Sorcerer and Warlock" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_LURKER_UNLEASH_THE_DEPTHS">
 		<description>
 			<p>Starting at 14th level, you gain the ability to call upon your patron for aid. As an action, you choose a point within 30 feet of you where your patron tears through reality, manifesting a measure of its thalassic grandeur. Choose one of the following effects to issue from this manifestation point. Once you use either effect, you can’t use this feature again until you finish a long rest.</p>
-			<p class="indent"><strong><em>Transport.</em></strong> You and up to five willing creatures of your choice that you can see within 30 feet of the manifestation point are grasped by spectral tentacles and yanked through your patron’s realm. The tentacles teleport you and the chosen creatures to a point of your choice within 100 miles that you have visited within the past 24 hours. The tentacles then vanish.</p>
-			<p class="indent"><strong><em>Fury.</em></strong> You can direct a barrage of spectral tentacles to issue forth and strike up to five creatures you can see within 30 feet of the manifestation point. Each target must make a Dexterity saving throw against your spell save DC. On a failed save, the creature takes 6d10 cold or lightning damage (your choice) and is knocked prone. On a successful save, it takes half as much damage and is not knocked prone. The tentacles then vanish.</p>
+			<p class="indent">
+				<strong>
+					<em>Transport.</em>
+				</strong> You and up to five willing creatures of your choice that you can see within 30 feet of the manifestation point are grasped by spectral tentacles and yanked through your patron’s realm. The tentacles teleport you and the chosen creatures to a point of your choice within 100 miles that you have visited within the past 24 hours. The tentacles then vanish.</p>
+			<p class="indent">
+				<strong>
+					<em>Fury.</em>
+				</strong> You can direct a barrage of spectral tentacles to issue forth and strike up to five creatures you can see within 30 feet of the manifestation point. Each target must make a Dexterity saving throw against your spell save DC. On a failed save, the creature takes 6d10 cold or lightning damage (your choice) and is knocked prone. On a successful save, it takes half as much damage and is not knocked prone. The tentacles then vanish.</p>
 		</description>
 		<sheet action="Action" usage="Long Rest">
 			<description>You choose a point within 30 feet of you where your patron tears through reality, manifesting a measure of its thalassic grandeur. Choose one of the following effects to issue from this manifestation point: &#13;

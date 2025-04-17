@@ -5,7 +5,7 @@
 		<description>The sorcerer unearths new magical possibilities this week. The class receives four playtest options for the Sorcerous Origin feature: Favored Soul, Phoenix Sorcery, Sea Sorcery, and Stone Sorcery.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/sorcerer">Wizards of the Coast</author>
 		<update version="0.2.1">
-				<file name="20170206.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2017/20170206.xml" />
+			<file name="20170206.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2017/20170206.xml" />
 		</update>
 	</info>
 
@@ -36,9 +36,9 @@
 			<div element="ID_WOTC_UA_ARCHETYPE_FEATURE_PHOENIX_SORCERY_NOURISHINGFIRE" />
 			<div element="ID_WOTC_UA_ARCHETYPE_FEATURE_PHOENIX_SORCERY_FORMOFTHEPHOENIX" />
 		</description>
-			<setters>
-				<set name="sourceUrl">http://dnd.wizards.com/articles/unearthed-arcana/sorcerer</set>
-			</setters>
+		<setters>
+			<set name="sourceUrl">http://dnd.wizards.com/articles/unearthed-arcana/sorcerer</set>
+		</setters>
 		<sheet>
 			<description>Your power draws from the immortal flame that fuels the legendary phoenix.</description>
 		</sheet>
@@ -83,13 +83,13 @@
 		<sheet usage="1/Long Rest">
 			<description>If you are reduced to 0 hit points, you can use your reaction to draw on the spark of the phoenix. You are instead reduced to 1 hit point, and each creature within 10 feet of you takes {{phoenix spark:damage}} fire damage. If you use this feature while under the effects of your Mantle of Flame, this feature instead deals {{phoenix spark:damage:alt}} fire damage, and your Mantle of Flame immediately ends.</description>
 		</sheet>
-			<rules>
-				<stat name="phoenix spark:damage" value="level:sorcerer:half" />
-				<stat name="phoenix spark:damage" value="charisma:modifier" />
-				<stat name="phoenix spark:damage:alt" value="level:sorcerer" />
-				<stat name="phoenix spark:damage:alt" value="charisma:modifier" />
-				<stat name="phoenix spark:damage:alt" value="charisma:modifier" />
-			</rules>
+		<rules>
+			<stat name="phoenix spark:damage" value="level:sorcerer:half" />
+			<stat name="phoenix spark:damage" value="charisma:modifier" />
+			<stat name="phoenix spark:damage:alt" value="level:sorcerer" />
+			<stat name="phoenix spark:damage:alt" value="charisma:modifier" />
+			<stat name="phoenix spark:damage:alt" value="charisma:modifier" />
+		</rules>
 	</element>
 	<element name="Nourishing Fire" type="Archetype Feature" source="Unearthed Arcana: Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_PHOENIX_SORCERY_NOURISHINGFIRE">
 		<description>
@@ -114,11 +114,11 @@
 			• You have resistance to all damage. &#13;
 			• If you use your Phoenix Spark, that feature deals an extra 20 fire damage to each creature.</description>
 		</sheet>
-			<rules>
-				<!-- <stat name="speed:fly" value="40" bonus="base" /> -->
-				<stat name="phoenix spark:damage" value="20" />
-				<stat name="phoenix spark:damage:alt" value="20" />
-			</rules>
+		<rules>
+			<!-- <stat name="speed:fly" value="40" bonus="base" /> -->
+			<stat name="phoenix spark:damage" value="20" />
+			<stat name="phoenix spark:damage:alt" value="20" />
+		</rules>
 	</element>
 
 	<!-- Sea Sorcery -->
@@ -161,9 +161,18 @@
 			<p class="indent">When you hit a creature with a cantrip’s attack or when a creature fails a saving throw against your cantrip, you can curse the target until the end of your next turn or until you curse a different creature with this feature.</p>
 			<p class="indent">Once per turn when you cast a spell, you can trigger the curse if that spell deals cold or lightning damage to the cursed target or forces it to move. Doing so subjects the target to the appropriate additional effect below, and then the curse ends if the spell isn’t a cantrip (you choose the effect to use if more than one effect applies):</p>
 			<ul>
-				<li><p><b>Cold Damage:</b> If the affected target takes cold damage from your spell, the target’s speed is also reduced by 15 feet until the end of your next turn. If the spell already reduces the target’s speed, use whichever reduction is greater.</p></li>
-				<li><p><b>Lightning Damage:</b> If the affected target takes lightning damage from your spell, the target takes additional lightning damage equal to your Charisma modifier.</p></li>
-				<li><p><b>Forced Movement:</b> If the target is moved by your spell, increase the distance it is moved by 15 feet.</p></li>
+				<li>
+					<p>
+						<b>Cold Damage:</b> If the affected target takes cold damage from your spell, the target’s speed is also reduced by 15 feet until the end of your next turn. If the spell already reduces the target’s speed, use whichever reduction is greater.</p>
+				</li>
+				<li>
+					<p>
+						<b>Lightning Damage:</b> If the affected target takes lightning damage from your spell, the target takes additional lightning damage equal to your Charisma modifier.</p>
+				</li>
+				<li>
+					<p>
+						<b>Forced Movement:</b> If the target is moved by your spell, increase the distance it is moved by 15 feet.</p>
+				</li>
 			</ul>
 		</description>
 		<sheet>
@@ -260,27 +269,52 @@
 	<element name="Metal Magic" type="Archetype Feature" source="Unearthed Arcana: Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_STONE_SORCERER_METAL_MAGIC">
 		<description>
 			<p>Your affinity for metal gives you the option to learn some non-sorcerer spells that focus on weapon attacks. When your Spellcasting feature lets you learn a sorcerer spell of 1st level or higher, you can select the spell from the following list of spells, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.</p>
-				<table>
-						<thead><tr><td>Spell Level</td><td>Spells</td></tr></thead>
-						<tr><td>1st</td><td><em>compelled duel, searing smite, thunderous smite, wrathful smite</em></td></tr>
-						<tr><td>2nd</td><td><em>branding smite, magic weapon</em></td></tr>
-						<tr><td>3rd</td><td><em>blinding smite, elemental weapon</em></td></tr>
-						<tr><td>4th</td><td><em>staggering smite</em></td></tr>
-				</table>
+			<table>
+				<thead>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>compelled duel, searing smite, thunderous smite, wrathful smite</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>branding smite, magic weapon</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>blinding smite, elemental weapon</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>staggering smite</em>
+					</td>
+				</tr>
+			</table>
 		</description>
 		<sheet display="false">
-				<description>Stone Sorcery lets you choose from an expanded list of spells when you learn a sorcerer spell.</description>
+			<description>Stone Sorcery lets you choose from an expanded list of spells when you learn a sorcerer spell.</description>
 		</sheet>
 		<spellcasting name="Sorcerer" extend="true">
-				<extend>ID_PHB_SPELL_COMPELLED_DUEL</extend>
-				<extend>ID_PHB_SPELL_SEARING_SMITE</extend>
-				<extend>ID_PHB_SPELL_THUNDEROUS_SMITE</extend>
-				<extend>ID_PHB_SPELL_WRATHFUL_SMITE</extend>
-				<extend>ID_PHB_SPELL_BRANDING_SMITE</extend>
-				<extend>ID_PHB_SPELL_MAGIC_WEAPON</extend>
-				<extend>ID_PHB_SPELL_BLINDING_SMITE</extend>
-				<extend>ID_PHB_SPELL_ELEMENTAL_WEAPON</extend>
-				<extend>ID_PHB_SPELL_STAGGERING_SMITE</extend>
+			<extend>ID_PHB_SPELL_COMPELLED_DUEL</extend>
+			<extend>ID_PHB_SPELL_SEARING_SMITE</extend>
+			<extend>ID_PHB_SPELL_THUNDEROUS_SMITE</extend>
+			<extend>ID_PHB_SPELL_WRATHFUL_SMITE</extend>
+			<extend>ID_PHB_SPELL_BRANDING_SMITE</extend>
+			<extend>ID_PHB_SPELL_MAGIC_WEAPON</extend>
+			<extend>ID_PHB_SPELL_BLINDING_SMITE</extend>
+			<extend>ID_PHB_SPELL_ELEMENTAL_WEAPON</extend>
+			<extend>ID_PHB_SPELL_STAGGERING_SMITE</extend>
 		</spellcasting>
 	</element>
 	<element name="Stone’s Durability" type="Archetype Feature" source="Unearthed Arcana: Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_STONE_SORCERER_STONES_DURABILITY">
@@ -307,13 +341,13 @@
 			<description>As a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. Any bludgeoning, piercing, or slashing damage the target takes is reduced by {{stone aegis}}. This effect lasts for 1 minute, until you use it again, or until you are incapacitated. In addition, when a creature you can see within 60 feet of you hits the protected target with a melee attack, you can use your reaction to teleport to an unoccupied space you can see within 5 feet of the attacker. You can teleport only if you and the attacker are on the same surface. You can then make one melee weapon attack against the attacker. If that attack hits, it deals an extra {{stone aegis damage}}d10 force damage.</description>
 		</sheet>
 		<rules>
-				<stat name="stone aegis" value="2" level="6" />
-				<stat name="stone aegis" value="1" level="10" />
-				<stat name="stone aegis" value="1" level="14" />
-				<stat name="stone aegis" value="1" level="18" />
-				<stat name="stone aegis damage" value="1" level="6" />
-				<stat name="stone aegis damage" value="1" level="11" />
-				<stat name="stone aegis damage" value="1" level="17" />
+			<stat name="stone aegis" value="2" level="6" />
+			<stat name="stone aegis" value="1" level="10" />
+			<stat name="stone aegis" value="1" level="14" />
+			<stat name="stone aegis" value="1" level="18" />
+			<stat name="stone aegis damage" value="1" level="6" />
+			<stat name="stone aegis damage" value="1" level="11" />
+			<stat name="stone aegis damage" value="1" level="17" />
 		</rules>
 	</element>
 	<element name="Stone’s Edge" type="Archetype Feature" source="Unearthed Arcana: Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_STONE_SORCERER_STONES_EDGE">

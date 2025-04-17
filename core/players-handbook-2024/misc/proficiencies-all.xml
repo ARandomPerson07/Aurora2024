@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.2">
-			<file name="proficiencies-all.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/misc/proficiencies-all.xml" />
+			<file name="proficiencies-all.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/misc/proficiencies-all.xml" />
 		</update>
 	</info>
 	<!-- Armor -->
@@ -98,7 +98,7 @@
 	<element name="Armor Proficiency (Shield)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD">
 		<supports>Shield, ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 	</element>
-	
+
 	<!-- Weapons -->
 	<!-- simple -->
 	<element name="Weapon Proficiency (Simple Weapons)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS">
@@ -390,7 +390,8 @@
 			<stat name="intelligence:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
 	</element>
-	<element name="Saving Throw Proficiency (Wisdom)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM">    <supports>Saving Throw</supports>
+	<element name="Saving Throw Proficiency (Wisdom)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM">
+		<supports>Saving Throw</supports>
 		<rules>
 			<stat name="wisdom:save:proficiency" value="proficiency" bonus="proficiency" alt="Proficiency" />
 		</rules>
@@ -412,7 +413,7 @@
 			<stat name="acrobatics:proficiency" value="proficiency" bonus="proficiency" />
 		</rules>
 	</element>
-	
+
 	<element name="Animal Handling" type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_ANIMALHANDLING" source="Player’s Handbook 2024">
 		<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_WOTC_PHB24_CLASS_BARBARIAN,Barbarian,ID_WOTC_PHB24_CLASS_DRUID,Druid,ID_WOTC_PHB24_CLASS_BARD,Bard,ID_WOTC_PHB24_CLASS_FIGHTER,Fighter,ID_WOTC_PHB24_CLASS_RANGER,Ranger</supports>
 		<description>
@@ -589,7 +590,7 @@
 	</element>
 
 	<!-- Artisan’s tools -->
-	<element name="Tool Proficiency (Artisan’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_ARTISANS_TOOLS">
+	<element name="Tool Proficiency (Artisan’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_ARTISANS_TOOLS">
 		<supports></supports>
 		<requirements />
 		<description>
@@ -619,7 +620,7 @@
 	</element>
 
 
-	<element name="Tool Proficiency (Alchemist’s supplies)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES">
+	<element name="Tool Proficiency (Alchemist’s supplies)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -627,7 +628,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Brewer’s supplies)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES">
+	<element name="Tool Proficiency (Brewer’s supplies)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -635,7 +636,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Calligrapher's supplies)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES">
+	<element name="Tool Proficiency (Calligrapher's supplies)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -643,7 +644,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Carpenter’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS">
+	<element name="Tool Proficiency (Carpenter’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -651,7 +652,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Cartographer’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS">
+	<element name="Tool Proficiency (Cartographer’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -659,7 +660,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Cobbler’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS">
+	<element name="Tool Proficiency (Cobbler’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -667,7 +668,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Cook’s utensils)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS">
+	<element name="Tool Proficiency (Cook’s utensils)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -675,7 +676,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Glassblower’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS">
+	<element name="Tool Proficiency (Glassblower’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -683,7 +684,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Jeweler’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS">
+	<element name="Tool Proficiency (Jeweler’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -691,7 +692,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Leatherworker’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS">
+	<element name="Tool Proficiency (Leatherworker’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -699,7 +700,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Mason’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS">
+	<element name="Tool Proficiency (Mason’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -707,7 +708,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Painter’s supplies)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES">
+	<element name="Tool Proficiency (Painter’s supplies)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -715,7 +716,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Potter’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS">
+	<element name="Tool Proficiency (Potter’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -723,7 +724,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Smith’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS">
+	<element name="Tool Proficiency (Smith’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -731,7 +732,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Tinker’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS">
+	<element name="Tool Proficiency (Tinker’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -739,7 +740,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Weaver’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS">
+	<element name="Tool Proficiency (Weaver’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -747,7 +748,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Woodcarver’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS">
+	<element name="Tool Proficiency (Woodcarver’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS">
 		<supports>Tool, Artisan tools</supports>
 		<requirements />
 		<description>
@@ -755,9 +756,9 @@
 		</description>
 		<rules />
 	</element>
-	
+
 	<!-- Other tools -->
-	<element name="Tool Proficiency (Navigator’s tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS">
+	<element name="Tool Proficiency (Navigator’s tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS">
 		<supports>Tool</supports>
 		<requirements />
 		<description>
@@ -765,7 +766,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Thieves’ tools)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS">
+	<element name="Tool Proficiency (Thieves’ tools)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS">
 		<supports>Tool, Thieves tools</supports>
 		<requirements />
 		<description>
@@ -774,7 +775,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Vehicles (land))" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND">
+	<element name="Tool Proficiency (Vehicles (land))" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND">
 		<supports>Tool, Vehicles</supports>
 		<requirements />
 		<description>
@@ -782,7 +783,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Vehicles (water))" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER">
+	<element name="Tool Proficiency (Vehicles (water))" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER">
 		<supports>Tool, Vehicles</supports>
 		<requirements />
 		<description>
@@ -790,9 +791,9 @@
 		</description>
 		<rules />
 	</element>
-	
+
 	<!-- Kits -->
-	<element name="Tool Proficiency (Disguise kit)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT">
+	<element name="Tool Proficiency (Disguise kit)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT">
 		<supports>Tool, Kit</supports>
 		<requirements />
 		<description>
@@ -800,7 +801,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Forgery kit)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT">
+	<element name="Tool Proficiency (Forgery kit)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT">
 		<supports>Tool, Kit</supports>
 		<requirements />
 		<description>
@@ -808,7 +809,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Herbalism kit)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT">
+	<element name="Tool Proficiency (Herbalism kit)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT">
 		<supports>Tool, Kit</supports>
 		<requirements />
 		<description>
@@ -816,7 +817,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Poisoner’s kit)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT">
+	<element name="Tool Proficiency (Poisoner’s kit)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT">
 		<supports>Tool, Kit</supports>
 		<requirements />
 		<description>
@@ -826,7 +827,7 @@
 	</element>
 
 	<!-- Musical Instruments -->
-	<element name="Tool Proficiency (Musical instrument)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_MUSICAL_INSTRUMENT">
+	<element name="Tool Proficiency (Musical instrument)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_MUSICAL_INSTRUMENT">
 		<supports></supports>
 		<requirements />
 		<description>
@@ -845,8 +846,8 @@
 			<grant name="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_VIOL" type="Proficiency" />
 		</rules>
 	</element>
-	
-	<element name="Tool Proficiency (Bagpipes)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES">
+
+	<element name="Tool Proficiency (Bagpipes)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -854,7 +855,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Drum)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_DRUM">
+	<element name="Tool Proficiency (Drum)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_DRUM">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -862,7 +863,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Dulcimer)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_DULCIMER">
+	<element name="Tool Proficiency (Dulcimer)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_DULCIMER">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -870,7 +871,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Flute)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_FLUTE">
+	<element name="Tool Proficiency (Flute)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_FLUTE">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -878,7 +879,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Lute)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_LUTE">
+	<element name="Tool Proficiency (Lute)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_LUTE">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -886,7 +887,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Lyre)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_LYRE">
+	<element name="Tool Proficiency (Lyre)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_LYRE">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -894,7 +895,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Horn)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_HORN">
+	<element name="Tool Proficiency (Horn)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_HORN">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -902,7 +903,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Pan flute)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_PAN_FLUTE">
+	<element name="Tool Proficiency (Pan flute)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_PAN_FLUTE">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -910,7 +911,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Shawm)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_SHAWM">
+	<element name="Tool Proficiency (Shawm)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_SHAWM">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -918,7 +919,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Viol)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_VIOL">
+	<element name="Tool Proficiency (Viol)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_VIOL">
 		<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
 		<requirements />
 		<description>
@@ -926,23 +927,23 @@
 		</description>
 		<rules />
 	</element>
-	
+
 	<!-- Gaming Set -->
-	<element name="Tool Proficiency (Gaming set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_GAMING_SET">
+	<element name="Tool Proficiency (Gaming set)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_GAMING_SET">
 		<supports></supports>
 		<requirements />
 		<description>
 			<p>This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</p>
 		</description>
 		<rules>
-    			<grant name="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET" type="Proficiency" />
-    			<grant name="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET" type="Proficiency" />
+			<grant name="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET" type="Proficiency" />
+			<grant name="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET" type="Proficiency" />
 			<grant name="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET" type="Proficiency" />
 			<grant name="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET" type="Proficiency" />
 		</rules>
 	</element>
 
-	<element name="Tool Proficiency (Dice set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET">
+	<element name="Tool Proficiency (Dice set)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET">
 		<supports>Tool, Gaming Set</supports>
 		<requirements />
 		<description>
@@ -950,7 +951,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Dragonchess set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET">
+	<element name="Tool Proficiency (Dragonchess set)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET">
 		<supports>Tool, Gaming Set</supports>
 		<requirements />
 		<description>
@@ -958,7 +959,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Playing card set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET">
+	<element name="Tool Proficiency (Playing card set)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET">
 		<supports>Tool, Gaming Set</supports>
 		<requirements />
 		<description>
@@ -966,7 +967,7 @@
 		</description>
 		<rules />
 	</element>
-	<element name="Tool Proficiency (Three-Dragon Ante set)" type="Proficiency" source="Player’s Handbook 2024"  id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET">
+	<element name="Tool Proficiency (Three-Dragon Ante set)" type="Proficiency" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET">
 		<supports>Tool, Gaming Set</supports>
 		<requirements />
 		<description>

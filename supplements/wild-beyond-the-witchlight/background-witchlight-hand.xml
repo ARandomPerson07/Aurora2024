@@ -3,7 +3,7 @@
 	<info>
 		<name>Witchlight Hand Background</name>
 		<update version="0.0.1">
-			<file name="background-witchlight-hand.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/wild-beyond-the-witchlight/background-witchlight-hand.xml" />
+			<file name="background-witchlight-hand.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/wild-beyond-the-witchlight/background-witchlight-hand.xml" />
 		</update>
 	</info>
 
@@ -13,27 +13,59 @@
 			<p>You crept into the Witchlight Carnival as a child or youth and never looked back, earning a place among those who work behind the scenes to keep the carnival in business. As a hand, you work hard and party hard. The carnival has borne you to many fantastic worlds, circling back around to your home world once every eight years, but you know almost nothing about these worlds because you spend all your time in the carnival. You know the other hands well, but the carnival’s owners—Mister Witch and Mister Light—remain mysterious to you even after all these years.</p>
 			<p class="indent">Maybe you joined the carnival to escape a dismal life at home, or maybe you were enchanted by the idea of visiting new places or the dream of becoming one of the carnival’s star attractions. Now that you’re older, carnival life has lost some of its appeal. The daily routine has grown tedious, the cyclical nature of the carnival’s journey monotonous. The carnival no longer fills your heart with a sense of wonder. Perhaps greater adventures await you beyond the carnival’s gates.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Performance, Sleight of Hand</li>
-				<li><strong>Tool Proficiencies:</strong> Disguise kit or one type of musical instrument</li>
-				<li><strong>Languages:</strong> One of your choice</li>
-				<li><strong>Equipment:</strong> A disguise kit or a musical instrument of your choice, a deck of cards, a carnival uniform or costume, one trinket (determined by rolling on the Feywild Trinkets), and a pouch containing 8 gp.</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Performance, Sleight of Hand</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> Disguise kit or one type of musical instrument</li>
+				<li>
+					<strong>Languages:</strong> One of your choice</li>
+				<li>
+					<strong>Equipment:</strong> A disguise kit or a musical instrument of your choice, a deck of cards, a carnival uniform or costume, one trinket (determined by rolling on the Feywild Trinkets), and a pouch containing 8 gp.</li>
 			</ul>
 			<h5>CARNIVAL COMPANION</h5>
 			<p>Over the years, you have earned the friendship of another carnival fixture. Roll a d8 and consult the Carnival Companion table to determine whom or what you've befriended, or you can choose an option that you like. Work with your DM to flesh out this friendship. This companion hangs around you while you're in the carnival, but it won't voluntarily leave the carnival.</p>
-			<p class="indent">The DM can use the Witchlight hand stat block (found in chapter 1 of <i>The Wild Beyond the Witchlight</i>) to represent hands, performers, and animal trainers who serve as carnival companions. Statistics for the other companions appear in the <i>Monster Manual</i>.</p>
+			<p class="indent">The DM can use the Witchlight hand stat block (found in chapter 1 of <i>The Wild Beyond the Witchlight</i>) to represent hands, performers, and animal trainers who serve as carnival companions. Statistics for the other companions appear in the <i>Monster Manual</i>.
+			</p>
 			<h5>Carnival Companion</h5>
 			<table>
 				<thead>
-					<tr><td class="col-10" style="text-align:center">d8</td><td>Companion</td></tr>
+					<tr>
+						<td class="col-10" style="text-align:center">d8</td>
+						<td>Companion</td>
+					</tr>
 				</thead>
-				<tr><td style="text-align:center">1</td><td>Old, cantankerous Witchlight hand</td></tr>
-				<tr><td style="text-align:center">2</td><td>Young, impressionable Witchlight hand.</td></tr>
-				<tr><td style="text-align:center">3</td><td>Performer (such as an acrobat, a clown, or a musician)</td></tr>
-				<tr><td style="text-align:center">4</td><td>Retired performer</td></tr>
-				<tr><td style="text-align:center">5</td><td>Seasoned animal trainer</td></tr>
-				<tr><td style="text-align:center">6</td><td>Old blink dog</td></tr>
-				<tr><td style="text-align:center">7</td><td>Cheery sprite</td></tr>
-				<tr><td style="text-align:center">8</td><td>Harmless, magical wisp of light (no stat block required) that has a flying speed of 30 feet, can hover, and sheds bright light in a 5-foot radius and dim light for an additional 5 feet</td></tr>
+				<tr>
+					<td style="text-align:center">1</td>
+					<td>Old, cantankerous Witchlight hand</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">2</td>
+					<td>Young, impressionable Witchlight hand.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">3</td>
+					<td>Performer (such as an acrobat, a clown, or a musician)</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">4</td>
+					<td>Retired performer</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">5</td>
+					<td>Seasoned animal trainer</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">6</td>
+					<td>Old blink dog</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">7</td>
+					<td>Cheery sprite</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">8</td>
+					<td>Harmless, magical wisp of light (no stat block required) that has a flying speed of 30 feet, can hover, and sheds bright light in a 5-foot radius and dim light for an additional 5 feet</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_WBW_BACKGROUND_FEATURE_CARNIVAL_FIXTURE" />
 		</description>

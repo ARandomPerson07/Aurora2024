@@ -3,7 +3,7 @@
 	<info>
 		<name>Feats from Dragonlance: Shadow of the Dragon Queen</name>
 		<update version="0.0.1">
-			<file name="feats.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/dragonlance-shadow-of-the-dragon-queen/feats.xml" />
+			<file name="feats.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/dragonlance-shadow-of-the-dragon-queen/feats.xml" />
 		</update>
 	</info>
 
@@ -14,8 +14,14 @@
 		<description>
 			<p>You chose the moon Nuitari to influence your magic, and your ambition and loyalty to the Order of the Black Robes has been recognized, granting you these benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Ambitious Magic.</em></strong> You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the enchantment or necromancy school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Life Channel.</em></strong> You can channel your life force into the power of your magic. When a creature you can see within 60 feet of you fails a saving throw against a spell that deals damage that you cast, you can expend a number of Hit Dice equal to the level of the spell. Roll the expended Hit Dice and add them together. The damage that the creature takes increases by an amount equal to that total.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Ambitious Magic.</em>
+					</strong> You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the enchantment or necromancy school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Life Channel.</em>
+					</strong> You can channel your life force into the power of your magic. When a creature you can see within 60 feet of you fails a saving throw against a spell that deals damage that you cast, you can expend a number of Hit Dice equal to the level of the spell. Roll the expended Hit Dice and add them together. The damage that the creature takes increases by an amount equal to that total.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -85,8 +91,14 @@
 		<description>
 			<p>You chose the moon Lunitari to influence your magic, and your dedication to maintaining the balance between all things has been recognized by the Order of the Red Robes, granting you these benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Insightful Magic.</em></strong> You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the illusion or transmutation school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Magical Balance.</em></strong> When you make an attack roll or an ability check and roll a 9 or lower on the d20, you can balance fate and treat the roll as a 10. You can balance fate in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Insightful Magic.</em>
+					</strong> You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the illusion or transmutation school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Magical Balance.</em>
+					</strong> When you make an attack roll or an ability check and roll a 9 or lower on the d20, you can balance fate and treat the roll as a 10. You can balance fate in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -111,7 +123,7 @@
 			<select type="Spell" name="2nd Level Spell (Insightful Magic)" supports="2,(Illusion||Transmutation)" />
 		</rules>
 	</element>
-		
+
 	<element name="Insightful Magic" type="Feat Feature" source="Dragonlance: Shadow of the Dragon Queen" id="ID_WOTC_DSDQ_FEAT_FEATURE_ADEPT_OF_THE_RED_ROBES_INSIGHTFUL_MAGIC_WISDOM">
 		<compendium display="false" />
 		<description>
@@ -156,8 +168,14 @@
 		<description>
 			<p>You chose the moon Solinari to influence your magic, and your oath to use magic to make the world a better place has been recognized by the Order of the White Robes, granting you these benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Protective Magic.</em></strong> You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the abjuration or divination school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Protective Ward.</em></strong> When you or a creature you can see within 30 feet of you takes damage, you can use your reaction to expend a spell slot and weave protective magic around the target. Roll a number of d6s equal to the level of the spell slot expended and reduce the damage the target takes by the total rolled on those dice + your spellcasting ability modifier.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Protective Magic.</em>
+					</strong> You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the abjuration or divination school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Protective Ward.</em>
+					</strong> When you or a creature you can see within 30 feet of you takes damage, you can use your reaction to expend a spell slot and weave protective magic around the target. Roll a number of d6s equal to the level of the spell slot expended and reduce the damage the target takes by the total rolled on those dice + your spellcasting ability modifier.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -231,11 +249,23 @@
 			<h5>Alignment Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Alignment</td><td>1st-Level Spell</td></tr>
+					<tr>
+						<td>Alignment</td>
+						<td>1st-Level Spell</td>
+					</tr>
 				</thead>
-				<tr><td>Evil</td><td>Choose one 1st-level warlock spell.</td></tr>
-				<tr><td>Good</td><td>Choose one 1st-level cleric spell.</td></tr>
-				<tr><td>Neutral</td><td>Choose one 1st-level druid spell.</td></tr>
+				<tr>
+					<td>Evil</td>
+					<td>Choose one 1st-level warlock spell.</td>
+				</tr>
+				<tr>
+					<td>Good</td>
+					<td>Choose one 1st-level cleric spell.</td>
+				</tr>
+				<tr>
+					<td>Neutral</td>
+					<td>Choose one 1st-level druid spell.</td>
+				</tr>
 			</table>
 			<p class="indent">You can cast the chosen 1st-level spell and the <i>augury</i> spell without a spell slot, and you must finish a long rest before you can cast either of these spells in this way again. You can also cast these spells using spell slots you have of the appropriate level.</p>
 			<p class="indent">Your spellcasting ability for this feat’s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).</p>
@@ -328,11 +358,26 @@
 			<h5>Lunar Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Moon</td><td>1st-Level Spell</td></tr>
+					<tr>
+						<td>Moon</td>
+						<td>1st-Level Spell</td>
+					</tr>
 				</thead>
-				<tr><td>Nuitari</td><td>Choose two from <i>dissonant whispers</i>, <i>false life</i>, <i>hex</i>, and <i>ray of sickness</i></td></tr>
-				<tr><td>Lunitari</td><td>Choose two from <i>color spray</i>, <i>disguise self</i>, <i>feather fall</i>, and <i>longstrider</i></td></tr>
-				<tr><td>Solinari</td><td>Choose two from <i>comprehend languages</i>, <i>detect evil and good</i>, <i>protection from evil and good</i>, and <i>shield</i></td></tr>
+				<tr>
+					<td>Nuitari</td>
+					<td>Choose two from <i>dissonant whispers</i>,						<i>false life</i>,						<i>hex</i>, and <i>ray of sickness</i>
+					</td>
+				</tr>
+				<tr>
+					<td>Lunitari</td>
+					<td>Choose two from <i>color spray</i>,						<i>disguise self</i>,						<i>feather fall</i>, and <i>longstrider</i>
+					</td>
+				</tr>
+				<tr>
+					<td>Solinari</td>
+					<td>Choose two from <i>comprehend languages</i>,						<i>detect evil and good</i>,						<i>protection from evil and good</i>, and <i>shield</i>
+					</td>
+				</tr>
 			</table>
 			<p class="indent">You can cast each of the chosen 1st-level spells without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spells using any spell slots you have.</p>
 			<p class="indent">Your spellcasting ability for this feat’s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).</p>
@@ -381,7 +426,8 @@
 	<element name="Nuitari" type="Feat Feature" source="Dragonlance: Shadow of the Dragon Queen" id="ID_WOTC_DSDQ_FEAT_FEATURE_INITIATE_OF_HIGH_SORCERY_NUITARI">
 		<compendium display="false" />
 		<description>
-			<p>The black moon. Choose two from <i>dissonant whispers</i>, <i>false life</i>, <i>hex</i>, and <i>ray of sickness</i>.</p>
+			<p>The black moon. Choose two from <i>dissonant whispers</i>,				<i>false life</i>,				<i>hex</i>, and <i>ray of sickness</i>.
+			</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -392,7 +438,8 @@
 	<element name="Lunitari" type="Feat Feature" source="Dragonlance: Shadow of the Dragon Queen" id="ID_WOTC_DSDQ_FEAT_FEATURE_INITIATE_OF_HIGH_SORCERY_LUNITARI">
 		<compendium display="false" />
 		<description>
-			<p>The red moon. Choose two from <i>color spray</i>, <i>disguise self</i>, <i>feather fall</i>, and <i>longstrider</i>.</p>
+			<p>The red moon. Choose two from <i>color spray</i>,				<i>disguise self</i>,				<i>feather fall</i>, and <i>longstrider</i>.
+			</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -403,7 +450,8 @@
 	<element name="Solinari" type="Feat Feature" source="Dragonlance: Shadow of the Dragon Queen" id="ID_WOTC_DSDQ_FEAT_FEATURE_INITIATE_OF_HIGH_SORCERY_SOLINARI">
 		<compendium display="false" />
 		<description>
-			<p>The white moon. Choose two from <i>comprehend languages</i>, <i>detect evil and good</i>, <i>protection from evil and good</i>, and <i>shield</i>.</p>
+			<p>The white moon. Choose two from <i>comprehend languages</i>,				<i>detect evil and good</i>,				<i>protection from evil and good</i>, and <i>shield</i>.
+			</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -417,8 +465,14 @@
 		<description>
 			<p>You are a Knight of Solamnia aligned with the Order of the Crown, a group that extols the virtues of cooperation, loyalty, and obedience. You excel in group combat and gain these benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Ability Score Increase.</em></strong> Increase your Strength, Dexterity or Constitution score by 1, to a maximum of 20.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Commanding Rally.</em></strong> As a bonus action, you can command one ally within 30 feet of yourself to attack. If that ally can see or hear you, they can immediately make one weapon attack as a reaction. If the attack hits, the ally can roll a d8 and add the number rolled as a bonus to the attack's damage roll. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Ability Score Increase.</em>
+					</strong> Increase your Strength, Dexterity or Constitution score by 1, to a maximum of 20.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Commanding Rally.</em>
+					</strong> As a bonus action, you can command one ally within 30 feet of yourself to attack. If that ally can see or hear you, they can immediately make one weapon attack as a reaction. If the attack hits, the ally can roll a d8 and add the number rolled as a bonus to the attack's damage roll. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -443,8 +497,14 @@
 		<description>
 			<p>You are a Knight of Solamnia aligned with the Order of the Rose, a group known for leadership, justice, and wisdom. Your resolve grants you these benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Ability Score Increase.</em></strong> Increase your Constitution, Wisdom or Charisma score by 1, to a maximum of 20.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Bolstering Rally.</em></strong> As a bonus action, you can encourage one creature you can see within 30 feet of yourself (you can choose yourself). If the target can see or hear you, the target gains temporary hit points equal to 1d8 + your proficiency bonus + the ability modifier of the ability score increased by this feat. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Ability Score Increase.</em>
+					</strong> Increase your Constitution, Wisdom or Charisma score by 1, to a maximum of 20.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Bolstering Rally.</em>
+					</strong> As a bonus action, you can encourage one creature you can see within 30 feet of yourself (you can choose yourself). If the target can see or hear you, the target gains temporary hit points equal to 1d8 + your proficiency bonus + the ability modifier of the ability score increased by this feat. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -502,8 +562,14 @@
 		<description>
 			<p>You are a Knight of Solamnia aligned with the Order of the Sword, a group devoted to heroism and courage. Bravery steels your spirit, granting you these benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Ability Score Increase.</em></strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Demoralizing Strike.</em></strong> Once per turn, when you hit a creature with a weapon attack roll, you can attempt to frighten that target. The target must make a Wisdom saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the target is frightened of you until the end of your next turn. On a successful save, the target has disadvantage on the next attack roll it makes before the end of its next turn. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Ability Score Increase.</em>
+					</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Demoralizing Strike.</em>
+					</strong> Once per turn, when you hit a creature with a weapon attack roll, you can attempt to frighten that target. The target must make a Wisdom saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the target is frightened of you until the end of your next turn. On a successful save, the target has disadvantage on the next attack roll it makes before the end of its next turn. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -562,8 +628,14 @@
 		<description>
 			<p>Your training in the ways of the Knights of Solamnia grants you these benefits:</p>
 			<ul class="unstyled">
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Mount Up.</em></strong> Mounting or dismounting costs you only 5 feet of movement.</li>
-				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Precise Strike.</em></strong> Once per turn, when you make a weapon attack roll against a creature, you can cause the attack roll to have advantage. If the attack hits, you roll a d8 and add the number rolled as a bonus to the attack's damage roll. You can use this benefit a number of times equal to your proficiency bonus, but a use is expended only if the attack hits. You regain all expended uses when you finish a long rest.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Mount Up.</em>
+					</strong> Mounting or dismounting costs you only 5 feet of movement.</li>
+				<li style="margin-left:1em;text-indent:-1em;">
+					<strong>
+						<em>Precise Strike.</em>
+					</strong> Once per turn, when you make a weapon attack roll against a creature, you can cause the attack roll to have advantage. If the attack hits, you roll a d8 and add the number rolled as a bonus to the attack's damage roll. You can use this benefit a number of times equal to your proficiency bonus, but a use is expended only if the attack hits. You regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -598,22 +670,34 @@
 			<h4>1st-Level Bonus Feat</h4>
 			<p>If you select the Knight of Solamnia or the Mage of High Sorcery background, you gain the bonus feat specified in that background. If the background you choose doesn’t provide a feat, you gain a bonus feat of your choice from the following list (a parenthesis tells you where to find the feat):</p>
 			<ul>
-				<li>Skilled (<i>Player’s Handbook</i>)</li>
-				<li>Tough (<i>Player’s Handbook</i>)</li>
+				<li>Skilled (<i>Player’s Handbook</i>)
+				</li>
+				<li>Tough (<i>Player’s Handbook</i>)
+				</li>
 			</ul>
 			<h4>4th-Level Bonus Feat</h4>
 			<p>At 4th level, you gain another bonus feat of your choice from either the 1st-level list above or the following list (a parenthesis tells you where to find the feat):</p>
 			<ul>
-				<li>Adept of the Black Robes (<i>Dragonlance: Shadow of the Dragon Queen</i>)</li>
-				<li>Adept of the Red Robes (<i>Dragonlance: Shadow of the Dragon Queen</i>)</li>
-				<li>Adept of the White Robes (<i>Dragonlance: Shadow of the Dragon Queen</i>)</li>
-				<li>Alert (<i>Player’s Handbook</i>)</li>
-				<li>Knight of the Crown (<i>Dragonlance: Shadow of the Dragon Queen</i>)</li>
-				<li>Knight of the Rose (<i>Dragonlance: Shadow of the Dragon Queen</i>)</li>
-				<li>Knight of the Sword (<i>Dragonlance: Shadow of the Dragon Queen</i>)</li>
-				<li>Mobile (<i>Player’s Handbook</i>)</li>
-				<li>Sentinel (<i>Player’s Handbook</i>)</li>
-				<li>War Caster (<i>Player’s Handbook</i>)</li>
+				<li>Adept of the Black Robes (<i>Dragonlance: Shadow of the Dragon Queen</i>)
+				</li>
+				<li>Adept of the Red Robes (<i>Dragonlance: Shadow of the Dragon Queen</i>)
+				</li>
+				<li>Adept of the White Robes (<i>Dragonlance: Shadow of the Dragon Queen</i>)
+				</li>
+				<li>Alert (<i>Player’s Handbook</i>)
+				</li>
+				<li>Knight of the Crown (<i>Dragonlance: Shadow of the Dragon Queen</i>)
+				</li>
+				<li>Knight of the Rose (<i>Dragonlance: Shadow of the Dragon Queen</i>)
+				</li>
+				<li>Knight of the Sword (<i>Dragonlance: Shadow of the Dragon Queen</i>)
+				</li>
+				<li>Mobile (<i>Player’s Handbook</i>)
+				</li>
+				<li>Sentinel (<i>Player’s Handbook</i>)
+				</li>
+				<li>War Caster (<i>Player’s Handbook</i>)
+				</li>
 			</ul>
 			<p>You gain this bonus feat at 4th level regardless of your background—even if you have the Knight of Solamnia or Mage of High Sorcery background. You must meet all prerequisites if the feat you choose has any.</p>
 		</description>
@@ -643,7 +727,9 @@
 		<compendium display="false" />
 		<description>
 			<p>Once equipped, this item allows you to ignore prerequisites for most of the Feats from <i>Dragonlance: Shadow of the Dragon Queen</i> Source.</p>
-			<p><b>Note:</b> <i>Adept of the Black Robes</i>, <i>Adept of the Red Robes</i> and <i>Adept of the White Robes</i> can't be fully unlocked with this item, because their features are based on <i>Initiate of High Sorcery</i> features. Instead, this item allows you to ignore level prerequisite, and these Feats no longer require specific Krynn Moon to be selected.</p>
+			<p>
+				<b>Note:</b>
+				<i>Adept of the Black Robes</i>,				<i>Adept of the Red Robes</i> and <i>Adept of the White Robes</i> can't be fully unlocked with this item, because their features are based on <i>Initiate of High Sorcery</i> features. Instead, this item allows you to ignore level prerequisite, and these Feats no longer require specific Krynn Moon to be selected.</p>
 		</description>
 		<setters>
 			<set name="category">Additional Feature</set>

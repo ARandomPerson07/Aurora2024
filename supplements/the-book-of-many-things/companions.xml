@@ -4,7 +4,7 @@
 		<name>Companion</name>
 		<description>Creatures from The Book of Many Things, that fit rules for Companions or Familiars</description>
 		<update version="0.0.1">
-			<file name="companions.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/the-book-of-many-things/companions.xml" />
+			<file name="companions.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/the-book-of-many-things/companions.xml" />
 		</update>
 	</info>
 
@@ -30,7 +30,7 @@
 			<set name="charisma">7</set>
 			<set name="skills">Perception +6, Stealth +5</set>
 			<set name="immunities">poison</set>
-			<set name="conditionImmunities">exhaustion, poisoned</set>            
+			<set name="conditionImmunities">exhaustion, poisoned</set>
 			<set name="senses">darkvision 120 ft., passive Perception 16</set>
 			<set name="languages">—</set>
 			<set name="challenge">1</set>
@@ -48,7 +48,8 @@
 	</element>
 	<element name="Talons" type="Companion Action" source="The Book of Many Things" id="ID_WOTC_BOMT_COMPANION_ACTION_HARROW_HAWK_TALONS">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 8 (2d4 + 3) slashing damage plus 3 (1d6) necrotic damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 8 (2d4 + 3) slashing damage plus 3 (1d6) necrotic damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage plus 3 (1d6) necrotic damage.</description>

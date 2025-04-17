@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/dragonlance-shadow-of-the-dragon-queen/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/dragonlance-shadow-of-the-dragon-queen/items.xml" />
 		</update>
 	</info>
 
@@ -47,11 +47,11 @@
 		</setters>
 	</element>
 
-    <element name="Special (Hoopak)" type="Weapon Property" source="Dragonlance: Shadow of the Dragon Queen" id="ID_WOTC_DSDQ_WEAPON_PROPERTY_SPECIAL_HOOPAK">
-        <description>
-            <p>When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals 1d4 bludgeoning damage on a hit.</p>
-        </description>
-    </element>
+	<element name="Special (Hoopak)" type="Weapon Property" source="Dragonlance: Shadow of the Dragon Queen" id="ID_WOTC_DSDQ_WEAPON_PROPERTY_SPECIAL_HOOPAK">
+		<description>
+			<p>When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals 1d4 bludgeoning damage on a hit.</p>
+		</description>
+	</element>
 
 	<element name="Weapon Proficiency (Hoopak)" type="Proficiency" source="Dragonlance: Shadow of the Dragon Queen" id="ID_WOTC_DSDQ_PROFICIENCY_WEAPON_PROFICIENCY_HOOPAK">
 		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_WOTC_DSDQ_WEAPON_PROPERTY_SPECIAL_HOOPAK, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
@@ -60,16 +60,27 @@
 	<!-- Gnome Siege Weapons -->
 	<element name="Boilerdrak" type="Item" source="Dragonlance: Shadow of the Dragon Queen" id="ID_WOTC_DSDQ_ITEM_BOILERDRAK">
 		<description>
-			<p><i>Large object</i></p>
+			<p>
+				<i>Large object</i>
+			</p>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Damage Immunities:</b> poison, psychic</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Damage Immunities:</b> poison, psychic</li>
 			</ul>
 			<br />
 			<p>This wagon-sized device is designed to look roughly like a dragon. Before it can be used, the boilerdrak must be lit and aimed. It takes 1 action to light the weapon, 1 action to aim it, and 1 action to fire it. When you use your action to fire it, roll a d20. If you roll a 2 or higher, use the Flames action. If you roll a 1, use the Explosion action.</p>
-			<p><i><b>Flames.</b></i> The boilerdrak expels flames in a 60-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 27 (5d10) fire damage on a failed save, or half as much damage on a successful one.</p>
-			<p><i><b>Explosion.</b></i> The boilerdrak explodes in a 30-foot-radius sphere and is destroyed. Each creature in that area must make a DC 15 Dexterity saving throw, taking 27 (5d10) fire damage on a failed save, or half as much damage on a successful one.</p>
+			<p>
+				<i>
+					<b>Flames.</b>
+				</i> The boilerdrak expels flames in a 60-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 27 (5d10) fire damage on a failed save, or half as much damage on a successful one.</p>
+			<p>
+				<i>
+					<b>Explosion.</b>
+				</i> The boilerdrak explodes in a 30-foot-radius sphere and is destroyed. Each creature in that area must make a DC 15 Dexterity saving throw, taking 27 (5d10) fire damage on a failed save, or half as much damage on a successful one.</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
@@ -80,16 +91,24 @@
 
 	<element name="Gnomeflinger" type="Item" source="Dragonlance: Shadow of the Dragon Queen" id="ID_WOTC_DSDQ_ITEM_GNOMEFLINGER">
 		<description>
-			<p><i>Large object</i></p>
+			<p>
+				<i>Large object</i>
+			</p>
 			<ul class="unstyled">
-				<li><b>Armor Class:</b> 15</li>
-				<li><b>Hit Points:</b> 100</li>
-				<li><b>Damage Immunities:</b> poison, psychic</li>
+				<li>
+					<b>Armor Class:</b> 15</li>
+				<li>
+					<b>Hit Points:</b> 100</li>
+				<li>
+					<b>Damage Immunities:</b> poison, psychic</li>
 			</ul>
 			<br />
 			<p>The gnomeflinger is a catapult designed to hurl creatures, instead of projectiles, in a high arc. The gnomeflinger was designed in conjunction with the narycrash (see the "Adventuring Gear" section) to hasten transportation. The device can hold one Medium or smaller creature. Before it can be used, the gnomeflinger must be loaded and aimed. It takes 1 action to load the gnomeflinger, 1 action to aim it, and 1 action to fire it.</p>
 			<p class="indent">While taking an action to aim the gnomeflinger, you set the maximum horizontal distance of the Fling Personnel action to 60 feet, 150 feet, or 300 feet.</p>
-			<p><i><b>Fling Personnel.</b></i> The gnomeflinger catapults a Medium or smaller creature at least 60 feet away horizontally, with a maximum horizontal distance of 60 feet, 150 feet, or 300 feet, depending on the option chosen when the catapult was aimed. During this trajectory, the creature always reaches a height of 60 feet vertically.</p>
+			<p>
+				<i>
+					<b>Fling Personnel.</b>
+				</i> The gnomeflinger catapults a Medium or smaller creature at least 60 feet away horizontally, with a maximum horizontal distance of 60 feet, 150 feet, or 300 feet, depending on the option chosen when the catapult was aimed. During this trajectory, the creature always reaches a height of 60 feet vertically.</p>
 			<p class="indent">A creature that collides with another creature or an object during this trajectory takes 3 (1d6) bludgeoning damage for every 10 feet away from the gnomeflinger it is.</p>
 		</description>
 		<setters>
@@ -129,8 +148,14 @@
 				<li>At any time, you can see and hear from the highest point outside the citadel as though you were at that location.</li>
 			</ul>
 			<p>If no creature attuned to the helm is maintaining concentration, the citadel remains motionless in its space.</p>
-			<p class="indent"><b><i>Transfer Attunement.</i></b> You can use an action to touch a willing spellcaster, whereupon that creature attunes to the <i>flying citadel helm</i> immediately, and your attunement to the <i>flying citadel helm</i> ends.</p>
-			<p class="indent"><b><i>Crash.</i></b> Should the <i>flying citadel helm</i> be destroyed, the citadel it is installed on loses power and begins to crumble. If the crumbling citadel is in the air, it descends at a rate of 30 feet per round, or 300 feet per minute. Any creature on the citadel or on the ground within 120 feet of the citadel when it lands must make a DC 20 Dexterity saving throw, taking 39 (6d12) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent">
+				<b>
+					<i>Transfer Attunement.</i>
+				</b> You can use an action to touch a willing spellcaster, whereupon that creature attunes to the <i>flying citadel helm</i> immediately, and your attunement to the <i>flying citadel helm</i> ends.</p>
+			<p class="indent">
+				<b>
+					<i>Crash.</i>
+				</b> Should the <i>flying citadel helm</i> be destroyed, the citadel it is installed on loses power and begins to crumble. If the crumbling citadel is in the air, it descends at a rate of 30 feet per round, or 300 feet per minute. Any creature on the citadel or on the ground within 120 feet of the citadel when it lands must make a DC 20 Dexterity saving throw, taking 39 (6d12) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
 		</description>
 		<setters>
 			<set name="keywords">spellcaster</set>

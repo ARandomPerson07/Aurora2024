@@ -2,22 +2,24 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-		<file name="wizard-illusionist.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/wizard-illusionist.xml" />
+			<file name="wizard-illusionist.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/wizard-illusionist.xml" />
 		</update>
 	</info>
 
 	<element name="Illusionist" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST">
 		<supports>Arcane Tradition</supports>
 		<description>
-			<h5><i>Weave Subtle Spells of Deception</i></h5>
+			<h5>
+				<i>Weave Subtle Spells of Deception</i>
+			</h5>
 			<p>You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.</p>
-            <div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSION_SAVANT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSION_SAVANT" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_IMPROVED_MINOR_ILLUSION" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_MALLEABLE_ILLUSIONS" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_SELF" />
 			<div element="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_REALITY" />
 		</description>
-        <sheet display="false" />
+		<sheet display="false" />
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSION_SAVANT" level="3"/>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_IMPROVED_MINOR_ILLUSION" level="3"/>
@@ -35,7 +37,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Spell" name="Illusion Savant (1-2nd Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="2"  level="3" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Savant (1-2nd Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="2" level="3" spellcasting="Wizard" />
 
 			<select type="Spell" name="Illusion Savant (1-3rd Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="1" level="5" spellcasting="Wizard" />
 
@@ -76,7 +78,7 @@
 		<sheet alt="Phantasmal Creatures">
 			<description>You always have the Summon Beast and Summon Fey spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again.</description>
 		</sheet>
-		<rules>		
+		<rules>
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_BEAST" spellcasting="Wizard" prepared="true" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_FEY" spellcasting="Wizard" prepared="true" />
 		</rules>
@@ -101,7 +103,7 @@
 			<description>When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. The object remains real for 1 minute. The object can't deal damage or give any conditions.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Illusion Savant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_ILLUSION_SAVANT" />
 	<element name="Improved Minor Illusion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_IMPROVED_MINOR_ILLUSION" />

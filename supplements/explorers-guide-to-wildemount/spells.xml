@@ -2,7 +2,7 @@
 <elements>
     <info>
         <update version="0.0.4">
-            <file name="spells.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/explorers-guide-to-wildemount/spells.xml" />
+            <file name="spells.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/explorers-guide-to-wildemount/spells.xml" />
         </update>
     </info>
     <element name="Dark Star" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_DARK_STAR">
@@ -32,7 +32,10 @@
         <description>
             <p>You impart latent luck to yourself or one willing creature you can see within range. When the chosen creature makes an attack roll, an ability check, or a saving throw before the spell ends, it can dismiss this spell on itself to roll and additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against the chosen creature, it can dismiss this spell on itself to roll a d20 and choose which of the d20s to use, the one it rolled or the one the attacker rolled.</p>
             <p class="indent">If the original d20 roll has advantage or disadvantage, the creature rolls the additional d20 after advantage or disadvantage has been applied to the original roll.</p>
-            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+            <p class="indent">
+                <strong>
+                    <em>At Higher Levels.</em>
+                </strong> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
         </description>
         <setters>
             <set name="keywords">dunamancy</set>
@@ -74,7 +77,10 @@
         <description>
             <p>You manifest a ravine of gravitational energy in a line originating from you that is 100 feet long and 5 feet wide. Each creature in that line must make a Constitution saving throw, taking 8d8 force damage on a failed save, or half as much damage on a successful one.</p>
             <p class="indent">Each creature within 10 feet of the line but not in it must succeed on a Constitution saving throw or take 8d8 force damage and be pulled toward the line until the creature is within its area.</p>
-            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d8 for each slot level above 6th.</p>
+            <p class="indent">
+                <strong>
+                    <em>At Higher Levels.</em>
+                </strong> When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d8 for each slot level above 6th.</p>
         </description>
         <setters>
             <set name="keywords">force,dunamancy,graviturgy</set>
@@ -95,7 +101,10 @@
         <supports>Wizard, Spell Saving Throw</supports>
         <description>
             <p>A 20-foot-radius sphere of crushing force forms at a point you can see within range and tugs at the creatures there. Each creature within the sphere must make a Constitution saving throw. On a failed save, the creature takes 5d10 force damage and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). On a successful save, the creature takes half as much damage and isn’t pulled.</p>
-            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>
+            <p class="indent">
+                <strong>
+                    <em>At Higher Levels.</em>
+                </strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>
         </description>
         <setters>
             <set name="keywords">force,dunamancy,graviturgy</set>
@@ -117,7 +126,10 @@
         <description>
             <p>You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password, that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.</p>
             <p class="indent">If the object is fixed in the air, it can hold up to 4,000 pounds of weight. More weight causes the object to fall. Otherwise, a creature can use an action to make a Strength check against your spell save DC. On a success, the creature can move the object up to 10 feet.</p>
-            <p class="indent"><strong><em>At Higher Levels.</em></strong> If you cast this spell using a spell slot of 4th or 5th level, the DC to move the object increases by 5, it can carry up to 8,000 pounds of weight, and the duration increases to 24 hours. If you cast this spell using a spell slot of 6th level or higher, the DC to move the object increases by 10, it can carry up to 20,000 pounds of weight, and the effect is permanent until dispelled.</p>
+            <p class="indent">
+                <strong>
+                    <em>At Higher Levels.</em>
+                </strong> If you cast this spell using a spell slot of 4th or 5th level, the DC to move the object increases by 5, it can carry up to 8,000 pounds of weight, and the duration increases to 24 hours. If you cast this spell using a spell slot of 6th level or higher, the DC to move the object increases by 10, it can carry up to 20,000 pounds of weight, and the effect is permanent until dispelled.</p>
         </description>
         <setters>
             <set name="keywords">dunamancy,graviturgy</set>
@@ -139,7 +151,10 @@
         <description>
             <p>The gravity in a 10-foot-radius sphere centered on a point you can see within range increases for a moment. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes 2d8 force damage, and its speed is halved until the end of the next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.</p>
             <p class="indent">Until the start of your next turn, any object that isn’t being worn or carried in the sphere requires a successful Strength check against your spell save DC to pick up or move.</p>
-            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+            <p class="indent">
+                <strong>
+                    <em>At Higher Levels.</em>
+                </strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
         </description>
         <setters>
             <set name="keywords">force,dunamancy,graviturgy</set>
@@ -161,7 +176,10 @@
         <description>
             <p>You create intense pressure, unleash it in a 30-foot cone, and decide whether the pressure pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes 6d6 force damage on a failed save, or half as much damage on a successful one, and every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the spell.</p>
             <p class="indent">In addition, unsecured objects that are completely within the cone are likewise pulled or pushed 15 feet.</p>
-            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 and the distance pulled or pushed increases by 5 feet for each slot level above 3rd.</p>
+            <p class="indent">
+                <strong>
+                    <em>At Higher Levels.</em>
+                </strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 and the distance pulled or pushed increases by 5 feet for each slot level above 3rd.</p>
         </description>
         <setters>
             <set name="keywords">force, dunamancy</set>
@@ -207,12 +225,31 @@
             <p class="indent">At the end of each of its turns, the affected target can repeat the Wisdom saving throw, ending the spell on itself on a success.</p>
             <table>
                 <thead>
-                    <tr><td>d10</td><td>Reality Break Effects</td></tr>
+                    <tr>
+                        <td>d10</td>
+                        <td>Reality Break Effects</td>
+                    </tr>
                 </thead>
-                <tr><td>1-2</td><td><strong>Vision of the Far Realm.</strong> The target takes 6d12 psychic damage, and it is stunned until the end of the turn.</td></tr>
-                <tr><td>3-5</td><td><strong>Rending Rift.</strong> The target must make a Dexterity saving throw, taking 8d12 force damage on a failed save, or half as much damage on a successful one.</td></tr>
-                <tr><td>6-8</td><td><strong>Wormhole.</strong> The target is teleported, along with everything it is wearing or carrying, up to 30 feet to an unoccupied space of your choice that you can see. The target also takes 10d12 force damage and is knocked prone.</td></tr>
-                <tr><td>9-10</td><td><strong>Chill of the Dark Void.</strong> The target takes 10d12 cold damage, and it is blinded until the end of the turn.</td></tr>
+                <tr>
+                    <td>1-2</td>
+                    <td>
+                        <strong>Vision of the Far Realm.</strong> The target takes 6d12 psychic damage, and it is stunned until the end of the turn.</td>
+                </tr>
+                <tr>
+                    <td>3-5</td>
+                    <td>
+                        <strong>Rending Rift.</strong> The target must make a Dexterity saving throw, taking 8d12 force damage on a failed save, or half as much damage on a successful one.</td>
+                </tr>
+                <tr>
+                    <td>6-8</td>
+                    <td>
+                        <strong>Wormhole.</strong> The target is teleported, along with everything it is wearing or carrying, up to 30 feet to an unoccupied space of your choice that you can see. The target also takes 10d12 force damage and is knocked prone.</td>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td>
+                        <strong>Chill of the Dark Void.</strong> The target takes 10d12 cold damage, and it is blinded until the end of the turn.</td>
+                </tr>
             </table>
         </description>
         <setters>
@@ -255,7 +292,10 @@
         <supports>Wizard, Spell Saving Throw</supports>
         <description>
             <p>You target the triggering creature, which must succeed on a Wisdom saving throw or vanish, being thrown into another point in time and causing the attack to miss or spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn’t remember you casting the spell or being affected by it.</p>
-            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. All targets must be within 30 feet of each other.</p>
+            <p class="indent">
+                <strong>
+                    <em>At Higher Levels.</em>
+                </strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. All targets must be within 30 feet of each other.</p>
         </description>
         <setters>
             <set name="keywords">dunamancy,chronurgy</set>

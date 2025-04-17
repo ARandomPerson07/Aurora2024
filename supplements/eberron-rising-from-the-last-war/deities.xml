@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<info>
-		<update version="0.0.1">
-			<file name="deities.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/deities.xml" />
-		</update>
-	</info>
-	
+    <info>
+        <update version="0.0.1">
+            <file name="deities.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/deities.xml" />
+        </update>
+    </info>
+
     <element name="Arawai" type="Deity" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_DEITY_ARAWAI">
         <description>
             <p>Arawai is the Sovereign of Life and Love. She is the patron of fertility and of the benevolent aspects of nature, bringing good harvest and gentle rain.</p>
@@ -105,7 +105,7 @@
             <set name="gender">male</set>
         </setters>
     </element>
-	
+
     <element name="The Devourer" type="Deity" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_DEITY_THE_DEVOURER">
         <description>
             <p>The Devourer governs the destructive power of nature, both pure elemental force and savagery in beasts.</p>
@@ -172,14 +172,14 @@
             <set name="gender">male</set>
         </setters>
     </element>
-	
+
     <element name="The Silver Flame" type="Deity" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_DEITY_THE_SILVER_FLAME">
         <description>
-			<ul>
-				<li>The Silver Flame is force of light that holds fiends at bay. Those who seek to defend the innocent from evil can draw on the power of the Flame.</li>
-				<li>Every mortal soul can find the light. Inspire and guide others to virtuous behavior; force is a last resort.</li>
-				<li>Listen to the Voice of the Flame; beware the deceiving whispers of the Shadow in the Flame.</li>
-			</ul>
+            <ul>
+                <li>The Silver Flame is force of light that holds fiends at bay. Those who seek to defend the innocent from evil can draw on the power of the Flame.</li>
+                <li>Every mortal soul can find the light. Inspire and guide others to virtuous behavior; force is a last resort.</li>
+                <li>Listen to the Voice of the Flame; beware the deceiving whispers of the Shadow in the Flame.</li>
+            </ul>
         </description>
         <setters>
             <set name="alignment"></set>
@@ -191,9 +191,9 @@
     <element name="The Blood of Vol" type="Deity" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_DEITY_THE_BLOOD_OF_VOL">
         <description>
             <ul>
-				<li>Everyone has a spark of divinity. Find that power within.</li>
-				<li>Death is the end, Dolurrh is oblivion, and if the gods exist, they are cruel. Stand with those you care for; all we have is this life and each other.</li>
-			</ul>
+                <li>Everyone has a spark of divinity. Find that power within.</li>
+                <li>Death is the end, Dolurrh is oblivion, and if the gods exist, they are cruel. Stand with those you care for; all we have is this life and each other.</li>
+            </ul>
         </description>
         <setters>
             <set name="alignment"></set>
@@ -205,10 +205,10 @@
     <element name="Cults of the Dragon Below" type="Deity" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_DEITY_CULTS_OF_THE_DRAGON_BELOW">
         <description>
             <ul>
-				<li>A paradise exists within the world, a vale bathed in the light of the Inner Sun. Earn your passage with the blood of worthy foes.</li>
-				<li>Our existence is a chrysalis state, preparing us for transcendent immortality within the bowels of the gibbering mouther.</li>
-				<li>The Lord of Eyes sees all secrets. Its gaze elevates the worthy and slays the unbeliever. Drive doubt from your heart, and you will see reality through new eyes.</li>
-			</ul>
+                <li>A paradise exists within the world, a vale bathed in the light of the Inner Sun. Earn your passage with the blood of worthy foes.</li>
+                <li>Our existence is a chrysalis state, preparing us for transcendent immortality within the bowels of the gibbering mouther.</li>
+                <li>The Lord of Eyes sees all secrets. Its gaze elevates the worthy and slays the unbeliever. Drive doubt from your heart, and you will see reality through new eyes.</li>
+            </ul>
         </description>
         <setters>
             <set name="alignment"></set>
@@ -220,10 +220,10 @@
     <element name="The Path of Light" type="Deity" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_DEITY_THE_PATH_OF_LIGHT">
         <description>
             <ul>
-				<li>We live in an age of darkness. We must find the path that leads to the light.</li>
-				<li>Act with compassion and courage. Each noble act is a step on the path.</li>
-				<li>Hone your body and your mind. You are the tool you will use to change reality.</li>
-			</ul>
+                <li>We live in an age of darkness. We must find the path that leads to the light.</li>
+                <li>Act with compassion and courage. Each noble act is a step on the path.</li>
+                <li>Hone your body and your mind. You are the tool you will use to change reality.</li>
+            </ul>
         </description>
         <setters>
             <set name="alignment"></set>
@@ -235,10 +235,10 @@
     <element name="The Spirits of the Past" type="Deity" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_DEITY_THE_SPIRITS_OF_THE_PAST">
         <description>
             <ul>
-				<li>We are the spiritual anchors of the greatest champions of our people. Through our faith, we keep their spirits from being lost to oblivion.</li>
-				<li>You have been chosen by a hero. Live your life as they lived theirs, letting their instincts guide you.</li>
-				<li>Treasure our past and the stories of our people. You are the vessel through which new legends will arise.</li>
-			</ul>
+                <li>We are the spiritual anchors of the greatest champions of our people. Through our faith, we keep their spirits from being lost to oblivion.</li>
+                <li>You have been chosen by a hero. Live your life as they lived theirs, letting their instincts guide you.</li>
+                <li>Treasure our past and the stories of our people. You are the vessel through which new legends will arise.</li>
+            </ul>
         </description>
         <setters>
             <set name="alignment"></set>
@@ -250,10 +250,10 @@
     <element name="The Undying Court" type="Deity" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_DEITY_THE_UNDYING_COURT">
         <description>
             <ul>
-				<li>Our greatest champions and sages will never be lost to us. Their wisdom guides us, and their power protects us all.</li>
-				<li>Honor our past. Respect our traditions. Perfect your skills and you may earn your place among the Deathless.</li>
-				<li>Destroy those foul creatures that channel the power of Mahar, for they consume the essence of our world.</li>
-			</ul>
+                <li>Our greatest champions and sages will never be lost to us. Their wisdom guides us, and their power protects us all.</li>
+                <li>Honor our past. Respect our traditions. Perfect your skills and you may earn your place among the Deathless.</li>
+                <li>Destroy those foul creatures that channel the power of Mahar, for they consume the essence of our world.</li>
+            </ul>
         </description>
         <setters>
             <set name="alignment"></set>

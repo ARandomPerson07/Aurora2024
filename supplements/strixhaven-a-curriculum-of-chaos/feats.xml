@@ -3,7 +3,7 @@
 	<info>
 		<name>Feats from Strixhaven: A Curriculum Of Chaos</name>
 		<update version="0.0.1">
-			<file name="feats.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/strixhaven-a-curriculum-of-chaos/feats.xml" />
+			<file name="feats.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/strixhaven-a-curriculum-of-chaos/feats.xml" />
 		</update>
 	</info>
 	<element name="Strixhaven Initiate" type="Feat" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE">
@@ -14,13 +14,42 @@
 			<p class="indent">Your spellcasting ability for this feat’s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).</p>
 			<table>
 				<thead>
-					<tr><td>College</td><td>Cantrips</td><td>1st Level Spell</td></tr>
+					<tr>
+						<td>College</td>
+						<td>Cantrips</td>
+						<td>1st Level Spell</td>
+					</tr>
 				</thead>
-				<tr><td>Lorehold</td><td>Choose two from <i>light</i>, <i>sacred flame</i>, and <i>thaumaturgy</i>.</td><td>Choose one 1st-level cleric or wizard spell.</td></tr>
-				<tr><td>Prismari</td><td>Choose two from <i>fire bolt</i>, <i>prestidigitation</i>, and <i>ray of frost</i>.</td><td>Choose one 1st-level bard or sorcerer spell.</td></tr>
-				<tr><td>Quandrix</td><td>Choose two from <i>druidcraft</i>, <i>guidance</i>, and <i>mage hand</i>.</td><td>Choose one 1st-level druid or wizard spell.</td></tr>
-				<tr><td>Silverquill</td><td>Choose two from <i>sacred flame</i>, <i>thaumaturgy</i>, and <i>vicious mockery</i>.</td><td>Choose one 1st-level bard or cleric spell.</td></tr>
-				<tr><td>Witherbloom</td><td>Choose two from <i>chill touch</i>, <i>druidcraft</i>, and <i>spare the dying</i>.</td><td>Choose one 1st-level druid or wizard spell.</td></tr>
+				<tr>
+					<td>Lorehold</td>
+					<td>Choose two from <i>light</i>,						<i>sacred flame</i>, and <i>thaumaturgy</i>.
+					</td>
+					<td>Choose one 1st-level cleric or wizard spell.</td>
+				</tr>
+				<tr>
+					<td>Prismari</td>
+					<td>Choose two from <i>fire bolt</i>,						<i>prestidigitation</i>, and <i>ray of frost</i>.
+					</td>
+					<td>Choose one 1st-level bard or sorcerer spell.</td>
+				</tr>
+				<tr>
+					<td>Quandrix</td>
+					<td>Choose two from <i>druidcraft</i>,						<i>guidance</i>, and <i>mage hand</i>.
+					</td>
+					<td>Choose one 1st-level druid or wizard spell.</td>
+				</tr>
+				<tr>
+					<td>Silverquill</td>
+					<td>Choose two from <i>sacred flame</i>,						<i>thaumaturgy</i>, and <i>vicious mockery</i>.
+					</td>
+					<td>Choose one 1st-level bard or cleric spell.</td>
+				</tr>
+				<tr>
+					<td>Witherbloom</td>
+					<td>Choose two from <i>chill touch</i>,						<i>druidcraft</i>, and <i>spare the dying</i>.
+					</td>
+					<td>Choose one 1st-level druid or wizard spell.</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false"/>
@@ -33,7 +62,7 @@
 		<supports>Strixhaven College</supports>
 		<requirements>!(ID_WOTC_SCOC_BACKGROUND_FEATURE_PRISMARI_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_SILVERQUILL_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_WITHERBLOOM_INITIATE)</requirements>
 		<description>
-			<p>Choose two cantrips from <i>light</i>, <i>sacred flame</i>, and <i>thaumaturgy</i>. Choose one 1st-level cleric or wizard spell.</p>
+			<p>Choose two cantrips from <i>light</i>,				<i>sacred flame</i>, and <i>thaumaturgy</i>. Choose one 1st-level cleric or wizard spell.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -77,7 +106,7 @@
 		<supports>Strixhaven College</supports>
 		<requirements>!(ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_SILVERQUILL_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_WITHERBLOOM_INITIATE)</requirements>
 		<description>
-			<p>Choose two cantrips from <i>fire bolt</i>, <i>prestidigitation</i>, and <i>ray of frost</i>. Choose one 1st-level bard or sorcerer spell.</p>
+			<p>Choose two cantrips from <i>fire bolt</i>,				<i>prestidigitation</i>, and <i>ray of frost</i>. Choose one 1st-level bard or sorcerer spell.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -107,7 +136,8 @@
 		</sheet>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_PRISMARI_SPELLCASTING_ABILITY_CHARISMA">
-		<compendium display="false" /><description>
+		<compendium display="false" />
+		<description>
 			<p>Your spellcasting ability for this feat’s spells is Charisma</p>
 		</description>
 		<sheet alt="Strixhaven's Prismari Initiate" usage="1/Long Rest">
@@ -120,7 +150,7 @@
 		<supports>Strixhaven College</supports>
 		<requirements>!(ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_PRISMARI_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_SILVERQUILL_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_WITHERBLOOM_INITIATE)</requirements>
 		<description>
-			<p>Choose two cantrips from <i>druidcraft</i>, <i>guidance</i>, and <i>mage hand</i>. Choose one 1st-level druid or wizard spell.</p>
+			<p>Choose two cantrips from <i>druidcraft</i>,				<i>guidance</i>, and <i>mage hand</i>. Choose one 1st-level druid or wizard spell.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -140,7 +170,8 @@
 		</sheet>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE_QUANDRIX_SPELLCASTING_ABILITY_WISDOM">
-		<compendium display="false" /><description>
+		<compendium display="false" />
+		<description>
 			<p>Your spellcasting ability for this feat’s spells is Wisdom</p>
 		</description>
 		<sheet alt="Strixhaven's Quandrix Initiate" usage="1/Long Rest">
@@ -163,7 +194,7 @@
 		<supports>Strixhaven College</supports>
 		<requirements>!(ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_PRISMARI_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_WITHERBLOOM_INITIATE)</requirements>
 		<description>
-			<p>Choose two cantrips from <i>sacred flame</i>, <i>thaumaturgy</i>, and <i>vicious mockery</i>. Choose one 1st-level bard or cleric spell.</p>
+			<p>Choose two cantrips from <i>sacred flame</i>,				<i>thaumaturgy</i>, and <i>vicious mockery</i>. Choose one 1st-level bard or cleric spell.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -207,7 +238,7 @@
 		<supports>Strixhaven College</supports>
 		<requirements>!(ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_PRISMARI_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE||ID_WOTC_SCOC_BACKGROUND_FEATURE_SILVERQUILL_INITIATE)</requirements>
 		<description>
-			<p>Choose two cantrips from <i>chill touch</i>, <i>druidcraft</i>, and <i>spare the dying</i>. Choose one 1st-level druid or wizard spell.</p>
+			<p>Choose two cantrips from <i>chill touch</i>,				<i>druidcraft</i>, and <i>spare the dying</i>. Choose one 1st-level druid or wizard spell.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -246,7 +277,7 @@
 			Your spellcasting ability for this feat’s spells is Charisma.</description>
 		</sheet>
 	</element>
-	
+
 	<element name="Strixhaven Mascot" type="Feat" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_MASCOT">
 		<prerequisite>4th level, Strixhaven Initiate Feat</prerequisite>
 		<requirements>[level:4], ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE</requirements>
@@ -300,7 +331,7 @@
 		<rules>
 			<stat name="companion:ac" value="14" bonus="base" />
 			<stat name="companion:hp:max" value="26" />
-			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed" value="30" bonus="base" />
 			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="double" />
 			<stat name="companion:history:proficiency" value="companion:proficiency" bonus="base" />
@@ -318,7 +349,8 @@
 	</element>
 	<element name="Slam" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_SPRIT_STATUE_MASCOT_SLAM">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d6 + 2) bludgeoning damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d6 + 2) bludgeoning damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.</description>
@@ -381,7 +413,8 @@
 	</element>
 	<element name="Joyful Flare" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_ART_ELEMENTAL_MASCOT_JOYFUL_FLARE">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (2d4 + 1) fire damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (2d4 + 1) fire damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) fire damage.</description>
@@ -389,7 +422,8 @@
 	</element>
 	<element name="Melancholic Bolt" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_ART_ELEMENTAL_MASCOT_MELANCHOLIC_BOLT">
 		<description>
-			<p><i>Ranged Weapon Attack:</i> +3 to hit, range 30 ft., one target. <i>Hit:</i> 6 (2d4 + 1) cold damage.</p>
+			<p>
+				<i>Ranged Weapon Attack:</i> +3 to hit, range 30 ft., one target. <i>Hit:</i> 6 (2d4 + 1) cold damage.</p>
 		</description>
 		<sheet>
 			<description>Ranged Weapon Attack: +3 to hit, range 30 ft., one target. Hit: 6 (2d4 + 1) cold damage.</description>
@@ -449,7 +483,8 @@
 	</element>
 	<element name="Quantum Strike" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_FRACTAL_MASCOT_QUANTUM_STRIKE">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 3 (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is Medium or bigger.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 3 (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is Medium or bigger.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is Medium or bigger.</description>
@@ -504,8 +539,8 @@
 		<rules>
 			<stat name="companion:ac" value="13" bonus="base" />
 			<stat name="companion:hp:max" value="18" />
-			<stat name="companion:speed" value="10" bonus="base" />	
-			<stat name="companion:speed:fly" value="30" bonus="base" />	
+			<stat name="companion:speed" value="10" bonus="base" />
+			<stat name="companion:speed:fly" value="30" bonus="base" />
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
@@ -519,7 +554,8 @@
 	</element>
 	<element name="Blot" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_INKLING_MASCOT_BLOT">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d4 + 3) psychic damage</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d4 + 3) psychic damage</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) psychic damage</description>
@@ -572,7 +608,7 @@
 		<rules>
 			<stat name="companion:ac" value="13" bonus="base" />
 			<stat name="companion:hp:max" value="22" />
-			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed" value="30" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
@@ -594,7 +630,8 @@
 	</element>
 	<element name="Bite" type="Companion Action" source="Strixhaven: A Curriculum Of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_PEST_MASCOT_BITE">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 4 (1d4 + 2) piercing damage</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 4 (1d4 + 2) piercing damage</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage</description>

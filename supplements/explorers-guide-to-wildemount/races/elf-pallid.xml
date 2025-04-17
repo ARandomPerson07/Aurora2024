@@ -2,16 +2,25 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="elf-pallid.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/explorers-guide-to-wildemount/races/elf-pallid.xml" />
+			<file name="elf-pallid.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/explorers-guide-to-wildemount/races/elf-pallid.xml" />
 		</update>
 	</info>
 	<element name="Pallid Elf" type="Sub Race" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SUB_RACE_PALLID_ELF">
 		<supports>Elf</supports>
 		<description>
 			<p>The pallid elves are a mystical and insightful people with skin as pale as the surface of Exandria’s largest moon. They emerged from the Pallid Grove this century and wander the world with childlike curiosity.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
-			<p class="indent"><strong><em>Incisive Sense.</em></strong> You have advantage on Intelligence (Investigation) and Wisdom (Insight) checks.</p>
-			<p class="indent"><strong><em>Blessing of the Moon Weaver.</em></strong> You know the <em>light</em> cantrip. When you reach 3rd level, you can cast the <em>sleep</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>invisibility</em> spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn’t require material components. Wisdom is your spellcasting ability for these spells.</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Your Wisdom score increases by 1.</p>
+			<p class="indent">
+				<strong>
+					<em>Incisive Sense.</em>
+				</strong> You have advantage on Intelligence (Investigation) and Wisdom (Insight) checks.</p>
+			<p class="indent">
+				<strong>
+					<em>Blessing of the Moon Weaver.</em>
+				</strong> You know the <em>light</em> cantrip. When you reach 3rd level, you can cast the <em>sleep</em> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <em>invisibility</em> spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn’t require material components. Wisdom is your spellcasting ability for these spells.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

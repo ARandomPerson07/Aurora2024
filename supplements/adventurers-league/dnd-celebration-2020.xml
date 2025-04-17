@@ -4,7 +4,7 @@
 		<name>D&amp;D Celebration 2020</name>
 		<description>Familiars and Magic Items from the D&amp;D Celebration 2020 web event.</description>
 		<update version="0.0.1">
-			<file name="dnd-celebration-2020.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/adventurers-league/dnd-celebration-2020.xml" />
+			<file name="dnd-celebration-2020.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/adventurers-league/dnd-celebration-2020.xml" />
 		</update>
 	</info>
 
@@ -59,7 +59,7 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	
+
 	<element name="Keen Hearing and Smell" type="Companion Trait" source="D&amp;D Celebration 2020" id="ID_WOTC_DNDC_COMPANION_TRAIT_ARCTIC_STINK_SQUIRREL_KEEN_HEARING_AND_SMELL">
 		<description>
 			<p>The arctic stink squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
@@ -68,7 +68,7 @@
 			<description>The arctic stink squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
 		</sheet>
 	</element>
-	
+
 	<element name="Bite" type="Companion Action" source="D&amp;D Celebration 2020" id="ID_WOTC_DNDC_COMPANION_ACTION_ARCTIC_STINK_SQUIRREL_BITE">
 		<description>
 			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</p>
@@ -223,7 +223,7 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	
+
 	<element name="Keen Smell" type="Companion Trait" source="D&amp;D Celebration 2020" id="ID_WOTC_DNDC_COMPANION_TRAIT_SNOWY_OWLBEAR_CUB_KEEN_SMELL">
 		<description>
 			<p>The snowy owlbear cub has advantage on Wisdom (Perception) checks that rely on smell.</p>
@@ -232,7 +232,7 @@
 			<description>The snowy owlbear cub has advantage on Wisdom (Perception) checks that rely on smell.</description>
 		</sheet>
 	</element>
-	
+
 	<element name="Claws" type="Companion Action" source="D&amp;D Celebration 2020" id="ID_WOTC_DNDC_COMPANION_ACTION_SNOWY_OWLBEAR_CUB_CLAWS">
 		<description>
 			<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</p>

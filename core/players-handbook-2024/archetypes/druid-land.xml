@@ -5,7 +5,7 @@
 		<description>The Circle of the Land subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="druid-land.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/druid-land.xml" />
+			<file name="druid-land.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/druid-land.xml" />
 		</update>
 	</info>
 
@@ -37,42 +37,134 @@
 			<h5 class="caption">Arid Land</h5>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Circle Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Circle Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Blur, Burning Hands, Fire Bolt</em></td></tr>
-				<tr><td>5th</td><td><em>Fireball</em></td></tr>
-				<tr><td>7th</td><td><em>Blight</em></td></tr>
-				<tr><td>9th</td><td><em>Wall of Stone</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Blur, Burning Hands, Fire Bolt</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Fireball</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Blight</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Wall of Stone</em>
+					</td>
+				</tr>
 			</table>
 			<h5 class="caption">Polar Land</h5>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Circle Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Circle Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Fog Cloud, Hold Person, Ray of Frost</em></td></tr>
-				<tr><td>5th</td><td><em>Sleet Storm</em></td></tr>
-				<tr><td>7th</td><td><em>Ice Storm</em></td></tr>
-				<tr><td>9th</td><td><em>Cone of Cold</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Fog Cloud, Hold Person, Ray of Frost</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Sleet Storm</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Ice Storm</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Cone of Cold</em>
+					</td>
+				</tr>
 			</table>
 			<h5 class="caption">Temperate Land</h5>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Circle Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Circle Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Misty Step, Shocking Grasp, Sleep</em></td></tr>
-				<tr><td>5th</td><td><em>Lightning Bolt</em></td></tr>
-				<tr><td>7th</td><td><em>Freedom of Movement</em></td></tr>
-				<tr><td>9th</td><td><em>Tree Stride</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Misty Step, Shocking Grasp, Sleep</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Lightning Bolt</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Freedom of Movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Tree Stride</em>
+					</td>
+				</tr>
 			</table>
 			<h5 class="caption">Tropical Land</h5>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Circle Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Circle Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Acid Splash, Ray of Sickness, Web</em></td></tr>
-				<tr><td>5th</td><td><em>Stinking Cloud</em></td></tr>
-				<tr><td>7th</td><td><em>Polymorph</em></td></tr>
-				<tr><td>9th</td><td><em>Insect Plague</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Acid Splash, Ray of Sickness, Web</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Stinking Cloud</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Polymorph</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Insect Plague</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Circle of the Land Spells">
@@ -89,12 +181,35 @@
 			<h5 class="caption">Arid Land</h5>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Circle Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Circle Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Blur, Burning Hands, Fire Bolt</em></td></tr>
-				<tr><td>5th</td><td><em>Fireball</em></td></tr>
-				<tr><td>7th</td><td><em>Blight</em></td></tr>
-				<tr><td>9th</td><td><em>Wall of Stone</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Blur, Burning Hands, Fire Bolt</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Fireball</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Blight</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Wall of Stone</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Chosen Land">
@@ -118,7 +233,7 @@
 			<stat name="land:resistance" value="Fire" inline="true" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" level="10"/>
 		</rules>
-	</element>	
+	</element>
 	<element name="Polar Land" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_CIRCLE_OF_LAND_SPELLS_POLAR">
 		<supports>Circle of Land Spells</supports>
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_LAND_CIRCLE_OF_LAND_SPELLS_POLAR</requirements>
@@ -126,12 +241,35 @@
 			<h5 class="caption">Polar Land</h5>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Circle Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Circle Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Fog Cloud, Hold Person, Ray of Frost</em></td></tr>
-				<tr><td>5th</td><td><em>Sleet Storm</em></td></tr>
-				<tr><td>7th</td><td><em>Ice Storm</em></td></tr>
-				<tr><td>9th</td><td><em>Cone of Cold</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Fog Cloud, Hold Person, Ray of Frost</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Sleet Storm</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Ice Storm</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Cone of Cold</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Chosen Land">
@@ -163,12 +301,35 @@
 			<h5 class="caption">Temperate Land</h5>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Circle Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Circle Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Misty Step, Shocking Grasp, Sleep</em></td></tr>
-				<tr><td>5th</td><td><em>Lightning Bolt</em></td></tr>
-				<tr><td>7th</td><td><em>Freedom of Movement</em></td></tr>
-				<tr><td>9th</td><td><em>Tree Stride</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Misty Step, Shocking Grasp, Sleep</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Lightning Bolt</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Freedom of Movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Tree Stride</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Chosen Land">
@@ -200,12 +361,35 @@
 			<h5 class="caption">Tropical Land</h5>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Circle Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Circle Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Acid Splash, Ray of Sickness, Web</em></td></tr>
-				<tr><td>5th</td><td><em>Stinking Cloud</em></td></tr>
-				<tr><td>7th</td><td><em>Polymorph</em></td></tr>
-				<tr><td>9th</td><td><em>Insect Plague</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Acid Splash, Ray of Sickness, Web</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Stinking Cloud</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Polymorph</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Insect Plague</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Chosen Land">
@@ -230,7 +414,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" level="10"/>
 		</rules>
 	</element>
-	
+
 	<element name="Level 3: Land’s Aid" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_DRUID_LAND_LANDS_AID">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_LAND_LANDS_AID</requirements>
 		<description>
@@ -254,7 +438,7 @@
 			<p>You can cast one of the level 1+ spells that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.</p>
 			<p class="indent">In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of them can be level 6+. For example, if you’re a level 6 Druid, you can recover up to three levels’ worth of spell slots. You can recover a level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots. Once you recover spell slots with this feature, you can’t do so again until you finish a Long Rest.</p>
 		</description>
-		<sheet alt="Natural Recovery" usage="1/Long Rest" >
+		<sheet alt="Natural Recovery" usage="1/Long Rest">
 			<description>You can cast one of your Circle Spells without expending a spell slot. &#13;
 			When you finish a Short Rest, you can recover {{natural recovery:count}} spell slot levels.</description>
 		</sheet>
@@ -270,12 +454,35 @@
 			<h5 class="caption">Nature’s Ward</h5>
 			<table>
 				<thead>
-					<tr><td>Land Type</td><td>Resistance</td></tr>
+					<tr>
+						<td>Land Type</td>
+						<td>Resistance</td>
+					</tr>
 				</thead>
-				<tr><td>Arid</td><td><em>Fire</em></td></tr>
-				<tr><td>Polar</td><td><em>Cold</em></td></tr>
-				<tr><td>Temperate</td><td><em>Lightning</em></td></tr>
-				<tr><td>Tropical</td><td><em>Poison</em></td></tr>
+				<tr>
+					<td>Arid</td>
+					<td>
+						<em>Fire</em>
+					</td>
+				</tr>
+				<tr>
+					<td>Polar</td>
+					<td>
+						<em>Cold</em>
+					</td>
+				</tr>
+				<tr>
+					<td>Temperate</td>
+					<td>
+						<em>Lightning</em>
+					</td>
+				</tr>
+				<tr>
+					<td>Tropical</td>
+					<td>
+						<em>Poison</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Nature’s Ward">

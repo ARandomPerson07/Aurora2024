@@ -5,7 +5,7 @@
 		<description>Vampire</description>
 		<author url="https://media.wizards.com/2018/downloads/magic/plane-shift_ixalan.pdf">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="race-vampire.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/planeshift/zendikar/race-vampire.xml" />
+			<file name="race-vampire.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/planeshift/zendikar/race-vampire.xml" />
 		</update>
 	</info>
 
@@ -18,16 +18,46 @@
 			<p class="indent">The core of every vampire’s nature is the Feast of Blood. Though it is forbidden to feed on human citizens of Torrezon, including the human sailors and servants who accompany the vampire conquistadors to Ixalan, vampires are encouraged to feed on outsiders and heretics. The Feast of Blood sends new life essence flowing through the vampire who partakes of it, manifesting as even greater strength and speed.</p>
 			<h4>VAMPIRE TRAITS</h4>
 			<p>Your vampire character has the following traits.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 2.</p>
-			<p class="indent"><b><i>Age. </i></b>Vampires don’t mature and age in the same way that other races do. Every living vampire is either a bloodchief, infected by Ulamog’s influence in the distant reaches of history, or was spawned by a bloodchief from a living human. Most vampires are thus very old, but few have any memory of their earliest years.</p>
-			<p class="indent"><b><i>Alignment. </i></b>Vampires might not have an innate tendency toward evil, but many of them end up there. Evil or not, their strict hierarchies incline them toward a lawful alignment.</p>
-			<p class="indent"><b><i>Size. </i></b>Vampire are about the same size and build as humans. Your size is Medium.</p>
-			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p>
-			<p class="indent"><b><i>Vampiric Resistance. </i></b>You have resistance to necrotic damage.</p>
-			<p class="indent"><b><i>Darkvision.</i></b>Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
-			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Vampire</p>
-			<p class="indent"><b><i>Bloodthirst. </i></b>You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>
-			<p class="indent"><b><i>Subrace. </i></b>There exists two races of vampires, the Zendikar vampires and the Ixalan vampires.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Charisma score increases by 2.</p>
+			<p class="indent">
+				<b>
+					<i>Age. </i>
+				</b>Vampires don’t mature and age in the same way that other races do. Every living vampire is either a bloodchief, infected by Ulamog’s influence in the distant reaches of history, or was spawned by a bloodchief from a living human. Most vampires are thus very old, but few have any memory of their earliest years.</p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b>Vampires might not have an innate tendency toward evil, but many of them end up there. Evil or not, their strict hierarchies incline them toward a lawful alignment.</p>
+			<p class="indent">
+				<b>
+					<i>Size. </i>
+				</b>Vampire are about the same size and build as humans. Your size is Medium.</p>
+			<p class="indent">
+				<b>
+					<i>Speed. </i>
+				</b>Your base walking speed is 30 feet.</p>
+			<p class="indent">
+				<b>
+					<i>Vampiric Resistance. </i>
+				</b>You have resistance to necrotic damage.</p>
+			<p class="indent">
+				<b>
+					<i>Darkvision.</i>
+				</b>Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent">
+				<b>
+					<i>Languages. </i>
+				</b>You can speak, read, and write Common and Vampire</p>
+			<p class="indent">
+				<b>
+					<i>Bloodthirst. </i>
+				</b>You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>
+			<p class="indent">
+				<b>
+					<i>Subrace. </i>
+				</b>There exists two races of vampires, the Zendikar vampires and the Ixalan vampires.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -79,8 +109,14 @@
 		<supports>Vampire Subrace</supports>
 		<description>
 			<p>Zendikar vampires can convert humanoids killed with bloodthirst into nulls.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Intelligence score increases by 1.</p>
-			<p class="indent"><b><i>Null Transformation.</i></b>A humanoid killed with your Bloodthirst ability becomes a null.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Intelligence score increases by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Null Transformation.</i>
+				</b>A humanoid killed with your Bloodthirst ability becomes a null.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -103,8 +139,14 @@
 		<supports>Vampire Subrace</supports>
 		<description>
 			<p>Ixalan vampires use bloodthirst to gain a surge of energy.</p>
-			<p class="indent"><b><i>Ability Score Increase.</i></b>Your Wisdom increases by 1.</p>
-			<p class="indent"><b><i>Feast of Blood.</i></b>When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase.</i>
+				</b>Your Wisdom increases by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Feast of Blood.</i>
+				</b>When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>

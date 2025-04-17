@@ -5,7 +5,7 @@
 		<description>The Circle of the Stars subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="druid-stars.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/druid-stars.xml" />
+			<file name="druid-stars.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/druid-stars.xml" />
 		</update>
 	</info>
 
@@ -39,14 +39,35 @@
 			<h5 class="caption">Star Map</h5>
 			<table>
 				<thead>
-					<tr><td class="center">1d6</td><td class="left">Map Form</td></tr>
+					<tr>
+						<td class="center">1d6</td>
+						<td class="left">Map Form</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>A scroll bearing depictions of constellations</td></tr>
-				<tr><td>2</td><td>A stone tablet with fine holes drilled through it</td></tr>
-				<tr><td>3</td><td>An owlbear hide tooled with stellar symbols</td></tr>
-				<tr><td>4</td><td>A collection of maps bound in an ebony cover</td></tr>
-				<tr><td>5</td><td>A crystal engraved with starry patterns</td></tr>
-				<tr><td>6</td><td>A glass disk etched with constellations</td></tr>
+				<tr>
+					<td>1</td>
+					<td>A scroll bearing depictions of constellations</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>A stone tablet with fine holes drilled through it</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>An owlbear hide tooled with stellar symbols</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>A collection of maps bound in an ebony cover</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>A crystal engraved with starry patterns</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>A glass disk etched with constellations</td>
+				</tr>
 			</table>
 			<div class="reference">
 				<!--<div element="ID_PHB_SPELL_GUIDANCE" />-->
@@ -65,7 +86,7 @@
 		<rules>
 			<stat name="star map:uses" value="1" bonus="star map" />
 			<stat name="star map:uses" value="wisdom:modifier" bonus="star map" />
-			
+
 			<!--<grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" level="3" spellcasting="Druid" />
 			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3" spellcasting="Druid" prepared="true" />-->
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUIDANCE" level="3" spellcasting="Druid" />
@@ -78,9 +99,18 @@
 			<p>As a Bonus Action, you can expend a use of your Wild Shape feature to take on a starry form rather than shape-shifting.</p>
 			<p class="indent">While in your starry form, you retain your game statistics, but your body becomes luminous, your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. The form lasts for 10 minutes. It ends early if you dismiss it (no action required), have the Incapacitated condition, or use this feature again.</p>
 			<p class="indent">Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form.</p>
-			<p class="indent"><em><strong>Archer.</strong></em> A constellation of an archer appears on you. When you activate this form and as a Bonus Action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of yourself. On a hit, the attack deals Radiant damage equal to 1d8 plus your Wisdom modifier.</p>
-			<p class="indent"><em><strong>Chalice.</strong></em> A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores Hit Points to a creature, you or another creature within 30 feet of you can regain Hit Points equal to 1d8 plus your Wisdom modifier.</p>
-			<p class="indent"><em><strong>Dragon.</strong></em> A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain Concentration, you can treat a roll of 9 or lower on the d20 as a 10.</p>
+			<p class="indent">
+				<em>
+					<strong>Archer.</strong>
+				</em> A constellation of an archer appears on you. When you activate this form and as a Bonus Action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of yourself. On a hit, the attack deals Radiant damage equal to 1d8 plus your Wisdom modifier.</p>
+			<p class="indent">
+				<em>
+					<strong>Chalice.</strong>
+				</em> A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores Hit Points to a creature, you or another creature within 30 feet of you can regain Hit Points equal to 1d8 plus your Wisdom modifier.</p>
+			<p class="indent">
+				<em>
+					<strong>Dragon.</strong>
+				</em> A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain Concentration, you can treat a roll of 9 or lower on the d20 as a 10.</p>
 		</description>
 		<sheet alt="Starry Form" action="Bonus Action" usage="Wild Shape">
 			<description>You can expend a use of your Wild Shape feature to take on a starry form, rather than transforming into a beast.
@@ -136,8 +166,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_COSMIC_OMEN</requirements>
 		<description>
 			<p>Whenever you finish a Long Rest, you can consult your Star Map for omens and roll a die. Until you finish your next Long Rest, you gain access to a special Reaction based on whether you rolled an even or an odd number on the die:</p>
-			<p class="indent"><em><strong>Weal (even).</strong></em> Whenever a creature you can see within 30 feet of you is about to make a D20 Test, you can take a Reaction to roll 1d6 and add the number rolled to the total.</p>
-			<p class="indent"><em><strong>Woe (even).</strong></em> Whenever a creature you can see within 30 feet of you is about to make a D20 Test, you can take a Reaction to roll 1d6 and subtract the number rolled from the total.</p>
+			<p class="indent">
+				<em>
+					<strong>Weal (even).</strong>
+				</em> Whenever a creature you can see within 30 feet of you is about to make a D20 Test, you can take a Reaction to roll 1d6 and add the number rolled to the total.</p>
+			<p class="indent">
+				<em>
+					<strong>Woe (even).</strong>
+				</em> Whenever a creature you can see within 30 feet of you is about to make a D20 Test, you can take a Reaction to roll 1d6 and subtract the number rolled from the total.</p>
 			<p>You can use this Reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
 		</description>
 		<sheet alt="Cosmic Omen" action="Reaction" usage="{{cosmic omen:count}}/Long Rest">
@@ -171,7 +207,7 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_24_STARS_FULL_OF_STARS</requirements>
 		<description>
 			<p>While in your Starry Form, you become partially incorporeal, giving you Resistance to Bludgeoning, Piercing, and Slashing damage.</p>
-			</description>
+		</description>
 		<sheet alt="Full of Stars">
 			<description>While in your Starry Form, you become partially incorporeal, giving you Resistance to Bludgeoning, Piercing, and Slashing damage.</description>
 		</sheet>

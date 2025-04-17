@@ -2,16 +2,18 @@
 <elements>
 	<info>
 		<update version="0.0.3">
-			<file name="replicate-infusions.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/replicate-infusions.xml" />
+			<file name="replicate-infusions.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/replicate-infusions.xml" />
 		</update>
 	</info>
-	
-	<element name="Ventilating Lungs" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_VENTILATING_LUNGS">		
+
+	<element name="Ventilating Lungs" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_VENTILATING_LUNGS">
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>10th-level artificer</prerequisite>
 		<requirements>[level:10]</requirements>
 		<description>
-			<p><em>Prerequisite: 10th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 10th-level artificer</em>
+			</p>
 			<p>Using this infusion, you can replicate Ventilating Lungs.</p>
 			<div class="reference">
 				<div element="ID_WOTC_ERLW_MAGIC_ITEM_VENTILATING_LUNGS" />
@@ -19,15 +21,17 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate Ventilating Lungs.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Arcane Propulsion Arm" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ARCANE_PROPULSION_ARM">		
+	<element name="Arcane Propulsion Arm" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ARCANE_PROPULSION_ARM">
 		<supports>Replicate Magic Item Option</supports>
 		<prerequisite>14th-level artificer</prerequisite>
 		<requirements>[level:14]</requirements>
 		<description>
-			<p><em>Prerequisite: 14th-level artificer</em></p>
+			<p>
+				<em>Prerequisite: 14th-level artificer</em>
+			</p>
 			<p>Using this infusion, you can replicate an Arcane Propulsion Arm.</p>
 			<div class="reference">
 				<div element="ID_WOTC_ERLW_MAGIC_ITEM_ARCANE_PROPULSION_ARM" />
@@ -35,10 +39,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Arcane Propulsion Arm.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Armblade" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ARMBLADE">		
+	<element name="Armblade" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ARMBLADE">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Armblade.</p>
@@ -48,10 +52,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Armblade.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Prosthetic Limb" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PROSTHETIC_LIMB">		
+	<element name="Prosthetic Limb" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PROSTHETIC_LIMB">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Prosthetic Limb.</p>
@@ -61,10 +65,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Prosthetic Limb.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Wand Sheath" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_SHEATH">		
+	<element name="Wand Sheath" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_SHEATH">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Wand Sheath.</p>
@@ -74,10 +78,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Wand Sheath.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Cleansing Stone" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLEANSING_STONE">		
+	<element name="Cleansing Stone" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLEANSING_STONE">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Cleansing Stone.</p>
@@ -87,7 +91,7 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Cleansing Stone.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
 	<element name="Glamerweave" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_GLAMERWEAVE">
@@ -100,10 +104,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Glammerweave.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Everbright Lantern" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EVERBRIGHT_LANTERN">		
+	<element name="Everbright Lantern" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EVERBRIGHT_LANTERN">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Everbright Lantern.</p>
@@ -113,10 +117,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Everbright Lantern.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Feather Token" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_FEATHER_TOKEN">		
+	<element name="Feather Token" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_FEATHER_TOKEN">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Feather Token.</p>
@@ -126,10 +130,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Feather Token.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Imbued Wood Focus" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_IMBUED_WOOD_FOCUS">		
+	<element name="Imbued Wood Focus" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_IMBUED_WOOD_FOCUS">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Imbued Wood Focus.</p>
@@ -139,10 +143,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Imbued Wood Focus.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Keycharm" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_KEYCHARM">		
+	<element name="Keycharm" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_KEYCHARM">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Keycharm.</p>
@@ -152,10 +156,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Keycharm.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Orb of Shielding" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_SHIELDING">		
+	<element name="Orb of Shielding" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_SHIELDING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Orb of Shielding.</p>
@@ -165,10 +169,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Orb of Shielding.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Scribe's Pen" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SCRIBES_PEN">		
+	<element name="Scribe's Pen" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SCRIBES_PEN">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Scribe's Pen.</p>
@@ -178,10 +182,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Scribe's Pen.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Shiftweave" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SHIFTWEAVE">		
+	<element name="Shiftweave" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SHIFTWEAVE">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Shiftweave.</p>
@@ -191,10 +195,10 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Shiftweave.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
-	<element name="Spellshard" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SPELLSHARD">		
+	<element name="Spellshard" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SPELLSHARD">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Spellshard.</p>
@@ -204,7 +208,7 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Spellshard.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
 

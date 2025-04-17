@@ -5,7 +5,7 @@
 		<description>Aetherborn</description>
 		<author url="https://media.wizards.com/2017/downloads/magic/Plane-Shift_Kaladesh.pdf">Wizards of the Coast</author>
 		<update version="0.0.7">
-			<file name="race-aetherborn.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/planeshift/kaladesh/race-aetherborn.xml" />
+			<file name="race-aetherborn.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/planeshift/kaladesh/race-aetherborn.xml" />
 		</update>
 	</info>
 
@@ -20,15 +20,42 @@
 			<p>The relationship between aetherborn and the Consulate is complicated. On the one hand, aetherborn understand that their race wouldn’t exist without the Consulate’s aether refining operations, so they feel at least some motivation to ensure that those operations continue to run smoothly. On the other hand, few aetherborn have any patience for the tedious and cumbersome politics and regulations of the Consulate, which gives them at least a little sympathy with renegade philosophy. Typically, aetherborn are drawn to one side or the other more by the lure of excitement and entertainment than     by any serious political beliefs.</p>
 			<h4>AETHERBORN TRAITS</h4>
 			<p>Your aetherborn character has certain traits deriving from your unusual nature</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.</p>
-			<p class="indent"><b><i>Age. </i></b>Aetherborn come into being as adults and live no more than a few years.</p>
-			<p class="indent"><b><i>Alignment. </i></b>As a rule, aetherborn are driven by hedonism and self-interest, making them neutral at best and thoroughly evil at worst. Neutral aetherborn might devote much of their time (and wealth) to parties and social activity, while evil aetherborn are usually involved in the criminal underworld.</p>
-			<p class="indent"><b><i>Size. </i></b>Aetherborn are about the same size as humans, ranging from 5 to 6 feet tall. They are quite light—only about 100 pounds—and their weight diminishes as they age and more and more of their substance returns to the aethersphere. Your size is Medium.</p>
-			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p>
-			<p class="indent"><b><i>Darkvision. </i></b>Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray</p>
-			<p class="indent"><b><i>Born of Aether </i></b>You have resistance to necrotic damage.</p>
-			<p class="indent"><b><i>Menacing. </i></b>You gain proficiency in the Intimidation skill.</p>
-			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and two other languages of your choice.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Age. </i>
+				</b>Aetherborn come into being as adults and live no more than a few years.</p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b>As a rule, aetherborn are driven by hedonism and self-interest, making them neutral at best and thoroughly evil at worst. Neutral aetherborn might devote much of their time (and wealth) to parties and social activity, while evil aetherborn are usually involved in the criminal underworld.</p>
+			<p class="indent">
+				<b>
+					<i>Size. </i>
+				</b>Aetherborn are about the same size as humans, ranging from 5 to 6 feet tall. They are quite light—only about 100 pounds—and their weight diminishes as they age and more and more of their substance returns to the aethersphere. Your size is Medium.</p>
+			<p class="indent">
+				<b>
+					<i>Speed. </i>
+				</b>Your base walking speed is 30 feet.</p>
+			<p class="indent">
+				<b>
+					<i>Darkvision. </i>
+				</b>Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray</p>
+			<p class="indent">
+				<b>
+					<i>Born of Aether </i>
+				</b>You have resistance to necrotic damage.</p>
+			<p class="indent">
+				<b>
+					<i>Menacing. </i>
+				</b>You gain proficiency in the Intimidation skill.</p>
+			<p class="indent">
+				<b>
+					<i>Languages. </i>
+				</b>You can speak, read, and write Common and two other languages of your choice.</p>
 		</description>
 		<setters>
 			<set name="names" type="name">Yivti, Xithrel, Zawaka, Iqua, Sav, Riztho, Poxla, Kyth, Ux, Zisyas, Ganti</set>

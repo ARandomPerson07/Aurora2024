@@ -4,7 +4,7 @@
 		<name>Companion</name>
 		<description>Creatures from Morte’s Planar Parade, that fit rules for Familiars</description>
 		<update version="0.0.1">
-			<file name="companions.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/mortes-planar-parade/companions.xml" />
+			<file name="companions.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/mortes-planar-parade/companions.xml" />
 		</update>
 	</info>
 
@@ -29,7 +29,7 @@
 			<set name="charisma">2</set>
 			<set name="resistances">cold, fire, lightning, psychic</set>
 			<set name="immunities">poison</set>
-			<set name="conditionImmunities">poisoned</set>			
+			<set name="conditionImmunities">poisoned</set>
 			<set name="senses">darkvision 60 ft., passive Perception 10</set>
 			<set name="languages">understands Abyssal, Infernal, and any languages it knew before becoming a vargouille, but it can't speak</set>
 			<set name="challenge">1</set>
@@ -53,7 +53,8 @@
 	</element>
 	<element name="Bite" type="Companion Action" source="Morte’s Planar Parade" id="ID_WOTC_MPP_COMPANION_ACTION_VARGOUILLE_REFLECTION_BITE">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d6 + 2) piercing damage plus 10 (3d6) psychic damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d6 + 2) piercing damage plus 10 (3d6) psychic damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 10 (3d6) psychic damage.</description>
@@ -109,10 +110,20 @@
 	</element>
 	<element name="Sting" type="Companion Action" source="Morte’s Planar Parade" id="ID_WOTC_MPP_COMPANION_ACTION_SUNFLY_STING">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 2 (1d4) piercing damage. Additionally, if the sunfly is on an Outer Plane, it injects the target with a toxin, the effect of which is determined by the sunfly's location:</p>
-			<p class="indent"><b><i>Upper Plane.</i></b> The target sheds bright light in a 5-foot radius until the end of its next turn.</p>
-			<p class="indent"><b><i>Neutral Plane.</i></b> If the target is concentrating on a spell or similar effect, it makes the Constitution saving throw with disadvantage to maintain its concentration.</p>
-			<p class="indent"><b><i>Lower Plane.</i></b> The target's speed is reduced by 5 feet until the end of its next turn.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 2 (1d4) piercing damage. Additionally, if the sunfly is on an Outer Plane, it injects the target with a toxin, the effect of which is determined by the sunfly's location:</p>
+			<p class="indent">
+				<b>
+					<i>Upper Plane.</i>
+				</b> The target sheds bright light in a 5-foot radius until the end of its next turn.</p>
+			<p class="indent">
+				<b>
+					<i>Neutral Plane.</i>
+				</b> If the target is concentrating on a spell or similar effect, it makes the Constitution saving throw with disadvantage to maintain its concentration.</p>
+			<p class="indent">
+				<b>
+					<i>Lower Plane.</i>
+				</b> The target's speed is reduced by 5 feet until the end of its next turn.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage. Additionally, if the sunfly is on an Outer Plane, it injects the target with a toxin, the effect of which is determined by the sunfly's location: &#13;
@@ -178,7 +189,8 @@
 	</element>
 	<element name="Bite" type="Companion Action" source="Morte’s Planar Parade" id="ID_WOTC_MPP_COMPANION_ACTION_CRANIUM_RAT_SQUEAKER_BITE">
 		<description>
-			<p><i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 1 piercing damage.</p>
+			<p>
+				<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 1 piercing damage.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</description>

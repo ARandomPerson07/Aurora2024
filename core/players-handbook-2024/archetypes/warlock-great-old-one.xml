@@ -5,7 +5,7 @@
 		<description>The Great Old One Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/warlock-great-old-one.xml" />
+			<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/warlock-great-old-one.xml" />
 		</update>
 	</info>
 
@@ -41,12 +41,35 @@
 			<h5 class="caption">Great Old One Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Warlock Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Warlock Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Detect Thoughts, Dissonant Whispers, Phantasmal Force, Tasha’s Hideous Laughter</em></td></tr>
-				<tr><td>5th</td><td><em>Clairvoyance, Hunger of Hadar</em></td></tr>
-				<tr><td>7th</td><td><em>Confusion, Summon Aberration</em></td></tr>
-				<tr><td>9th</td><td><em>Modify Memory, Telekinesis</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Detect Thoughts, Dissonant Whispers, Phantasmal Force, Tasha’s Hideous Laughter</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Clairvoyance, Hunger of Hadar</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Confusion, Summon Aberration</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Modify Memory, Telekinesis</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -94,11 +117,11 @@
 		<description>
 			<p>When you cast a Warlock spell that deals damage, you can change its damage type to Psychic. In addition, when you cast a Warlock spell that is an Enchantment or Illusion, you can do so without Verbal or Somatic components.</p>
 		</description>
-		<sheet alt="Psychic Spells" >
+		<sheet alt="Psychic Spells">
 			<description>When you cast a Warlock spell that deals damage, you can change its damage type to Psychic. In addition, when you cast a Warlock spell that is an Enchantment or Illusion, you can do so without Verbal or Somatic components.</description>
 		</sheet>
 	</element>
-	
+
 	<element name="Level 6: Clairvoyant Combatant" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_WARLOCK_GREAT_OLD_ONE_CLAIRVOYANT_COMBATANT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_24_GREAT_OLD_ONE_CLAIRVOYANT_COMBATANT</requirements>
 		<description>
@@ -120,7 +143,7 @@
 		<description>
 			<p>Your alien patron grants you a powerful curse. You always have the <i>Hex</i> spell prepared. When you cast <i>Hex</i> and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell.</p>
 		</description>
-		<sheet alt="Eldritch Hex" >
+		<sheet alt="Eldritch Hex">
 			<description>When you cast Hex and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell.</description>
 		</sheet>
 		<rules>

@@ -5,7 +5,7 @@
 		<description>The Circle of Dreams from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
 		<update version="0.0.5">
-			<file name="druid-dreams.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/druid-dreams.xml" />
+			<file name="druid-dreams.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/druid-dreams.xml" />
 		</update>
 	</info>
 
@@ -66,7 +66,8 @@
 	<element name="Walker in Dreams" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_WALKER_IN_DREAMS">
 		<description>
 			<p>At 14th level, the magic of the Feywild grants you the ability to travel mentally or physically through dreamlands.</p>
-			<p class="indent">When you finish a short rest, you can cast one of the following spells, without expending a spell slot or requiring material components: <i>dream</i> (with you as the messenger), <i>scrying</i>, or <i>teleportation circle</i>.</p>
+			<p class="indent">When you finish a short rest, you can cast one of the following spells, without expending a spell slot or requiring material components: <i>dream</i> (with you as the messenger), <i>scrying</i>, or <i>teleportation circle</i>.
+			</p>
 			<p class="indent">This use of <i>teleportation circle</i> is special. Rather than opening a portal to a permanent teleportation circle, it opens a portal to the last location where you finished a long rest on your current plane of existence. If you haven't taken a long rest on your current plane, the spell fails but isn’t wasted.</p>
 			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
 		</description>

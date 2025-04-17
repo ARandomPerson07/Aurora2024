@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
 		<update version="0.0.3">
-			<file name="druid-circleofspores.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/guildmasters-guide-to-ravnica/archetypes/druid-circleofspores.xml" />
+			<file name="druid-circleofspores.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/guildmasters-guide-to-ravnica/archetypes/druid-circleofspores.xml" />
 		</update>
 	</info>
 
@@ -40,11 +40,36 @@
 			<p class="indent">Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
 			<h5>Circle of Spores Spells</h5>
 			<table>
-				<thead><tr><td>Druid Level</td><td>Spells</td></tr></thead>
-				<tr><td>3rd</td><td><em>blindness/deafness, gentle repose</em></td></tr>
-				<tr><td>5th</td><td><em>animate dead, gaseous form</em></td></tr>
-				<tr><td>7th</td><td><em>blight, confusion</em></td></tr>
-				<tr><td>9th</td><td><em>cloudkill, contagion</em></td></tr>
+				<thead>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>blindness/deafness, gentle repose</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>animate dead, gaseous form</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>blight, confusion</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>cloudkill, contagion</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">

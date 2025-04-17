@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="class-artificer.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/tashas-cauldron-of-everything/class-artificer.xml" />
+			<file name="class-artificer.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/tashas-cauldron-of-everything/class-artificer.xml" />
 		</update>
 	</info>
 
@@ -22,19 +22,27 @@
 			<p>As an Artificer, you gain the following class features.</p>
 			<h5>HIT POINTS</h5>
 			<ul class="unstyled">
-				<li><strong>Hit Dice:</strong> 1d8 per artificer level</li>
-				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
-				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per artificer level after 1st</li>
+				<li>
+					<strong>Hit Dice:</strong> 1d8 per artificer level</li>
+				<li>
+					<strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li>
+					<strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per artificer level after 1st</li>
 			</ul>
 			<h5>PROFICIENCIES</h5>
 			<ul class="unstyled">
-				<li><strong>Armor:</strong> Light armor, medium armor, shields</li>
-				<li><strong>Weapons:</strong> Simple weapons</li>
-				<li><strong>Tools:</strong> Thieves’ tools, tinker’s tools, one type of artisan’s tools of your choice</li>
+				<li>
+					<strong>Armor:</strong> Light armor, medium armor, shields</li>
+				<li>
+					<strong>Weapons:</strong> Simple weapons</li>
+				<li>
+					<strong>Tools:</strong> Thieves’ tools, tinker’s tools, one type of artisan’s tools of your choice</li>
 			</ul>
 			<ul class="unstyled">
-				<li><strong>Saving Throws:</strong> Constitution, Intelligence</li>
-				<li><strong>Skills:</strong> Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand</li>
+				<li>
+					<strong>Saving Throws:</strong> Constitution, Intelligence</li>
+				<li>
+					<strong>Skills:</strong> Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand</li>
 			</ul>
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
@@ -48,28 +56,259 @@
 			<h5 class="caption">THE ARTIFICER</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="col-30 left">Features</td><td class="col-10">Infusions Known</td><td class="col-10">Infused Items</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="col-30 left">Features</td>
+						<td class="col-10">Infusions Known</td>
+						<td class="col-10">Infused Items</td>
+						<td class="col-10">Cantrips Known</td>
+						<td>1st</td>
+						<td>2nd</td>
+						<td>3rd</td>
+						<td>4th</td>
+						<td>5th</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Magical Tinkering, Spellcasting</td><td> —</td><td>—</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td class="left">Infuse Item</td><td> 4</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td class="left">Artificer Specialist, The Right Tool for the Job</td><td> 4</td><td>2</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td> 4</td><td>2</td><td>2</td><td>4</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td class="left">Artificer Specialist feature</td><td> 4</td><td>2</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td class="left">Tool Expertise</td><td> 6</td><td>3</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td class="left">Flash of Genius</td><td> 6</td><td>3</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td> 6</td><td>3</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td class="left">Artificer Specialist feature</td><td> 6</td><td>3</td><td>2</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td class="left">Magic Item Adept</td><td> 8</td><td>4</td><td>3</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td class="left">Spell-Storing Item</td><td> 8</td><td>4</td><td>3</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td> 8</td><td>4</td><td>3</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td class="left">—</td><td> 8</td><td>4</td><td>3</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>14th</td><td class="left">Magic Item Savant</td><td>10</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>15th</td><td class="left">Artificer Specialist feature</td><td>10</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>10</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>17th</td><td class="left">—</td><td>10</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>18th</td><td class="left">Magic Item Master</td><td>12</td><td>6</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>12</td><td>6</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
-				<tr><td>20th</td><td class="left">Soul of Artifice</td><td>12</td><td>6</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td class="left">Magical Tinkering, Spellcasting</td>
+					<td> —</td>
+					<td>—</td>
+					<td>2</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td class="left">Infuse Item</td>
+					<td> 4</td>
+					<td>2</td>
+					<td>2</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td class="left">Artificer Specialist, The Right Tool for the Job</td>
+					<td> 4</td>
+					<td>2</td>
+					<td>2</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td> 4</td>
+					<td>2</td>
+					<td>2</td>
+					<td>4</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td class="left">Artificer Specialist feature</td>
+					<td> 4</td>
+					<td>2</td>
+					<td>2</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td class="left">Tool Expertise</td>
+					<td> 6</td>
+					<td>3</td>
+					<td>2</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td class="left">Flash of Genius</td>
+					<td> 6</td>
+					<td>3</td>
+					<td>2</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td> 6</td>
+					<td>3</td>
+					<td>2</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td class="left">Artificer Specialist feature</td>
+					<td> 6</td>
+					<td>3</td>
+					<td>2</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td class="left">Magic Item Adept</td>
+					<td> 8</td>
+					<td>4</td>
+					<td>3</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td class="left">Spell-Storing Item</td>
+					<td> 8</td>
+					<td>4</td>
+					<td>3</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td> 8</td>
+					<td>4</td>
+					<td>3</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td class="left">—</td>
+					<td> 8</td>
+					<td>4</td>
+					<td>3</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td class="left">Magic Item Savant</td>
+					<td>10</td>
+					<td>5</td>
+					<td>4</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td class="left">Artificer Specialist feature</td>
+					<td>10</td>
+					<td>5</td>
+					<td>4</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>10</td>
+					<td>5</td>
+					<td>4</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td class="left">—</td>
+					<td>10</td>
+					<td>5</td>
+					<td>4</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td class="left">Magic Item Master</td>
+					<td>12</td>
+					<td>6</td>
+					<td>4</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>12</td>
+					<td>6</td>
+					<td>4</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td class="left">Soul of Artifice</td>
+					<td>12</td>
+					<td>6</td>
+					<td>4</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+				</tr>
 			</table>
 			<div class="sidebar">
 				<h5>OPTIONAL RULE: FIREARM PROFICIENCY</h5>
@@ -136,7 +375,9 @@
 	<element name="Magical Tinkering" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_MAGICAL_TINKERING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_MAGICAL_TINKERING</requirements>
 		<description>
-			<p><em>1st-level artificer feature</em></p>
+			<p>
+				<em>1st-level artificer feature</em>
+			</p>
 			<p>You've learned how to invest a spark of magic into mundane objects. To use this ability, you must have thieves' tools or artisan's tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:</p>
 			<ul>
 				<li>The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</li>
@@ -164,7 +405,9 @@
 	<element name="Spellcasting" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_SPELLCASTING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_SPELLCASTING</requirements>
 		<description>
-			<p><em>1st-level artificer feature</em></p>
+			<p>
+				<em>1st-level artificer feature</em>
+			</p>
 			<p>You've studied the workings of magic and how to cast spells, channeling the magic through objects. To observers, you don't appear to be casting spells in a conventional way; you appear to produce wonders from mundane items and outlandish inventions.</p>
 			<h5>TOOLS REQUIRED</h5>
 			<p>You produce your artificer spell effects through your tools. You must have a spellcasting focus—specifically thieves’ tools or some kind of artisan’s tool—in hand when you cast any spell with this Spellcasting feature (meaning the spell has an ‘M’ component when you cast it). You must be proficient with the tool to use it in this way. See chapter 5, "Equipment," in the <i>Player’s Handbook</i> for descriptions of these tools.</p>
@@ -180,8 +423,10 @@
 			<h5>SPELLCASTING ABILITY</h5>
 			<p>Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.</p>
 			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+				<p>
+					<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p>
+					<strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
 			</center>
 			<h5>RITUAL CASTING</h5>
 			<p>You can cast an artificer spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
@@ -218,13 +463,16 @@
 	<element name="Infuse Item" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_INFUSE_ITEM">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_INFUSE_ITEM</requirements>
 		<description>
-			<p><em>2nd-level artificer feature</em></p>
+			<p>
+				<em>2nd-level artificer feature</em>
+			</p>
 			<p>You've gained the ability to imbue mundane items with certain magical infusions, turning those objects into magic items.</p>
 			<h5>INFUSIONS KNOWN</h5>
 			<p>When you gain this feature, pick four artificer infusions to learn, choosing from the "Artificer Infusions" section at the end of the class’s description. You learn additional infusions of your choice when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer table.</p>
 			<p class="indent">Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one.</p>
 			<h5>INFUSING AN ITEM</h5>
-			<p>Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item. An infusion works on only certain kinds of objects, as specified in the infusion’s description. If the item requires attunement, you can attune yourself to it the instant you infuse the item. If you decide to attune to the item later, you must do so using the normal process for attunement (see "Attunement" in chapter 7 of the <i>Dungeon Master’s Guide</i>).</p>
+			<p>Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item. An infusion works on only certain kinds of objects, as specified in the infusion’s description. If the item requires attunement, you can attune yourself to it the instant you infuse the item. If you decide to attune to the item later, you must do so using the normal process for attunement (see "Attunement" in chapter 7 of the <i>Dungeon Master’s Guide</i>).
+			</p>
 			<p class="indent">Your infusion remains in an item indefinitely, but when you die, the infusion vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day). The infusion also vanishes if you give up your knowledge of the infusion for another one.</p>
 			<p class="indent">You can infuse more than one nonmagical object at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your infusions can be in only one object at a time. Moreover, no object can bear more than one of your infusions at a time. If you try to exceed your maximum number of infusions, the oldest infusion immediately ends, and then the new infusion applies. If an infusion ends on an item that contains other things, like a <i>bag of holding</i>, its contents harmlessly appear in and around its space.</p>
 		</description>
@@ -266,7 +514,9 @@
 	<element name="Artificer Specialist" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_ARTIFICER_SPECIALIST">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_ARTIFICER_SPECIALIST</requirements>
 		<description>
-			<p><em>3rd-level artificer feature</em></p>
+			<p>
+				<em>3rd-level artificer feature</em>
+			</p>
 			<p>Choose the type of specialist you are: Alchemist, Armorer, Artillerist, or Battle Smith, each of which
 is detailed after the class's description. Your choice grants you features at 5th level and again at 9th and 15th level.</p>
 		</description>
@@ -278,7 +528,9 @@ is detailed after the class's description. Your choice grants you features at 5t
 	<element name="The Right Tool for the Job" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_THE_RIGHT_TOOL_FOR_THE_JOB">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_THE_RIGHT_TOOL_FOR_THE_JOB</requirements>
 		<description>
-			<p><em>3rd-level artificer feature</em></p>
+			<p>
+				<em>3rd-level artificer feature</em>
+			</p>
 			<p>You've learned how to produce exactly the tool you need: with thieves' tools or artisan's tools in hand, you can magically create one set of artisan's tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again.</p>
 		</description>
 		<sheet>
@@ -289,7 +541,9 @@ is detailed after the class's description. Your choice grants you features at 5t
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p><em>4th-level artificer feature</em></p>
+			<p>
+				<em>4th-level artificer feature</em>
+			</p>
 			<p>When you reach 4th, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
 		</description>
 		<sheet display="false" />
@@ -304,7 +558,9 @@ is detailed after the class's description. Your choice grants you features at 5t
 	<element name="Tool Expertise" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_TOOL_EXPERTISE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_TOOL_EXPERTISE</requirements>
 		<description>
-			<p><em>6th-level artificer feature</em></p>
+			<p>
+				<em>6th-level artificer feature</em>
+			</p>
 			<p>Your proficiency bonus is now doubled for any ability check you make that uses your proficiency with a tool.</p>
 		</description>
 		<sheet>
@@ -314,7 +570,9 @@ is detailed after the class's description. Your choice grants you features at 5t
 	<element name="Flash of Genius" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_FLASH_OF_GENIUS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_FLASH_OF_GENIUS</requirements>
 		<description>
-			<p><em>7th-level artificer feature</em></p>
+			<p>
+				<em>7th-level artificer feature</em>
+			</p>
 			<p>You've gained the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet of you makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll.</p>
 			<p class="indent">You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest.</p>
 		</description>
@@ -329,7 +587,9 @@ is detailed after the class's description. Your choice grants you features at 5t
 	<element name="Magic Item Adept" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_ADEPT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_MAGIC_ITEM_ADEPT</requirements>
 		<description>
-			<p><em>10th-level artificer feature</em></p>
+			<p>
+				<em>10th-level artificer feature</em>
+			</p>
 			<p>You've achieved a profound understanding of how to use and make magic items:</p>
 			<ul>
 				<li>You can attune to up to four magic items at once.</li>
@@ -347,7 +607,9 @@ is detailed after the class's description. Your choice grants you features at 5t
 	<element name="Spell-Storing Item" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_SPELL_STORING_ITEM">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_SPELL_STORING_ITEM</requirements>
 		<description>
-			<p><em>11th-level artificer feature</em></p>
+			<p>
+				<em>11th-level artificer feature</em>
+			</p>
 			<p>You can now store a spell in an object. Whenever you finish a long rest, you can touch one simple or martial weapon or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1 st- or 2nd-level spell from the artificer spell list that requires 1 action to cast (you needn't have it prepared).</p>
 			<p class="indent">While holding the object, a creature can take an action to produce the spell’s effect from it, using your spellcasting ability modifier. If the spell requires concentration, the creature must concentrate. The spell stays in the object until it’s been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object.</p>
 		</description>
@@ -365,7 +627,9 @@ is detailed after the class's description. Your choice grants you features at 5t
 	<element name="Magic Item Savant" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_SAVANT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_MAGIC_ITEM_SAVANT</requirements>
 		<description>
-			<p><em>14th-level artificer feature</em></p>
+			<p>
+				<em>14th-level artificer feature</em>
+			</p>
 			<p>Your skill with magic items deepens:</p>
 			<ul>
 				<li>You can attune to up to five magic items at once.</li>
@@ -383,7 +647,9 @@ is detailed after the class's description. Your choice grants you features at 5t
 	<element name="Magic Item Master" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_MASTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_MAGIC_ITEM_MASTER</requirements>
 		<description>
-			<p><em>18th-level artificer feature</em></p>
+			<p>
+				<em>18th-level artificer feature</em>
+			</p>
 			<p>You can now attune to up to six magic items at once.</p>
 		</description>
 		<sheet display="false" />
@@ -394,7 +660,9 @@ is detailed after the class's description. Your choice grants you features at 5t
 	<element name="Soul of Artifice" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_SOUL_OF_ARTIFICE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_SOUL_OF_ARTIFICE</requirements>
 		<description>
-			<p><em>20th-level artificer feature</em></p>
+			<p>
+				<em>20th-level artificer feature</em>
+			</p>
 			<p>You have developed a mystical connection to your magic items, which you can draw on for protection:</p>
 			<ul>
 				<li>You gain a +1 bonus to all saving throws per magic item you are currently attuned to.</li>

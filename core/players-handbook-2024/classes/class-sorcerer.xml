@@ -6,7 +6,7 @@
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.11">
-			<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/classes/class-sorcerer.xml" />
+			<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/classes/class-sorcerer.xml" />
 		</update>
 	</info>
 
@@ -15,18 +15,43 @@
 			<p>Sorcerers wield innate magic that is stamped into their being. Some Sorcerers can’t name the origin of their power, while others trace it to strange events in their personal or family history. The blessing of a dragon or a dryad at a baby’s birth or the strike of lightning from a clear sky might spark a Sorcerer’s gift. So too might the gift of a deity, exposure to the strange magic of another plane of existence, or a glimpse into the inner workings of reality. Whatever the origin, the result is an indelible mark on the Sorcerer, a churning magic that can be passed down through generations.</p>
 			<p class="indent">Sorcerers don’t learn magic; the raw, roiling power of magic is part of them. The essential art of a Sorcerer is learning to harness and channel that innate magic, allowing the Sorcerer to discover new and staggering ways to unleash their power. As Sorcerers master their innate magic, they grow more attuned to its origin, developing distinct powers that reflect its source.</p>
 			<p class="indent">Sorcerers are rare. Some family lines produce exactly one Sorcerer in every generation, but most of the time, the talents of sorcery appear as a fluke. People who have this magical power soon discover that it doesn’t like to stay quiet. A Sorcerer’s magic wants to be wielded.</p>
-			
+
 			<table>
 				<thead>
-					<tr><td>Core Sorcerer Traits</td></tr>
+					<tr>
+						<td>Core Sorcerer Traits</td>
+					</tr>
 				</thead>
-				<tr><td>Primary Ability</td><td class="left">Charisma </td> </tr>
-				<tr><td>Hit Point Die</td><td class="left">D6 per Sorcerer level</td></tr>
-				<tr><td>Saving Throw Proficiencies</td><td class="left">Constitution and Charisma</td></tr>
-				<tr><td>Skill Proficiencies</td><td class="left"><i>Choose 2:</i>  Arcana, Deception, Insight, Intimidation, Persuasion, or Religion</td></tr>
-				<tr><td>Weapon Proficiencies</td><td class="left">Simple weapons</td></tr>
-				<tr><td>Armor Training</td><td class="left">None</td></tr>
-				<tr><td>Starting Equipment</td><td class="left"><i> Choose A or B:</i> (A) Spear, 2 Daggers, Arcane Focus (Crystal), Dungeoneer’s Pack, and 28 GP; or (B) 50 GP</td></tr>
+				<tr>
+					<td>Primary Ability</td>
+					<td class="left">Charisma </td>
+				</tr>
+				<tr>
+					<td>Hit Point Die</td>
+					<td class="left">D6 per Sorcerer level</td>
+				</tr>
+				<tr>
+					<td>Saving Throw Proficiencies</td>
+					<td class="left">Constitution and Charisma</td>
+				</tr>
+				<tr>
+					<td>Skill Proficiencies</td>
+					<td class="left">
+						<i>Choose 2:</i>  Arcana, Deception, Insight, Intimidation, Persuasion, or Religion</td>
+				</tr>
+				<tr>
+					<td>Weapon Proficiencies</td>
+					<td class="left">Simple weapons</td>
+				</tr>
+				<tr>
+					<td>Armor Training</td>
+					<td class="left">None</td>
+				</tr>
+				<tr>
+					<td>Starting Equipment</td>
+					<td class="left">
+						<i> Choose A or B:</i> (A) Spear, 2 Daggers, Arcane Focus (Crystal), Dungeoneer’s Pack, and 28 GP; or (B) 50 GP</td>
+				</tr>
 			</table>
 			<h3>BECOMING A SORCERER ...</h3>
 			<h4>As A Level 1 Character</h4>
@@ -42,28 +67,343 @@
 			<h5 class="caption">SORCERER FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Sorcery Points</td><td>Cantrips Known</td><td>Prepared Spells</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="left">Features</td>
+						<td class="col-10">Sorcery Points</td>
+						<td>Cantrips Known</td>
+						<td>Prepared Spells</td>
+						<td>1st</td>
+						<td>2nd</td>
+						<td>3rd</td>
+						<td>4th</td>
+						<td>5th</td>
+						<td>6th</td>
+						<td>7th</td>
+						<td>8th</td>
+						<td>9th</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Spellcasting, Innate Sorcery</td><td>-</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td class="left">Font of Magic, Metamagic, Metamagic Options</td><td>2</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td class="left">Sorcerer Subclass</td><td>3</td><td>4</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>5</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td class="left">Sorcerous Restoration</td><td>5</td><td>5</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td class="left">Subclass Feature</td><td>6</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td class="left">Sorcery Incarnate</td><td>7</td><td>5</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>8</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td class="left">—</td><td>9</td><td>5</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td class="left">Metamagic</td><td>10</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td class="left">—</td><td>11</td><td>6</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>12</td><td>6</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td class="left">—</td><td>13</td><td>6</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>14th</td><td class="left">Subclass Feature</td><td>14</td><td>6</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>15th</td><td class="left">—</td><td>15</td><td>6</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>16</td><td>6</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>17th</td><td class="left">Metamagic</td><td>17</td><td>6</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>18th</td><td class="left">Subclass Feature</td><td>18</td><td>6</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>19th</td><td class="left">Epic Boon</td><td>19</td><td>6</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>20th</td><td class="left">Arcane Apotheosis</td><td>20</td><td>6</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td class="left">Spellcasting, Innate Sorcery</td>
+					<td>-</td>
+					<td>4</td>
+					<td>2</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td class="left">Font of Magic, Metamagic, Metamagic Options</td>
+					<td>2</td>
+					<td>4</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td class="left">Sorcerer Subclass</td>
+					<td>3</td>
+					<td>4</td>
+					<td>6</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>5</td>
+					<td>7</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td class="left">Sorcerous Restoration</td>
+					<td>5</td>
+					<td>5</td>
+					<td>9</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td class="left">Subclass Feature</td>
+					<td>6</td>
+					<td>5</td>
+					<td>10</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td class="left">Sorcery Incarnate</td>
+					<td>7</td>
+					<td>5</td>
+					<td>11</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>8</td>
+					<td>5</td>
+					<td>12</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td class="left">—</td>
+					<td>9</td>
+					<td>5</td>
+					<td>14</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td class="left">Metamagic</td>
+					<td>10</td>
+					<td>6</td>
+					<td>15</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td class="left">—</td>
+					<td>11</td>
+					<td>6</td>
+					<td>16</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>12</td>
+					<td>6</td>
+					<td>16</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td class="left">—</td>
+					<td>13</td>
+					<td>6</td>
+					<td>17</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td class="left">Subclass Feature</td>
+					<td>14</td>
+					<td>6</td>
+					<td>17</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td class="left">—</td>
+					<td>15</td>
+					<td>6</td>
+					<td>18</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>16</td>
+					<td>6</td>
+					<td>18</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td class="left">Metamagic</td>
+					<td>17</td>
+					<td>6</td>
+					<td>19</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td class="left">Subclass Feature</td>
+					<td>18</td>
+					<td>6</td>
+					<td>20</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td class="left">Epic Boon</td>
+					<td>19</td>
+					<td>6</td>
+					<td>21</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td class="left">Arcane Apotheosis</td>
+					<td>20</td>
+					<td>6</td>
+					<td>22</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
 			</table>
 			<h3>SORCERER CLASS FEATURES</h3>
 			<p>As a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.</p>
@@ -117,7 +457,7 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_SPELLCASTING</requirements>
 		<description>
 			<h5>CANTRIPS</h5>
-			<p>You know four Sorcerer cantrips of your choice. <i>Light</i>, <i>Prestidigitation</i>, <i>Shocking Grasp</i> and <i>Sorcerous Burst</i> are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.</p>
+			<p>You know four Sorcerer cantrips of your choice. <i>Light</i>,				<i>Prestidigitation</i>,				<i>Shocking Grasp</i> and <i>Sorcerous Burst</i> are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.</p>
 			<p class="indent">When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.</p>
 			<h5>SPELL SLOTS</h5>
 			<p>The Sorcerer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a long rest.</p>
@@ -130,8 +470,10 @@
 			<h5>SPELLCASTING ABILITY</h5>
 			<p>Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.</p>
 			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+				<p>
+					<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p>
+					<strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
 			</center>
 			<h5>SPELLCASTING FOCUS</h5>
 			<p>You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.</p>
@@ -213,19 +555,49 @@
 			<h5>SORCERY POINTS</h5>
 			<p class="indent">You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can’t have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.</p>
 			<p class="indent">You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.</p>
-			<p><strong><em>Converting Spell Slots to Sorcery Points.</em></strong> You can expend a spell slot to gain a number of Sorcery Points equal to the slot’s level (no action required).</p>
-			<p><strong><em>Creating Spell Slots.</em></strong> As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.</p>
+			<p>
+				<strong>
+					<em>Converting Spell Slots to Sorcery Points.</em>
+				</strong> You can expend a spell slot to gain a number of Sorcery Points equal to the slot’s level (no action required).</p>
+			<p>
+				<strong>
+					<em>Creating Spell Slots.</em>
+				</strong> As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.</p>
 			<p class="indent">Any spell slot you create with this feature vanishes when you finish a Long Rest.</p>
 			<h5 class="caption">CREATING SPELLSLOTS</h5>
 			<table>
 				<thead>
-					<tr><td class="col-20">Spell Slot Level</td><td>Sorcery Point Cost</td><td>Min. Sorcerer Level</td></tr>
+					<tr>
+						<td class="col-20">Spell Slot Level</td>
+						<td>Sorcery Point Cost</td>
+						<td>Min. Sorcerer Level</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td>2</td><td>2</td></tr>
-				<tr><td>2nd</td><td>3</td><td>3</td></tr>
-				<tr><td>3rd</td><td>5</td><td>5</td></tr>
-				<tr><td>4th</td><td>6</td><td>7</td></tr>
-				<tr><td>5th</td><td>7</td><td>9</td></tr>
+				<tr>
+					<td>1st</td>
+					<td>2</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>3</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>5</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>7</td>
+					<td>9</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Font of Magic" action="Bonus Action">
@@ -306,7 +678,7 @@
 		</sheet>
 		<rules>
 			<select type="Feat" name="Epic Boon (Sorcerer 19)" level="19" />
-			
+
 		</rules>
 	</element>
 	<element name="Level 20: Arcane Apotheosis" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_ARCANE_APOTHEOSIS">
@@ -320,12 +692,14 @@
 	</element>
 
 	<!--Metamagic Options-->
-	
+
 	<element name="Careful Spell" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_METAMAGIC_CAREFUL_SPELL">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_CAREFUL_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 1 Sorcery Point</em></p>
+			<p>
+				<em>Cost: 1 Sorcery Point</em>
+			</p>
 			<p>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save.</p>
 		</description>
 		<sheet>
@@ -340,7 +714,9 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_DISTANT_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 1 Sorcery Point</em></p>
+			<p>
+				<em>Cost: 1 Sorcery Point</em>
+			</p>
 			<p>When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell’s range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell’s range 30 feet.</p>
 		</description>
 		<sheet>
@@ -351,7 +727,9 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_EMPOWERED_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 1 Sorcery Point</em></p>
+			<p>
+				<em>Cost: 1 Sorcery Point</em>
+			</p>
 			<p>When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.</p>
 			<p class="indent">You can use Empowered Spell even if you’ve already used a different Metamagic option during the casting of the spell.</p>
 		</description>
@@ -367,7 +745,9 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_EXTENDED_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 1 Sorcery Point</em></p>
+			<p>
+				<em>Cost: 1 Sorcery Point</em>
+			</p>
 			<p>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours.</p>
 			<p class="indent">If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.</p>
 		</description>
@@ -379,7 +759,9 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_HEIGHTENED_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 2 Sorcery Points</em></p>
+			<p>
+				<em>Cost: 2 Sorcery Points</em>
+			</p>
 			<p>When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.</p>
 		</description>
 		<sheet>
@@ -390,7 +772,9 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_QUICKENED_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 2 Sorcery Points</em></p>
+			<p>
+				<em>Cost: 2 Sorcery Points</em>
+			</p>
 			<p>When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can’t modify a spell in this way if you’ve already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.</p>
 		</description>
 		<sheet>
@@ -401,7 +785,9 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_SEEKING_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 1 Sorcery Point</em></p>
+			<p>
+				<em>Cost: 1 Sorcery Point</em>
+			</p>
 			<p>If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.</p>
 			<p class="indent">You can use Seeking Spell even if you’ve already used a different Metamagic option during the casting of the spell.</p>
 		</description>
@@ -413,7 +799,9 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_SUBTLE_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 1 Sorcery Point</em></p>
+			<p>
+				<em>Cost: 1 Sorcery Point</em>
+			</p>
 			<p>When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.</p>
 		</description>
 		<sheet>
@@ -424,7 +812,9 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_TRANSMUTED_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 1 Sorcery Point</em></p>
+			<p>
+				<em>Cost: 1 Sorcery Point</em>
+			</p>
 			<p>When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder.</p>
 		</description>
 		<sheet>
@@ -435,7 +825,9 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_SORCERER_24_METAMAGIC_TWINNED_SPELL</requirements>
 		<supports>Metamagic</supports>
 		<description>
-			<p><em>Cost: 1 Sorcery Point</em></p>
+			<p>
+				<em>Cost: 1 Sorcery Point</em>
+			</p>
 			<p>When you cast a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell’s effective level by 1.</p>
 		</description>
 		<sheet>

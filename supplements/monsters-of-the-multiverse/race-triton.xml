@@ -3,7 +3,7 @@
 	<info>
 		<name>Triton from Monsters of the Multiverse</name>
 		<update version="0.0.1">
-			<file name="race-triton.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-triton.xml" />
+			<file name="race-triton.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-triton.xml" />
 		</update>
 	</info>
 
@@ -13,15 +13,39 @@
 			<p class="indent">Tritons have webbed hands and feet, small fins on their calves, and coloration that favors blues and greens.</p>
 			<h4>TRITON TRAITS</h4>
 			<p>As a triton, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>
-			<p class="indent"><strong><em>Control Air and Water.</em></strong> You can cast <i>fog cloud</i> with this trait. Starting at 3rd level, you can cast the <i>gust of wind</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with it. Once you cast any of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent">
+				<strong>
+					<em>Amphibious.</em>
+				</strong> You can breathe air and water.</p>
+			<p class="indent">
+				<strong>
+					<em>Control Air and Water.</em>
+				</strong> You can cast <i>fog cloud</i> with this trait. Starting at 3rd level, you can cast the <i>gust of wind</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with it. Once you cast any of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Emissary of the Sea.</em></strong> You can communicate simple ideas to any Beast, Elemental, or Monstrosity that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
-			<p class="indent"><strong><em>Guardian of the Depths.</em></strong> Adapted to the frigid ocean depths, you have resistance to cold damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Emissary of the Sea.</em>
+				</strong> You can communicate simple ideas to any Beast, Elemental, or Monstrosity that has a swimming speed. It can understand your words, though you have no special ability to understand it in return.</p>
+			<p class="indent">
+				<strong>
+					<em>Guardian of the Depths.</em>
+				</strong> Adapted to the frigid ocean depths, you have resistance to cold damage.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -32,7 +56,7 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Triton)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Triton)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Triton)" supports="Standard||Exotic" />
 
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_TRITON_AMPHIBIOUS" />

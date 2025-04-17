@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="ranger-beast-master.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook/archetypes/ranger-beast-master.xml" />
+			<file name="ranger-beast-master.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook/archetypes/ranger-beast-master.xml" />
 		</update>
 	</info>
 
@@ -43,7 +43,7 @@
 			<select type="Companion" name="Ranger’s Companion" supports="Beast,(Tiny||Small||Medium),(1/4||1/8||0)" />
 			<stat name="companion:ac" value="proficiency" />
 			<stat name="companion:attack" value="proficiency" />
-			<stat name="companion:damage" value="proficiency" />			
+			<stat name="companion:damage" value="proficiency" />
 			<stat name="additional:hp:max" value="level:ranger" />
 			<stat name="additional:hp:max" value="level:ranger" />
 			<stat name="additional:hp:max" value="level:ranger" />

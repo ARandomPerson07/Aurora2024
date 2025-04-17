@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.5">
-			<file name="items.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/items.xml" />
+			<file name="items.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/items.xml" />
 		</update>
 	</info>
 
@@ -184,9 +184,15 @@
 		<description>
 			<p>This symbiotic crown is carved from dark purple and mauve stone, with ten points like stalks set with gemstones resembling the eyestalks of a beholder. To attune to this item, you must wear it on your head for the entire attunement period, during which the crown’s hidden tendrils burrow into your scalp to bond with your skull.</p>
 			<p class="indent">While wearing the crown, you can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>
-			<p class="indent"><strong><em>Spells.</em></strong> The crown has 10 charges. While wearing it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 16): charm person (1 charge), disintegrate (6 charges), fear (3 charges), finger of death (7 charges), flesh to stone (6 charges), hold person (2 charges), ray of enfeeblement (2 charges), sleep (1 charge), slow (3 charges), telekinesis (5 charges).</p>
+			<p class="indent">
+				<strong>
+					<em>Spells.</em>
+				</strong> The crown has 10 charges. While wearing it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 16): charm person (1 charge), disintegrate (6 charges), fear (3 charges), finger of death (7 charges), flesh to stone (6 charges), hold person (2 charges), ray of enfeeblement (2 charges), sleep (1 charge), slow (3 charges), telekinesis (5 charges).</p>
 			<p class="indent">The crown regains 1d6 + 3 expended charges daily at dawn.</p>
-			<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The crown can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the crown ends, and it detaches from you.</p>
+			<p class="indent">
+				<strong>
+					<em>Symbiotic Nature.</em>
+				</strong> The crown can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the crown ends, and it detaches from you.</p>
 			<p class="indent">The daelkyr Belashyrra made these crowns. While on the same plane of existence as the crown, Belashyrra can see through its eyestalks.</p>
 		</description>
 		<setters>
@@ -213,16 +219,31 @@
 	<element name="Docent" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_DOCENT">
 		<description>
 			<p>A docent is a small metal sphere, about 2 inches across, studded with dragonshards. To attune to a docent, you must embed the item somewhere on your body, such as your chest or your eye socket.</p>
-			<p class="indent"><strong><em>Sentience.</em></strong> A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It perceives the world through your senses. It communicates telepathically with you and can speak, read, and understand any language it knows (see "Random Properties" below).</p>
-			<p class="indent"><strong><em>Life Support.</em></strong> Whenever you end your turn with 0 hit points, the docent can make a Wisdom (Medicine) check with a +6 bonus. If this check succeeds, the docent stabilizes you.</p>
-			<p class="indent"><strong><em>Random Properties.</em></strong> A docent has the following properties:</p>
+			<p class="indent">
+				<strong>
+					<em>Sentience.</em>
+				</strong> A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It perceives the world through your senses. It communicates telepathically with you and can speak, read, and understand any language it knows (see "Random Properties" below).</p>
+			<p class="indent">
+				<strong>
+					<em>Life Support.</em>
+				</strong> Whenever you end your turn with 0 hit points, the docent can make a Wisdom (Medicine) check with a +6 bonus. If this check succeeds, the docent stabilizes you.</p>
+			<p class="indent">
+				<strong>
+					<em>Random Properties.</em>
+				</strong> A docent has the following properties:</p>
 			<ul class="unstyled">
-				<li><strong>Languages.</strong> The docent knows Common, Giant, and 1d4 additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses.</li>
-				<li><strong>Skills.</strong> The docent has a +7 bonus to one of the following skills (roll a d4): (1) Arcana, (2) History, (3) Investigation, or (4) Nature.</li>
-				<li><strong>Spells.</strong> The docent knows one of the following spells and can cast it at will, requiring no components (roll a d6): (1-2) detect evil and good or (3-6) detect magic. The docent decides when to cast the spell.</li>
+				<li>
+					<strong>Languages.</strong> The docent knows Common, Giant, and 1d4 additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses.</li>
+				<li>
+					<strong>Skills.</strong> The docent has a +7 bonus to one of the following skills (roll a d4): (1) Arcana, (2) History, (3) Investigation, or (4) Nature.</li>
+				<li>
+					<strong>Spells.</strong> The docent knows one of the following spells and can cast it at will, requiring no components (roll a d6): (1-2) detect evil and good or (3-6) detect magic. The docent decides when to cast the spell.</li>
 			</ul>
 			<br/>
-			<p class="indent"><strong><em>Personality.</em></strong> A docent is designed to advise and assist the warforged it’s attached to. One of the simple functions of a docent is to serve as a translator. The docent’s properties are under its control, and if you have a bad relationship with your docent, it might refuse to assist you.</p>
+			<p class="indent">
+				<strong>
+					<em>Personality.</em>
+				</strong> A docent is designed to advise and assist the warforged it’s attached to. One of the simple functions of a docent is to serve as a translator. The docent’s properties are under its control, and if you have a bad relationship with your docent, it might refuse to assist you.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -238,7 +259,10 @@
 			<p>This long, whip-like strand of tough muscle bears a sharp stinger at one end. To attune to this symbiotic weapon, you wrap the whip around your wrist for the entire attunement period, during which time the whip painfully embeds its tendrils into your arm.</p>
 			<p class="indent">You gain a +2 bonus to attack and damage rolls made with this magic whip, but attack rolls made against aberrations with this weapon have disadvantage. A creature hit by this weapon takes an extra 1d6 psychic damage. When you roll a 20 on the d20 for an attack roll with this weapon, the target is stunned until the end of its next turn.</p>
 			<p class="indent">As a bonus action, you can sheathe the whip by causing it to retract into your arm, or draw the whip out of your arm again.</p>
-			<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The whip can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the whip ends, and it detaches from you.</p>
+			<p class="indent">
+				<strong>
+					<em>Symbiotic Nature.</em>
+				</strong> The whip can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the whip ends, and it detaches from you.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
@@ -254,9 +278,15 @@
 	<element name="Earworm" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EARWORM">
 		<description>
 			<p>To attune to this symbiont, you must hold it against the skin behind your ear for the entire attunement period, whereupon it burrows into your head and bonds to your skull. While the earworm is inside you, you can speak, read, and write Deep Speech.</p>
-			<p class="indent"><strong><em>Spells.</em></strong> The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): detect thoughts (2 charges) or dissonant whispers (1 charge). Each time you use the earworm to cast the detect thoughts spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr.</p>
+			<p class="indent">
+				<strong>
+					<em>Spells.</em>
+				</strong> The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): detect thoughts (2 charges) or dissonant whispers (1 charge). Each time you use the earworm to cast the detect thoughts spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr.</p>
 			<p class="indent">The earworm regains 1d4 expended charges daily at dawn.</p>
-			<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The earworm can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the earworm ends, and it exits your body.</p>
+			<p class="indent">
+				<strong>
+					<em>Symbiotic Nature.</em>
+				</strong> The earworm can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the earworm ends, and it exits your body.</p>
 			<!-- todo: add spell references -->
 		</description>
 		<setters>
@@ -330,24 +360,53 @@
 			<set name="rarity">Uncommon</set>
 			<set name="slot">misc</set>
 		</setters>
-	</element>	
+	</element>
 	<element name="Imbued Wood Focus" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_IMBUED_WOOD_FOCUS">
 		<description>
 			<p>An imbued wood focus is a rod, staff, or wand cut from a tree infused with extraplanar energy. If you’re a spellcaster, you can use this focus as a spellcasting focus.</p>
 			<p class="indent">When you cast a damage-dealing spell using this item as your spellcasting focus, you gain a +1 bonus to one damage roll of the spell, provided the damage is of the type associated with the item’s wood. The types of wood and their associated damage types are listed in the Imbued Wood Focus table.</p>
-			<p><strong>IMBUED WOOD FOCUS</strong></p>
+			<p>
+				<strong>IMBUED WOOD FOCUS</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Wood</td><td>Damage Type</td></tr>
+					<tr>
+						<td>Wood</td>
+						<td>Damage Type</td>
+					</tr>
 				</thead>
-				<tr><td>Fernian Ash</td><td>Fire</td></tr>
-				<tr><td>Irian Rosewood</td><td>Radiant</td></tr>
-				<tr><td>Kythrian Manchineel</td><td>Acid or poison</td></tr>
-				<tr><td>Lamannian Oak</td><td>Lightning or thunder</td></tr>
-				<tr><td>Mabaran Ebony</td><td>Necrotic</td></tr>
-				<tr><td>Risian Pine</td><td>Cold</td></tr>
-				<tr><td>Shavarran Birch</td><td>Force</td></tr>
-				<tr><td>Xorian Wenge</td><td>Psychic</td></tr>
+				<tr>
+					<td>Fernian Ash</td>
+					<td>Fire</td>
+				</tr>
+				<tr>
+					<td>Irian Rosewood</td>
+					<td>Radiant</td>
+				</tr>
+				<tr>
+					<td>Kythrian Manchineel</td>
+					<td>Acid or poison</td>
+				</tr>
+				<tr>
+					<td>Lamannian Oak</td>
+					<td>Lightning or thunder</td>
+				</tr>
+				<tr>
+					<td>Mabaran Ebony</td>
+					<td>Necrotic</td>
+				</tr>
+				<tr>
+					<td>Risian Pine</td>
+					<td>Cold</td>
+				</tr>
+				<tr>
+					<td>Shavarran Birch</td>
+					<td>Force</td>
+				</tr>
+				<tr>
+					<td>Xorian Wenge</td>
+					<td>Psychic</td>
+				</tr>
 			</table>
 		</description>
 		<setters>
@@ -372,10 +431,22 @@
 	<element name="Kyrzin’s Ooze" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_KYRZINS_OOZE">
 		<description>
 			<p>This opalescent, symbiotic goo comes sealed in a jar and slowly shifts and moves, as if endlessly exploring the jar’s interior. To attune to this item, you must first drink the contents of the jar, unlocking the following properties.</p>
-			<p class="indent"><strong><em>Resistant.</em></strong> While attuned to Kyrzin’s ooze, you have resistance to poison and acid damage, and you’re immune to the poisoned condition.</p>
-			<p class="indent"><strong><em>Amorphous.</em></strong> As an action, you can speak a command word and cause your body to assume the amorphous qualities of an ooze. For the next minute, you (along with any equipment you’re wearing or carrying) can move through a space as narrow as 1 inch wide without squeezing. Once you use this property, it can’t be used again until the next dawn.</p>
-			<p class="indent"><strong><em>Acid Breath.</em></strong> As an action, you can exhale acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 36 (8d8) acid damage on a failed save, or half as much damage on a successful one. Once you use this property, it can’t be used again until the next dawn.</p>
-			<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The ooze can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the ooze ends, as it seeps out of you.</p>
+			<p class="indent">
+				<strong>
+					<em>Resistant.</em>
+				</strong> While attuned to Kyrzin’s ooze, you have resistance to poison and acid damage, and you’re immune to the poisoned condition.</p>
+			<p class="indent">
+				<strong>
+					<em>Amorphous.</em>
+				</strong> As an action, you can speak a command word and cause your body to assume the amorphous qualities of an ooze. For the next minute, you (along with any equipment you’re wearing or carrying) can move through a space as narrow as 1 inch wide without squeezing. Once you use this property, it can’t be used again until the next dawn.</p>
+			<p class="indent">
+				<strong>
+					<em>Acid Breath.</em>
+				</strong> As an action, you can exhale acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 36 (8d8) acid damage on a failed save, or half as much damage on a successful one. Once you use this property, it can’t be used again until the next dawn.</p>
+			<p class="indent">
+				<strong>
+					<em>Symbiotic Nature.</em>
+				</strong> The ooze can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the ooze ends, as it seeps out of you.</p>
 			<p class="indent">If you die while the ooze is inside you, it bursts out and engulfs you, turning your corpse into a black pudding allied with the daelkyr (see the Monster Manual for the black pudding’s stat block).</p>
 		</description>
 		<setters>
@@ -393,7 +464,10 @@
 		<description>
 			<p>This hideous armor is formed from black chitin, beneath which veins pulse and red sinews glisten. To attune to this item, you must wear it for the entire attunement period, during which tendrils on the inside burrow into you.</p>
 			<p class="indent">While wearing this armor, you have a +1 bonus to Armor Class, and you have resistance to the following damage types: necrotic, poison, and psychic.</p>
-			<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The armor can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the armor ends, and it detaches from you.</p>
+			<p class="indent">
+				<strong>
+					<em>Symbiotic Nature.</em>
+				</strong> The armor can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the armor ends, and it detaches from you.</p>
 			<p class="indent">The armor requires fresh blood be fed to it. Immediately after you finish any long rest, you must either feed half of your remaining Hit Dice to the armor (round up) or take 1 level of exhaustion.</p>
 		</description>
 		<setters>
@@ -423,7 +497,10 @@
 				<li>One kind of musical instrument of your choice</li>
 			</ul>
 			<p>When you make an ability check using the chosen proficiency, you add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
-			<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The gloves can’t be removed from you while you’re attuned to them, and you can’t voluntarily end your attunement to them. If you’re targeted by a spell that ends a curse, your attunement to the gloves ends, and they can be removed.</p>
+			<p class="indent">
+				<strong>
+					<em>Symbiotic Nature.</em>
+				</strong> The gloves can’t be removed from you while you’re attuned to them, and you can’t voluntarily end your attunement to them. If you’re targeted by a spell that ends a curse, your attunement to the gloves ends, and they can be removed.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -440,19 +517,48 @@
 		<description>
 			<p>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
 			<p class="indent">If you’re holding the orb when you take damage of the type associated with the orb’s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.</p>
-			<p><strong>ORB OF SHIELDING</strong></p>
+			<p>
+				<strong>ORB OF SHIELDING</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Planar Material</td><td>Damage Type</td></tr>
+					<tr>
+						<td>Planar Material</td>
+						<td>Damage Type</td>
+					</tr>
 				</thead>
-				<tr><td>Fernian basalt</td><td>Fire</td></tr>
-				<tr><td>Irian quartz</td><td>Radiant</td></tr>
-				<tr><td>Kythrian skarn</td><td>Acid and poison</td></tr>
-				<tr><td>Lamannian flint</td><td>Lightning and thunder</td></tr>
-				<tr><td>Mabaran obsidian</td><td>Necrotic</td></tr>
-				<tr><td>Risian shale</td><td>Cold</td></tr>
-				<tr><td>Shavarran chert</td><td>Force</td></tr>
-				<tr><td>Xorian marble</td><td>Psychic</td></tr>
+				<tr>
+					<td>Fernian basalt</td>
+					<td>Fire</td>
+				</tr>
+				<tr>
+					<td>Irian quartz</td>
+					<td>Radiant</td>
+				</tr>
+				<tr>
+					<td>Kythrian skarn</td>
+					<td>Acid and poison</td>
+				</tr>
+				<tr>
+					<td>Lamannian flint</td>
+					<td>Lightning and thunder</td>
+				</tr>
+				<tr>
+					<td>Mabaran obsidian</td>
+					<td>Necrotic</td>
+				</tr>
+				<tr>
+					<td>Risian shale</td>
+					<td>Cold</td>
+				</tr>
+				<tr>
+					<td>Shavarran chert</td>
+					<td>Force</td>
+				</tr>
+				<tr>
+					<td>Xorian marble</td>
+					<td>Psychic</td>
+				</tr>
 			</table>
 		</description>
 		<setters>
@@ -466,7 +572,7 @@
 	<element name="Orb of Shielding, Fernian Basalt" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_FERNIAN_BASALT">
 		<description>
 			<p>An orb of shielding is a polished, spherical chunk of fernian basalt. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
-			<p class="indent">If you’re holding the orb when you take fire damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			<p class="indent">If you’re holding the orb when you take fire damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -479,7 +585,7 @@
 	<element name="Orb of Shielding, Irian Quartz" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_IRIAN_QUARTZ">
 		<description>
 			<p>An orb of shielding is a polished, spherical chunk of irian quartz. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
-			<p class="indent">If you’re holding the orb when you take radiant damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			<p class="indent">If you’re holding the orb when you take radiant damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -492,7 +598,7 @@
 	<element name="Orb of Shielding, Kythrian Skarn" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_KYTHRIAN_SKARN">
 		<description>
 			<p>An orb of shielding is a polished, spherical chunk of kythrian skarn. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
-			<p class="indent">If you’re holding the orb when you take acid or poison damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			<p class="indent">If you’re holding the orb when you take acid or poison damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -505,7 +611,7 @@
 	<element name="Orb of Shielding, Lamannian Flint" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_LAMANNIAN_FLINT">
 		<description>
 			<p>An orb of shielding is a polished, spherical chunk of lamannian flint. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
-			<p class="indent">If you’re holding the orb when you take lightning or thunder damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			<p class="indent">If you’re holding the orb when you take lightning or thunder damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -518,7 +624,7 @@
 	<element name="Orb of Shielding, Mabaran Obsidian" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_MABARAN_OBSIDIAN">
 		<description>
 			<p>An orb of shielding is a polished, spherical chunk of mabaran obsidian. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
-			<p class="indent">If you’re holding the orb when you take necrotic damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			<p class="indent">If you’re holding the orb when you take necrotic damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -531,7 +637,7 @@
 	<element name="Orb of Shielding, Risian Shale" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_RISIAN_SHALE">
 		<description>
 			<p>An orb of shielding is a polished, spherical chunk of risian shale. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
-			<p class="indent">If you’re holding the orb when you take cold damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			<p class="indent">If you’re holding the orb when you take cold damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -544,7 +650,7 @@
 	<element name="Orb of Shielding, Shavarran Chert" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_SHAVARRAN_CHERT">
 		<description>
 			<p>An orb of shielding is a polished, spherical chunk of shavarran chert. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
-			<p class="indent">If you’re holding the orb when you take force damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			<p class="indent">If you’re holding the orb when you take force damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -557,7 +663,7 @@
 	<element name="Orb of Shielding, Xorian Marble" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_XORIAN_MARBLE">
 		<description>
 			<p>An orb of shielding is a polished, spherical chunk of xorian marble. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
-			<p class="indent">If you’re holding the orb when you take psychic damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			<p class="indent">If you’re holding the orb when you take psychic damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -694,14 +800,14 @@
 	</element>
 	<element name="Kensei Weapon (Double-Bladed Scimitar)" type="Archetype Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_KENSEI_WEAPON_DOUBLE_BLADED_SCIMITAR">
 		<supports>Kensei Weapon, Melee</supports>
-        <description>
+		<description>
 			<p>You gain proficiency with the Double-Bladed Scimitar if you don’t already have it, and it is a monk weapon for you.</p>
-        </description>
+		</description>
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
 		</rules>
 	</element>
-	
+
 	<element name="Alchemist Flask" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_ALCHEMIST_FLASK">
 		<description>
 			<p>An empty flask for experimental elixirs.</p>
@@ -834,7 +940,7 @@
 			<set name="type" addition="artificer">Rod</set>
 		</setters>
 	</element>
-	
+
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />

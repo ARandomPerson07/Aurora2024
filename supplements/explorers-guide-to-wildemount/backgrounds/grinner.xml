@@ -2,31 +2,55 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="grinner.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/explorers-guide-to-wildemount/backgrounds/grinner.xml" />
+			<file name="grinner.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/explorers-guide-to-wildemount/backgrounds/grinner.xml" />
 		</update>
 	</info>
 	<element name="Grinner" type="Background" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_BACKGROUND_GRINNER">
 		<description>
-			<p>The Golden Grin began in the far-off land of Tal’Dorei, trading secret messages through a network of bards and minstrels to undermine an iron-fisted king’s authoritarian rule. Today, Tal’Dorei is a relatively peaceful republic, and some Grinners have grown restless while waiting for tyranny to raise its ugly head again. A contingent of such Grinners traveled to the Menagerie Coast and set up a network of secret bases in the cities of the Clovis Concord, from which they are presently working their way into the highest echelons of the Dwendalian Empire.</p>			
+			<p>The Golden Grin began in the far-off land of Tal’Dorei, trading secret messages through a network of bards and minstrels to undermine an iron-fisted king’s authoritarian rule. Today, Tal’Dorei is a relatively peaceful republic, and some Grinners have grown restless while waiting for tyranny to raise its ugly head again. A contingent of such Grinners traveled to the Menagerie Coast and set up a network of secret bases in the cities of the Clovis Concord, from which they are presently working their way into the highest echelons of the Dwendalian Empire.</p>
 			<p class="indent">You are a Grinner. Your goals are to spread freedom and inspire hope—or, in time, revolution—in the hearts of the oppressed.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Deception, Performance</li>
-				<li><strong>Tool Proficiencies:</strong> One type of musical instrument, thieves’ tools</li>
-				<li><strong>Equipment:</strong> A set of fine clothes, a disguise kit, a musical instrument of your choice, a gold-plated ring depicting a smiling face, and a pouch containing 15 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Deception, Performance</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> One type of musical instrument, thieves’ tools</li>
+				<li>
+					<strong>Equipment:</strong> A set of fine clothes, a disguise kit, a musical instrument of your choice, a gold-plated ring depicting a smiling face, and a pouch containing 15 gp</li>
 			</ul>
 			<h5>FAVORITE CODE-SONGS</h5>
 			<p>All members of the Golden Grin have learned a handful of folk songs in their travels, and use those songs to send secret codes and alert fellow Grinners to danger. Choose a favorite song or roll on the Favorite Code-Songs table.</p>
 			<h5 class="caption">Favorite Code-Songs</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Favorite Code-Song</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Favorite Code-Song</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Zan’s Comin’ Back. This hopeful Tal’Dorei folk song declares the inevitable return of a just ruler. Use it to seek out potential allies.</td></tr>
-				<tr><td>2</td><td>Blow Fire Down the Coast. A rowdy fighting song from the Clovis Concord, this ditty talks of blasting up pirate ships. Use it to encourage battle.</td></tr>
-				<tr><td>3</td><td>Hush! Onward Come the Dragons. This Tal’Dorei folk song recounts the terror in the days after the invasion of the red dragon called the Cinder King. Use it to encourage caution in speech and deed.</td></tr>
-				<tr><td>4</td><td>Let the Sword Grow Rust. An antiwar anthem from Marquet, this song has uncertain origins. Use it to help quell violent encounters.</td></tr>
-				<tr><td>5</td><td>Drink Deep, Li’l Hummingbird. A drinking rondo from the Menagerie Coast. this song tells the tale of a young person who drinks so heavily that they awaken to find they’ve stowed away on a ship. Use it to encourage alertness in social situations.</td></tr>
-				<tr><td>6</td><td>Dirge for the Emerald Fire. This elven song supposedly has thousands of obscure verses. Use the first two verses to spread news of death or defeat.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Zan’s Comin’ Back. This hopeful Tal’Dorei folk song declares the inevitable return of a just ruler. Use it to seek out potential allies.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Blow Fire Down the Coast. A rowdy fighting song from the Clovis Concord, this ditty talks of blasting up pirate ships. Use it to encourage battle.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Hush! Onward Come the Dragons. This Tal’Dorei folk song recounts the terror in the days after the invasion of the red dragon called the Cinder King. Use it to encourage caution in speech and deed.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Let the Sword Grow Rust. An antiwar anthem from Marquet, this song has uncertain origins. Use it to help quell violent encounters.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Drink Deep, Li’l Hummingbird. A drinking rondo from the Menagerie Coast. this song tells the tale of a young person who drinks so heavily that they awaken to find they’ve stowed away on a ship. Use it to encourage alertness in social situations.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Dirge for the Emerald Fire. This elven song supposedly has thousands of obscure verses. Use the first two verses to spread news of death or defeat.</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_EGTW_BACKGROUND_FEATURE_BALLAD_OF_THE_GRINNING_FOOL" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
@@ -85,5 +109,5 @@
 			<p class="indent">This feature must be used with caution, for not all who know the ballad are your friends. Some are traitors, counterspies, or agents of tyranny.</p>
 		</description>
 		<sheet alt="Ballad of the Grinning Fool" />
-	</element>	
+	</element>
 </elements>

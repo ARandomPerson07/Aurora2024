@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <info>
-        <update version="0.0.1">
-            <file name="companions.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/descent-into-avernus/companions.xml" />
-        </update>
-    </info>
+	<info>
+		<update version="0.0.1">
+			<file name="companions.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/descent-into-avernus/companions.xml" />
+		</update>
+	</info>
 	<element name="Abyssal Chicken" type="Companion" source="Baldur’s Gate: Descent into Avernus" id="ID_WOTC_BGDIA_COMPANION_ABYSSAL_CHICKEN">
 		<supports>Familiar,Variant Familiar</supports>
 		<description>
 			<p>Abyssal chickens are carnivorous, temperamental, tasty bottom-feeders native to the Abyss. They beat their leathery wings to scare predators and to help them run faster, and they taste like fatty chicken.</p>
 			<p class="indent">With your permission, a character who casts the find familiar spell can henceforth choose to conjure an abyssal chicken instead of a raven.</p>
-        </description>
+		</description>
 		<setters>
 			<set name="strength">6</set>
 			<set name="dexterity">14</set>
@@ -68,5 +68,5 @@
 		<sheet>
 			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</description>
 		</sheet>
-	</element>    
+	</element>
 </elements>

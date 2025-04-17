@@ -3,7 +3,7 @@
 	<info>
 		<name>Unearthed Arcana: Subclasses, Part 1</name>
 		<update version="0.0.2">
-			<file name="20200114.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2020/20200114.xml" />
+			<file name="20200114.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2020/20200114.xml" />
 		</update>
 	</info>
 
@@ -29,12 +29,27 @@
 			<h5 class="caption">ORIGIN OF THE BEAST</h5>
 			<table>
 				<thead>
-					<tr><td class="col-10">d4</td><td>Origin</td></tr>
+					<tr>
+						<td class="col-10">d4</td>
+						<td>Origin</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>One of your parents is a lycanthrope, and you’ve inherited some of the curse.</td></tr>
-				<tr><td>2</td><td>You are descended from a legendary druid, a fact manifested by your ability to partially change shape.</td></tr>
-				<tr><td>3</td><td>A fey spirit gifted you with the ability to adopt different bestial aspects.</td></tr>
-				<tr><td>4</td><td>An ancient animal spirit dwells within you, allowing you to walk this path.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>One of your parents is a lycanthrope, and you’ve inherited some of the curse.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>You are descended from a legendary druid, a fact manifested by your ability to partially change shape.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>A fey spirit gifted you with the ability to adopt different bestial aspects.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>An ancient animal spirit dwells within you, allowing you to walk this path.</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" />
 			<div element="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL" />
@@ -53,12 +68,17 @@
 	</element>
 	<element name="Form of the Beast" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST">
 		<description>
-			<p><em>3rd-level Path of the Beast feature</em></p>
+			<p>
+				<em>3rd-level Path of the Beast feature</em>
+			</p>
 			<p>When you enter your rage, you can transform, revealing the bestial power within you. Until your rage ends, you manifest a natural melee weapon, choosing one of the following options each time you rage:</p>
 			<ul class="unstyled">
-				<li><strong>Bite.</strong> Your mouth transforms into a bestial snout or great mandibles (your choice). Your bite deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain a number of hit points equal to your Constitution modifier (minimum of 1 hit point).</li>
-				<li><strong>Claws.</strong> Your hands transform into claws, which deal 1d6 slashing damage on a hit. When you take the Attack action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action.</li>
-				<li><strong>Tail.</strong> You grow a lashing, spiny tail, which deals 1d12 piercing damage on a hit and has the reach property.</li>
+				<li>
+					<strong>Bite.</strong> Your mouth transforms into a bestial snout or great mandibles (your choice). Your bite deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain a number of hit points equal to your Constitution modifier (minimum of 1 hit point).</li>
+				<li>
+					<strong>Claws.</strong> Your hands transform into claws, which deal 1d6 slashing damage on a hit. When you take the Attack action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action.</li>
+				<li>
+					<strong>Tail.</strong> You grow a lashing, spiny tail, which deals 1d12 piercing damage on a hit and has the reach property.</li>
 			</ul>
 		</description>
 		<sheet>
@@ -74,7 +94,9 @@
 	</element>
 	<element name="Bestial Soul" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL">
 		<description>
-			<p><em>6th-level Path of the Beast feature</em></p>
+			<p>
+				<em>6th-level Path of the Beast feature</em>
+			</p>
 			<p>The feral spirit within you grows in power, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
 			<p class="indent">You can also call on the feral spirit to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:</p>
 			<ul>
@@ -93,7 +115,9 @@
 	</element>
 	<element name="Infectious Fury" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY">
 		<description>
-			<p><em>10th-level Path of the Beast feature</em></p>
+			<p>
+				<em>10th-level Path of the Beast feature</em>
+			</p>
 			<p>When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):</p>
 			<ul>
 				<li>The target must use its reaction to make a melee attack against another creature of your choice that you can see.</li>
@@ -116,7 +140,9 @@
 	</element>
 	<element name="Call the Hunt" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT">
 		<description>
-			<p><em>14th-level Path of the Beast feature</em></p>
+			<p>
+				<em>14th-level Path of the Beast feature</em>
+			</p>
 			<p>The beast within grows so powerful that you can spread its ferocity to your allies. When you enter your rage, you can choose a number of willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature). Until your rage ends, the chosen creatures gain the Reckless Attack feature and you have advantage on saving throws against being frightened. You also gain 5 temporary hit points for each creature that accepts the benefit.</p>
 			<p class="indent">You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
 		</description>
@@ -140,14 +166,35 @@
 			<h5 class="caption">MERCIFUL MASK</h5>
 			<table>
 				<thead>
-					<tr><td class="col-10">d6</td><td>Mask Appearance</td></tr>
+					<tr>
+						<td class="col-10">d6</td>
+						<td>Mask Appearance</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Raven</td></tr>
-				<tr><td>2</td><td>Blank and white</td></tr>
-				<tr><td>3</td><td>Crying visage</td></tr>
-				<tr><td>4</td><td>Laughing visage</td></tr>
-				<tr><td>5</td><td>Skull</td></tr>
-				<tr><td>6</td><td>Butterfly</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Raven</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Blank and white</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Crying visage</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Laughing visage</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Skull</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Butterfly</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_MERCY_IMPLEMENTS_OF_MERCY" />
 			<div element="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HEALING" />
@@ -170,7 +217,9 @@
 	</element>
 	<element name="Implements of Mercy" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_MERCY_IMPLEMENTS_OF_MERCY">
 		<description>
-			<p><em>3rd-level Way of Mercy feature</em></p>
+			<p>
+				<em>3rd-level Way of Mercy feature</em>
+			</p>
 			<p>You gain proficiency in the Insight or Medicine skill (your choice), and you gain proficiency with the herbalism kit and the poisoner’s kit.</p>
 		</description>
 		<sheet display="false">
@@ -184,7 +233,9 @@
 	</element>
 	<element name="Hands of Healing" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HEALING">
 		<description>
-			<p><em>3rd-level Way of Mercy feature</em></p>
+			<p>
+				<em>3rd-level Way of Mercy feature</em>
+			</p>
 			<p>Your mystical touch can mend wounds. As an action, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + your Wisdom modifier.</p>
 			<p class="indent">When you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature without spending its ki cost.</p>
 		</description>
@@ -195,7 +246,9 @@
 	</element>
 	<element name="Hands of Harm" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HARM">
 		<description>
-			<p><em>3rd-level Way of Mercy feature</em></p>
+			<p>
+				<em>3rd-level Way of Mercy feature</em>
+			</p>
 			<p>You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die. If the creature is incapacitated or poisoned, the creature instead takes necrotic damage equal to three rolls of your Martial Arts die instead. You can use this feature only once on each of your turns.</p>
 		</description>
 		<sheet>
@@ -204,7 +257,9 @@
 	</element>
 	<element name="Noxious Aura" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_MERCY_NOXIOUS_AURA">
 		<description>
-			<p><em>6th-level Way of Mercy feature</em></p>
+			<p>
+				<em>6th-level Way of Mercy feature</em>
+			</p>
 			<p>As a bonus action, you spend 1 ki point to turn your ki into an aura of toxic miasma. The aura extends 5 feet from you in every direction, but not through total cover. It lasts for 1 minute, until you’re incapacitated, or you dismiss it (no action required).</p>
 			<p class="indent">While your aura is active, ranged attacks have disadvantage against you. Any other creature that starts its turn in the aura must succeed on a Constitution saving throw or become poisoned until the end of your next turn and take poison damage equal to your Wisdom modifier (minimum of 0 damage).</p>
 		</description>
@@ -219,7 +274,9 @@
 	</element>
 	<element name="Healing Technique" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_MERCY_HEALING_TECHNIQUE">
 		<description>
-			<p><em>11th-level Way of Mercy feature</em></p>
+			<p>
+				<em>11th-level Way of Mercy feature</em>
+			</p>
 			<p>Your skill in manipulating your ki to heal increases. When you restore hit points to a creature using your Hands of Healing, you can also end one disease or a condition from the following list affecting the target: blinded, deafened, paralyzed, or poisoned.</p>
 		</description>
 		<sheet>
@@ -228,7 +285,9 @@
 	</element>
 	<element name="Hand of Mercy" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_MERCY_HAND_OF_MERCY">
 		<description>
-			<p><em>17th-level Way of Mercy feature</em></p>
+			<p>
+				<em>17th-level Way of Mercy feature</em>
+			</p>
 			<p>Your mastery of life energy opens the door to the ultimate respite technique. As an action, you can touch a creature, expend 4 ki points, and force the creature to make a Constitution saving throw (a creature can willingly fail this save). Unless the save succeeds, the creature enters a state of suspended animation for a number of days equal to your monk level or until you end the effect early (no action required). During this time, the creature is paralyzed, has immunity to all damage, and any curse, disease, or poison affecting it is suspended. The creature appears dead to all outward inspection and to spells used to determine the creature’s status.</p>
 			<p class="indent">You can have only one creature under the effect of this feature at a time.</p>
 		</description>
@@ -245,9 +304,18 @@
 			<p class="indent">Paladins who follow the Watchers’ oath are ever vigilant in spotting the influence of extraplanar forces, often establishing a network of spies and informants to gather information on suspected cults. To a Watcher, keeping a healthy suspicion and awareness about one’s surroundings is as natural as wearing armor in battle.</p>
 			<h5>TENETS OF THE WATCHERS</h5>
 			<p>A paladin who assumes the Oath of the Watchers swears to safeguard the mortal realm from otherworldly threats.</p>
-			<p class="indent"><strong><em>Vigilance.</em></strong> The threats you face are cunning, powerful, and subversive. Be ever alert for their corruption.</p>
-			<p class="indent"><strong><em>Loyalty.</em></strong> Never accept gifts or favors from fiends or those who truck with them. Stay true to your order, your comrades, and your duty.</p>
-			<p class="indent"><strong><em>Discipline.</em></strong> You are the shield against the endless terrors that lie beyond the stars. Your blade must be forever sharp and your mind keen to survive what lies beyond.</p>
+			<p class="indent">
+				<strong>
+					<em>Vigilance.</em>
+				</strong> The threats you face are cunning, powerful, and subversive. Be ever alert for their corruption.</p>
+			<p class="indent">
+				<strong>
+					<em>Loyalty.</em>
+				</strong> Never accept gifts or favors from fiends or those who truck with them. Stay true to your order, your comrades, and your duty.</p>
+			<p class="indent">
+				<strong>
+					<em>Discipline.</em>
+				</strong> You are the shield against the endless terrors that lie beyond the stars. Your blade must be forever sharp and your mind keen to survive what lies beyond.</p>
 			<div element="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_WATCHERS_OATH_SPELLS" />
 			<div element="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_WATCHERS_CHANNEL_DIVINITY" />
 			<div element="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_WATCHERS_AURA_OF_THE_SENTINEL" />
@@ -267,18 +335,38 @@
 	</element>
 	<element name="Oath Spells" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_WATCHERS_OATH_SPELLS">
 		<description>
-			<p><em>3rd-level Oath of the Watchers feature</em></p>
+			<p>
+				<em>3rd-level Oath of the Watchers feature</em>
+			</p>
 			<p>You gain oath spells at the paladin levels listed in the Oath of the Watchers table. See the Sacred Oath class feature for how oath spells work.</p>
 			<h5 class="caption">OATH OF THE WATCHERS SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Paladin Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Paladin Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td>alarm, chromatic orb</td></tr>
-				<tr><td>5th</td><td>augury, moonbeam</td></tr>
-				<tr><td>9th</td><td>counterspell, nondetection</td></tr>
-				<tr><td>13th</td><td>aura of purity, banishment</td></tr>
-				<tr><td>17th</td><td>hold monster, hallow</td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>alarm, chromatic orb</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>augury, moonbeam</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>counterspell, nondetection</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>aura of purity, banishment</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>hold monster, hallow</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -297,10 +385,18 @@
 	</element>
 	<element name="Channel Divinity" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_WATCHERS_CHANNEL_DIVINITY">
 		<description>
-			<p><em>3rd-level Oath of the Watchers feature</em></p>
+			<p>
+				<em>3rd-level Oath of the Watchers feature</em>
+			</p>
 			<p>You gain the following Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.</p>
-			<p class="indent"><strong><em>Watcher’s Will.</em></strong> You can use your Channel Divinity to invest your presence with the warding power of your faith. As an action, you can choose a number of creatures you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, all the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.</p>
-			<p class="indent"><strong><em>Abjure the Extraplanar.</em></strong> You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each elemental, fey, fiend, or aberration within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Watcher’s Will.</em>
+				</strong> You can use your Channel Divinity to invest your presence with the warding power of your faith. As an action, you can choose a number of creatures you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, all the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.</p>
+			<p class="indent">
+				<strong>
+					<em>Abjure the Extraplanar.</em>
+				</strong> You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each elemental, fey, fiend, or aberration within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.</p>
 			<p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
 		</description>
 		<sheet display="false" />
@@ -333,7 +429,9 @@
 	</element>
 	<element name="Aura of the Sentinel" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_WATCHERS_AURA_OF_THE_SENTINEL">
 		<description>
-			<p><em>7th- and 18th-level Oath of the Watchers feature</em></p>
+			<p>
+				<em>7th- and 18th-level Oath of the Watchers feature</em>
+			</p>
 			<p>You emit an aura of alertness while you aren’t incapacitated. When you and any creature of your choice within 10 feet of you rolls initiative, you each gain a bonus to initiative equal to your Charisma modifier (minimum of +1).</p>
 			<p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
 		</description>
@@ -348,7 +446,9 @@
 	</element>
 	<element name="Vigilant Rebuke" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_WATCHERS_VIGILANT_REBUKE">
 		<description>
-			<p><em>15th-level Oath of the Watchers feature</em></p>
+			<p>
+				<em>15th-level Oath of the Watchers feature</em>
+			</p>
 			<p>You’ve learned how to magically chastise anyone who dares cast unwanted spells at you and your wards. Whenever you or a creature you can see within 30 feet of you succeeds on a saving throw against a spell, you can use your reaction to deal 2d8 + your Charisma modifier force damage to the spellcaster.</p>
 		</description>
 		<sheet>
@@ -357,7 +457,9 @@
 	</element>
 	<element name="Mortal Bulwark" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_WATCHERS_MORTAL_BULWARK">
 		<description>
-			<p><em>20th-level Oath of the Watchers feature</em></p>
+			<p>
+				<em>20th-level Oath of the Watchers feature</em>
+			</p>
 			<p>You manifest a spark of your deity’s power in defense of your sacred oath. As a bonus action, you gain the following benefits for 1 minute:</p>
 			<ul>
 				<li>You gain truesight in a 120-foot radius.</li>
@@ -399,18 +501,48 @@
 	</element>
 	<element name="Expanded Spell List" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_NOBLE_GENIE_EXPANDED_SPELL_LIST">
 		<description>
-			<p><em>1st-level Noble Genie feature</em></p>
+			<p>
+				<em>1st-level Noble Genie feature</em>
+			</p>
 			<p>The Noble Genie lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
 			<h5>THE NOBLE GENIE EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>fog cloud, sleep</em></td></tr>
-				<tr><td>2nd</td><td><em>enlarge/reduce, phantasmal force</em></td></tr>
-				<tr><td>3rd</td><td><em>create food and water, protection from energy</em></td></tr>
-				<tr><td>4th</td><td><em>polymorph, phantasmal killer</em></td></tr>
-				<tr><td>5th</td><td><em>Bigby’s hand, creation</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>fog cloud, sleep</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>enlarge/reduce, phantasmal force</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>create food and water, protection from energy</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>polymorph, phantasmal killer</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Bigby’s hand, creation</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">
@@ -431,19 +563,42 @@
 	</element>
 	<element name="Collector’s Vessel" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_GENIE_COLLECTORS_VESSEL">
 		<description>
-			<p><em>1st-level Noble Genie feature</em></p>
+			<p>
+				<em>1st-level Noble Genie feature</em>
+			</p>
 			<p>Your patron gives you a magical vessel with which you can bind a creature to you and to your patron’s menagerie. The vessel is a Tiny object, and it is a spellcasting focus for you. You decide what the object is, or you can determine what it is randomly by rolling on the Collector’s Vessel table.</p>
 			<h5 class="caption">COLLECTOR’S VESSEL</h5>
 			<table>
 				<thead>
-					<tr><td class="col-10">d6</td><td>Vessel</td></tr>
+					<tr>
+						<td class="col-10">d6</td>
+						<td>Vessel</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Oil lamp</td></tr>
-				<tr><td>2</td><td>Urn</td></tr>
-				<tr><td>3</td><td>Ring with a compartment</td></tr>
-				<tr><td>4</td><td>Stoppered bottle</td></tr>
-				<tr><td>5</td><td>Hollow statuette</td></tr>
-				<tr><td>6</td><td>Ornate lantern</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Oil lamp</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Urn</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Ring with a compartment</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Stoppered bottle</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Hollow statuette</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Ornate lantern</td>
+				</tr>
 			</table>
 			<p class="indent">If you lose your vessel, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous vessel. The vessel vanishes in a flare of elemental power when you die.</p>
 			<p class="indent">As an action while you are holding the vessel, you target a willing creature you can see within 100 feet of you and create a tether of wispy elemental material that links the target to you. The tether lasts for 1 hour, until you use this feature to create another tether, until the bound target is reduced to 0 hit points, or until the target ends its turn more than 100 feet from you.</p>
@@ -471,7 +626,9 @@
 	</element>
 	<element name="Elemental Resistance" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_GENIE_ELEMENTAL_RESISTANCE">
 		<description>
-			<p><em>6th-level Noble Genie feature</em></p>
+			<p>
+				<em>6th-level Noble Genie feature</em>
+			</p>
 			<p>Your patron grants you protection from an element. Whenever you finish a long rest, you gain resistance to acid, cold, fire, or lightning damage (your choice) until the end of your next long rest.</p>
 			<p class="indent">While the tether of your Collector’s Vessel is active, the tethered creature gains resistance to the damage type you chose.</p>
 		</description>
@@ -485,7 +642,9 @@
 	</element>
 	<element name="Protective Wish" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_GENIE_PROTECTIVE_WISH">
 		<description>
-			<p><em>10th-level Noble Genie feature</em></p>
+			<p>
+				<em>10th-level Noble Genie feature</em>
+			</p>
 			<p>You’re now able to use your Collector’s Vessel to wish for protection for yourself or your tethered creature. If you or the tethered creature is hit by an attack, you can use your reaction to teleport, swapping places with the creature and switching which one of you is hit by the attack.</p>
 		</description>
 		<sheet action="Reaction">
@@ -494,7 +653,9 @@
 	</element>
 	<element name="Genie’s Entertainment" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_GENIE_GENIES_ENTERTAINMENT">
 		<description>
-			<p><em>10th-level Noble Genie feature</em></p>
+			<p>
+				<em>10th-level Noble Genie feature</em>
+			</p>
 			<p>As an action, you attempt to send a creature you can see within 90 feet to your patron’s court. The target must succeed on a Charisma saving throw against your warlock spell save DC or be magically drawn into your vessel and teleported to your patron’s court in the Elemental Planes. While there, the target is stunned and your patron marvels at the target with amusement but brings no harm to it. The target can repeat the saving throw at the end of each of its turns, reappearing in the space it left or in the nearest unoccupied space if that space is occupied on a success.</p>
 			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest. If the target remains in your patron’s court for 1 minute, the genie sends the target back at the end of its turn as if it successfully saved, and you regain the use of this feature.</p>
 		</description>
@@ -505,7 +666,9 @@
 	</element>
 	<element name="Collector’s Call" type="Archetype Feature" source="Unearthed Arcana: Subclasses, Part 1" id="ID_WOTC_UA20200114_ARCHETYPE_FEATURE_GENIE_COLLECTORS_CALL">
 		<description>
-			<p><em>14th-level Noble Genie feature</em></p>
+			<p>
+				<em>14th-level Noble Genie feature</em>
+			</p>
 			<p>In exchange for extending your patron’s influence over the multiverse, you can call on more of their power. As an action, you can implore your patron for aid by making a Charisma (Persuasion) check against your warlock spell save DC. If the check succeeds, you can choose one of the following effects:</p>
 			<ul>
 				<li>A creature you can see within 60 feet of you regains 8d6 hit points and ends one disease or condition afflicting it: blinded, charmed, deafened, frightened, paralyzed, or poisoned.</li>

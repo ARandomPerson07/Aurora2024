@@ -5,7 +5,7 @@
 		<description>The Forge Domain from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
 		<update version="0.1.5">
-			<file name="cleric-forgedomain.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/cleric-forgedomain.xml" />
+			<file name="cleric-forgedomain.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/cleric-forgedomain.xml" />
 		</update>
 	</info>
 
@@ -32,20 +32,48 @@
 			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_SAINT_OF_FORGE_AND_FIRE" level="17"/>
 		</rules>
 	</element>
-	
+
 	<element name="Domain Spells" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_DOMAIN_SPELLS">
 		<description>
 			<p>You gain domain spells at the cleric levels listed in the Forge Domain Spells table. See the Divine Domain class feature for how domain spells work.</p>
 			<h5>Forge Domain Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>identify, searing smite</em></td></tr>
-				<tr><td>3rd</td><td><em>heat metal, magic weapon</em></td></tr>
-				<tr><td>5th</td><td><em>elemental weapon, protection from energy</em></td></tr>
-				<tr><td>7th</td><td><em>fabricate, wall of fire</em></td></tr> 
-				<tr><td>9th</td><td><em>animate objects, creation</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>identify, searing smite</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>heat metal, magic weapon</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>elemental weapon, protection from energy</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>fabricate, wall of fire</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>animate objects, creation</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />

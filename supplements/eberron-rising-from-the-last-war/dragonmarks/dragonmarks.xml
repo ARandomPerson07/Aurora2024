@@ -2,10 +2,10 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="dragonmarks.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/dragonmarks/dragonmarks.xml" />
+			<file name="dragonmarks.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/dragonmarks/dragonmarks.xml" />
 		</update>
 	</info>
-	
+
 	<!-- temporary copy of internal dragonmarked grant for use with v1.19.3XX -->
 	<element name="Dragonmark" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_DRAGONMARK" />
 
@@ -107,7 +107,7 @@
 	</element>
 
 	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_DRAGONMARK_ASI_STRENGTH">
-		<compendium display="false" />		
+		<compendium display="false" />
 		<supports>Ability Score Increase,Dragonmark,Strength</supports>
 		<requirements>ID_INTERNAL_GRANTS_DRAGONMARK</requirements>
 		<description>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <info>
+	<info>
 		<name>Fey Wanderer</name>
 		<description>The Fey Wanderer subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 
 		<update version="0.0.3">
-			<file name="ranger-fey.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/ranger-fey.xml" />
+			<file name="ranger-fey.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/ranger-fey.xml" />
 		</update>
 	</info>
 	<element name="Fey Wanderer" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_RANGER_FEY_WANDERER">
@@ -51,27 +51,76 @@
 			<h5 class="caption">Fey Wanderer Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Ranger Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Ranger Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Charm Person</em></td></tr>
-				<tr><td>5th</td><td><em>Misty Step</em></td></tr>
-				<tr><td>9th</td><td><em>Summon Fey</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Charm Person</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Misty Step</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Summon Fey</em>
+					</td>
+				</tr>
 
-				<tr><td>13th</td><td><em>Dimension Door</em></td></tr>
-				<tr><td>17th</td><td><em>Mislead</em></td></tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>Dimension Door</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>Mislead</em>
+					</td>
+				</tr>
 			</table>
 			<p>You also possess a fey blessing. Choose it from the Feywild Gifts table or determine it randomly.</p>
 			<h5 class="caption">Feywild Gifts</h5>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Gift</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Gift</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Illusory butterflies flutter around you while you take a Short or Long Rest.</td></tr>
-				<tr><td>2</td><td>Flowers bloom from your hair each dawn.</td></tr>
-				<tr><td>3</td><td>You faintly smell of cinnamon, lavender nutmeg, or another comforting herb or spice.</td></tr>
-				<tr><td>4</td><td>Your shadow dances while no one is looking directly at it.</td></tr>
-				<tr><td>5</td><td>Horns or antlers sprout from your head.</td></tr>
-				<tr><td>6</td><td>Your skin and hair change color at each dawn.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Illusory butterflies flutter around you while you take a Short or Long Rest.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Flowers bloom from your hair each dawn.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>You faintly smell of cinnamon, lavender nutmeg, or another comforting herb or spice.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Your shadow dances while no one is looking directly at it.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Horns or antlers sprout from your head.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Your skin and hair change color at each dawn.</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -107,7 +156,7 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_BEGUILING_TWIST</requirements>
 		<description>
 			<p>The magic of the Feywild guards your mind. You have Advantage on saving throws to avoid or end the Charmed or Frightened condition.</p>
-            <p class="indent">In addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw to avoid or end the Charmed or Frightened condition, you can take a Reaction to force a different creature you can see within 120 feet of yourself to make a Wisdom save against your spell save DC. On a failed save, the target is Charmed or Frightened (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>
+			<p class="indent">In addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw to avoid or end the Charmed or Frightened condition, you can take a Reaction to force a different creature you can see within 120 feet of yourself to make a Wisdom save against your spell save DC. On a failed save, the target is Charmed or Frightened (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>
 		</description>
 		<sheet alt="Beguiling Twist">
 			<description>You have advantage on saving throws to avoid or end the Charmed or Frightened condition. 
@@ -124,7 +173,7 @@
 			<description>You can cast Summon Fey without a material component. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest. 
 			Whenever you start casting the spell, you can modify it so that it doesn't require concentration. If you do so, the spell's duration becomes 1 minute for that casting.</description>
 		</sheet>
-		<rules> <!--
+		<rules>			<!--
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_FEY" spellcasting="Ranger" /> -->
 		</rules>
 	</element>
@@ -143,14 +192,14 @@
 			<stat name="misty wanderer:usage" value="1" bonus="base" />
 			<stat name="misty wanderer:usage" value="wisdom:modifier" bonus="base" />
 		</rules>
-	</element>	
+	</element>
 
-<!--Feature Replacement Grants-->
+	<!--Feature Replacement Grants-->
 	<element name="Dreadful Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_DREADFUL_STRIKES" />
 	<element name="Fey Wanderer Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_FEY_WANDERER_SPELLS" />
 	<element name="Otherworldly Glamour Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_OTHERWORLDLY_GLAMOUR" />
 	<element name="Bestial Fury Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_BEGUILING_TWIST" />
-	<element name="Fey Reinforcements Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_FEY_REINFORCEMENTS" />	
-	<element name="Misty Wanderer Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_MISTY_WANDERER" />	
+	<element name="Fey Reinforcements Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_FEY_REINFORCEMENTS" />
+	<element name="Misty Wanderer Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_24_MISTY_WANDERER" />
 
 </elements>

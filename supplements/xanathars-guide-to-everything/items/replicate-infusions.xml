@@ -2,12 +2,12 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="replicate-infusions.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/items/replicate-infusions.xml" />
+			<file name="replicate-infusions.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/items/replicate-infusions.xml" />
 		</update>
 	</info>
-	
+
 	<!-- Common Magic Items -->
-	<element name="Armor of Gleaming" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ARMOR_OF_GLEAMING">		
+	<element name="Armor of Gleaming" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ARMOR_OF_GLEAMING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Armor of Gleaming.</p>
@@ -17,9 +17,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Armor of Gleaming.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Bead of Nourishment" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BEAD_OF_NOURISHMENT">		
+	<element name="Bead of Nourishment" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BEAD_OF_NOURISHMENT">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Bead of Nourishment.</p>
@@ -29,9 +29,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Bead of Nourishment.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Bead of Refreshment" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BEAD_OF_REFRESHMENT">		
+	<element name="Bead of Refreshment" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BEAD_OF_REFRESHMENT">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Bead of Refreshment.</p>
@@ -41,9 +41,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Bead of Refreshment.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Boots of False Tracks" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_FALSE_TRACKS">		
+	<element name="Boots of False Tracks" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_BOOTS_OF_FALSE_TRACKS">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate Boots of False Tracks.</p>
@@ -53,9 +53,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate Boots of False Tracks.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Candle of the Deep" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CANDLE_OF_THE_DEEP">		
+	<element name="Candle of the Deep" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CANDLE_OF_THE_DEEP">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Candle of the Deep.</p>
@@ -65,9 +65,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Candle of the Deep.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Cast-Off Armor" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CAST_OFF_ARMOR">		
+	<element name="Cast-Off Armor" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CAST_OFF_ARMOR">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Cast-Off Armor.</p>
@@ -77,9 +77,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Cast-Off Armor.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Charlatan’s Die" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CHARLATANS_DIE">		
+	<element name="Charlatan’s Die" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CHARLATANS_DIE">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Charlatan’s Die.</p>
@@ -89,9 +89,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Charlatan’s Die.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Cloak of Billowing" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_BILLOWING">		
+	<element name="Cloak of Billowing" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_BILLOWING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Cloak of Billowing.</p>
@@ -101,9 +101,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Cloak of Billowing.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Cloak of Many Fashions" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_MANY_FASHIONS">		
+	<element name="Cloak of Many Fashions" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOAK_OF_MANY_FASHIONS">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Cloak of Many Fashions.</p>
@@ -113,9 +113,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Cloak of Many Fashions.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Clockwork Amulet" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOCKWORK_AMULET">		
+	<element name="Clockwork Amulet" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOCKWORK_AMULET">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Clockwork Amulet.</p>
@@ -125,9 +125,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Clockwork Amulet.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Clothes of Mending" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOTHES_OF_MENDING">		
+	<element name="Clothes of Mending" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_CLOTHES_OF_MENDING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate Clothes of Mending.</p>
@@ -137,9 +137,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate Clothes of Mending.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Dark Shard Amulet" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_DARK_SHARD_AMULET">		
+	<element name="Dark Shard Amulet" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_DARK_SHARD_AMULET">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Dark Shard Amulet.</p>
@@ -149,9 +149,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Dark Shard Amulet.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Dread Helm" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_DREAD_HELM">		
+	<element name="Dread Helm" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_DREAD_HELM">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Dread Helm.</p>
@@ -161,9 +161,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Dread Helm.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Ear Horn of Hearing" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EAR_HORN_OF_HEARING">		
+	<element name="Ear Horn of Hearing" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_EAR_HORN_OF_HEARING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Ear Horn of Hearing.</p>
@@ -173,9 +173,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Ear Horn of Hearing.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Enduring Spellbook" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ENDURING_SPELLBOOK">		
+	<element name="Enduring Spellbook" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ENDURING_SPELLBOOK">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Enduring Spellbook.</p>
@@ -185,9 +185,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Enduring Spellbook.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Ersatz Eye" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ERSATZ_EYE">		
+	<element name="Ersatz Eye" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ERSATZ_EYE">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Ersatz Eye.</p>
@@ -197,9 +197,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Ersatz Eye.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Hat of Vermin" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HAT_OF_VERMIN">		
+	<element name="Hat of Vermin" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HAT_OF_VERMIN">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Hat of Vermin.</p>
@@ -209,9 +209,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Hat of Vermin.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Hat of Wizardry" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HAT_OF_WIZARDRY">		
+	<element name="Hat of Wizardry" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HAT_OF_WIZARDRY">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Hat of Wizardry.</p>
@@ -221,9 +221,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Hat of Wizardry.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Heward’s Handy Spice Pouch" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HEWARDS_HANDY_SPICE_POUCH">		
+	<element name="Heward’s Handy Spice Pouch" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HEWARDS_HANDY_SPICE_POUCH">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Heward’s Handy Spice Pouch.</p>
@@ -233,9 +233,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Heward’s Handy Spice Pouch.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Horn of Silent Alarm" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HORN_OF_SILENT_ALARM">		
+	<element name="Horn of Silent Alarm" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_HORN_OF_SILENT_ALARM">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Horn of Silent Alarm.</p>
@@ -245,9 +245,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Horn of Silent Alarm.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Instrument of Illusions" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_INSTRUMENT_OF_ILLUSIONS">		
+	<element name="Instrument of Illusions" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_INSTRUMENT_OF_ILLUSIONS">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Instrument of Illusions.</p>
@@ -257,9 +257,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Instrument of Illusions.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Instrument of Scribing" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_INSTRUMENT_OF_SCRIBING">		
+	<element name="Instrument of Scribing" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_INSTRUMENT_OF_SCRIBING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Instrument of Scribing.</p>
@@ -269,9 +269,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Instrument of Scribing.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Lock of Trickery" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_LOCK_OF_TRICKERY">		
+	<element name="Lock of Trickery" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_LOCK_OF_TRICKERY">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Lock of Trickery.</p>
@@ -281,9 +281,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Lock of Trickery.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Moon-Touched Sword" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MOONTOUCHED_SWORD">		
+	<element name="Moon-Touched Sword" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MOONTOUCHED_SWORD">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Moon-Touched Sword.</p>
@@ -293,9 +293,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Moon-Touched Sword.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Mystery Key" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MYSTERY_KEY">		
+	<element name="Mystery Key" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_MYSTERY_KEY">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Mystery Key.</p>
@@ -305,9 +305,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Mystery Key.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Orb of Direction" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_DIRECTION">		
+	<element name="Orb of Direction" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_DIRECTION">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Orb of Direction.</p>
@@ -317,9 +317,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Orb of Direction.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Orb of Time" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_TIME">		
+	<element name="Orb of Time" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ORB_OF_TIME">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Orb of Time.</p>
@@ -329,9 +329,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Orb of Time.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Perfume of Bewitching" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PERFUME_OF_BEWITCHING">		
+	<element name="Perfume of Bewitching" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PERFUME_OF_BEWITCHING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate Perfume of Bewitching.</p>
@@ -341,9 +341,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate Perfume of Bewitching.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Pipe of Smoke Monsters" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPE_OF_SMOKE_MONSTERS">		
+	<element name="Pipe of Smoke Monsters" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_PIPE_OF_SMOKE_MONSTERS">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Pipe of Smoke Monsters.</p>
@@ -353,9 +353,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Pipe of Smoke Monsters.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Pole of Angling" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_POLE_OF_ANGLING">		
+	<element name="Pole of Angling" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_POLE_OF_ANGLING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Pole of Angling.</p>
@@ -365,9 +365,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Pole of Angling.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Pole of Collapsing" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_POLE_OF_COLLAPSING">		
+	<element name="Pole of Collapsing" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_POLE_OF_COLLAPSING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Pole of Collapsing.</p>
@@ -377,9 +377,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Pole of Collapsing.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Pot of Awakening" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_POT_OF_AWAKENING">		
+	<element name="Pot of Awakening" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_POT_OF_AWAKENING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Pot of Awakening.</p>
@@ -389,9 +389,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Pot of Awakening.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Rope of Mending" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ROPE_OF_MENDING">		
+	<element name="Rope of Mending" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_ROPE_OF_MENDING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Rope of Mending.</p>
@@ -401,9 +401,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Rope of Mending.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Ruby of the War Mage" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RUBY_OF_THE_WAR_MAGE">		
+	<element name="Ruby of the War Mage" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_RUBY_OF_THE_WAR_MAGE">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Ruby of the War Mage.</p>
@@ -413,9 +413,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Ruby of the War Mage.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Shield of Expression" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SHIELD_OF_EXPRESSION">		
+	<element name="Shield of Expression" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SHIELD_OF_EXPRESSION">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Shield of Expression.</p>
@@ -425,9 +425,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Shield of Expression.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Smoldering Armor" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SMOLDERING_ARMOR">		
+	<element name="Smoldering Armor" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_SMOLDERING_ARMOR">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Smoldering Armor.</p>
@@ -437,9 +437,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Smoldering Armor.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Staff of Adornment" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_STAFF_OF_ADORNMENT">		
+	<element name="Staff of Adornment" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_STAFF_OF_ADORNMENT">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Staff of Adornment.</p>
@@ -449,9 +449,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Staff of Adornment.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Staff of Birdcalls" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_STAFF_OF_BIRDCALLS">		
+	<element name="Staff of Birdcalls" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_STAFF_OF_BIRDCALLS">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Staff of Birdcalls.</p>
@@ -461,9 +461,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Staff of Birdcalls.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Staff of Flowers" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_STAFF_OF_FLOWERS">		
+	<element name="Staff of Flowers" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_STAFF_OF_FLOWERS">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Staff of Flowers.</p>
@@ -473,9 +473,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Staff of Flowers.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Talking Doll" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_TALKING_DOLL">		
+	<element name="Talking Doll" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_TALKING_DOLL">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Talking Doll.</p>
@@ -485,9 +485,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Talking Doll.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Tankard of Sobriety" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_TANKARD_OF_SOBRIETY">		
+	<element name="Tankard of Sobriety" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_TANKARD_OF_SOBRIETY">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Tankard of Sobriety.</p>
@@ -497,9 +497,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Tankard of Sobriety.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Unbreakable Arrow" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_UNBREAKABLE_ARROW">		
+	<element name="Unbreakable Arrow" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_UNBREAKABLE_ARROW">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate an Unbreakable Arrow.</p>
@@ -509,9 +509,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate an Unbreakable Arrow.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Veteran’s Cane" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_VETERANS_CANE">		
+	<element name="Veteran’s Cane" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_VETERANS_CANE">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Veteran’s Cane.</p>
@@ -521,9 +521,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Veteran’s Cane.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Walloping Ammunition" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WALLOPING_AMMUNITION">		
+	<element name="Walloping Ammunition" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WALLOPING_AMMUNITION">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Walloping Ammunition.</p>
@@ -533,9 +533,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Walloping Ammunition.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Wand of Conducting" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_CONDUCTING">		
+	<element name="Wand of Conducting" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_CONDUCTING">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Wand of Conducting.</p>
@@ -545,9 +545,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Wand of Conducting.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Wand of Pyrotechnics" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_PYROTECHNICS">		
+	<element name="Wand of Pyrotechnics" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_PYROTECHNICS">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Wand of Pyrotechnics.</p>
@@ -557,9 +557,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Wand of Pyrotechnics.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Wand of Scowls" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_SCOWLS">		
+	<element name="Wand of Scowls" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_SCOWLS">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Wand of Scowls.</p>
@@ -569,9 +569,9 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Wand of Scowls.</description>
-		</sheet>		
+		</sheet>
 	</element>
-	<element name="Wand of Smiles" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_SMILES">		
+	<element name="Wand of Smiles" type="Class Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_OPTION_WAND_OF_SMILES">
 		<supports>Replicate Magic Item Option</supports>
 		<description>
 			<p>Using this infusion, you can replicate a Wand of Smiles.</p>
@@ -581,7 +581,7 @@
 		</description>
 		<sheet>
 			<description>Using this infusion, you can replicate a Wand of Smiles.</description>
-		</sheet>		
+		</sheet>
 	</element>
 
 </elements>

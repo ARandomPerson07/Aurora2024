@@ -5,7 +5,7 @@
 		<description>The Gith race from Mordenkainen’s Tome of Foes</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/mordenkainens-tome-foes">Wizards of the Coast</author>
 		<update version="0.0.6">
-			<file name="race-gith.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/mordenkainens-tome-of-foes/races/race-gith.xml" />
+			<file name="race-gith.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/mordenkainens-tome-of-foes/races/race-gith.xml" />
 		</update>
 	</info>
 	<element name="Gith" type="Race" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACE_GITH">
@@ -16,12 +16,30 @@
 			<p class="indent">If the two races were ever to team up against the illithids, a combined force of gith could conceivably tip the balance in their favor. But as long as the githyanki and githzerai stay at each other’s throats, their goal of ultimate victory over their original common enemy will likely remain unachieved.</p>
 			<h4>GITH TRAITS</h4>
 			<p>Your character shares the following traits with other gith.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Intelligence score increases by 1.</p>
-			<p class="indent"><b><i>Age. </i></b>Gith reach adulthood in their late teens and live for about a century.</p>
-			<p class="indent"><b><i>Size. </i></b>Gith are taller and leaner than humans, with most a slender 6 feet in height.</p>
-			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p>
-			<p class="indent"><b><i>Language. </i></b>You can speak, read, and write Common and Gith.</p>
-			<p class="indent"><b><i>Subrace. </i></b>There are two kinds of gith, githyanki and githzerai. Choose one of these subraces.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Intelligence score increases by 1.</p>
+			<p class="indent">
+				<b>
+					<i>Age. </i>
+				</b>Gith reach adulthood in their late teens and live for about a century.</p>
+			<p class="indent">
+				<b>
+					<i>Size. </i>
+				</b>Gith are taller and leaner than humans, with most a slender 6 feet in height.</p>
+			<p class="indent">
+				<b>
+					<i>Speed. </i>
+				</b>Your base walking speed is 30 feet.</p>
+			<p class="indent">
+				<b>
+					<i>Language. </i>
+				</b>You can speak, read, and write Common and Gith.</p>
+			<p class="indent">
+				<b>
+					<i>Subrace. </i>
+				</b>There are two kinds of gith, githyanki and githzerai. Choose one of these subraces.</p>
 		</description>
 		<sheet display="false"/>
 		<setters>
@@ -51,11 +69,26 @@
 			<p class="indent">Vlaakith commands the loyalty of the githyanki from her personal stronghold, Susurrus, also called the Palace of Whispers, which is located deep ins ide the floating city. She sits on her Throne of Bones, a mighty artifact fueled by the intellects of mind flayers and elder brains that were defeated by her minions. It is crafted from mind flayer skulls and extremities, and the cushion she sits on is made of leather produced from the cured remains of an elder brain. A grand statue of Gith, an obsidian monument over 100 feet tall, stands beside the palace.</p>
 			<h4>GITHYANKI TRAITS</h4>
 			<p>Githyanki have the following traits in common, in addition to the traits they share with other gith.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength score increases by 2.</p>
-			<p class="indent"><b><i>Alignment. </i></b>Githyanki tend toward lawful evil. They are aggressive and arrogant, and they remain the faithful servants of their lich-queen, Vlaakith. Renegade githyanki tend toward chaos.</p>
-			<p class="indent"><b><i>Decadent Mastery. </i></b>You learn one language of your choice, and you are proficient with one skill or tool of your choice. In the timeless city of Tu’narath, githyanki have bountiful time to master odd bits of knowledge.</p>
-			<p class="indent"><b><i>Martial Prodigy. </i></b>You are proficient with light and medium armor and with shortswords, longswords, and greatswords.</p>
-			<p class="indent"><b><i>Githyanki Psionics. </i></b>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Strength score increases by 2.</p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b>Githyanki tend toward lawful evil. They are aggressive and arrogant, and they remain the faithful servants of their lich-queen, Vlaakith. Renegade githyanki tend toward chaos.</p>
+			<p class="indent">
+				<b>
+					<i>Decadent Mastery. </i>
+				</b>You learn one language of your choice, and you are proficient with one skill or tool of your choice. In the timeless city of Tu’narath, githyanki have bountiful time to master odd bits of knowledge.</p>
+			<p class="indent">
+				<b>
+					<i>Martial Prodigy. </i>
+				</b>You are proficient with light and medium armor and with shortswords, longswords, and greatswords.</p>
+			<p class="indent">
+				<b>
+					<i>Githyanki Psionics. </i>
+				</b>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p>
 			<p class="indent">When you reach 3rd level, you can cast the jump spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the misty step spell once with this trait, and you regain the ability to do so when you finish a long rest.</p>
 			<p class="indent">Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don’t require components.</p>
 		</description>
@@ -86,7 +119,7 @@
 			<p>You are proficient with light and medium armor and with shortswords, longswords, and greatswords.</p>
 		</description>
 		<sheet display="false">
-		<description>You are proficient with light and medium armor and with shortswords, longswords, and greatswords.</description>
+			<description>You are proficient with light and medium armor and with shortswords, longswords, and greatswords.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
@@ -129,10 +162,22 @@
 			<p class="indent">Today, under the leadership of the Great Githzerai, Zaerith Menyar-Ag-Gith, the githzerai continue to stand fast against the githyanki, as well as taking their revenge on the mind flayers. Through forays into the Material Plane and other realms, they provide stiff opposition to their enemies' plans for world domination.</p>
 			<h4>GITHZERAI TRAITS</h4>
 			<p>Githzerai have the following traits in common, in addition to the traits they share with other gith.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Wisdom score increases by 2.</p>
-			<p class="indent"><b><i>Alignment. </i></b>Githzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline.</p>
-			<p class="indent"><b><i>Mental Discipline. </i></b>You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.</p>
-			<p class="indent"><b><i>Githzerai Psionics. </i></b>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p>
+			<p class="indent">
+				<b>
+					<i>Ability Score Increase. </i>
+				</b>Your Wisdom score increases by 2.</p>
+			<p class="indent">
+				<b>
+					<i>Alignment. </i>
+				</b>Githzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline.</p>
+			<p class="indent">
+				<b>
+					<i>Mental Discipline. </i>
+				</b>You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.</p>
+			<p class="indent">
+				<b>
+					<i>Githzerai Psionics. </i>
+				</b>You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</p>
 			<p class="indent">When you reach 3rd level, you can cast the shield spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the detect thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest.</p>
 			<p class="indent">Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.</p>
 		</description>

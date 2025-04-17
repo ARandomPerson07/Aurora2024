@@ -3,7 +3,7 @@
 	<info>
 		<name>Genasi from Monsters of the Multiverse</name>
 		<update version="0.0.2">
-			<file name="race-genasi.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-genasi.xml" />
+			<file name="race-genasi.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-genasi.xml" />
 		</update>
 	</info>
 
@@ -15,48 +15,126 @@
 			<p>Air genasi are descended from djinn, the genies of the Elemental Plane of Air. Embodying many of the airy traits of their otherworldly ancestors, air genasi can draw upon their connection to the winds.</p>
 			<p class="indent">Air genasi's skin tones include many shades of blue, along with the full range of human skin tones, with bluish or ashen casts. Sometimes their skin is marked by lines that seem like cracks with bluish-white energy spilling out. An air genasi's hair might blow in a phantom wind or be made entirely of clouds or vapor.</p>
 			<p class="indent">As an air genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 35 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Unending Breath.</em></strong> You can hold your breath indefinitely while you're not incapacitated.</p>
-			<p class="indent"><strong><em>Lightning Resistance.</em></strong> You have resistance to lightning damage.</p>
-			<p class="indent"><strong><em>Mingle with the Wind.</em></strong> You know the <i>shocking grasp</i> cantrip. Starting at 3rd level, you can cast the <i>feather fall</i> spell with this trait, without requiring a material component. Starting at 5th level, you can also cast the <i>levitate</i> spell with this trait, without requiring a material component. Once you cast <i>feather fall</i> or <i>levitate</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 35 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Unending Breath.</em>
+				</strong> You can hold your breath indefinitely while you're not incapacitated.</p>
+			<p class="indent">
+				<strong>
+					<em>Lightning Resistance.</em>
+				</strong> You have resistance to lightning damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Mingle with the Wind.</em>
+				</strong> You know the <i>shocking grasp</i> cantrip. Starting at 3rd level, you can cast the <i>feather fall</i> spell with this trait, without requiring a material component. Starting at 5th level, you can also cast the <i>levitate</i> spell with this trait, without requiring a material component. Once you cast <i>feather fall</i> or <i>levitate</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 			<h4>EARTH GENASI TRAITS</h4>
 			<p>Tracing their ancestry to dao, the genies of the Elemental Plane of Earth, earth genasi inherit dao's steadfast strength and control over earth.</p>
 			<p class="indent">An earth genasi's skin can be the colors of stone and earth or a human skin tone with glittering sparkles like gem dust. Some earth genasi have lines marking their skin like cracks, either showing glimmering gemlike veins or a dim, yellowish glow. Earth genasi hair can appear carved of stone or crystal or resemble strands of spun metal.</p>
 			<p class="indent">As an earth genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Earth Walk.</em></strong> You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor.</p>
-			<p class="indent"><strong><em>Merge with Stone.</em></strong> You know the <i>blade ward</i> cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Earth Walk.</em>
+				</strong> You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor.</p>
+			<p class="indent">
+				<strong>
+					<em>Merge with Stone.</em>
+				</strong> You know the <i>blade ward</i> cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
 			<p class="indent">Starting at 5th level, you can cast the <i>pass without trace</i> spell with this trait, without requiring a material component. Once you cast that spell with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 			<h4>FIRE GENASI TRAITS</h4>
 			<p>Descended from efreet, the genies of the Elemental Plane of Fire, fire genasi channel the flamboyant and often destructive nature of flame. They show their heritage in their skin tones, which can range from deep charcoal to shades of red and orange. Some bear skin tones common to humanity but with fiery marks, such as slowly swirling lights under their skin that resemble embers or glowing red lines tracing over their bodies like cracks. Fire genasi hair can resemble threads of fire or sooty smoke.</p>
 			<p class="indent">As a fire genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Fire Resistance.</em></strong> You have resistance to fire damage.</p>
-			<p class="indent"><strong><em>Reach to the Blaze.</em></strong> You know the <i>produce flame</i> cantrip. Starting at 3rd level, you can cast the <i>burning hands</i> spell with this trait. Starting at 5th level, you can also cast the <i>flame blade</i> spell with this trait, without requiring a material component. Once you cast <i>burning hands</i> or <i>flame blade</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Fire Resistance.</em>
+				</strong> You have resistance to fire damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Reach to the Blaze.</em>
+				</strong> You know the <i>produce flame</i> cantrip. Starting at 3rd level, you can cast the <i>burning hands</i> spell with this trait. Starting at 5th level, you can also cast the <i>flame blade</i> spell with this trait, without requiring a material component. Once you cast <i>burning hands</i> or <i>flame blade</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 			<h4>WATER GENASI TRAITS</h4>
 			<p>Water genasi descend from marids, aquatic genies from the Elemental Plane of Water. Water genasi are perfectly suited to life underwater and carry the power of the waves inside themselves.</p>
 			<p class="indent">Their skin is often shades of blue or green, sometimes a blend of the two. If they have a human skin tone, there is a glistening texture that catches the light, like water droplets or nearly invisible fish scales. Their hair can resemble seaweed, waving as if in a current, or it can even be like water itself.</p>
 			<p class="indent">As a water genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Acid Resistance.</em></strong> You have resistance to acid damage.</p>
-			<p class="indent"><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>
-			<p class="indent"><strong><em>Call to the Wave.</em></strong> You know the <i>acid splash</i> cantrip. Starting at 3rd level, you can cast the <i>create or destroy water</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with this trait, without requiring a material component. Once you cast <i>create or destroy water</i> or <i>water walk</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent">
+				<strong>
+					<em>Acid Resistance.</em>
+				</strong> You have resistance to acid damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Amphibious.</em>
+				</strong> You can breathe air and water.</p>
+			<p class="indent">
+				<strong>
+					<em>Call to the Wave.</em>
+				</strong> You know the <i>acid splash</i> cantrip. Starting at 3rd level, you can cast the <i>create or destroy water</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with this trait, without requiring a material component. Once you cast <i>create or destroy water</i> or <i>water walk</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -66,7 +144,7 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Genasi)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Genasi)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Genasi)" supports="Standard||Exotic" />
 
 			<select type="Sub Race" name="Genasi Subrace" supports="MOTM Genasi" />
@@ -81,13 +159,34 @@
 			<p class="indent">Air genasi's skin tones include many shades of blue, along with the full range of human skin tones, with bluish or ashen casts. Sometimes their skin is marked by lines that seem like cracks with bluish-white energy spilling out. An air genasi's hair might blow in a phantom wind or be made entirely of clouds or vapor.</p>
 			<h4>AIR GENASI TRAITS</h4>
 			<p>As an air genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 35 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Unending Breath.</em></strong> You can hold your breath indefinitely while you're not incapacitated.</p>
-			<p class="indent"><strong><em>Lightning Resistance.</em></strong> You have resistance to lightning damage.</p>
-			<p class="indent"><strong><em>Mingle with the Wind.</em></strong> You know the <i>shocking grasp</i> cantrip. Starting at 3rd level, you can cast the <i>feather fall</i> spell with this trait, without requiring a material component. Starting at 5th level, you can also cast the <i>levitate</i> spell with this trait, without requiring a material component. Once you cast <i>feather fall</i> or <i>levitate</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 35 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Unending Breath.</em>
+				</strong> You can hold your breath indefinitely while you're not incapacitated.</p>
+			<p class="indent">
+				<strong>
+					<em>Lightning Resistance.</em>
+				</strong> You have resistance to lightning damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Mingle with the Wind.</em>
+				</strong> You know the <i>shocking grasp</i> cantrip. Starting at 3rd level, you can cast the <i>feather fall</i> spell with this trait, without requiring a material component. Starting at 5th level, you can also cast the <i>levitate</i> spell with this trait, without requiring a material component. Once you cast <i>feather fall</i> or <i>levitate</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 		</description>
 		<sheet display="false" />
@@ -188,12 +287,30 @@
 			<p class="indent">An earth genasi's skin can be the colors of stone and earth or a human skin tone with glittering sparkles like gem dust. Some earth genasi have lines marking their skin like cracks, either showing glimmering gemlike veins or a dim, yellowish glow. Earth genasi hair can appear carved of stone or crystal or resemble strands of spun metal.</p>
 			<h4>EARTH GENASI TRAITS</h4>
 			<p>As an earth genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Earth Walk.</em></strong> You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor.</p>
-			<p class="indent"><strong><em>Merge with Stone.</em></strong> You know the <i>blade ward</i> cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Earth Walk.</em>
+				</strong> You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor.</p>
+			<p class="indent">
+				<strong>
+					<em>Merge with Stone.</em>
+				</strong> You know the <i>blade ward</i> cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p>
 			<p class="indent">Starting at 5th level, you can cast the <i>pass without trace</i> spell with this trait, without requiring a material component. Once you cast that spell with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 		</description>
@@ -273,12 +390,30 @@
 			<p>Descended from efreet, the genies of the Elemental Plane of Fire, fire genasi channel the flamboyant and often destructive nature of flame. They show their heritage in their skin tones, which can range from deep charcoal to shades of red and orange. Some bear skin tones common to humanity but with fiery marks, such as slowly swirling lights under their skin that resemble embers or glowing red lines tracing over their bodies like cracks. Fire genasi hair can resemble threads of fire or sooty smoke.</p>
 			<h4>FIRE GENASI TRAITS</h4>
 			<p>As a fire genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Fire Resistance.</em></strong> You have resistance to fire damage.</p>
-			<p class="indent"><strong><em>Reach to the Blaze.</em></strong> You know the <i>produce flame</i> cantrip. Starting at 3rd level, you can cast the <i>burning hands</i> spell with this trait. Starting at 5th level, you can also cast the <i>flame blade</i> spell with this trait, without requiring a material component. Once you cast <i>burning hands</i> or <i>flame blade</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Fire Resistance.</em>
+				</strong> You have resistance to fire damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Reach to the Blaze.</em>
+				</strong> You know the <i>produce flame</i> cantrip. Starting at 3rd level, you can cast the <i>burning hands</i> spell with this trait. Starting at 5th level, you can also cast the <i>flame blade</i> spell with this trait, without requiring a material component. Once you cast <i>burning hands</i> or <i>flame blade</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 		</description>
 		<sheet display="false" />
@@ -368,14 +503,35 @@
 			<p class="indent">Their skin is often shades of blue or green, sometimes a blend of the two. If they have a human skin tone, there is a glistening texture that catches the light, like water droplets or nearly invisible fish scales. Their hair can resemble seaweed, waving as if in a current, or it can even be like water itself.</p>
 			<h4>WATER GENASI TRAITS</h4>
 			<p>As a water genasi, you have the following traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Acid Resistance.</em></strong> You have resistance to acid damage.</p>
-			<p class="indent"><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>
-			<p class="indent"><strong><em>Call to the Wave.</em></strong> You know the <i>acid splash</i> cantrip. Starting at 3rd level, you can cast the <i>create or destroy water</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with this trait, without requiring a material component. Once you cast <i>create or destroy water</i> or <i>water walk</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent">
+				<strong>
+					<em>Acid Resistance.</em>
+				</strong> You have resistance to acid damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Amphibious.</em>
+				</strong> You can breathe air and water.</p>
+			<p class="indent">
+				<strong>
+					<em>Call to the Wave.</em>
+				</strong> You know the <i>acid splash</i> cantrip. Starting at 3rd level, you can cast the <i>create or destroy water</i> spell with this trait. Starting at 5th level, you can also cast the <i>water walk</i> spell with this trait, without requiring a material component. Once you cast <i>create or destroy water</i> or <i>water walk</i> with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

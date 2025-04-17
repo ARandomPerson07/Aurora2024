@@ -3,7 +3,7 @@
 	<info>
 		<name>Deep Gnome</name>
 		<update version="0.0.1">
-			<file name="race-deep-gnome.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-deep-gnome.xml" />
+			<file name="race-deep-gnome.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-deep-gnome.xml" />
 		</update>
 	</info>
 
@@ -13,14 +13,35 @@
 			<p class="indent">Like other gnomes, deep gnomes can live for centuries, up to 500 years.</p>
 			<h4>DEEP GNOME TRAITS</h4>
 			<p>As a deep gnome, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid. You are also considered a gnome for any prerequisite or effect that requires you to be a gnome.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Gift of the Svirfneblin.</em></strong> Starting at 3rd level, you can cast the <i>disguise self</i> spell with this trait. Starting at 5th level, you can also cast the <i>nondetection</i> spell with it, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid. You are also considered a gnome for any prerequisite or effect that requires you to be a gnome.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Gift of the Svirfneblin.</em>
+				</strong> Starting at 3rd level, you can cast the <i>disguise self</i> spell with this trait. Starting at 5th level, you can also cast the <i>nondetection</i> spell with it, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait.</p>
-			<p class="indent"><strong><em>Gnomish Magic Resistance.</em></strong> You have advantage on Intelligence, Wisdom, and Charisma saving throws against spells.</p>
-			<p class="indent"><strong><em>Svirfneblin Camouflage.</em></strong> When you make a Dexterity (Stealth) check, you can make the check with advantage. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Gnomish Magic Resistance.</em>
+				</strong> You have advantage on Intelligence, Wisdom, and Charisma saving throws against spells.</p>
+			<p class="indent">
+				<strong>
+					<em>Svirfneblin Camouflage.</em>
+				</strong> When you make a Dexterity (Stealth) check, you can make the check with advantage. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -32,9 +53,9 @@
 			<grant type="Grants" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_GNOME" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Deep Gnome)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Deep Gnome)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Deep Gnome)" supports="Standard||Exotic" />
-			
+
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_DEEP_GNOME_GIFT_OF_THE_SVIRFNEBLIN" level="3"/>
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_DEEP_GNOME_GNOMISH_MAGIC_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_DEEP_GNOME_SVIRFNEBLIN_CAMOUFLAGE" />

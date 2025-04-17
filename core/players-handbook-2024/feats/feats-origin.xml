@@ -3,24 +3,30 @@
 	<info>
 		<name></name>
 		<update version="0.0.1">
-			<file name="feats-origin.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/feats/feats-origin.xml" />
+			<file name="feats-origin.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/feats/feats-origin.xml" />
 		</update>
 	</info>
-		
+
 	<element name="Alert" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_ALERT">
 		<supports>Origin</supports>
 		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the Following benefits.</p>
-			<p class="indent"><b><i>Initiative Proficiency.</i></b> When you roll Initiative, you can add your Proficiency Bonus to the roll.</p>
-			<p class="indent"><b><i>Initiative Swap.</i></b> Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.</p>
+			<p class="indent">
+				<b>
+					<i>Initiative Proficiency.</i>
+				</b> When you roll Initiative, you can add your Proficiency Bonus to the roll.</p>
+			<p class="indent">
+				<b>
+					<i>Initiative Swap.</i>
+				</b> Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.</p>
 		</description>
 		<sheet>
 			<description>Immediately after you roll Initiative, you can swap yours with that of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.</description>
 		</sheet>
 		<rules>
-			<stat name="initiative" value="proficiency" />			
+			<stat name="initiative" value="proficiency" />
 		</rules>
 	</element>
 	<element name="Crafter" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_CRAFTER">
@@ -29,22 +35,58 @@
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Tool Proficiency.</i></b> You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.</p>
-			<p class="indent"><b><i>Discount.</i></b> Whenever you buy a nonmagical item, you receive a 20 percent discount on it.</p>
-			<p class="indent"><b><i>Fast Crafting.</i></b> When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.</p>
+			<p class="indent">
+				<b>
+					<i>Tool Proficiency.</i>
+				</b> You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.</p>
+			<p class="indent">
+				<b>
+					<i>Discount.</i>
+				</b> Whenever you buy a nonmagical item, you receive a 20 percent discount on it.</p>
+			<p class="indent">
+				<b>
+					<i>Fast Crafting.</i>
+				</b> When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.</p>
 			<h5>Fast Crafting</h5>
 			<table>
 				<thead>
-					<tr><td>column1</td><td>column2</td></tr>
+					<tr>
+						<td>column1</td>
+						<td>column2</td>
+					</tr>
 				</thead>
-				<tr><td>Carpenter's Tools</td><td>Ladder, Torch</td></tr>
-				<tr><td>Leatherworker's Tools</td><td>Case, Pouch</td></tr>
-				<tr><td>Mason’s Tools</td><td>Block and Tackle</td></tr>
-				<tr><td>Potter's Tools</td><td>Jug, Lamp</td></tr>
-				<tr><td>Smith's Tools</td><td>Ball Bearings, Bucket, Caltrops, Grappling Hook, Iron Pot</td></tr>
-				<tr><td>Tinker's Tools</td><td>Bell, Shovel, Tinder Box</td></tr>
-				<tr><td>Weaver’s Tools</td><td>Basket, Rope, Net, Tent</td></tr>
-				<tr><td>Woodcarver's Tools</td><td>Club, Greatclub, Quarterstaff</td></tr>
+				<tr>
+					<td>Carpenter's Tools</td>
+					<td>Ladder, Torch</td>
+				</tr>
+				<tr>
+					<td>Leatherworker's Tools</td>
+					<td>Case, Pouch</td>
+				</tr>
+				<tr>
+					<td>Mason’s Tools</td>
+					<td>Block and Tackle</td>
+				</tr>
+				<tr>
+					<td>Potter's Tools</td>
+					<td>Jug, Lamp</td>
+				</tr>
+				<tr>
+					<td>Smith's Tools</td>
+					<td>Ball Bearings, Bucket, Caltrops, Grappling Hook, Iron Pot</td>
+				</tr>
+				<tr>
+					<td>Tinker's Tools</td>
+					<td>Bell, Shovel, Tinder Box</td>
+				</tr>
+				<tr>
+					<td>Weaver’s Tools</td>
+					<td>Basket, Rope, Net, Tent</td>
+				</tr>
+				<tr>
+					<td>Woodcarver's Tools</td>
+					<td>Club, Greatclub, Quarterstaff</td>
+				</tr>
 			</table>
 		</description>
 		<sheet>
@@ -60,8 +102,14 @@
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Battle Medic.</i></b> If you have a Healer's Kit, you can expend one use of it and tend to a creature within 5 feet of yourself as a Utilize action. That creature can expend one of its Hit Point Dice, and you then roll that die. The creature regains a number of Hit Points equal to the roll plus your Proficiency Bonus.</p>
-			<p class="indent"><b><i>Healing Rerolls.</i></b> Whenever you roll a die to determine the number of Hit Points you restore with a spell or with this feat's Battle Medic benefit, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
+			<p class="indent">
+				<b>
+					<i>Battle Medic.</i>
+				</b> If you have a Healer's Kit, you can expend one use of it and tend to a creature within 5 feet of yourself as a Utilize action. That creature can expend one of its Hit Point Dice, and you then roll that die. The creature regains a number of Hit Points equal to the roll plus your Proficiency Bonus.</p>
+			<p class="indent">
+				<b>
+					<i>Healing Rerolls.</i>
+				</b> Whenever you roll a die to determine the number of Hit Points you restore with a spell or with this feat's Battle Medic benefit, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
 		</description>
 		<sheet>
 			<description>You can spend one use of a Healer's Kit to tend to a creature within 5ft of yourself. That creature can expend one of its Hit Point Dice, and you then roll that die. It regains a number of HP equal to the roll +{{proficiency}}.&#13;
@@ -74,26 +122,47 @@
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Luck Points.</i></b> You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest.</p>
-			<p class="indent"><b><i>Advantage.</i></b> When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.</p>
-			<p class="indent"><b><i>Disadvantage.</i></b> When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.</p>
+			<p class="indent">
+				<b>
+					<i>Luck Points.</i>
+				</b> You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest.</p>
+			<p class="indent">
+				<b>
+					<i>Advantage.</i>
+				</b> When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.</p>
+			<p class="indent">
+				<b>
+					<i>Disadvantage.</i>
+				</b> When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.</p>
 		</description>
 		<sheet usage="{{proficiency}} Luck Points/Long Rest">
 			<description>When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.&#13;
 			When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.</description>
 		</sheet>
 	</element>
-<!-- -->
+	<!-- -->
 	<element name="Magic Initiate" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE">
 		<supports>Origin</supports>
 		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Two Cantrips.</i></b> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
-			<p class="indent"><b><i>Level 1 Spell.</i></b> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
-			<p class="indent"><b><i>Spell Change.</i></b> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
-			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once, but you must choose a different spell list each time.</p>
+			<p class="indent">
+				<b>
+					<i>Two Cantrips.</i>
+				</b> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
+			<p class="indent">
+				<b>
+					<i>Level 1 Spell.</i>
+				</b> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
+			<p class="indent">
+				<b>
+					<i>Spell Change.</i>
+				</b> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
+			<p class="indent">
+				<b>
+					<i>Repeatable.</i>
+				</b> You can take this feat more than once, but you must choose a different spell list each time.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -111,10 +180,22 @@
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Two Cantrips.</i></b> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
-			<p class="indent"><b><i>Level 1 Spell.</i></b> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
-			<p class="indent"><b><i>Spell Change.</i></b> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
-			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once, but you must choose a different spell list each time.</p>
+			<p class="indent">
+				<b>
+					<i>Two Cantrips.</i>
+				</b> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
+			<p class="indent">
+				<b>
+					<i>Level 1 Spell.</i>
+				</b> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
+			<p class="indent">
+				<b>
+					<i>Spell Change.</i>
+				</b> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
+			<p class="indent">
+				<b>
+					<i>Repeatable.</i>
+				</b> You can take this feat more than once, but you must choose a different spell list each time.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -129,17 +210,29 @@
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Two Cantrips.</i></b> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
-			<p class="indent"><b><i>Level 1 Spell.</i></b> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
-			<p class="indent"><b><i>Spell Change.</i></b> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
-			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once, but you must choose a different spell list each time.</p>
+			<p class="indent">
+				<b>
+					<i>Two Cantrips.</i>
+				</b> You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p>
+			<p class="indent">
+				<b>
+					<i>Level 1 Spell.</i>
+				</b> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
+			<p class="indent">
+				<b>
+					<i>Spell Change.</i>
+				</b> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
+			<p class="indent">
+				<b>
+					<i>Repeatable.</i>
+				</b> You can take this feat more than once, but you must choose a different spell list each time.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate 24" />
 		</rules>
 	</element>
-	
+
 	<element name="Cleric" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC">
 		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
@@ -268,15 +361,21 @@
 			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma.</description>
 		</sheet>
 	</element>
-<!-- /magic initiate -->	
+	<!-- /magic initiate -->
 	<element name="Musician" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MUSICIAN">
 		<supports>Origin</supports>
 		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Instrument Training.</i></b> You gain proficiency with three Musical Instruments of your choice</p>
-			<p class="indent"><b><i>Encouraging Song.</i></b> As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.</p>
+			<p class="indent">
+				<b>
+					<i>Instrument Training.</i>
+				</b> You gain proficiency with three Musical Instruments of your choice</p>
+			<p class="indent">
+				<b>
+					<i>Encouraging Song.</i>
+				</b> As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.</p>
 		</description>
 		<sheet usage="1/Short or Long Rest">
 			<description>You can play a song on a Musical Instrument you are proficient with and give Heroic Inspiration to up to {{proficiency}} allies who hear the song.</description>
@@ -296,14 +395,17 @@
 			<description>When you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.</description>
 		</sheet>
 	</element>
-<!-- -->
+	<!-- -->
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED">
 		<supports>Origin</supports>
 		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
-			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once.</p>
+			<p class="indent">
+				<b>
+					<i>Repeatable.</i>
+				</b> You can take this feat more than once.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -397,17 +499,29 @@
 			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
 		</rules>
 	</element>
-<!-- -->
+	<!-- -->
 	<element name="Tavern Brawler" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_TAVERN_BRAWLER">
 		<supports>Origin</supports>
 		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Enhanced Unarmed Strike.</i></b> When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</p> 
-			<p class="indent"><b><i>Damage Rerolls.</i></b> Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
-			<p class="indent"><b><i>Improvised Weaponry.</i></b> You have proficiency with improvised weapons.</p>
-			<p class="indent"><b><i>Push.</i></b> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</p>
+			<p class="indent">
+				<b>
+					<i>Enhanced Unarmed Strike.</i>
+				</b> When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</p>
+			<p class="indent">
+				<b>
+					<i>Damage Rerolls.</i>
+				</b> Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
+			<p class="indent">
+				<b>
+					<i>Improvised Weaponry.</i>
+				</b> You have proficiency with improvised weapons.</p>
+			<p class="indent">
+				<b>
+					<i>Push.</i>
+				</b> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</p>
 		</description>
 		<sheet>
 			<description>When you hit with your Unarmed Strike and deal damage, you can deal 1d4+{{strength:modifier}} Bludgeoning damage and, once per turn you can also push it 5ft away from you. Whenever you roll a 1 for damage for your Unarmed Strike, you can reroll the die, and you must use the new roll. You have proficiency with improvised weapons.</description>
@@ -429,6 +543,6 @@
 			<stat name="hp" value="tough:hp" />
 		</rules>
 	</element>
-		
-		
+
+
 </elements>

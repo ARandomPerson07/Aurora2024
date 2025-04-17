@@ -5,7 +5,7 @@
 		<description>City Watch Background</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="background-citywatch.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/sword-coast-adventurers-guide/backgrounds/background-citywatch.xml" />
+			<file name="background-citywatch.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/sword-coast-adventurers-guide/backgrounds/background-citywatch.xml" />
 		</update>
 	</info>
 
@@ -16,9 +16,12 @@
 			<p class="indent">Perhaps you hail from Neverwinter and have served as one of its Winters hield watchmen, the newly founded branch of guards who vow to keep safe the City of Skilled Hands.</p>
 			<p class="indent">Even if you’re not city-born or city-bred, this background can describe your early years as a member of law enforcement. Most settlements of any size have their own constables and police forces, and even smaller communities have sheriffs and bailiffs who stand ready to protect their community.</p>
 			<ul class="unstyled">
-				<li> <strong>Skill Proficiencies:</strong> Athletics, Insight</li>
-				<li> <strong>Languages:</strong> Two of your choice</li>
-				<li> <strong>Equipment:</strong> A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of manacles, and a pouch containing 10 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Athletics, Insight</li>
+				<li>
+					<strong>Languages:</strong> Two of your choice</li>
+				<li>
+					<strong>Equipment:</strong> A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of manacles, and a pouch containing 10 gp</li>
 			</ul>
 			<div element="ID_SCAG_BACKGROUND_CITY_WATCH_WATCHERS_EYE" />
 			<div element="ID_SCAG_BACKGROUND_CITY_WATCH_VARIANT_INVESTIGATOR" />

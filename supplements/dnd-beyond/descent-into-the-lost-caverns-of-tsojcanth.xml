@@ -2,19 +2,20 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="descent-into-the-lost-caverns-of-tsojcanth.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/dnd-beyond/descent-into-the-lost-caverns-of-tsojcanth.xml" />
+			<file name="descent-into-the-lost-caverns-of-tsojcanth.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/dnd-beyond/descent-into-the-lost-caverns-of-tsojcanth.xml" />
 		</update>
 	</info>
 
 	<element name="Descent into the Lost Caverns of Tsojcanth" type="Source" source="Core" id="ID_WOTC_SOURCE_DESCENT_INTO_THE_LOST_CAVERNS_OF_TSOJCANTH">
 		<description>
 			<p>Deep in the Yatil Mountains lie the Lost Caverns of Tsojcanth, formerly occupied by the legendary archmage Iggwilv the Witch Queen. Though Iggwilv is long gone, she is rumored to have amassed a magical hoard of unsurpassed value, a trove of such fame that scores of adventurers have perished in search of it.</p>
-			<p class="indent">This adventure is part of a yearlong celebration of Dungeons &amp; Dragons and its 50th anniversary. The adventure presented herein is an abridged, quick-play version of “The Lost Caverns of Tsojcanth,” which appears in <i>Quests from the Infinite Staircase</i>.</p>
+			<p class="indent">This adventure is part of a yearlong celebration of Dungeons &amp; Dragons and its 50th anniversary. The adventure presented herein is an abridged, quick-play version of “The Lost Caverns of Tsojcanth,” which appears in <i>Quests from the Infinite Staircase</i>.
+			</p>
 		</description>
 		<setters>
 			<set name="abbreviation">DLCT</set>
 			<set name="url">https://www.dndbeyond.com/claim/source/descent-into-tsojcanth</set>
-			<set name="image">https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/dnd-beyond/DLCT.png</set>
+			<set name="image">https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/dnd-beyond/DLCT.png</set>
 			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast, D&amp;D Beyond</set>
 			<set name="official">true</set>
 			<set name="supplement">true</set>
@@ -46,7 +47,7 @@
 
 	<element name="Iggwilv’s Horn" type="Magic Item" source="Descent into the Lost Caverns of Tsojcanth" id="ID_WOTC_DLCT_MAGIC_ITEM_IGGWILVS_HORN">
 		<description>
-			<p>You can use an action to blow this horn to cast one of the following spells from it: <i>Arms of Hadar</i>, <i>Fog Cloud</i>, <i>Gust of Wind</i>, or <i>Web</i>. If the spell requires a saving throw, the spell save DC is 13.</p>
+			<p>You can use an action to blow this horn to cast one of the following spells from it: <i>Arms of Hadar</i>,				<i>Fog Cloud</i>,				<i>Gust of Wind</i>, or <i>Web</i>. If the spell requires a saving throw, the spell save DC is 13.</p>
 			<p class="indent">Once the horn has been used to cast a spell, it can’t be used to cast that spell again until the next dawn.</p>
 		</description>
 		<setters>

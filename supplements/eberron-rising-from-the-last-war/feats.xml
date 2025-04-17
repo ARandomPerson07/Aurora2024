@@ -2,14 +2,16 @@
 <elements>
 	<info>
 		<update version="0.0.3">
-			<file name="feats.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/feats.xml" />
+			<file name="feats.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/feats.xml" />
 		</update>
-	</info>	
+	</info>
 	<element name="Revenant Blade" type="Feat" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_FEAT_REVENANT_BLADE">
 		<requirements>ID_RACE_ELF||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF</requirements>
 		<prerequisite>Elf</prerequisite>
 		<description>
-			<p><em>Prerequisite: Elf</em></p>
+			<p>
+				<em>Prerequisite: Elf</em>
+			</p>
 			<p>You are descended from a master of the double-bladed scimitar, and some of that mastery has passed on to you. You gain the following benefits:</p>
 			<ul>
 				<li>Increase your Dexterity or Strength score by 1, to a maximum of 20.</li>
@@ -26,12 +28,14 @@
 			<stat name="ac:misc" value="1" equipped="[primary:double-bladed scimitar]" />
 			<!-- todo: runtime rule property additions -->
 		</rules>
-	</element>	
+	</element>
 	<element name="Aberrant Dragonmark" type="Feat" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_FEAT_ABERRANT_DRAGONMARK">
 		<requirements>!ID_INTERNAL_GRANTS_DRAGONMARK,!ID_WOTC_WGTE_GRANTS_DARKMARKED</requirements>
 		<prerequisite>No other dragonmark</prerequisite>
 		<description>
-			<p><em>Prerequisite: No other dragonmark</em></p>
+			<p>
+				<em>Prerequisite: No other dragonmark</em>
+			</p>
 			<p>You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it. You gain the following benefits:</p>
 			<ul>
 				<li>Increase your Constitution score by 1, to a maximum of 20.</li>

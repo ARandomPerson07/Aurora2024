@@ -5,7 +5,7 @@
 		<description>The Assassin subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/rogue-assassin.xml" />
+			<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/rogue-assassin.xml" />
 		</update>
 	</info>
 
@@ -36,8 +36,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ASSASSIN_ASSASSINATE</requirements>
 		<description>
 			<p>You’re adept at ambushing a target, granting you the following benefits:</p>
-			<p class="indent"><em><strong>Initiative.</strong></em> You have Advantage on Initiative rolls.</p>
-			<p class="indent"><em><strong>Surprising Strikes.</strong></em> During the first round of each combat, you have Advantage on attack rolls against any creature that hasn’t taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon’s type equal to your Rogue level.</p>
+			<p class="indent">
+				<em>
+					<strong>Initiative.</strong>
+				</em> You have Advantage on Initiative rolls.</p>
+			<p class="indent">
+				<em>
+					<strong>Surprising Strikes.</strong>
+				</em> During the first round of each combat, you have Advantage on attack rolls against any creature that hasn’t taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon’s type equal to your Rogue level.</p>
 		</description>
 		<sheet alt="Assassinate">
 			<description>You have Advantage on attack rolls against any creature that hasn’t taken a turn in the combat yet, and your Sneak Attack deals an additional {{level:rogue}} damage to those creatures during the first round.</description>
@@ -64,8 +70,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ASSASSIN_INFILTRATION_EXPERTISE</requirements>
 		<description>
 			<p>You are expert at the following techniques that aid your infiltrations.</p>
-			<p class="indent"><em><strong>Masterful Mimicry.</strong></em> You can unerringly mimic another person’s speech, handwriting, or both if you have spent at least 1 hour studying them.</p>
-			<p class="indent"><em><strong>Roving Aim.</strong></em> Your Speed isn’t reduced to 0 by using Steady Aim.</p>
+			<p class="indent">
+				<em>
+					<strong>Masterful Mimicry.</strong>
+				</em> You can unerringly mimic another person’s speech, handwriting, or both if you have spent at least 1 hour studying them.</p>
+			<p class="indent">
+				<em>
+					<strong>Roving Aim.</strong>
+				</em> Your Speed isn’t reduced to 0 by using Steady Aim.</p>
 		</description>
 		<sheet alt="Infiltration Expertise">
 			<description>You can unerringly mimic another person’s speech, handwriting, or both if you have spent at least 1 hour studying them. Additionally, your Speed is not reduced to 0 by using Steady Aim.</description>
@@ -96,7 +108,7 @@
 			<stat name="death strike:dc" value="dexterity:modifier" />
 		</rules>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Assassin’s Tools Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ASSASSIN_ASSASSINS_TOOLS" />
 	<element name="Assassinate Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_24_ASSASSIN_ASSASSINATE" />

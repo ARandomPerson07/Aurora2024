@@ -3,7 +3,7 @@
 	<info>
 		<name>Artificer Infusions</name>
 		<update version="0.0.1">
-			<file name="artificer-infusions.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/artificer-infusions.xml" />
+			<file name="artificer-infusions.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/artificer-infusions.xml" />
 		</update>
 	</info>
 
@@ -12,8 +12,12 @@
 		<requirements>[level:6]</requirements>
 		<prerequisite>6th-level artificer</prerequisite>
 		<description>
-			<p><em>Prerequisite: 6th-level artificer</em></p>
-			<p><em>Item: A pair of boots (requires attunement)</em></p>
+			<p>
+				<em>Prerequisite: 6th-level artificer</em>
+			</p>
+			<p>
+				<em>Item: A pair of boots (requires attunement)</em>
+			</p>
 			<p>While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.</p>
 			<!-- <div class="reference">
 				<div element="ID_WOTC_ERLW_MAGIC_ITEM_INFUSION_BOOTS_OF_THE_WINDING_PATH" />
@@ -26,7 +30,9 @@
 	<element name="Enhanced Arcane Focus" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_ENHANCED_ARCANE_FOCUS">
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
-			<p><em>Item: A rod, staff, or wand (requires attunement)</em></p>
+			<p>
+				<em>Item: A rod, staff, or wand (requires attunement)</em>
+			</p>
 			<p>While holding this item, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</p>
 			<p class="indent">The bonus increases to +2 when you reach 10th level in this class.</p>
 		</description>
@@ -41,7 +47,9 @@
 	<element name="Enhanced Defense" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_ENHANCED_DEFENSE">
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
-			<p><em>Item: A suit of armor or a shield</em></p>
+			<p>
+				<em>Item: A suit of armor or a shield</em>
+			</p>
 			<p>A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.</p>
 			<p class="indent">The bonus increases to +2 when you reach 10th level in this class.</p>
 		</description>
@@ -57,7 +65,9 @@
 	<element name="Enhanced Weapon" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_ENHANCED_WEAPON">
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
-			<p><em>Item: A simple or martial weapon</em></p>
+			<p>
+				<em>Item: A simple or martial weapon</em>
+			</p>
 			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it.</p>
 			<p class="indent">The bonus increases to +2 when you reach 10th level in this class.</p>
 		</description>
@@ -73,7 +83,9 @@
 	<element name="Homunculus Servant" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_HOMUNCULUS_SERVANT">
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
-			<p><em>Item: A gem or crystal worth at least 100 gp</em></p>
+			<p>
+				<em>Item: A gem or crystal worth at least 100 gp</em>
+			</p>
 			<p>You learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creature’s heart, around which the creature’s body instantly forms.</p>
 			<p class="indent">You determine the homunculus’s appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.</p>
 			<p class="indent">The homunculus is friendly to you and your companions, and it obeys your commands. See this creature’s game statistics in the Homunculus Servant stat block, which uses your proficiency bonus (PB) in several places.</p>
@@ -81,38 +93,78 @@
 			<p class="indent">The homunculus regains 2d6 hit points if the mending spell is cast on it. If you or the homunculus dies, it vanishes, leaving its heart in its space. </p>
 			<div class="reference">
 				<h3 style="margin-bottom:-20px;margin-top:-5px">Homunculus Servant</h3>
-				<p style="margin-bottom:-5px"><em>Tiny construct</em></p>
+				<p style="margin-bottom:-5px">
+					<em>Tiny construct</em>
+				</p>
 				<h4 style="margin-top:5px" />
 				<ul class="unstyled">
-					<li><strong>Armor Class</strong> 13 (natural armor)</li>
-					<li><strong>Hit Points</strong> 1 + your Intelligence modifier + your artificer level (the homunculus servant has a number of Hit Dice [d4s] equal to your artificer level)</li>
-					<li><strong>Speed</strong> 20 ft., fly 30 ft.</li>
+					<li>
+						<strong>Armor Class</strong> 13 (natural armor)</li>
+					<li>
+						<strong>Hit Points</strong> 1 + your Intelligence modifier + your artificer level (the homunculus servant has a number of Hit Dice [d4s] equal to your artificer level)</li>
+					<li>
+						<strong>Speed</strong> 20 ft., fly 30 ft.</li>
 				</ul>
 				<table style="text-align:center;margin-top:10px;margin-bottom:10px">
-					<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
-					<tr><td>4 (-3)</td><td>15 (+2)</td><td>12 (+1)</td><td>10 (+0)</td><td>10 (+0)</td><td>7 (-2)</td></tr>
+					<thead>
+						<tr>
+							<td>STR</td>
+							<td>DEX</td>
+							<td>CON</td>
+							<td>INT</td>
+							<td>WIS</td>
+							<td>CHA</td>
+						</tr>
+					</thead>
+					<tr>
+						<td>4 (-3)</td>
+						<td>15 (+2)</td>
+						<td>12 (+1)</td>
+						<td>10 (+0)</td>
+						<td>10 (+0)</td>
+						<td>7 (-2)</td>
+					</tr>
 				</table>
 				<ul class="unstyled">
-					<li><strong>Saving Throws</strong> Dex +2 plus PB</li>
-					<li><strong>Skills</strong> Perception +0 plus PB x 2, Stealth +2 plus PB</li>
-					<li><strong>Damage Immunities</strong> poison</li>
-					<li><strong>Condition Immunities</strong> exhaustion, poisoned</li>
-					<li><strong>Senses</strong> darkvision 60 ft., passive Perception 10 + (PB x 2)</li>
-					<li><strong>Languages</strong> understands the language you speak</li>
-					<li><strong>Challenge</strong> —</li>
-					<li><strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
+					<li>
+						<strong>Saving Throws</strong> Dex +2 plus PB</li>
+					<li>
+						<strong>Skills</strong> Perception +0 plus PB x 2, Stealth +2 plus PB</li>
+					<li>
+						<strong>Damage Immunities</strong> poison</li>
+					<li>
+						<strong>Condition Immunities</strong> exhaustion, poisoned</li>
+					<li>
+						<strong>Senses</strong> darkvision 60 ft., passive Perception 10 + (PB x 2)</li>
+					<li>
+						<strong>Languages</strong> understands the language you speak</li>
+					<li>
+						<strong>Challenge</strong> —
+					</li>
+					<li>
+						<strong>Proficiency Bonus (PB)</strong> equals your bonus</li>
 				</ul>
 				<h4 style="margin-top:5px; margin-bottom:10px" />
 				<ul class="unstyled">
-					<li><strong><em>Evasion.</em></strong> If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.</li>
+					<li>
+						<strong>
+							<em>Evasion.</em>
+						</strong> If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.</li>
 				</ul>
 				<h4 style="margin-top:10px">Actions</h4>
 				<ul class="unstyled">
-					<li><strong><em>Force Strike. </em></strong><em>Ranged Weapon Attack:</em> your spell attack modifier to hit, range 30 ft., one target you can see. <em>Hit:</em> 1d4 + PB force damage.</li>
+					<li>
+						<strong>
+							<em>Force Strike. </em>
+						</strong>
+						<em>Ranged Weapon Attack:</em> your spell attack modifier to hit, range 30 ft., one target you can see. <em>Hit:</em> 1d4 + PB force damage.</li>
 				</ul>
 				<h4 style="margin-top:10px">Reactions</h4>
 				<ul class="unstyled">
-					<li><strong><em>Channel Magic. </em></strong>The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.</li>
+					<li>
+						<strong>
+							<em>Channel Magic. </em>
+						</strong>The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.</li>
 				</ul>
 			</div>
 		</description>
@@ -130,8 +182,12 @@
 		<requirements>[level:6]</requirements>
 		<prerequisite>6th-level artificer</prerequisite>
 		<description>
-			<p><em>Prerequisite: 6th-level artificer</em></p>
-			<p><em>Item: A simple or martial weapon (requires attunement)</em></p>
+			<p>
+				<em>Prerequisite: 6th-level artificer</em>
+			</p>
+			<p>
+				<em>Item: A simple or martial weapon (requires attunement)</em>
+			</p>
 			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.</p>
 			<p class="indent">The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker’s next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.</p>
 		</description>
@@ -145,7 +201,9 @@
 	<element name="Repeating Shot" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPEATING_SHOT">
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
-			<p><em>Item: A simple or martial weapon with the ammunition property (requires attunement)</em></p>
+			<p>
+				<em>Item: A simple or martial weapon with the ammunition property (requires attunement)</em>
+			</p>
 			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it when it’s used to make a ranged attack, and it ignores the loading property if it has it.</p>
 			<p class="indent">If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.</p>
 		</description>
@@ -291,8 +349,12 @@
 		<requirements>[level:6]</requirements>
 		<prerequisite>6th-level artificer</prerequisite>
 		<description>
-			<p><em>Prerequisite: 6th-level artificer</em></p>
-			<p><em>Item: A shield (requires attunement)</em></p>
+			<p>
+				<em>Prerequisite: 6th-level artificer</em>
+			</p>
+			<p>
+				<em>Item: A shield (requires attunement)</em>
+			</p>
 			<p>A creature gains a +1 bonus to Armor Class while wielding this shield.</p>
 			<p class="indent">The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield’s charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.</p>
 		</description>
@@ -308,8 +370,12 @@
 		<requirements>[level:6]</requirements>
 		<prerequisite>6th-level artificer</prerequisite>
 		<description>
-			<p><em>Prerequisite: 6th-level artificer</em></p>
-			<p><em>Item: A suit of armor (requires attunement)</em></p>
+			<p>
+				<em>Prerequisite: 6th-level artificer</em>
+			</p>
+			<p>
+				<em>Item: A suit of armor (requires attunement)</em>
+			</p>
 			<p>While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.</p>
 		</description>
 		<sheet>
@@ -321,7 +387,9 @@
 	<element name="Returning Weapon" type="Class Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_RETURNING_WEAPON">
 		<supports>Artificer Infusion, ERLW Version</supports>
 		<description>
-			<p><em>Item: A simple or martial weapon with the thrown property</em></p>
+			<p>
+				<em>Item: A simple or martial weapon with the thrown property</em>
+			</p>
 			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder’s hand immediately after it is used to make a ranged attack.</p>
 		</description>
 		<sheet>
@@ -334,80 +402,253 @@
 	<element name="Replicate Magic Item Tables" type="Information" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_INFORMATION_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES">
 		<compendium display="false" />
 		<description>
-			<p><strong>REPLICABLE ITEMS (2nd-level Artificer)</strong></p>
+			<p>
+				<strong>REPLICABLE ITEMS (2nd-level Artificer)</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Magic Item</td><td class="col-20">Attunement</td></tr>
+					<tr>
+						<td>Magic Item</td>
+						<td class="col-20">Attunement</td>
+					</tr>
 				</thead>
-				<tr><td>Alchemy jug</td><td>No</td></tr>
-				<tr><td>Bag of holding</td><td>No</td></tr>
-				<tr><td>Cap of water breathing</td><td>No</td></tr>
-				<tr><td>Goggles of night</td><td>No</td></tr>
-				<tr><td>Rope of climbing</td><td>No</td></tr>
-				<tr><td>Sending stones</td><td>No</td></tr>
-				<tr><td>Wand of magic detection</td><td>No</td></tr>
-				<tr><td>Wand of secrets</td><td>No</td></tr>
+				<tr>
+					<td>Alchemy jug</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Bag of holding</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Cap of water breathing</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Goggles of night</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Rope of climbing</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sending stones</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Wand of magic detection</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Wand of secrets</td>
+					<td>No</td>
+				</tr>
 			</table>
-			<p><strong>REPLICABLE ITEMS (6th-level Artificer)</strong></p>
+			<p>
+				<strong>REPLICABLE ITEMS (6th-level Artificer)</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Magic Item</td><td class="col-20">Attunement</td></tr>
+					<tr>
+						<td>Magic Item</td>
+						<td class="col-20">Attunement</td>
+					</tr>
 				</thead>
-				<tr><td>Boots of elvenkind</td><td>No</td></tr>
-				<tr><td>Cloak of elvenkind</td><td>Yes</td></tr>
-				<tr><td>Cloak of the manta ray</td><td>No</td></tr>
-				<tr><td>Eyes of charming</td><td>Yes</td></tr>
-				<tr><td>Gloves of thievery</td><td>No</td></tr>
-				<tr><td>Lantern of revealing</td><td>No</td></tr>
-				<tr><td>Pipes of haunting</td><td>No</td></tr>
-				<tr><td>Ring of water walking</td><td>No</td></tr>
+				<tr>
+					<td>Boots of elvenkind</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Cloak of elvenkind</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Cloak of the manta ray</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Eyes of charming</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Gloves of thievery</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Lantern of revealing</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Pipes of haunting</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Ring of water walking</td>
+					<td>No</td>
+				</tr>
 			</table>
-			<p><strong>REPLICABLE ITEMS (10th-level Artificer)</strong></p>
+			<p>
+				<strong>REPLICABLE ITEMS (10th-level Artificer)</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Magic Item</td><td class="col-20">Attunement</td></tr>
+					<tr>
+						<td>Magic Item</td>
+						<td class="col-20">Attunement</td>
+					</tr>
 				</thead>
-				<tr><td>Boots of striding and springing</td><td>Yes</td></tr>
-				<tr><td>Boots of the winterlands</td><td>Yes</td></tr>
-				<tr><td>Bracers of archery</td><td>Yes</td></tr>
-				<tr><td>Brooch of shielding</td><td>Yes</td></tr>
-				<tr><td>Cloak of protection</td><td>Yes</td></tr>
-				<tr><td>Eyes of the eagle</td><td>Yes</td></tr>
-				<tr><td>Gauntlets of ogre power</td><td>Yes</td></tr>
-				<tr><td>Gloves of missile snaring</td><td>Yes</td></tr>
-				<tr><td>Gloves of swimming and climbing</td><td>Yes</td></tr>
-				<tr><td>Hat of disguise</td><td>Yes</td></tr>
-				<tr><td>Headband of intellect</td><td>Yes</td></tr>
-				<tr><td>Helm of telepathy</td><td>Yes</td></tr>
-				<tr><td>Medallion of thoughts</td><td>Yes</td></tr>
-				<tr><td>Necklace of adaptation</td><td>Yes</td></tr>
-				<tr><td>Peria pt of wound closure</td><td>Yes</td></tr>
-				<tr><td>Pipes of the sewers</td><td>Yes</td></tr>
-				<tr><td>Quiver of Ehlonna</td><td>No</td></tr>
-				<tr><td>Ring of jumping</td><td>Yes</td></tr>
-				<tr><td>Ring of mind shielding</td><td>Yes</td></tr>
-				<tr><td>Slippers of spider climbing</td><td>Yes</td></tr>
-				<tr><td>Ventilating lung</td><td>Yes</td></tr>
-				<tr><td>Winged boots</td><td>Yes</td></tr>
+				<tr>
+					<td>Boots of striding and springing</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Boots of the winterlands</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Bracers of archery</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Brooch of shielding</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Cloak of protection</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Eyes of the eagle</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Gauntlets of ogre power</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Gloves of missile snaring</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Gloves of swimming and climbing</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Hat of disguise</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Headband of intellect</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Helm of telepathy</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Medallion of thoughts</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Necklace of adaptation</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Peria pt of wound closure</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Pipes of the sewers</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Quiver of Ehlonna</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Ring of jumping</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Ring of mind shielding</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Slippers of spider climbing</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Ventilating lung</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Winged boots</td>
+					<td>Yes</td>
+				</tr>
 			</table>
-			<p><strong>REPLICABLE ITEMS (14th-level Artificer)</strong></p>
+			<p>
+				<strong>REPLICABLE ITEMS (14th-level Artificer)</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Magic Item</td><td class="col-20">Attunement</td></tr>
+					<tr>
+						<td>Magic Item</td>
+						<td class="col-20">Attunement</td>
+					</tr>
 				</thead>
-				<tr><td>Amulet of health</td><td>Yes</td></tr>
-				<tr><td>Arcane propulsion arm</td><td>Yes</td></tr>
-				<tr><td>Belt of hill giant strength</td><td>Yes</td></tr>
-				<tr><td>Boots of levitation</td><td>Yes</td></tr>
-				<tr><td>Boots of speed</td><td>Yes</td></tr>
-				<tr><td>Bracers of defense</td><td>Yes</td></tr>
-				<tr><td>Cloak of the bat</td><td>Yes</td></tr>
-				<tr><td>Dimensional shackles</td><td>No</td></tr>
-				<tr><td>Gem of seeing</td><td>Yes</td></tr>
-				<tr><td>Horn of blasting</td><td>No</td></tr>
-				<tr><td>Ring of free action</td><td>Yes</td></tr>
-				<tr><td>Ring of protection</td><td>Yes</td></tr>
-				<tr><td>Ring of the ram</td><td>Yes</td></tr>
+				<tr>
+					<td>Amulet of health</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Arcane propulsion arm</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Belt of hill giant strength</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Boots of levitation</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Boots of speed</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Bracers of defense</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Cloak of the bat</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Dimensional shackles</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Gem of seeing</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Horn of blasting</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Ring of free action</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Ring of protection</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Ring of the ram</td>
+					<td>Yes</td>
+				</tr>
 			</table>
 		</description>
 	</element>
@@ -647,10 +888,12 @@
 	</element>
 	<element name="Force Strike" type="Companion Action" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_COMPANION_ACTION_HOMUNCULUS_SERVANT_FORCE_STRIKE">
 		<description>
-			<p><i>Ranged Weapon Attack:</i> your spell attack modifier to hit, range 30 ft., one target you can see. <i>Hit:</i> 1d4 + PB force damage. </p>
+			<p>
+				<i>Ranged Weapon Attack:</i> your spell attack modifier to hit, range 30 ft., one target you can see. <i>Hit:</i> 1d4 + PB force damage. </p>
 		</description>
 		<sheet>
-			<description><i>Ranged Weapon Attack:</i> your spell attack modifier to hit, range 30 ft., one target you can see. <i>Hit:</i> 1d4 + PB force damage. </description>
+			<description>
+				<i>Ranged Weapon Attack:</i> your spell attack modifier to hit, range 30 ft., one target you can see. <i>Hit:</i> 1d4 + PB force damage. </description>
 		</sheet>
 	</element>
 	<element name="Channel Magic" type="Companion Reaction" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_COMPANION_REACTION_HOMUNCULUS_SERVANT_CHANNEL_MAGIC">

@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
 		<update version="0.1.5">
-			<file name="race-lizardfolk.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/volos-guide-to-monsters/race-lizardfolk.xml" />
+			<file name="race-lizardfolk.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/volos-guide-to-monsters/race-lizardfolk.xml" />
 		</update>
 	</info>
 	<element name="Lizardfolk" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_LIZARDFOLK">
@@ -33,130 +33,158 @@
 			<p>You can use the Lizardfolk Quirks table to determine a personality quirk for a lizardfolk character or to inspire a unique mannerism.</p>
 			<h5>LIZARDFOLK QUIRKS</h5>
 			<table>
-			<thead>
-				<tr><td>d8</td><td>Quirk</td></tr>
-			</thead>
-			<tr><td>1</td><td>You hate waste and see no reason not to scavenge fallen enemies. Fingers are tasty and portable!</td></tr>
-			<tr><td>2</td><td>You sleep best while mostly submerged in water.</td></tr>
-			<tr><td>3</td><td>Money is meaningless to you.</td></tr>
-			<tr><td>4</td><td>You think there are only two species of humanoid: lizardfolk and meat.</td></tr>
-			<tr><td>5</td><td>You have learned to laugh. You use this talent in response to all emotional situations, to better fit in with your comrades.</td></tr>
-			<tr><td>6</td><td>You still don't understand how metaphors work. That doesn't stop you from using them at every opportunity.</td></tr>
-			<tr><td>7</td><td>You appreciate the soft humanoids who realize they need chain mail and swords to match the gifts you were born with.</td></tr>
-			<tr><td>8</td><td>You enjoy eating your food while it's still wriggling.</td></tr>
+				<thead>
+					<tr>
+						<td>d8</td>
+						<td>Quirk</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>1</td>
+					<td>You hate waste and see no reason not to scavenge fallen enemies. Fingers are tasty and portable!</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>You sleep best while mostly submerged in water.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Money is meaningless to you.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>You think there are only two species of humanoid: lizardfolk and meat.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>You have learned to laugh. You use this talent in response to all emotional situations, to better fit in with your comrades.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>You still don't understand how metaphors work. That doesn't stop you from using them at every opportunity.</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>You appreciate the soft humanoids who realize they need chain mail and swords to match the gifts you were born with.</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>You enjoy eating your food while it's still wriggling.</td>
+				</tr>
 			</table>
 			<h4>LIZARDFOLK NAMES</h4>
 			<p>Lizardfolk take their names from the Draconic language. They use simple descriptives granted by the tribe based on an individual's notable deeds or actions. For example, Garurt translates as "axe," a name given to a lizardfolk warrior who defeated an orc and claimed his foe's weapon. A lizardfolk who likes to hide in a stand of reeds before ambushing an animal might be called Achuak, which means "green" to describe how she blends into the foliage.</p>
 			<p class="indent">Lizardfolk make no distinction between male and female in their naming conventions. Each example name includes its translation in parenthesis.</p>
-			<p><b>Lizardfolk Names:</b> Achuak (green), Aryte (war), Baeshra (animal), Darastrix (dragon), Garurt (axe), Irhtos (secret), Jhank (hammer), Kepesk (storm), Kethend (gem), Korth (danger), Kosj (small), Kothar (demon), Litrix (armor), Mirik (song), Othokent (smart), Sauriv (eye), Throden (many), Thurkear (night), Usk (iron), Valignat (burn), Vargach (battle), Verthica (mountain), Vutha (black), Vyth (steel)</p>
+			<p>
+				<b>Lizardfolk Names:</b> Achuak (green), Aryte (war), Baeshra (animal), Darastrix (dragon), Garurt (axe), Irhtos (secret), Jhank (hammer), Kepesk (storm), Kethend (gem), Korth (danger), Kosj (small), Kothar (demon), Litrix (armor), Mirik (song), Othokent (smart), Sauriv (eye), Throden (many), Thurkear (night), Usk (iron), Valignat (burn), Vargach (battle), Verthica (mountain), Vutha (black), Vyth (steel)</p>
 			<h4>LIZARDFOLK TRAITS</h4>
 			<p>Your lizardfolk character has the following racial traits.</p>
 			<p>
 				<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and your Wisdom score increases by 1. <br/>
-				<span class="feature">Age.</span>Lizardfolk reach maturity around age 14 and rarely live longer than 60 years. <br/>
-				<!-- (removed in Errata v3.0) -->
-				<!-- <span class="feature">Alignment.</span>Most lizardfolk are neutral. They see the world as a place of predators and prey, where life and death are natural processes. They wish only to survive, and prefer to leave other creatures to their own devices. <br/> -->
-				<span class="feature">Size.</span>Lizardfolk are a little bulkier and taller than humans, and their colorful frills make them appear even larger. Your size is Medium. <br/>
-				<span class="feature">Speed.</span>Your base walking speed is 30 feet, and you have a swimming speed of 30 feet. <br/>
-				<span class="feature">Bite.</span>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. <br/>
-				<span class="feature">Cunning Artisan.</span>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools. <br/>
-				<span class="feature">Hold Breath.</span>You can hold your breath for up to 15 minutes at a time. <br/>
-				<span class="feature">Hunter's Lore.</span>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival. <br/>
-				<span class="feature">Natural Armor.</span>You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor. <br/>
-				<span class="feature">Hungry Jaws.</span>In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest. <br/>
-				<span class="feature">Languages.</span>You can speak, read, and write Common and Draconic. <br/>
-			</p>
-		</description>
-		<sheet display="false"/>
-		<setters>
-			<set name="names" type="custom">Achuak, Aryte, Baeshra, Darastrix, Garurt, Irhtos, Jhank, Kepesk, Kethend, Korth, Kosj, Kothar, Litrix, Mirik, Othokent, Sauriv, Throden, Thurkear, Usk, Valignat, Vargach, Verthica, Vutha, Vyth</set>
-			<set name="names-format">{{custom}}</set>
-			<set name="height" modifier="2d12">4'8"</set>
-			<set name="weight" modifier="2d6">110 lb.</set>
-		</setters>
-		<rules>
-			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Lizardfolk)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Lizardfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="innate speed" value="30" bonus="base" />
-			<stat name="innate speed:swim" value="30" bonus="base"/>
-			<grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_BITE" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_CUNNING_ARTISAN" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNTERS_LORE" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR" />
-			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS" />
-		</rules>
-	</element>
-	<element name="Bite" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_BITE">
-		<description>
-			<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
-		</description>
-		<sheet>
-			<description>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. 1d6+{{lizardfolk bite:damage}} piercing damage.</description>
-		</sheet>
-		<rules>
-			<stat name="lizardfolk bite:damage" value="strength:modifier" />
-		</rules>
-	</element>
-	<element name="Cunning Artisan" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_CUNNING_ARTISAN">
-		<description>
-			<p>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.</p>
-		</description>
-		<sheet>
-			<description>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature.</description>
-		</sheet>
-	</element>
-	<element name="Hold Breath" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH">
-		<description>
-			<p>You can hold your breath for up to 15 minutes at a time.</p>
-		</description>
-		<sheet>
-			<description>You can hold your breath for up to 15 minutes at a time.</description>
-		</sheet>
-	</element>
-	<element name="Hunter's Lore" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNTERS_LORE">
-		<description>
-			<p>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</p>
-		</description>
-		<sheet display="false">
-			<description>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</description>
-		</sheet>
-		<rules>
-			<select type="Proficiency" name="Hunter's Lore" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-			<select type="Proficiency" name="Customized Skill Proficiency, Hunter's Lore" number="2" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
-		</rules>
-	</element>
-	<element name="Natural Armor" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR">
-		<description>
-			<p>You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
-		</description>
-		<sheet>
-			<description>You have tough, scaly skin. When you aren't wearing armor, your AC is {{ac:natural armor lizardfolk}}.</description>
-		</sheet>
-		<rules>
-			<stat name="ac:natural armor lizardfolk:base" value="13" />
-			<stat name="ac:natural armor lizardfolk:dexterity" value="dexterity:modifier" />
-			<stat name="ac:natural armor lizardfolk" value="ac:natural armor lizardfolk:base" />
-			<stat name="ac:natural armor lizardfolk" value="ac:natural armor lizardfolk:dexterity" />
-			<stat name="ac:calculation" value="ac:natural armor lizardfolk" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Lizardfolk)" />
-		</rules>
-	</element>
-	<element name="Hungry Jaws" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS">
-		<description>
-			<p>In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p>
-		</description>
-		<sheet>
-			<description>As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain {{hungry jaws:hp:temp}} temporary hit points. 1/ short rest.</description>
-		</sheet>
-		<rules>
-			<stat name="hungry jaws:hp:temp" value="1" bonus="hungry jaws" />
-			<stat name="hungry jaws:hp:temp" value="constitution:modifier" bonus="hungry jaws" />
-		</rules>
-	</element>
+			<span class="feature">Age.</span>Lizardfolk reach maturity around age 14 and rarely live longer than 60 years. <br/>
+		<!-- (removed in Errata v3.0) -->
+		<!-- <span class="feature">Alignment.</span>Most lizardfolk are neutral. They see the world as a place of predators and prey, where life and death are natural processes. They wish only to survive, and prefer to leave other creatures to their own devices. <br/> -->
+		<span class="feature">Size.</span>Lizardfolk are a little bulkier and taller than humans, and their colorful frills make them appear even larger. Your size is Medium. <br/>
+	<span class="feature">Speed.</span>Your base walking speed is 30 feet, and you have a swimming speed of 30 feet. <br/>
+<span class="feature">Bite.</span>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. <br/>
+<span class="feature">Cunning Artisan.</span>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools. <br/>
+<span class="feature">Hold Breath.</span>You can hold your breath for up to 15 minutes at a time. <br/>
+<span class="feature">Hunter's Lore.</span>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival. <br/>
+<span class="feature">Natural Armor.</span>You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor. <br/>
+<span class="feature">Hungry Jaws.</span>In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest. <br/>
+<span class="feature">Languages.</span>You can speak, read, and write Common and Draconic. <br/>
+</p>
+</description>
+<sheet display="false"/>
+<setters>
+<set name="names" type="custom">Achuak, Aryte, Baeshra, Darastrix, Garurt, Irhtos, Jhank, Kepesk, Kethend, Korth, Kosj, Kothar, Litrix, Mirik, Othokent, Sauriv, Throden, Thurkear, Usk, Valignat, Vargach, Verthica, Vutha, Vyth</set>
+<set name="names-format">{{custom}}</set>
+<set name="height" modifier="2d12">4'8"</set>
+<set name="weight" modifier="2d6">110 lb.</set>
+</setters>
+<rules>
+<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Lizardfolk)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Lizardfolk)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+<stat name="innate speed" value="30" bonus="base" />
+<stat name="innate speed:swim" value="30" bonus="base"/>
+<grant type="Size" id="ID_SIZE_MEDIUM" />
+<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+<grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_BITE" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_CUNNING_ARTISAN" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNTERS_LORE" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR" />
+<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS" />
+</rules>
+</element>
+<element name="Bite" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_BITE">
+<description>
+<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+</description>
+<sheet>
+<description>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. 1d6+{{lizardfolk bite:damage}} piercing damage.</description>
+</sheet>
+<rules>
+<stat name="lizardfolk bite:damage" value="strength:modifier" />
+</rules>
+</element>
+<element name="Cunning Artisan" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_CUNNING_ARTISAN">
+<description>
+<p>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.</p>
+</description>
+<sheet>
+<description>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature.</description>
+</sheet>
+</element>
+<element name="Hold Breath" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH">
+<description>
+<p>You can hold your breath for up to 15 minutes at a time.</p>
+</description>
+<sheet>
+<description>You can hold your breath for up to 15 minutes at a time.</description>
+</sheet>
+</element>
+<element name="Hunter's Lore" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNTERS_LORE">
+<description>
+<p>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</p>
+</description>
+<sheet display="false">
+<description>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</description>
+</sheet>
+<rules>
+<select type="Proficiency" name="Hunter's Lore" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+<select type="Proficiency" name="Customized Skill Proficiency, Hunter's Lore" number="2" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+</rules>
+</element>
+<element name="Natural Armor" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR">
+<description>
+<p>You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
+</description>
+<sheet>
+<description>You have tough, scaly skin. When you aren't wearing armor, your AC is {{ac:natural armor lizardfolk}}.</description>
+</sheet>
+<rules>
+<stat name="ac:natural armor lizardfolk:base" value="13" />
+<stat name="ac:natural armor lizardfolk:dexterity" value="dexterity:modifier" />
+<stat name="ac:natural armor lizardfolk" value="ac:natural armor lizardfolk:base" />
+<stat name="ac:natural armor lizardfolk" value="ac:natural armor lizardfolk:dexterity" />
+<stat name="ac:calculation" value="ac:natural armor lizardfolk" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Lizardfolk)" />
+</rules>
+</element>
+<element name="Hungry Jaws" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS">
+<description>
+<p>In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p>
+</description>
+<sheet>
+<description>As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain {{hungry jaws:hp:temp}} temporary hit points. 1/ short rest.</description>
+</sheet>
+<rules>
+<stat name="hungry jaws:hp:temp" value="1" bonus="hungry jaws" />
+<stat name="hungry jaws:hp:temp" value="constitution:modifier" bonus="hungry jaws" />
+</rules>
+</element>
 </elements>

@@ -5,7 +5,7 @@
 		<description>Inquisitor Background</description>
 		<author url="https://media.wizards.com/2016/dnd/downloads/Plane_Shift_Innistrad.pdf">Wizards of the Coast</author>
 		<update version="0.0.3">
-			<file name="background-inquisitor.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/planeshift/innistrad/background-inquisitor.xml" />
+			<file name="background-inquisitor.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/planeshift/innistrad/background-inquisitor.xml" />
 		</update>
 	</info>
 
@@ -13,9 +13,12 @@
 		<description>
 			<p>Historically, inquisitors were cathar detectives who investigated crimes both mundane and supernatural. They were known for traveling to remote parishes plagued by unexplained murders, and for exposing werewolves living among normal humans. During Avacyn’s absence, when the archangel was trapped within the demonic prison known as the Helvault, the inquisitors led a series of brutal forays into Kessig and the Gavony Moorland. They executed suspected lycanthropes with little or no proof, and punished accused heretics in unsanctioned trials. With Avacyn’s madness, this savage form of inquisition has become the norm, and inquisitors who still pry into dark mysteries have become a minority.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Investigation, Religion</li>
-				<li><strong>Tool Proficiencies:</strong> Thieves' Tools, one set of artisan tools of your choice</li>
-				<li><strong>Equipment:</strong> A holy symbol, a set of traveler’s clothes, and a belt pouch containing 15 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Investigation, Religion</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> Thieves' Tools, one set of artisan tools of your choice</li>
+				<li>
+					<strong>Equipment:</strong> A holy symbol, a set of traveler’s clothes, and a belt pouch containing 15 gp</li>
 			</ul>
 			<div element="ID_WOTC_PSI_BACKGROUND_FEATURE_LEGAL_AUTHORITY" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>

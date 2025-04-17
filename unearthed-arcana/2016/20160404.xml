@@ -3,7 +3,7 @@
 	<info>
 		<name>Unearthed Arcana: Gothic Heroes</name>
 		<update version="0.0.5">
-			<file name="20160404.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2016/20160404.xml" />
+			<file name="20160404.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2016/20160404.xml" />
 		</update>
 	</info>
 
@@ -23,7 +23,7 @@
 	</element>
 
 	<!-- New Subrace: Revenant -->
-		<!-- Relentless Nature Trait -->
+	<!-- Relentless Nature Trait -->
 	<!-- <element name="Relentless Nature" type="Racial Trait" source="Unearthed Arcana: Gothic Heroes" id="ID_WOTC_UA20160404_RACIAL_TRAIT_RELENTLESS_NATURE">
 		<supports></supports>
 		<requirements />
@@ -39,7 +39,7 @@
 			<description>Until you fulfill your goal, you gain following benefits: If you are below half your hit point maximum at the start of your turn, you regain 1 hit point. If you die, you return to life 24 hours after death. If your body is destroyed, you reform within 1 mile of the place of your death, if your equipment was also destroyed, you do not regain it. You know the distance and direction between you and any creature involved in your goal, this awareness fails if the creature is on another plane of existence.</description>
 		</sheet>
 	</element> -->
-		<!-- Dragonborn Revenant-->
+	<!-- Dragonborn Revenant-->
 	<!-- <element name="Dragonborn Revenant" type="Sub Race" source="Unearthed Arcana: Gothic Heroes" id="ID_WOTC_UA20160404_SUBRACE_DRAGONBORN_REVENANT">
 		<supports>Dragonborn</supports>
 		<requirements />
@@ -66,11 +66,11 @@
 			<stat name="constitution" value="1"/>
 			
 			<stat inline="true" name="draconic-ancestry:damage type" value="Necrotic" /> -->
-			<!-- todo: fix draconic ancestry, because original replaces it -->
-			<!-- <grant type="Racial Trait" name="ID_WOTC_UA20160404_RACIAL_TRAIT_RELENTLESS_NATURE" />
+	<!-- todo: fix draconic ancestry, because original replaces it -->
+	<!-- <grant type="Racial Trait" name="ID_WOTC_UA20160404_RACIAL_TRAIT_RELENTLESS_NATURE" />
 		</rules>
 	</element> -->
-		<!-- Dwarf Revenant -->
+	<!-- Dwarf Revenant -->
 	<!-- <element name="Dwarf Revenant" type="Sub Race" source="Unearthed Arcana: Gothic Heroes" id="ID_WOTC_UA20160404_SUBRACE_DRAGONBORN_REVENANT">
 		<supports>Dwarf</supports>
 		<requirements />
@@ -107,7 +107,7 @@
 			<div element="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_BONUS_PROFICIENCIES"/>
 			<div element="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_COMBAT_SUPERIORITY"/>
 			<div element="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_HUNTERS_MYSTICISM"/>
-			<div element="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_MONSTER_SLAYER"/>  
+			<div element="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_MONSTER_SLAYER"/>
 			<div element="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_IMPROVED_COMBAT_SUPERIORITY"/>
 			<div element="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_RELENTLESS"/>
 		</description>
@@ -118,7 +118,7 @@
 			<grant type="Archetype Feature" name="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_BONUS_PROFICIENCIES" level="3"/>
 			<grant type="Archetype Feature" name="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_COMBAT_SUPERIORITY" level="3"/>
 			<grant type="Archetype Feature" name="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_HUNTERS_MYSTICISM" level="3"/>
-			<grant type="Archetype Feature" name="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_MONSTER_SLAYER" level="7"/>  
+			<grant type="Archetype Feature" name="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_MONSTER_SLAYER" level="7"/>
 			<grant type="Archetype Feature" name="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_IMPROVED_COMBAT_SUPERIORITY" level="10"/>
 			<grant type="Archetype Feature" name="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_RELENTLESS" level="15"/>
 		</rules>
@@ -126,7 +126,7 @@
 
 	<element name="Bonus Proficiencies" type="Archetype Feature" source="Unearthed Arcana: Gothic Heroes" id="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_BONUS_PROFICIENCIES">
 		<description>
-			<p>When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: Arcana, History, Insight, Investigation, Nature, or Perception. You can gain proficiency with a tool of your choice in place of one skill choice.</p> 
+			<p>When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: Arcana, History, Insight, Investigation, Nature, or Perception. You can gain proficiency with a tool of your choice in place of one skill choice.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -136,12 +136,18 @@
 	<element name="Combat Superiority" type="Archetype Feature" source="Unearthed Arcana: Gothic Heroes" id="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_COMBAT_SUPERIORITY">
 		<description>
 			<p>At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.</p>
-			<p class="indent"><b><em>Superiority Dice.</em></b> You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest.</p>
+			<p class="indent">
+				<b>
+					<em>Superiority Dice.</em>
+				</b> You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest.</p>
 			<p class="indent">You gain another superiority die at 7th level and one more at 15th level.</p>
-			<p class="indent"><b><em>Using Superiority Dice.</em></b> You can expend superiority dice to gain a number of different benefits:</p>
+			<p class="indent">
+				<b>
+					<em>Using Superiority Dice.</em>
+				</b> You can expend superiority dice to gain a number of different benefits:</p>
 			<ul>
 				<li>When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.</li>
-				<li>When you damage a creature with a weapon attack, you can expend one superiority die to add it to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution saving throw to maintain concentration, it has disadvantage on that save.</li>  
+				<li>When you damage a creature with a weapon attack, you can expend one superiority die to add it to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution saving throw to maintain concentration, it has disadvantage on that save.</li>
 				<li>When you make an Intelligence, a Wisdom, or a Charisma saving throw, you can expend one superiority die to add it to the roll. You can use this feature only before you learn if the save succeeded or failed.</li>
 				<li>When you make a Wisdom (Perception) check to detect a hidden creature or object, or a Wisdom (Insight) check to determine if someone is lying to you, you can expend one superiority die to add it to the roll. You can use this feature after seeing the total but before learning if you succeeded or failed.</li>
 			</ul>
@@ -152,7 +158,7 @@
 		<rules>
 			<stat name="superiority dice:amount" value="4" />
 			<stat name="superiority dice:amount" value="1" level="7" />
-			<stat name="superiority dice:amount" value="1" level="15" />      
+			<stat name="superiority dice:amount" value="1" level="15" />
 			<stat name="superiority dice:size" value="8" bonus="size"/>
 		</rules>
 	</element>
@@ -164,7 +170,7 @@
 			<description>You can cast detect magic as a ritual, and you can cast protection from evil and good once per long rest. Wisdom is your spellcasting ability for these spells.</description>
 		</sheet>
 		<rules>
-			<select type="Language" name="Language (Monster Hunter)" supports="ID_LANGUAGE_ABYSSAL|ID_LANGUAGE_CELESTIAL|ID_LANGUAGE_INFERNAL" number="1" /> 
+			<select type="Language" name="Language (Monster Hunter)" supports="ID_LANGUAGE_ABYSSAL|ID_LANGUAGE_CELESTIAL|ID_LANGUAGE_INFERNAL" number="1" />
 		</rules>
 	</element>
 	<element name="Monster Slayer" type="Archetype Feature" source="Unearthed Arcana: Gothic Heroes" id="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_MONSTER_SLAYER">
@@ -172,7 +178,7 @@
 			<p>At 7th level, whenever you expend superiority dice to add to a damage roll, you can expend up to two dice instead of just one, adding both to the roll. Both dice are expended as normal. If the target of your attack is an aberration, a fey, a fiend, or an undead, you deal maximum damage with both dice, instead of rolling them.</p>
 		</description>
 		<sheet>
-			<description>Can roll 2 superiority dice instead of 1 when adding to a damage roll. Deal maximum damage to aberrations, fey, fiends, and undead. </description>  
+			<description>Can roll 2 superiority dice instead of 1 when adding to a damage roll. Deal maximum damage to aberrations, fey, fiends, and undead. </description>
 		</sheet>
 	</element>
 	<element name="Improved Combat Superiority" type="Archetype Feature" source="Unearthed Arcana: Gothic Heroes" id="ID_WOTC_UA20160404_ARCHETYPE_FEATURE_SCOUT_IMPROVED_COMBAT_SUPERIORITY">

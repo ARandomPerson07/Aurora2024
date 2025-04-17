@@ -5,7 +5,7 @@
 		<description>The Celestial Patron subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="warlock-celestial.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/warlock-celestial.xml" />
+			<file name="warlock-celestial.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/warlock-celestial.xml" />
 		</update>
 	</info>
 
@@ -37,12 +37,35 @@
 			<h5 class="caption">Celestial Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Warlock Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Warlock Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Aid, Cure Wounds, Guiding Bolt, Lesser Restoration, Light, Sacred Flame</em></td></tr>
-				<tr><td>5th</td><td><em>Daylight, Revivify</em></td></tr>
-				<tr><td>7th</td><td><em>Guardian of Faith, Wall of Fire</em></td></tr>
-				<tr><td>9th</td><td><em>Greater Restoration, Summon Celestial</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Aid, Cure Wounds, Guiding Bolt, Lesser Restoration, Light, Sacred Flame</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Daylight, Revivify</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Guardian of Faith, Wall of Fire</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Greater Restoration, Summon Celestial</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />

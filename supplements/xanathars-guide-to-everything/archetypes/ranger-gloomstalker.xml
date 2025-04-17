@@ -5,7 +5,7 @@
 		<description>The Gloom Stalker from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
 		<update version="0.0.4">
-			<file name="ranger-gloomstalker.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/xanathars-guide-to-everything/archetypes/ranger-gloomstalker.xml" />
+			<file name="ranger-gloomstalker.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/xanathars-guide-to-everything/archetypes/ranger-gloomstalker.xml" />
 		</update>
 	</info>
 
@@ -30,20 +30,48 @@
 			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_GLOOM_SHADOWY_DODGE" level="15" />
 		</rules>
 	</element>
-	
+
 	<element name="Gloom Stalker Magic" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_GLOOM_GLOOM_STALKER_MAGIC">
 		<description>
-			<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Gloom Stalker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.</p>       
+			<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Gloom Stalker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.</p>
 			<h5>GLOOM STALKER SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Ranger Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Ranger Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>disguise self</em></td></tr>
-				<tr><td>5rd</td><td><em>rope trick</em></td></tr>
-				<tr><td>9th</td><td><em>fear</em></td></tr>
-				<tr><td>13th</td><td><em>greater invisibility</em></td></tr>
-				<tr><td>17th</td><td><em>seeming</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>disguise self</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5rd</td>
+					<td>
+						<em>rope trick</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>fear</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>greater invisibility</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>seeming</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />

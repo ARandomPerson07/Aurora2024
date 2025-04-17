@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://dnd.wizards.com/products/spelljammer">Astral Adventurer's Guide</author>
 		<update version="0.0.1">
-			<file name="race-giff.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/astral-adventurers-guide/races/race-giff.xml" />
+			<file name="race-giff.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/astral-adventurers-guide/races/race-giff.xml" />
 		</update>
 	</info>
 
@@ -17,13 +17,31 @@
 			<p class="indent">Giff are split into two camps concerning how their name is pronounced. Half of them say it with a hard g, half with a soft g. Disagreements over the correct pronunciation often blossom into hard feelings, loud arguments, and head-butting contests, but they rarely escalate beyond that.</p>
 			<h4>GIFF TRAITS</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Astral Spark.</em></strong> Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent">
+				<strong>
+					<em>Astral Spark.</em>
+				</strong> Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus.</p>
 			<p class="indent">You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.</p>
-			<p class="indent"><strong><em>Firearms Mastery.</em></strong> You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn’t impose disadvantage on your attack roll.</p>
-			<p class="indent"><strong><em>Hippo Build.</em></strong> You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+			<p class="indent">
+				<strong>
+					<em>Firearms Mastery.</em>
+				</strong> You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn’t impose disadvantage on your attack roll.</p>
+			<p class="indent">
+				<strong>
+					<em>Hippo Build.</em>
+				</strong> You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -32,7 +50,7 @@
 			<stat name="speed:swim" value="speed" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Giff)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Giff)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Giff)" supports="Standard||Exotic" />
 			<grant type="Racial Trait" id="ID_WOTC_AAG_RACIAL_TRAIT_GIFF_ASTRAL_SPARK" />
 			<grant type="Racial Trait" id="ID_WOTC_AAG_RACIAL_TRAIT_GIFF_FIREARMS_MASTERY" />

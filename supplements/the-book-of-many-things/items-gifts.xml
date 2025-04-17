@@ -3,7 +3,7 @@
 	<info>
 		<name>Supernatural Gifts, Blessings and Charms from The Book of Many Things</name>
 		<update version="0.0.2">
-			<file name="items-gifts.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/the-book-of-many-things/items-gifts.xml" />
+			<file name="items-gifts.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/the-book-of-many-things/items-gifts.xml" />
 		</update>
 	</info>
 
@@ -11,7 +11,8 @@
 	<element name="Blessing of Bloody Might" type="Item" source="The Book of Many Things" id="ID_WOTC_BOMT_ITEM_BLESSING_OF_BLOODY_MIGHT">
 		<description>
 			<p>Your Strength score increases by 2, to a maximum of 22.</p>
-			<p class="indent"><strong>Consequence.</strong> The character is cursed with werewolf lycanthropy (see the <i>Monster Manual</i>) until the blessing ends on them. On nights when the moon is full, the cursed character flies into a rage that lasts until dawn; while in this state, the character becomes an NPC under the DM's control.</p>
+			<p class="indent">
+				<strong>Consequence.</strong> The character is cursed with werewolf lycanthropy (see the <i>Monster Manual</i>) until the blessing ends on them. On nights when the moon is full, the cursed character flies into a rage that lasts until dawn; while in this state, the character becomes an NPC under the DM's control.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -28,7 +29,8 @@
 	<element name="Blessing of Lonely Genius" type="Item" source="The Book of Many Things" id="ID_WOTC_BOMT_ITEM_BLESSING_OF_LONELY_GENIUS">
 		<description>
 			<p>Your Intelligence score increases by 2, to a maximum of 22.</p>
-			<p class="indent"><strong>Consequence.</strong> The character's intellect rubs old friends the wrong way. Three NPCs of the DM's choice become indifferent or hostile toward the character, and the character automatically fails any Charisma check made to improve their attitudes.</p>
+			<p class="indent">
+				<strong>Consequence.</strong> The character's intellect rubs old friends the wrong way. Three NPCs of the DM's choice become indifferent or hostile toward the character, and the character automatically fails any Charisma check made to improve their attitudes.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -44,7 +46,8 @@
 	<element name="Blessing of Unearned Riches" type="Item" source="The Book of Many Things" id="ID_WOTC_BOMT_ITEM_BLESSING_OF_UNEARNED_RICHES">
 		<description>
 			<p>The next time you search among or retrieve something from your belongings, you find an unmarked pouch containing five 1,000 gp gemstones.</p>
-			<p class="indent"><strong>Consequence.</strong> The character's new fortune garners unwanted attention from a guild of violent mercenaries, who claim to have been robbed of exactly 5,000 gp worth of gems the same day as the character found the windfall. Every night for the next 7 days, the character is attacked by 1d4 neutral evil veterans. When the attacks end, so does this blessing.</p>
+			<p class="indent">
+				<strong>Consequence.</strong> The character's new fortune garners unwanted attention from a guild of violent mercenaries, who claim to have been robbed of exactly 5,000 gp worth of gems the same day as the character found the windfall. Every night for the next 7 days, the character is attacked by 1d4 neutral evil veterans. When the attacks end, so does this blessing.</p>
 		</description>
 		<setters>
 			<set name="category">Supernatural Gifts</set>

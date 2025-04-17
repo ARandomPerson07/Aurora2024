@@ -5,7 +5,7 @@
 		<description>The Champion subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.2">
-			<file name="fighter-champion.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/fighter-champion.xml" />
+			<file name="fighter-champion.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/fighter-champion.xml" />
 		</update>
 	</info>
 
@@ -85,7 +85,7 @@
 		<description>
 			<p>Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.</p>
 		</description>
-		<sheet display="false" alt="Superior Critical" >
+		<sheet display="false" alt="Superior Critical">
 			<description>Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20.</description>
 		</sheet>
 	</element>
@@ -94,8 +94,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_CHAMPION_SURVIVOR</requirements>
 		<description>
 			<p>You attain the pinnacle of resilience in battle, giving you these benefits.</p>
-			<p class="indent"><em><strong>Defy Death.</strong></em> You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.</p>
-			<p class="indent"><em><strong>Heroic Rally.</strong></em> At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.</p>
+			<p class="indent">
+				<em>
+					<strong>Defy Death.</strong>
+				</em> You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.</p>
+			<p class="indent">
+				<em>
+					<strong>Heroic Rally.</strong>
+				</em> At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.</p>
 		</description>
 		<sheet alt="Survivor">
 			<description>You have advantage on Death Saving Throws, and gain the benefit of rolling a 20 on them if you roll an 18-20. &#13;
@@ -103,7 +109,7 @@
 		</sheet>
 	</element>
 
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Improved Critical Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_CHAMPION_IMPROVED_CRITICAL" />
 	<element name="Remarkable Athlete Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_24_CHAMPION_REMARKABLE_ATHLETE" />

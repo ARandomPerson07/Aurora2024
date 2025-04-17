@@ -3,7 +3,7 @@
 	<info>
 		<name>Satyr from Monsters of the Multiverse</name>
 		<update version="0.0.1">
-			<file name="race-satyr.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/monsters-of-the-multiverse/race-satyr.xml" />
+			<file name="race-satyr.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/monsters-of-the-multiverse/race-satyr.xml" />
 		</update>
 	</info>
 
@@ -12,13 +12,34 @@
 			<p>Originating in the Feywild—a realm of pure emotion—satyrs thrive on the energy of merriment. They resemble elves but have goatlike legs, cloven hooves, and ram or goat horns. The magic of the fey realm has given them an innate ability to perform, to delight, and to resist magical intrusion. While they're usually found in the Feywild, satyrs do wander to other planes of existence, most often to the Material Plane. There they seek to bring a bit of their home plane's splendor to other worlds. </p>
 			<h4>SATYR TRAITS</h4>
 			<p>As a satyr, you have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Fey.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 35 feet.</p>
-			<p class="indent"><strong><em>Ram.</em></strong> You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.</p>
-			<p class="indent"><strong><em>Magic Resistance.</em></strong> You have advantage on saving throws against spells.</p>
-			<p class="indent"><strong><em>Mirthful Leaps.</em></strong> Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.</p>
-			<p class="indent"><strong><em>Reveler.</em></strong> As an embodiment of revelry, you have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Fey.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 35 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Ram.</em>
+				</strong> You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent">
+				<strong>
+					<em>Magic Resistance.</em>
+				</strong> You have advantage on saving throws against spells.</p>
+			<p class="indent">
+				<strong>
+					<em>Mirthful Leaps.</em>
+				</strong> Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.</p>
+			<p class="indent">
+				<strong>
+					<em>Reveler.</em>
+				</strong> As an embodiment of revelry, you have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -28,7 +49,7 @@
 			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_FEY" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Customized Language (Satyr)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Satyr)" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Satyr)" supports="Standard||Exotic" />
 
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_SATYR_RAM" />
@@ -46,7 +67,7 @@
 			<description>You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + {{strength:modifier}} bludgeoning damage.</description>
 		</sheet>
 	</element>
-	
+
 	<element name="Magic Resistance" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_SATYR_MAGIC_RESISTANCE">
 		<description>
 			<p>You have advantage on saving throws against spells.</p>

@@ -2,14 +2,16 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-		<file name="cleric-war.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/cleric-war.xml" />
+			<file name="cleric-war.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/cleric-war.xml" />
 		</update>
 	</info>
 
 	<element name="War Domain" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_WAR_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
-			<h5><i>Inspire Valor and Smite Foes</i></h5>
+			<h5>
+				<i>Inspire Valor and Smite Foes</i>
+			</h5>
 			<p>War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.</p>
 			<p>Gods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.</p>
 			<h5 class="caption">WAR DOMAIN SPELLS</h5>
@@ -17,12 +19,35 @@
 			<h5 class="caption">WAR DOMAIN SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Guiding Bolt, Magic Weapon, Shield of Faith, Spiritual Weapon</em></td></tr>
-				<tr><td>5th</td><td><em>Crusader's Mantle, Spirit Guardians</em></td></tr>
-				<tr><td>7th</td><td><em>Fire Shield, Freedom of Movement</em></td></tr>
-				<tr><td>9th</td><td><em>Hold Monster, Steel Wind Strike</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Guiding Bolt, Magic Weapon, Shield of Faith, Spiritual Weapon</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>Crusader's Mantle, Spirit Guardians</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>Fire Shield, Freedom of Movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>Hold Monster, Steel Wind Strike</em>
+					</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB24_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST" />
 			<div element="ID_WOTC_PHB24_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE" />
@@ -33,7 +58,7 @@
 			<description>The gods of war watch over warriors and reward them for their great deeds.</description>
 		</sheet>
 		<rules>
-			
+
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUIDING_BOLT" level="1" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SHIELD_OF_FAITH" level="1" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MAGIC_WEAPON" level="3" spellcasting="Cleric" prepared="true" />
@@ -99,7 +124,7 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING" />
 		</rules>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 
 	<element name="War Priest Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_PRIEST" />

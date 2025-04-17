@@ -3,7 +3,7 @@
 	<info>
 		<name>Unearthed Arcana: Travelers of the Multiverse</name>
 		<update version="0.0.3">
-			<file name="20211008.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/unearthed-arcana/2021/20211008.xml" />
+			<file name="20211008.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/unearthed-arcana/2021/20211008.xml" />
 		</update>
 	</info>
 
@@ -28,16 +28,46 @@
 			<p class="indent">Astral elves who don’t dwell on the Astral Plane can live to be over 750 years old. </p>
 			<h4>ASTRAL ELF TRAITS</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Astral Fire.</em></strong> You know one of the following cantrips of your choice: <i>dancing lights, light,</i> or <i>sacred flame</i>. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race). </p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray. </p>
-			<p class="indent"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself. </p>
-			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>
-			<p class="indent"><strong><em>Radiant Soul.</em></strong> When you succeed on a death save, you can regain a number of hit points equal to your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race). You can’t use this trait again until you finish a long rest.</p>
-			<p class="indent"><strong><em>Trance.</em></strong> You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.</p>
-			<p class="indent"><strong><em>Trance Proficiencies.</em></strong> Whenever you finish a long rest using your Trance trait, you gain two proficiencies, each one with a weapon or a tool of your choice (selected from the “Equipment” chapter of the <i>Player’s Handbook</i>). You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Astral Fire.</em>
+				</strong> You know one of the following cantrips of your choice: <i>dancing lights, light,</i> or <i>sacred flame</i>. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race). </p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray. </p>
+			<p class="indent">
+				<strong>
+					<em>Fey Ancestry.</em>
+				</strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself. </p>
+			<p class="indent">
+				<strong>
+					<em>Keen Senses.</em>
+				</strong> You have proficiency in the Perception skill.</p>
+			<p class="indent">
+				<strong>
+					<em>Radiant Soul.</em>
+				</strong> When you succeed on a death save, you can regain a number of hit points equal to your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race). You can’t use this trait again until you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Trance.</em>
+				</strong> You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.</p>
+			<p class="indent">
+				<strong>
+					<em>Trance Proficiencies.</em>
+				</strong> Whenever you finish a long rest using your Trance trait, you gain two proficiencies, each one with a weapon or a tool of your choice (selected from the “Equipment” chapter of the <i>Player’s Handbook</i>). You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -202,29 +232,84 @@
 			<h5>Autognome History</h5>
 			<table>
 				<thead>
-					<tr><td class="col-10" style="text-align:center">d8</td><td>Story</td></tr>
+					<tr>
+						<td class="col-10" style="text-align:center">d8</td>
+						<td>Story</td>
+					</tr>
 				</thead>
-				<tr><td style="text-align:center">1</td><td>Your creator gave you autonomy and urged you to follow your dreams.</td></tr>
-				<tr><td style="text-align:center">2</td><td>Your creator died, leaving you to fend for yourself.</td></tr>
-				<tr><td style="text-align:center">3</td><td>A temporary malfunction caused you to harm your creator, and you fled rather than face reprisal. </td></tr>
-				<tr><td style="text-align:center">4</td><td>A glitch caused you to forget your original programming. You don’t remember who made you or where you came from.</td></tr>
-				<tr><td style="text-align:center">5</td><td>You were stolen from your creator and long to return to them.</td></tr>
-				<tr><td style="text-align:center">6</td><td>You didn’t like how you were being treated by your creator, so you ran away from home.</td></tr>
-				<tr><td style="text-align:center">7</td><td>Your creator built you to complete a special mission.</td></tr>
-				<tr><td style="text-align:center">8</td><td>You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose.</td></tr>
+				<tr>
+					<td style="text-align:center">1</td>
+					<td>Your creator gave you autonomy and urged you to follow your dreams.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">2</td>
+					<td>Your creator died, leaving you to fend for yourself.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">3</td>
+					<td>A temporary malfunction caused you to harm your creator, and you fled rather than face reprisal. </td>
+				</tr>
+				<tr>
+					<td style="text-align:center">4</td>
+					<td>A glitch caused you to forget your original programming. You don’t remember who made you or where you came from.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">5</td>
+					<td>You were stolen from your creator and long to return to them.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">6</td>
+					<td>You didn’t like how you were being treated by your creator, so you ran away from home.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">7</td>
+					<td>Your creator built you to complete a special mission.</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">8</td>
+					<td>You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose.</td>
+				</tr>
 			</table>
 			<h4>AUTOGNOME TRAITS</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Construct.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Small.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Armored Casing.</em></strong> You are encased in thin metal or some other durable material. While you aren’t wearing armor, your base Armor Class is 13 + your Dexterity modifier.</p>
-			<p class="indent"><strong><em>Built for Success.</em></strong> You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
-			<p class="indent"><strong><em>Mechanical Nature.</em></strong> You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don’t need to eat, drink, or breathe. </p>
-			<p class="indent"><strong><em>Sentry’s Rest.</em></strong> When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you aren’t unconscious.</p>
-			<p class="indent"><strong><em>Specialized Design.</em></strong> You gain two tool proficiencies of your choice.</p>
-			<p class="indent"><strong><em>True Life.</em></strong> If the <i>mending spell</i> is cast on you, you can expend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).</p>
-			<p class="indent">In addition, your creator designed you to benefit from common spells that preserve life but that normally don’t affect Constructs: <i>cure wounds, healing word,</i> and <i>spare the dying.</i></p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Construct.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Small.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Armored Casing.</em>
+				</strong> You are encased in thin metal or some other durable material. While you aren’t wearing armor, your base Armor Class is 13 + your Dexterity modifier.</p>
+			<p class="indent">
+				<strong>
+					<em>Built for Success.</em>
+				</strong> You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Mechanical Nature.</em>
+				</strong> You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don’t need to eat, drink, or breathe. </p>
+			<p class="indent">
+				<strong>
+					<em>Sentry’s Rest.</em>
+				</strong> When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you aren’t unconscious.</p>
+			<p class="indent">
+				<strong>
+					<em>Specialized Design.</em>
+				</strong> You gain two tool proficiencies of your choice.</p>
+			<p class="indent">
+				<strong>
+					<em>True Life.</em>
+				</strong> If the <i>mending spell</i> is cast on you, you can expend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).</p>
+			<p class="indent">In addition, your creator designed you to benefit from common spells that preserve life but that normally don’t affect Constructs: <i>cure wounds, healing word,</i> and <i>spare the dying.</i>
+			</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -303,7 +388,8 @@
 	<element name="True Life" type="Racial Trait" source="Unearthed Arcana: Travelers of the Multiverse" id="ID_WOTC_UA20211008_RACIAL_TRAIT_AUTOGNOME_TRUE_LIFE">
 		<description>
 			<p>If the <i>mending</i> spell is cast on you, you can expend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).</p>
-			<p class="indent">In addition, your creator designed you to benefit from common spells that preserve life but that normally don’t affect Constructs: <i>cure wounds, healing word,</i> and <i>spare the dying.</i></p>
+			<p class="indent">In addition, your creator designed you to benefit from common spells that preserve life but that normally don’t affect Constructs: <i>cure wounds, healing word,</i> and <i>spare the dying.</i>
+			</p>
 		</description>
 		<sheet>
 			<description>If the mending spell is cast on you, you can expend a Hit Die, roll it, and regain a number of hit points equal to the roll plus {{constitution:modifier}} (minimum of 1 hit point). &#13;
@@ -318,11 +404,26 @@
 			<p class="indent">The giff are split into two camps concerning how their name is pronounced. Half of them say it with a hard g, half with a soft g. Disagreements over the correct pronunciation often blossom into hard feelings, loud arguments, and headbutting contests, but rarely escalate beyond that.</p>
 			<h4>GIFF TRAITS</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Damage Dealer.</em></strong> Like a hippopotamus in a crystalware shop, you are naturally adept at damaging things. When you roll a 1 on a damage die for a melee attack, you can reroll the die and use the new roll. You can do so no more than once per turn.</p>
-			<p class="indent"><strong><em>Hippo Build.</em></strong> You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</p>
+			<p class="indent">
+				<strong>
+					<em>Damage Dealer.</em>
+				</strong> Like a hippopotamus in a crystalware shop, you are naturally adept at damaging things. When you roll a 1 on a damage die for a melee attack, you can reroll the die and use the new roll. You can do so no more than once per turn.</p>
+			<p class="indent">
+				<strong>
+					<em>Hippo Build.</em>
+				</strong> You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -365,11 +466,26 @@
 			<p class="indent">The first hadozees were hunted by large natural predators. To survive in this hostile environment, they developed an instinctual sense of community. Today, that same instinct compels many hadozees to cultivate friendships, knowing there is safety in numbers.</p>
 			<h4>HADOZEE TRAITS</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.</p>
-			<p class="indent"><strong><em>Dexterous Feet.</em></strong> You can take the Use an Object action as a bonus action.</p>
-			<p class="indent"><strong><em>Glide.</em></strong> If you are not incapacitated or wearing heavy armor, you can extend your skin membranes and glide. When you do so, you can perform the following aerial maneuvers:</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.</p>
+			<p class="indent">
+				<strong>
+					<em>Dexterous Feet.</em>
+				</strong> You can take the Use an Object action as a bonus action.</p>
+			<p class="indent">
+				<strong>
+					<em>Glide.</em>
+				</strong> If you are not incapacitated or wearing heavy armor, you can extend your skin membranes and glide. When you do so, you can perform the following aerial maneuvers:</p>
 			<ul>
 				<li>When you fall, you can move up to 5 feet horizontally for every 1 foot you descend.</li>
 				<li>When you would take damage from a fall, you can use your reaction to reduce the fall’s damage to 0.</li>
@@ -420,14 +536,38 @@
 			<p class="indent">When plasmoids sleep, they lose their rigidity and spread out and are sometimes mistaken for a rock or some other feature of the environment.</p>
 			<h4>PLASMOID TRAITS</h4>
 			<p>You have the following racial traits.</p>
-			<p><strong><em>Creature Type.</em></strong> You are an Ooze.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you gain this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Amorphous.</em></strong> You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Hold Breath.</em></strong> You can hold your breath for 1 hour.</p>
-			<p class="indent"><strong><em>Natural Resilience.</em></strong> You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.</p>
-			<p class="indent"><strong><em>Shape Self.</em></strong> If you are not incapacitated, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required).</p>
+			<p>
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are an Ooze.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you gain this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Amorphous.</em>
+				</strong> You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Hold Breath.</em>
+				</strong> You can hold your breath for 1 hour.</p>
+			<p class="indent">
+				<strong>
+					<em>Natural Resilience.</em>
+				</strong> You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.</p>
+			<p class="indent">
+				<strong>
+					<em>Shape Self.</em>
+				</strong> If you are not incapacitated, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required).</p>
 			<p class="indent">As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. You can use this pseudopod to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour out the contents of a container. The pseudopod can’t attack, activate magic items, or carry more than 10 pounds.</p>
 		</description>
 		<sheet display="false" />
@@ -444,7 +584,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_UA20211008_RACIAL_TRAIT_PLASMOID_HOLD_BREATH" />
 			<grant type="Racial Trait" id="ID_WOTC_UA20211008_RACIAL_TRAIT_PLASMOID_NATURAL_RESILIENCE" />
 			<grant type="Racial Trait" id="ID_WOTC_UA20211008_RACIAL_TRAIT_PLASMOID_SHAPE_SELF" />
-	</rules>
+		</rules>
 	</element>
 
 	<element name="Amorphous" type="Racial Trait" source="Unearthed Arcana: Travelers of the Multiverse" id="ID_WOTC_UA20211008_RACIAL_TRAIT_PLASMOID_AMORPHOUS">
@@ -496,19 +636,43 @@
 			<p class="indent">Thri-kreen speak by clacking their mandibles and waving their antennae, indicating to other thri-kreen what they are thinking and feeling. Other creatures find this method of communication difficult to interpret and impossible to duplicate. To interact with other folk, thri-kreen rely on a form of telepathy.</p>
 			<h4>THRIKREEN TRAITS</h4>
 			<p>You have the following racial traits.</p>
-			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Monstrosity.</p>
-			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Chameleon Carapace.</em></strong> While you aren’t wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.</p>
+			<p class="indent">
+				<strong>
+					<em>Creature Type.</em>
+				</strong> You are a Monstrosity.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Chameleon Carapace.</em>
+				</strong> While you aren’t wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.</p>
 			<p class="indent">As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity (Stealth) checks made to hide in those surroundings.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
-			<p class="indent"><strong><em>Secondary Arms.</em></strong> You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms function like your primary arms, with the following exceptions: </p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Secondary Arms.</em>
+				</strong> You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms function like your primary arms, with the following exceptions: </p>
 			<ul>
 				<li>You can use a secondary arm to wield a weapon that has the light property, but you can’t use a secondary arm to wield other kinds of weapons. </li>
 				<li>You can’t wield a shield with a secondary arm. </li>
 			</ul>
-			<p class="indent"><strong><em>Sleepless Revitalization.</em></strong> You do not require sleep and can choose to remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest.</p>
-			<p class="indent"><strong><em>Thri-kreen Telepathy.</em></strong> You have the magical ability to communicate mentally with any number of willing creatures you can see within 120 feet of you. A contacted creature doesn’t need to share a language with you, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required).</p>
+			<p class="indent">
+				<strong>
+					<em>Sleepless Revitalization.</em>
+				</strong> You do not require sleep and can choose to remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest.</p>
+			<p class="indent">
+				<strong>
+					<em>Thri-kreen Telepathy.</em>
+				</strong> You have the magical ability to communicate mentally with any number of willing creatures you can see within 120 feet of you. A contacted creature doesn’t need to share a language with you, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required).</p>
 		</description>
 		<sheet display="false" />
 		<rules>

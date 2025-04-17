@@ -3,31 +3,61 @@
 	<info>
 		<name>Shipwright Background</name>
 		<update version="0.0.3">
-			<file name="shipwright.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/ghosts-of-saltmarsh/backgrounds/shipwright.xml" />
+			<file name="shipwright.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/ghosts-of-saltmarsh/backgrounds/shipwright.xml" />
 		</update>
 	</info>
-	
+
 	<element name="Shipwright" type="Background" source="Ghosts of Saltmarsh" id="ID_WOTC_GOS_BACKGROUND_SHIPWRIGHT">
 		<description>
 			<p>You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. You once helped build a fishing vessel that single-handedly saved a town from starvation. You have seen a majestic prow in your dreams that you have not been able to replicate in wood. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> History, Perception</li>
-				<li><strong>Tool Proficiencies:</strong> Carpenter’s tools, vehicles (water)</li>
-				<li><strong>Equipment:</strong> A set of well-loved carpenter’s tools, a blank book, 1 ounce of ink, and ink pen, a set of traveler’s clothes, and a leather pouch with 10 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> History, Perception</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> Carpenter’s tools, vehicles (water)</li>
+				<li>
+					<strong>Equipment:</strong> A set of well-loved carpenter’s tools, a blank book, 1 ounce of ink, and ink pen, a set of traveler’s clothes, and a leather pouch with 10 gp</li>
 			</ul>
 			<div element="ID_WOTC_GOS_BACKGROUND_FEATURE_ILL_PATCH_IT" />
 			<h5>LIFE AT SEA</h5>
 			<p>Your life at sea and in port has shaped you; you can roll on the following table to determine its impact or choose and element that best fits your character.</p>
 			<table>
 				<thead>
-					<tr><td>d6</td><td>Sea’s Influence</td></tr>
+					<tr>
+						<td>d6</td>
+						<td>Sea’s Influence</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td><strong>Grand Designs.</strong> You are working on plans and schematics for a new, very fast ship. You must examine as many different kinds of vessels as possible to help ensure the success of your design.</td></tr>
-				<tr><td>2</td><td><strong>Solid and Sound.</strong> You patched up a war gallery and prevented it from sinking. The local navy regards you as a friend.</td></tr>
-				<tr><td>3</td><td><strong>Favored.</strong> You insisted on thicker planking for a merchant vessel’s hull, which saved it from sinking when it smashed against a reef. You have a standing invitation to visit the merchant’s distant mansion.</td></tr>
-				<tr><td>4</td><td><strong>Master of Armaments.</strong> You specialized in designing and mounting defenses for the navy. You easily recognize and determine the quality of such items.</td></tr>
-				<tr><td>5</td><td><strong>Low Places.</strong> You have contacts in the smuggling outfits along the coast, you occasionally repear the criminals’ ships in exchange for coin and favors.</td></tr>
-				<tr><td>6</td><td><strong>Mysteries of the Deep.</strong> You experienced as encounter with possibly divine being while sailing alone. Work with your DM to determine the secret about the deep waters of the sea that this entity revealed to you.</td></tr>
+				<tr>
+					<td>1</td>
+					<td>
+						<strong>Grand Designs.</strong> You are working on plans and schematics for a new, very fast ship. You must examine as many different kinds of vessels as possible to help ensure the success of your design.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>
+						<strong>Solid and Sound.</strong> You patched up a war gallery and prevented it from sinking. The local navy regards you as a friend.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>
+						<strong>Favored.</strong> You insisted on thicker planking for a merchant vessel’s hull, which saved it from sinking when it smashed against a reef. You have a standing invitation to visit the merchant’s distant mansion.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>
+						<strong>Master of Armaments.</strong> You specialized in designing and mounting defenses for the navy. You easily recognize and determine the quality of such items.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>
+						<strong>Low Places.</strong> You have contacts in the smuggling outfits along the coast, you occasionally repear the criminals’ ships in exchange for coin and favors.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>
+						<strong>Mysteries of the Deep.</strong> You experienced as encounter with possibly divine being while sailing alone. Work with your DM to determine the secret about the deep waters of the sea that this entity revealed to you.</td>
+				</tr>
 			</table>
 			<h5>SUGGESTED CHARACTERISTICS</h5>
 			<p>Shipwrights are resourceful carpenters and designers. They often have a dedicated spot at the local tavern, since shipwrights are invaluable to coastal communities. Some travel with navel fleets and might serve as officers if their temperament suits it. Shipwrights have an affinity for working with their hands and often perform feats of carpentry that others might deem miraculous.</p>

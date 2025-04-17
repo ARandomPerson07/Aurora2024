@@ -5,7 +5,7 @@
 		<description>The Warrior of Shadow subclass from the Player’s Handbook 2024.</description>
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.4">
-			<file name="monk-shadow.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/core/players-handbook-2024/archetypes/monk-shadow.xml" />
+			<file name="monk-shadow.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/core/players-handbook-2024/archetypes/monk-shadow.xml" />
 		</update>
 	</info>
 
@@ -34,9 +34,18 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_SHADOW_SHADOW_ARTS</requirements>
 		<description>
 			<p>You have learned to draw on the power of the Shadowfell, gaining the following benefits.</p>
-			<p class="indent"><em><strong>Darkness.</strong></em> You can expend 1 Focus Point to cast the Darkness spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.</p>
-			<p class="indent"><em><strong>Darkvision.</strong></em> You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>
-			<p class="indent"><em><strong>Shadowy Figments.</strong></em> You know the Minor Illusion spell. Wisdom is your spellcasting ability for it.</p>
+			<p class="indent">
+				<em>
+					<strong>Darkness.</strong>
+				</em> You can expend 1 Focus Point to cast the Darkness spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.</p>
+			<p class="indent">
+				<em>
+					<strong>Darkvision.</strong>
+				</em> You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p>
+			<p class="indent">
+				<em>
+					<strong>Shadowy Figments.</strong>
+				</em> You know the Minor Illusion spell. Wisdom is your spellcasting ability for it.</p>
 		</description>
 		<sheet alt="Shadow Arts">
 			<description>You have learned to draw on the power of the Shadowfell, gaining the following benefits.</description>
@@ -114,9 +123,18 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_MONK_24_SHADOW_CLOAK_OF_SHADOWS</requirements>
 		<description>
 			<p>As a Magic action while entirely within Dim Light or Darkness, you can expend 3 Focus Points to shroud yourself with shadows for 1 minute, until you have the Incapacitated condition, or until you end your turn in Bright Light. While shrouded by these shadows, you gain the following benefits.</p>
-			<p class="indent"><em><strong>Invisibility.</strong></em> You have the Invisible condition.</p>
-			<p class="indent"><em><strong>Partially Incorporeal.</strong></em> You can move through occupied spaces as if they were Difficult Terrain. If you end your turn in such a space, you are shunted to the last unoccupied space you were in.</p>
-			<p class="indent"><em><strong>Shadow Flurry.</strong></em> You can use your Flurry of Blows without expending any Focus Points.</p>
+			<p class="indent">
+				<em>
+					<strong>Invisibility.</strong>
+				</em> You have the Invisible condition.</p>
+			<p class="indent">
+				<em>
+					<strong>Partially Incorporeal.</strong>
+				</em> You can move through occupied spaces as if they were Difficult Terrain. If you end your turn in such a space, you are shunted to the last unoccupied space you were in.</p>
+			<p class="indent">
+				<em>
+					<strong>Shadow Flurry.</strong>
+				</em> You can use your Flurry of Blows without expending any Focus Points.</p>
 		</description>
 		<sheet action="Magic Action" usage="3 Focus" alt="Cloak of Shadows">
 			<description>While entirely within Dim Light or Darkness, you can shroud yourself with shadows for 1 minute, until you have the Incapacitated condition, or until you end your turn in Bright Light. While shrouded by these shadows, you gain the following benefits. &#13;

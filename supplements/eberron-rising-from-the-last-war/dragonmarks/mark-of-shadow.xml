@@ -2,28 +2,70 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="mark-of-shadow.xml" url="https://raw.githubusercontent.com/Netrinil/Aurora/master/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-shadow.xml" />
+			<file name="mark-of-shadow.xml" url="https://raw.githubusercontent.com/ARandomPerson07/Aurora2024/phb2024/supplements/eberron-rising-from-the-last-war/dragonmarks/mark-of-shadow.xml" />
 		</update>
-	</info>	
+	</info>
 	<element name="Mark of Shadow" type="Sub Race" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_SUB_RACE_MARK_OF_SHADOW">
 		<supports>Elf</supports>
 		<description>
 			<p>The Mark of Shadow lets an elf weave illusions, crafting magic to distract or delight. It also allows its bearer to sculpt shadows, making it easy to avoid detection.</p>
 			<p>If you're an elf with the Mark of Shadow, you have this subrace, with the following traits.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
-			<p class="indent"><strong><em>Cunning Intuition.</em></strong> When you make a Charisma (Performance) or Dexterity (Stealth) check, you can roll a d4 and add the number rolled to the ability check.</p>
-			<p class="indent"><strong><em>Shape Shadows.</em></strong> You know the minor illusion cantrip. Starting at 3rd level, you can cast the invisibility spell once with this trait, and you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
-			<p class="indent"><strong><em>Spells of the Mark.</em></strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Shadow Spells table are added to the spell list of your spellcasting class.</p>
-			<p><strong>MARK OF SHADOW SPELLS</strong></p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Your Charisma score increases by 1.</p>
+			<p class="indent">
+				<strong>
+					<em>Cunning Intuition.</em>
+				</strong> When you make a Charisma (Performance) or Dexterity (Stealth) check, you can roll a d4 and add the number rolled to the ability check.</p>
+			<p class="indent">
+				<strong>
+					<em>Shape Shadows.</em>
+				</strong> You know the minor illusion cantrip. Starting at 3rd level, you can cast the invisibility spell once with this trait, and you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent">
+				<strong>
+					<em>Spells of the Mark.</em>
+				</strong> If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Shadow Spells table are added to the spell list of your spellcasting class.</p>
+			<p>
+				<strong>MARK OF SHADOW SPELLS</strong>
+			</p>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>disguise self, silent image</em></td></tr>
-				<tr><td>2nd</td><td><em>darkness, pass without trace</em></td></tr>
-				<tr><td>3rd</td><td><em>clairvoyance, major image</em></td></tr>
-				<tr><td>4th</td><td><em>greater invisibility, hallucinatory terrain</em></td></tr>
-				<tr><td>5th</td><td><em>mislead</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>disguise self, silent image</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>darkness, pass without trace</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>clairvoyance, major image</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>greater invisibility, hallucinatory terrain</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>mislead</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet alt="Elf (Mark of Shadow)" display="false" />
@@ -62,13 +104,41 @@
 			<h5>Mark of Shadow Spells</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>disguise self, silent image</em></td></tr>
-				<tr><td>2nd</td><td><em>darkness, pass without trace</em></td></tr>
-				<tr><td>3rd</td><td><em>clairvoyance, major image</em></td></tr>
-				<tr><td>4th</td><td><em>greater invisibility, hallucinatory terrain</em></td></tr>
-				<tr><td>5th</td><td><em>mislead</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>disguise self, silent image</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>darkness, pass without trace</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>clairvoyance, major image</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>greater invisibility, hallucinatory terrain</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>mislead</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">
@@ -85,5 +155,5 @@
 			<extend>ID_PHB_SPELL_HALLUCINATORY_TERRAIN</extend>
 			<extend>ID_PHB_SPELL_MISLEAD</extend>
 		</spellcasting>
-	</element>	
+	</element>
 </elements>
